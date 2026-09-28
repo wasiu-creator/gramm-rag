@@ -1,0 +1,84 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_MODEL": "gpt-4.1-mini",
+    "GEN_PROVIDER": "openai",
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "GRAPH_PAGE_UNION": true,
+    "PAGE_CONTEXT_CHARS_3": 12000,
+    "ROUTE_ALL_HYBRID": true,
+    "SELF_HEAL_GENERATION": true,
+    "USE_PAGE_IMAGES": true,
+    "REWARD_PARAMS": {
+      "alpha": 0.4,
+      "beta": 0.4,
+      "lambda_": 0.2,
+      "tau": 0.0
+    }
+  },
+  "benchmark": "MMLongBench-Doc",
+  "funnels": [
+    {
+      "system": "Flat-vector RAG",
+      "n": 838,
+      "ctx_hit_rate": 0.23269689737470167,
+      "anls_given_hit": 0.43030923364952894,
+      "anls_given_miss": 0.10625205946182613,
+      "extract_success_given_hit": 0.4564102564102564,
+      "anls": 0.31887904808641526
+    },
+    {
+      "system": "GraMM-RAG s42",
+      "n": 838,
+      "ctx_hit_rate": 0.4343675417661098,
+      "anls_given_hit": 0.4008685280129995,
+      "anls_given_miss": 0.12104871636893345,
+      "extract_success_given_hit": 0.42032967032967034,
+      "anls": 0.35223944615545943
+    }
+  ],
+  "seed_42": {
+    "mean_delta_anls": 0.03336039806904423,
+    "bootstrap_ci95": [
+      0.014205881069676424,
+      0.052285219371864755
+    ],
+    "p_delta_positive": 1.0,
+    "n_wins": 97,
+    "n_losses": 56,
+    "n_ties": 938,
+    "verbosity_tokens": {
+      "gold": 2.6406966086159485,
+      "gramm": 5.5572868927589365,
+      "vec": 6.126489459211732
+    },
+    "top_losses": [
+      997,
+      975,
+      944,
+      928,
+      904,
+      930,
+      757,
+      761
+    ],
+    "top_wins": [
+      858,
+      976,
+      705,
+      615,
+      984,
+      129,
+      1019,
+      362
+    ]
+  }
+}

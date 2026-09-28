@@ -1,0 +1,6260 @@
+{
+ "run_config": {
+  "ARM": "s2_raganything",
+  "TIER": 1,
+  "SCOPE": "both",
+  "LLM_MODEL": "gpt-4o-mini",
+  "VISION_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "text-embedding-3-small",
+  "EMBEDDING_DIM": 1536,
+  "RETRIEVAL_SCOPE": "one store per document (C-35)",
+  "INGEST": "insert_content_list, pre-parsed (mineru NOT installed)",
+  "BUDGET_CEILING_USD": 200.0,
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   },
+   "gpt-4.1-mini": {
+    "in": 4.0000000000000003e-07,
+    "out": 1.6000000000000001e-06
+   },
+   "text-embedding-3-small": {
+    "in": 2e-08,
+    "out": 0.0
+   }
+  }
+ },
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf.json",
+   "chars": 1004,
+   "images": 18,
+   "seconds": 74.9,
+   "cost_text": 0.030001,
+   "cost_vision": 0.077305,
+   "cost_usd": 0.107306,
+   "error": null,
+   "graph": {
+    "entities": 123,
+    "relations": 241,
+    "graphml_bytes": 199298
+   },
+   "cum_vision_calls": 18
+  },
+  {
+   "bench": "docbench",
+   "doc": "142.json",
+   "chars": 1188,
+   "images": 6,
+   "seconds": 35.6,
+   "cost_text": 0.011736,
+   "cost_vision": 0.032665,
+   "cost_usd": 0.044401,
+   "error": null,
+   "graph": {
+    "entities": 55,
+    "relations": 118,
+    "graphml_bytes": 77593
+   },
+   "cum_vision_calls": 24
+  },
+  {
+   "bench": "docbench",
+   "doc": "165.json",
+   "chars": 1305,
+   "images": 14,
+   "seconds": 67.4,
+   "cost_text": 0.024321,
+   "cost_vision": 0.070842,
+   "cost_usd": 0.095163,
+   "error": null,
+   "graph": {
+    "entities": 67,
+    "relations": 183,
+    "graphml_bytes": 125452
+   },
+   "cum_vision_calls": 38
+  },
+  {
+   "bench": "docbench",
+   "doc": "148.json",
+   "chars": 1573,
+   "images": 6,
+   "seconds": 41.9,
+   "cost_text": 0.01191,
+   "cost_vision": 0.030242,
+   "cost_usd": 0.042152,
+   "error": null,
+   "graph": {
+    "entities": 44,
+    "relations": 106,
+    "graphml_bytes": 72907
+   },
+   "cum_vision_calls": 44
+  },
+  {
+   "bench": "docbench",
+   "doc": "152.json",
+   "chars": 2309,
+   "images": 6,
+   "seconds": 30.3,
+   "cost_text": 0.010868,
+   "cost_vision": 0.027643,
+   "cost_usd": 0.038511,
+   "error": null,
+   "graph": {
+    "entities": 45,
+    "relations": 80,
+    "graphml_bytes": 60845
+   },
+   "cum_vision_calls": 50
+  },
+  {
+   "bench": "docbench",
+   "doc": "140.json",
+   "chars": 2543,
+   "images": 15,
+   "seconds": 71.4,
+   "cost_text": 0.025436,
+   "cost_vision": 0.09124,
+   "cost_usd": 0.116676,
+   "error": null,
+   "graph": {
+    "entities": 71,
+    "relations": 186,
+    "graphml_bytes": 131325
+   },
+   "cum_vision_calls": 65
+  },
+  {
+   "bench": "docbench",
+   "doc": "171.json",
+   "chars": 2689,
+   "images": 19,
+   "seconds": 78.9,
+   "cost_text": 0.032432,
+   "cost_vision": 0.105527,
+   "cost_usd": 0.137959,
+   "error": null,
+   "graph": {
+    "entities": 103,
+    "relations": 246,
+    "graphml_bytes": 172833
+   },
+   "cum_vision_calls": 84
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf.json",
+   "chars": 3122,
+   "images": 21,
+   "seconds": 97.0,
+   "cost_text": 0.036359,
+   "cost_vision": 0.081127,
+   "cost_usd": 0.117486,
+   "error": null,
+   "graph": {
+    "entities": 175,
+    "relations": 322,
+    "graphml_bytes": 256394
+   },
+   "cum_vision_calls": 105
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "0e94b4197b10096b1f4c699701570fbf.pdf.json",
+   "chars": 3565,
+   "images": 9,
+   "seconds": 51.7,
+   "cost_text": 0.016809,
+   "cost_vision": 0.039318,
+   "cost_usd": 0.056127,
+   "error": null,
+   "graph": {
+    "entities": 92,
+    "relations": 155,
+    "graphml_bytes": 119712
+   },
+   "cum_vision_calls": 114
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf.json",
+   "chars": 3729,
+   "images": 34,
+   "seconds": 139.1,
+   "cost_text": 0.056614,
+   "cost_vision": 0.179106,
+   "cost_usd": 0.23572,
+   "error": null,
+   "graph": {
+    "entities": 239,
+    "relations": 474,
+    "graphml_bytes": 368751
+   },
+   "cum_vision_calls": 148
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf.json",
+   "chars": 4030,
+   "images": 34,
+   "seconds": 147.7,
+   "cost_text": 0.059251,
+   "cost_vision": 0.191817,
+   "cost_usd": 0.251068,
+   "error": null,
+   "graph": {
+    "entities": 239,
+    "relations": 516,
+    "graphml_bytes": 405924
+   },
+   "cum_vision_calls": 182
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf.json",
+   "chars": 4157,
+   "images": 27,
+   "seconds": 112.9,
+   "cost_text": 0.04486,
+   "cost_vision": 0.123524,
+   "cost_usd": 0.168384,
+   "error": null,
+   "graph": {
+    "entities": 185,
+    "relations": 370,
+    "graphml_bytes": 294606
+   },
+   "cum_vision_calls": 209
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf.json",
+   "chars": 4169,
+   "images": 22,
+   "seconds": 106.9,
+   "cost_text": 0.036727,
+   "cost_vision": 0.097841,
+   "cost_usd": 0.134568,
+   "error": null,
+   "graph": {
+    "entities": 165,
+    "relations": 306,
+    "graphml_bytes": 253464
+   },
+   "cum_vision_calls": 231
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earthlinkweb-150213112111-conversion-gate02_95.pdf.json",
+   "chars": 4196,
+   "images": 46,
+   "seconds": 190.9,
+   "cost_text": 0.076496,
+   "cost_vision": 0.206842,
+   "cost_usd": 0.283338,
+   "error": null,
+   "graph": {
+    "entities": 285,
+    "relations": 593,
+    "graphml_bytes": 473254
+   },
+   "cum_vision_calls": 277
+  },
+  {
+   "bench": "docbench",
+   "doc": "103.json",
+   "chars": 4413,
+   "images": 0,
+   "seconds": 17.2,
+   "cost_text": 0.004006,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004006,
+   "error": null,
+   "graph": {
+    "entities": 23,
+    "relations": 20,
+    "graphml_bytes": 19173
+   },
+   "cum_vision_calls": 277
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf.json",
+   "chars": 4543,
+   "images": 25,
+   "seconds": 132.9,
+   "cost_text": 0.045722,
+   "cost_vision": 0.128503,
+   "cost_usd": 0.174225,
+   "error": null,
+   "graph": {
+    "entities": 243,
+    "relations": 424,
+    "graphml_bytes": 346131
+   },
+   "cum_vision_calls": 302
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "reportq32015-151009093138-lva1-app6891_95.pdf.json",
+   "chars": 5138,
+   "images": 32,
+   "seconds": 139.0,
+   "cost_text": 0.05623,
+   "cost_vision": 0.123825,
+   "cost_usd": 0.180055,
+   "error": null,
+   "graph": {
+    "entities": 224,
+    "relations": 470,
+    "graphml_bytes": 357080
+   },
+   "cum_vision_calls": 334
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf.json",
+   "chars": 5455,
+   "images": 10,
+   "seconds": 64.3,
+   "cost_text": 0.020712,
+   "cost_vision": 0.052792,
+   "cost_usd": 0.073504,
+   "error": null,
+   "graph": {
+    "entities": 114,
+    "relations": 167,
+    "graphml_bytes": 139666
+   },
+   "cum_vision_calls": 344
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ddoseattle-150627210357-lva1-app6891_95.pdf.json",
+   "chars": 6865,
+   "images": 36,
+   "seconds": 145.3,
+   "cost_text": 0.060387,
+   "cost_vision": 0.171763,
+   "cost_usd": 0.23215,
+   "error": null,
+   "graph": {
+    "entities": 249,
+    "relations": 479,
+    "graphml_bytes": 367196
+   },
+   "cum_vision_calls": 380
+  },
+  {
+   "bench": "docbench",
+   "doc": "141.json",
+   "chars": 7047,
+   "images": 0,
+   "seconds": 7.5,
+   "cost_text": 0.003518,
+   "cost_vision": 0.0,
+   "cost_usd": 0.003518,
+   "error": null,
+   "graph": {
+    "entities": 9,
+    "relations": 9,
+    "graphml_bytes": 10641
+   },
+   "cum_vision_calls": 380
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf.json",
+   "chars": 7221,
+   "images": 31,
+   "seconds": 185.7,
+   "cost_text": 0.062744,
+   "cost_vision": 0.204279,
+   "cost_usd": 0.267023,
+   "error": null,
+   "graph": {
+    "entities": 189,
+    "relations": 606,
+    "graphml_bytes": 456346
+   },
+   "cum_vision_calls": 411
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bigdatatrends-120723191058-phpapp02_95.pdf.json",
+   "chars": 7259,
+   "images": 33,
+   "seconds": 166.0,
+   "cost_text": 0.056671,
+   "cost_vision": 0.161941,
+   "cost_usd": 0.218612,
+   "error": null,
+   "graph": {
+    "entities": 280,
+    "relations": 459,
+    "graphml_bytes": 366206
+   },
+   "cum_vision_calls": 444
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "efis-140411041451-phpapp01_95.pdf.json",
+   "chars": 7368,
+   "images": 30,
+   "seconds": 135.3,
+   "cost_text": 0.050757,
+   "cost_vision": 0.148894,
+   "cost_usd": 0.199651,
+   "error": null,
+   "graph": {
+    "entities": 195,
+    "relations": 399,
+    "graphml_bytes": 304390
+   },
+   "cum_vision_calls": 474
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf.json",
+   "chars": 7553,
+   "images": 42,
+   "seconds": 172.3,
+   "cost_text": 0.069846,
+   "cost_vision": 0.197158,
+   "cost_usd": 0.267004,
+   "error": null,
+   "graph": {
+    "entities": 286,
+    "relations": 486,
+    "graphml_bytes": 462739
+   },
+   "cum_vision_calls": 516
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "disciplined-agile-business-analysis-160218012713_95.pdf.json",
+   "chars": 7829,
+   "images": 31,
+   "seconds": 137.0,
+   "cost_text": 0.05371,
+   "cost_vision": 0.151901,
+   "cost_usd": 0.205611,
+   "error": null,
+   "graph": {
+    "entities": 237,
+    "relations": 446,
+    "graphml_bytes": 360072
+   },
+   "cum_vision_calls": 547
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "q1-2023-bilibili-inc-investor-presentation.pdf.json",
+   "chars": 7837,
+   "images": 35,
+   "seconds": 152.0,
+   "cost_text": 0.060863,
+   "cost_vision": 0.176241,
+   "cost_usd": 0.237104,
+   "error": null,
+   "graph": {
+    "entities": 226,
+    "relations": 484,
+    "graphml_bytes": 369504
+   },
+   "cum_vision_calls": 582
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf.json",
+   "chars": 8617,
+   "images": 33,
+   "seconds": 122.4,
+   "cost_text": 0.054571,
+   "cost_vision": 0.115864,
+   "cost_usd": 0.170435,
+   "error": null,
+   "graph": {
+    "entities": 176,
+    "relations": 371,
+    "graphml_bytes": 305891
+   },
+   "cum_vision_calls": 615
+  },
+  {
+   "bench": "docbench",
+   "doc": "185.json",
+   "chars": 8864,
+   "images": 2,
+   "seconds": 24.2,
+   "cost_text": 0.007083,
+   "cost_vision": 0.012096,
+   "cost_usd": 0.019179,
+   "error": null,
+   "graph": {
+    "entities": 37,
+    "relations": 41,
+    "graphml_bytes": 35008
+   },
+   "cum_vision_calls": 617
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "transform-software-delivery-with-valueedge-brochure.pdf.json",
+   "chars": 8959,
+   "images": 19,
+   "seconds": 80.6,
+   "cost_text": 0.03414,
+   "cost_vision": 0.058692,
+   "cost_usd": 0.092832,
+   "error": null,
+   "graph": {
+    "entities": 105,
+    "relations": 208,
+    "graphml_bytes": 181976
+   },
+   "cum_vision_calls": 636
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earlybird-110722143746-phpapp02_95.pdf.json",
+   "chars": 9661,
+   "images": 27,
+   "seconds": 132.4,
+   "cost_text": 0.050068,
+   "cost_vision": 0.166947,
+   "cost_usd": 0.217015,
+   "error": null,
+   "graph": {
+    "entities": 213,
+    "relations": 399,
+    "graphml_bytes": 315165
+   },
+   "cum_vision_calls": 663
+  },
+  {
+   "bench": "docbench",
+   "doc": "168.json",
+   "chars": 9812,
+   "images": 21,
+   "seconds": 89.1,
+   "cost_text": 0.035827,
+   "cost_vision": 0.128095,
+   "cost_usd": 0.163922,
+   "error": null,
+   "graph": {
+    "entities": 113,
+    "relations": 215,
+    "graphml_bytes": 166504
+   },
+   "cum_vision_calls": 684
+  },
+  {
+   "bench": "docbench",
+   "doc": "186.json",
+   "chars": 10053,
+   "images": 2,
+   "seconds": 26.5,
+   "cost_text": 0.00906,
+   "cost_vision": 0.012145,
+   "cost_usd": 0.021205,
+   "error": null,
+   "graph": {
+    "entities": 58,
+    "relations": 53,
+    "graphml_bytes": 48960
+   },
+   "cum_vision_calls": 686
+  },
+  {
+   "bench": "docbench",
+   "doc": "217.json",
+   "chars": 10225,
+   "images": 3,
+   "seconds": 34.7,
+   "cost_text": 0.011377,
+   "cost_vision": 0.01396,
+   "cost_usd": 0.025337,
+   "error": null,
+   "graph": {
+    "entities": 78,
+    "relations": 84,
+    "graphml_bytes": 70591
+   },
+   "cum_vision_calls": 689
+  },
+  {
+   "bench": "docbench",
+   "doc": "95.json",
+   "chars": 10237,
+   "images": 4,
+   "seconds": 37.2,
+   "cost_text": 0.012732,
+   "cost_vision": 0.019649,
+   "cost_usd": 0.032381,
+   "error": null,
+   "graph": {
+    "entities": 64,
+    "relations": 89,
+    "graphml_bytes": 69246
+   },
+   "cum_vision_calls": 693
+  },
+  {
+   "bench": "docbench",
+   "doc": "210.json",
+   "chars": 10561,
+   "images": 4,
+   "seconds": 33.9,
+   "cost_text": 0.011794,
+   "cost_vision": 0.01657,
+   "cost_usd": 0.028364,
+   "error": null,
+   "graph": {
+    "entities": 61,
+    "relations": 65,
+    "graphml_bytes": 57165
+   },
+   "cum_vision_calls": 697
+  },
+  {
+   "bench": "docbench",
+   "doc": "209.json",
+   "chars": 10668,
+   "images": 3,
+   "seconds": 30.9,
+   "cost_text": 0.010409,
+   "cost_vision": 0.012172,
+   "cost_usd": 0.022581,
+   "error": null,
+   "graph": {
+    "entities": 56,
+    "relations": 59,
+    "graphml_bytes": 51619
+   },
+   "cum_vision_calls": 700
+  },
+  {
+   "bench": "docbench",
+   "doc": "206.json",
+   "chars": 10700,
+   "images": 5,
+   "seconds": 38.3,
+   "cost_text": 0.013652,
+   "cost_vision": 0.019987,
+   "cost_usd": 0.033639,
+   "error": null,
+   "graph": {
+    "entities": 75,
+    "relations": 83,
+    "graphml_bytes": 70928
+   },
+   "cum_vision_calls": 705
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf.json",
+   "chars": 10833,
+   "images": 53,
+   "seconds": 221.0,
+   "cost_text": 0.091241,
+   "cost_vision": 0.234848,
+   "cost_usd": 0.326089,
+   "error": null,
+   "graph": {
+    "entities": 371,
+    "relations": 750,
+    "graphml_bytes": 589546
+   },
+   "cum_vision_calls": 758
+  },
+  {
+   "bench": "docbench",
+   "doc": "89.json",
+   "chars": 10973,
+   "images": 0,
+   "seconds": 11.2,
+   "cost_text": 0.004,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004,
+   "error": null,
+   "graph": {
+    "entities": 19,
+    "relations": 16,
+    "graphml_bytes": 17622
+   },
+   "cum_vision_calls": 758
+  },
+  {
+   "bench": "docbench",
+   "doc": "123.json",
+   "chars": 11100,
+   "images": 0,
+   "seconds": 10.2,
+   "cost_text": 0.003991,
+   "cost_vision": 0.0,
+   "cost_usd": 0.003991,
+   "error": null,
+   "graph": {
+    "entities": 19,
+    "relations": 15,
+    "graphml_bytes": 17005
+   },
+   "cum_vision_calls": 758
+  },
+  {
+   "bench": "docbench",
+   "doc": "200.json",
+   "chars": 11211,
+   "images": 7,
+   "seconds": 38.1,
+   "cost_text": 0.016329,
+   "cost_vision": 0.020984,
+   "cost_usd": 0.037313,
+   "error": null,
+   "graph": {
+    "entities": 83,
+    "relations": 101,
+    "graphml_bytes": 83844
+   },
+   "cum_vision_calls": 765
+  },
+  {
+   "bench": "docbench",
+   "doc": "220.json",
+   "chars": 11440,
+   "images": 6,
+   "seconds": 32.2,
+   "cost_text": 0.01474,
+   "cost_vision": 0.019255,
+   "cost_usd": 0.033995,
+   "error": null,
+   "graph": {
+    "entities": 86,
+    "relations": 90,
+    "graphml_bytes": 77302
+   },
+   "cum_vision_calls": 771
+  },
+  {
+   "bench": "docbench",
+   "doc": "175.json",
+   "chars": 11517,
+   "images": 0,
+   "seconds": 13.6,
+   "cost_text": 0.006882,
+   "cost_vision": 0.0,
+   "cost_usd": 0.006882,
+   "error": null,
+   "graph": {
+    "entities": 39,
+    "relations": 32,
+    "graphml_bytes": 34465
+   },
+   "cum_vision_calls": 771
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf.json",
+   "chars": 11529,
+   "images": 50,
+   "seconds": 220.2,
+   "cost_text": 0.08791,
+   "cost_vision": 0.241257,
+   "cost_usd": 0.329167,
+   "error": null,
+   "graph": {
+    "entities": 325,
+    "relations": 719,
+    "graphml_bytes": 566056
+   },
+   "cum_vision_calls": 821
+  },
+  {
+   "bench": "docbench",
+   "doc": "190.json",
+   "chars": 11575,
+   "images": 5,
+   "seconds": 30.7,
+   "cost_text": 0.013642,
+   "cost_vision": 0.01667,
+   "cost_usd": 0.030312,
+   "error": null,
+   "graph": {
+    "entities": 78,
+    "relations": 85,
+    "graphml_bytes": 72950
+   },
+   "cum_vision_calls": 826
+  },
+  {
+   "bench": "docbench",
+   "doc": "197.json",
+   "chars": 11577,
+   "images": 6,
+   "seconds": 40.8,
+   "cost_text": 0.015329,
+   "cost_vision": 0.019258,
+   "cost_usd": 0.034587,
+   "error": null,
+   "graph": {
+    "entities": 93,
+    "relations": 98,
+    "graphml_bytes": 83908
+   },
+   "cum_vision_calls": 832
+  },
+  {
+   "bench": "docbench",
+   "doc": "198.json",
+   "chars": 11701,
+   "images": 8,
+   "seconds": 43.9,
+   "cost_text": 0.018572,
+   "cost_vision": 0.027119,
+   "cost_usd": 0.045691,
+   "error": null,
+   "graph": {
+    "entities": 114,
+    "relations": 133,
+    "graphml_bytes": 109589
+   },
+   "cum_vision_calls": 840
+  },
+  {
+   "bench": "docbench",
+   "doc": "223.json",
+   "chars": 11708,
+   "images": 7,
+   "seconds": 40.6,
+   "cost_text": 0.016998,
+   "cost_vision": 0.021031,
+   "cost_usd": 0.038029,
+   "error": null,
+   "graph": {
+    "entities": 98,
+    "relations": 106,
+    "graphml_bytes": 91616
+   },
+   "cum_vision_calls": 847
+  },
+  {
+   "bench": "docbench",
+   "doc": "228.json",
+   "chars": 11753,
+   "images": 7,
+   "seconds": 36.8,
+   "cost_text": 0.016756,
+   "cost_vision": 0.019328,
+   "cost_usd": 0.036084,
+   "error": null,
+   "graph": {
+    "entities": 95,
+    "relations": 106,
+    "graphml_bytes": 90356
+   },
+   "cum_vision_calls": 854
+  },
+  {
+   "bench": "docbench",
+   "doc": "196.json",
+   "chars": 11781,
+   "images": 6,
+   "seconds": 37.6,
+   "cost_text": 0.01521,
+   "cost_vision": 0.019314,
+   "cost_usd": 0.034524,
+   "error": null,
+   "graph": {
+    "entities": 91,
+    "relations": 98,
+    "graphml_bytes": 83469
+   },
+   "cum_vision_calls": 860
+  },
+  {
+   "bench": "docbench",
+   "doc": "182.json",
+   "chars": 11840,
+   "images": 6,
+   "seconds": 33.2,
+   "cost_text": 0.014837,
+   "cost_vision": 0.020965,
+   "cost_usd": 0.035802,
+   "error": null,
+   "graph": {
+    "entities": 82,
+    "relations": 88,
+    "graphml_bytes": 75824
+   },
+   "cum_vision_calls": 866
+  },
+  {
+   "bench": "docbench",
+   "doc": "193.json",
+   "chars": 11840,
+   "images": 8,
+   "seconds": 44.3,
+   "cost_text": 0.018461,
+   "cost_vision": 0.023675,
+   "cost_usd": 0.042136,
+   "error": null,
+   "graph": {
+    "entities": 105,
+    "relations": 125,
+    "graphml_bytes": 102094
+   },
+   "cum_vision_calls": 874
+  },
+  {
+   "bench": "docbench",
+   "doc": "183.json",
+   "chars": 11845,
+   "images": 8,
+   "seconds": 43.2,
+   "cost_text": 0.018454,
+   "cost_vision": 0.024541,
+   "cost_usd": 0.042995,
+   "error": null,
+   "graph": {
+    "entities": 113,
+    "relations": 120,
+    "graphml_bytes": 102304
+   },
+   "cum_vision_calls": 882
+  },
+  {
+   "bench": "docbench",
+   "doc": "199.json",
+   "chars": 11847,
+   "images": 6,
+   "seconds": 40.1,
+   "cost_text": 0.015652,
+   "cost_vision": 0.015799,
+   "cost_usd": 0.031451,
+   "error": null,
+   "graph": {
+    "entities": 91,
+    "relations": 96,
+    "graphml_bytes": 83541
+   },
+   "cum_vision_calls": 888
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf.json",
+   "chars": 11896,
+   "images": 21,
+   "seconds": 93.5,
+   "cost_text": 0.039036,
+   "cost_vision": 0.077975,
+   "cost_usd": 0.117011,
+   "error": null,
+   "graph": {
+    "entities": 169,
+    "relations": 292,
+    "graphml_bytes": 237753
+   },
+   "cum_vision_calls": 909
+  },
+  {
+   "bench": "docbench",
+   "doc": "213.json",
+   "chars": 11907,
+   "images": 7,
+   "seconds": 39.1,
+   "cost_text": 0.016678,
+   "cost_vision": 0.019367,
+   "cost_usd": 0.036045,
+   "error": null,
+   "graph": {
+    "entities": 96,
+    "relations": 106,
+    "graphml_bytes": 87932
+   },
+   "cum_vision_calls": 916
+  },
+  {
+   "bench": "docbench",
+   "doc": "216.json",
+   "chars": 11956,
+   "images": 6,
+   "seconds": 36.2,
+   "cost_text": 0.01535,
+   "cost_vision": 0.020112,
+   "cost_usd": 0.035462,
+   "error": null,
+   "graph": {
+    "entities": 85,
+    "relations": 94,
+    "graphml_bytes": 80695
+   },
+   "cum_vision_calls": 922
+  },
+  {
+   "bench": "docbench",
+   "doc": "226.json",
+   "chars": 11969,
+   "images": 6,
+   "seconds": 34.6,
+   "cost_text": 0.01526,
+   "cost_vision": 0.017561,
+   "cost_usd": 0.032821,
+   "error": null,
+   "graph": {
+    "entities": 89,
+    "relations": 91,
+    "graphml_bytes": 80670
+   },
+   "cum_vision_calls": 928
+  },
+  {
+   "bench": "docbench",
+   "doc": "125.json",
+   "chars": 12104,
+   "images": 1,
+   "seconds": 20.7,
+   "cost_text": 0.00764,
+   "cost_vision": 0.002373,
+   "cost_usd": 0.010013,
+   "error": null,
+   "graph": {
+    "entities": 40,
+    "relations": 35,
+    "graphml_bytes": 36272
+   },
+   "cum_vision_calls": 929
+  },
+  {
+   "bench": "docbench",
+   "doc": "201.json",
+   "chars": 12113,
+   "images": 8,
+   "seconds": 46.4,
+   "cost_text": 0.018394,
+   "cost_vision": 0.023687,
+   "cost_usd": 0.042081,
+   "error": null,
+   "graph": {
+    "entities": 95,
+    "relations": 122,
+    "graphml_bytes": 98721
+   },
+   "cum_vision_calls": 937
+  },
+  {
+   "bench": "docbench",
+   "doc": "215.json",
+   "chars": 12159,
+   "images": 7,
+   "seconds": 36.4,
+   "cost_text": 0.01633,
+   "cost_vision": 0.021092,
+   "cost_usd": 0.037422,
+   "error": null,
+   "graph": {
+    "entities": 89,
+    "relations": 90,
+    "graphml_bytes": 81147
+   },
+   "cum_vision_calls": 944
+  },
+  {
+   "bench": "docbench",
+   "doc": "179.json",
+   "chars": 12170,
+   "images": 7,
+   "seconds": 44.6,
+   "cost_text": 0.016798,
+   "cost_vision": 0.021045,
+   "cost_usd": 0.037843,
+   "error": null,
+   "graph": {
+    "entities": 95,
+    "relations": 110,
+    "graphml_bytes": 90973
+   },
+   "cum_vision_calls": 951
+  },
+  {
+   "bench": "docbench",
+   "doc": "202.json",
+   "chars": 12200,
+   "images": 8,
+   "seconds": 41.7,
+   "cost_text": 0.017887,
+   "cost_vision": 0.022585,
+   "cost_usd": 0.040472,
+   "error": null,
+   "graph": {
+    "entities": 100,
+    "relations": 116,
+    "graphml_bytes": 94916
+   },
+   "cum_vision_calls": 959
+  },
+  {
+   "bench": "docbench",
+   "doc": "227.json",
+   "chars": 12201,
+   "images": 6,
+   "seconds": 40.2,
+   "cost_text": 0.01561,
+   "cost_vision": 0.019272,
+   "cost_usd": 0.034882,
+   "error": null,
+   "graph": {
+    "entities": 99,
+    "relations": 99,
+    "graphml_bytes": 86292
+   },
+   "cum_vision_calls": 965
+  },
+  {
+   "bench": "docbench",
+   "doc": "205.json",
+   "chars": 12235,
+   "images": 7,
+   "seconds": 39.7,
+   "cost_text": 0.016371,
+   "cost_vision": 0.021044,
+   "cost_usd": 0.037415,
+   "error": null,
+   "graph": {
+    "entities": 92,
+    "relations": 100,
+    "graphml_bytes": 84529
+   },
+   "cum_vision_calls": 972
+  },
+  {
+   "bench": "docbench",
+   "doc": "214.json",
+   "chars": 12260,
+   "images": 7,
+   "seconds": 43.6,
+   "cost_text": 0.017004,
+   "cost_vision": 0.021062,
+   "cost_usd": 0.038066,
+   "error": null,
+   "graph": {
+    "entities": 105,
+    "relations": 105,
+    "graphml_bytes": 92704
+   },
+   "cum_vision_calls": 979
+  },
+  {
+   "bench": "docbench",
+   "doc": "180.json",
+   "chars": 12292,
+   "images": 7,
+   "seconds": 36.4,
+   "cost_text": 0.016422,
+   "cost_vision": 0.021054,
+   "cost_usd": 0.037476,
+   "error": null,
+   "graph": {
+    "entities": 82,
+    "relations": 102,
+    "graphml_bytes": 82883
+   },
+   "cum_vision_calls": 986
+  },
+  {
+   "bench": "docbench",
+   "doc": "204.json",
+   "chars": 12332,
+   "images": 7,
+   "seconds": 40.9,
+   "cost_text": 0.016817,
+   "cost_vision": 0.019411,
+   "cost_usd": 0.036228,
+   "error": null,
+   "graph": {
+    "entities": 97,
+    "relations": 111,
+    "graphml_bytes": 90988
+   },
+   "cum_vision_calls": 993
+  },
+  {
+   "bench": "docbench",
+   "doc": "195.json",
+   "chars": 12342,
+   "images": 6,
+   "seconds": 36.7,
+   "cost_text": 0.015367,
+   "cost_vision": 0.014184,
+   "cost_usd": 0.029551,
+   "error": null,
+   "graph": {
+    "entities": 93,
+    "relations": 87,
+    "graphml_bytes": 79924
+   },
+   "cum_vision_calls": 999
+  },
+  {
+   "bench": "docbench",
+   "doc": "203.json",
+   "chars": 12344,
+   "images": 7,
+   "seconds": 38.0,
+   "cost_text": 0.016531,
+   "cost_vision": 0.020992,
+   "cost_usd": 0.037523,
+   "error": null,
+   "graph": {
+    "entities": 96,
+    "relations": 100,
+    "graphml_bytes": 86226
+   },
+   "cum_vision_calls": 1006
+  },
+  {
+   "bench": "docbench",
+   "doc": "212.json",
+   "chars": 12376,
+   "images": 7,
+   "seconds": 38.3,
+   "cost_text": 0.016152,
+   "cost_vision": 0.021065,
+   "cost_usd": 0.037217,
+   "error": null,
+   "graph": {
+    "entities": 84,
+    "relations": 96,
+    "graphml_bytes": 80110
+   },
+   "cum_vision_calls": 1013
+  },
+  {
+   "bench": "docbench",
+   "doc": "189.json",
+   "chars": 12416,
+   "images": 7,
+   "seconds": 40.9,
+   "cost_text": 0.016796,
+   "cost_vision": 0.021162,
+   "cost_usd": 0.037958,
+   "error": null,
+   "graph": {
+    "entities": 86,
+    "relations": 100,
+    "graphml_bytes": 84812
+   },
+   "cum_vision_calls": 1020
+  },
+  {
+   "bench": "docbench",
+   "doc": "192.json",
+   "chars": 12432,
+   "images": 7,
+   "seconds": 39.8,
+   "cost_text": 0.01646,
+   "cost_vision": 0.021857,
+   "cost_usd": 0.038317,
+   "error": null,
+   "graph": {
+    "entities": 92,
+    "relations": 88,
+    "graphml_bytes": 80121
+   },
+   "cum_vision_calls": 1027
+  },
+  {
+   "bench": "docbench",
+   "doc": "225.json",
+   "chars": 12446,
+   "images": 7,
+   "seconds": 50.1,
+   "cost_text": 0.018028,
+   "cost_vision": 0.021017,
+   "cost_usd": 0.039045,
+   "error": null,
+   "graph": {
+    "entities": 124,
+    "relations": 131,
+    "graphml_bytes": 109778
+   },
+   "cum_vision_calls": 1034
+  },
+  {
+   "bench": "docbench",
+   "doc": "181.json",
+   "chars": 12539,
+   "images": 6,
+   "seconds": 37.2,
+   "cost_text": 0.015118,
+   "cost_vision": 0.026113,
+   "cost_usd": 0.041231,
+   "error": null,
+   "graph": {
+    "entities": 87,
+    "relations": 92,
+    "graphml_bytes": 79584
+   },
+   "cum_vision_calls": 1040
+  },
+  {
+   "bench": "docbench",
+   "doc": "211.json",
+   "chars": 12555,
+   "images": 6,
+   "seconds": 37.6,
+   "cost_text": 0.01502,
+   "cost_vision": 0.019211,
+   "cost_usd": 0.034231,
+   "error": null,
+   "graph": {
+    "entities": 87,
+    "relations": 87,
+    "graphml_bytes": 76795
+   },
+   "cum_vision_calls": 1046
+  },
+  {
+   "bench": "docbench",
+   "doc": "221.json",
+   "chars": 12567,
+   "images": 4,
+   "seconds": 28.3,
+   "cost_text": 0.01224,
+   "cost_vision": 0.013972,
+   "cost_usd": 0.026212,
+   "error": null,
+   "graph": {
+    "entities": 73,
+    "relations": 68,
+    "graphml_bytes": 62608
+   },
+   "cum_vision_calls": 1050
+  },
+  {
+   "bench": "docbench",
+   "doc": "191.json",
+   "chars": 12576,
+   "images": 7,
+   "seconds": 39.3,
+   "cost_text": 0.016503,
+   "cost_vision": 0.02102,
+   "cost_usd": 0.037523,
+   "error": null,
+   "graph": {
+    "entities": 92,
+    "relations": 103,
+    "graphml_bytes": 86649
+   },
+   "cum_vision_calls": 1057
+  },
+  {
+   "bench": "docbench",
+   "doc": "208.json",
+   "chars": 12596,
+   "images": 5,
+   "seconds": 41.9,
+   "cost_text": 0.015152,
+   "cost_vision": 0.017511,
+   "cost_usd": 0.032663,
+   "error": null,
+   "graph": {
+    "entities": 104,
+    "relations": 108,
+    "graphml_bytes": 93978
+   },
+   "cum_vision_calls": 1062
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "competitiveoutcomes-091006065143-phpapp01_95.pdf.json",
+   "chars": 12716,
+   "images": 38,
+   "seconds": 147.3,
+   "cost_text": 0.064568,
+   "cost_vision": 0.180907,
+   "cost_usd": 0.245475,
+   "error": null,
+   "graph": {
+    "entities": 257,
+    "relations": 469,
+    "graphml_bytes": 377211
+   },
+   "cum_vision_calls": 1100
+  },
+  {
+   "bench": "docbench",
+   "doc": "224.json",
+   "chars": 12728,
+   "images": 5,
+   "seconds": 32.6,
+   "cost_text": 0.01354,
+   "cost_vision": 0.015793,
+   "cost_usd": 0.029333,
+   "error": null,
+   "graph": {
+    "entities": 69,
+    "relations": 80,
+    "graphml_bytes": 66917
+   },
+   "cum_vision_calls": 1105
+  },
+  {
+   "bench": "docbench",
+   "doc": "194.json",
+   "chars": 12849,
+   "images": 7,
+   "seconds": 37.1,
+   "cost_text": 0.016564,
+   "cost_vision": 0.021062,
+   "cost_usd": 0.037626,
+   "error": null,
+   "graph": {
+    "entities": 86,
+    "relations": 99,
+    "graphml_bytes": 83564
+   },
+   "cum_vision_calls": 1112
+  },
+  {
+   "bench": "docbench",
+   "doc": "222.json",
+   "chars": 12894,
+   "images": 6,
+   "seconds": 39.0,
+   "cost_text": 0.015872,
+   "cost_vision": 0.017466,
+   "cost_usd": 0.033338,
+   "error": null,
+   "graph": {
+    "entities": 100,
+    "relations": 98,
+    "graphml_bytes": 85620
+   },
+   "cum_vision_calls": 1118
+  },
+  {
+   "bench": "docbench",
+   "doc": "184.json",
+   "chars": 12896,
+   "images": 6,
+   "seconds": 40.0,
+   "cost_text": 0.015595,
+   "cost_vision": 0.020106,
+   "cost_usd": 0.035701,
+   "error": null,
+   "graph": {
+    "entities": 96,
+    "relations": 102,
+    "graphml_bytes": 87028
+   },
+   "cum_vision_calls": 1124
+  },
+  {
+   "bench": "docbench",
+   "doc": "207.json",
+   "chars": 12936,
+   "images": 7,
+   "seconds": 43.9,
+   "cost_text": 0.01655,
+   "cost_vision": 0.021045,
+   "cost_usd": 0.037595,
+   "error": null,
+   "graph": {
+    "entities": 92,
+    "relations": 99,
+    "graphml_bytes": 85154
+   },
+   "cum_vision_calls": 1131
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bariumswallowpresentation-090810084400-phpapp01_95.pdf.json",
+   "chars": 12993,
+   "images": 51,
+   "seconds": 230.2,
+   "cost_text": 0.093326,
+   "cost_vision": 0.246596,
+   "cost_usd": 0.339922,
+   "error": null,
+   "graph": {
+    "entities": 270,
+    "relations": 669,
+    "graphml_bytes": 524351
+   },
+   "cum_vision_calls": 1182
+  },
+  {
+   "bench": "docbench",
+   "doc": "218.json",
+   "chars": 13119,
+   "images": 4,
+   "seconds": 30.2,
+   "cost_text": 0.012173,
+   "cost_vision": 0.019115,
+   "cost_usd": 0.031288,
+   "error": null,
+   "graph": {
+    "entities": 62,
+    "relations": 69,
+    "graphml_bytes": 60028
+   },
+   "cum_vision_calls": 1186
+  },
+  {
+   "bench": "docbench",
+   "doc": "187.json",
+   "chars": 13286,
+   "images": 5,
+   "seconds": 35.6,
+   "cost_text": 0.014151,
+   "cost_vision": 0.014096,
+   "cost_usd": 0.028247,
+   "error": null,
+   "graph": {
+    "entities": 85,
+    "relations": 87,
+    "graphml_bytes": 75984
+   },
+   "cum_vision_calls": 1191
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf.json",
+   "chars": 13422,
+   "images": 16,
+   "seconds": 101.3,
+   "cost_text": 0.033576,
+   "cost_vision": 0.089645,
+   "cost_usd": 0.123221,
+   "error": null,
+   "graph": {
+    "entities": 127,
+    "relations": 271,
+    "graphml_bytes": 218684
+   },
+   "cum_vision_calls": 1207
+  },
+  {
+   "bench": "docbench",
+   "doc": "188.json",
+   "chars": 13476,
+   "images": 6,
+   "seconds": 35.4,
+   "cost_text": 0.014919,
+   "cost_vision": 0.019159,
+   "cost_usd": 0.034078,
+   "error": null,
+   "graph": {
+    "entities": 77,
+    "relations": 86,
+    "graphml_bytes": 72554
+   },
+   "cum_vision_calls": 1213
+  },
+  {
+   "bench": "docbench",
+   "doc": "85.json",
+   "chars": 13791,
+   "images": 12,
+   "seconds": 54.6,
+   "cost_text": 0.024103,
+   "cost_vision": 0.037887,
+   "cost_usd": 0.06199,
+   "error": null,
+   "graph": {
+    "entities": 93,
+    "relations": 160,
+    "graphml_bytes": 121376
+   },
+   "cum_vision_calls": 1225
+  },
+  {
+   "bench": "docbench",
+   "doc": "219.json",
+   "chars": 13975,
+   "images": 3,
+   "seconds": 28.0,
+   "cost_text": 0.010868,
+   "cost_vision": 0.013874,
+   "cost_usd": 0.024742,
+   "error": null,
+   "graph": {
+    "entities": 57,
+    "relations": 58,
+    "graphml_bytes": 51071
+   },
+   "cum_vision_calls": 1228
+  },
+  {
+   "bench": "docbench",
+   "doc": "97.json",
+   "chars": 14414,
+   "images": 4,
+   "seconds": 33.9,
+   "cost_text": 0.012315,
+   "cost_vision": 0.01328,
+   "cost_usd": 0.025595,
+   "error": null,
+   "graph": {
+    "entities": 50,
+    "relations": 64,
+    "graphml_bytes": 55742
+   },
+   "cum_vision_calls": 1232
+  },
+  {
+   "bench": "docbench",
+   "doc": "145.json",
+   "chars": 14517,
+   "images": 0,
+   "seconds": 12.1,
+   "cost_text": 0.006366,
+   "cost_vision": 0.0,
+   "cost_usd": 0.006366,
+   "error": null,
+   "graph": {
+    "entities": 32,
+    "relations": 26,
+    "graphml_bytes": 28202
+   },
+   "cum_vision_calls": 1232
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "BRO-GL-MMONEY.pdf.json",
+   "chars": 15719,
+   "images": 23,
+   "seconds": 125.2,
+   "cost_text": 0.044464,
+   "cost_vision": 0.086455,
+   "cost_usd": 0.130919,
+   "error": null,
+   "graph": {
+    "entities": 204,
+    "relations": 399,
+    "graphml_bytes": 292786
+   },
+   "cum_vision_calls": 1255
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf.json",
+   "chars": 15720,
+   "images": 70,
+   "seconds": 278.3,
+   "cost_text": 0.117613,
+   "cost_vision": 0.289135,
+   "cost_usd": 0.406748,
+   "error": null,
+   "graph": {
+    "entities": 389,
+    "relations": 842,
+    "graphml_bytes": 660764
+   },
+   "cum_vision_calls": 1325
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf.json",
+   "chars": 16697,
+   "images": 26,
+   "seconds": 144.6,
+   "cost_text": 0.055036,
+   "cost_vision": 0.111922,
+   "cost_usd": 0.166958,
+   "error": null,
+   "graph": {
+    "entities": 297,
+    "relations": 443,
+    "graphml_bytes": 386976
+   },
+   "cum_vision_calls": 1351
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PWC_opportunity_of_lifetime.pdf.json",
+   "chars": 17984,
+   "images": 19,
+   "seconds": 103.0,
+   "cost_text": 0.038235,
+   "cost_vision": 0.084684,
+   "cost_usd": 0.122919,
+   "error": null,
+   "graph": {
+    "entities": 164,
+    "relations": 286,
+    "graphml_bytes": 222788
+   },
+   "cum_vision_calls": 1370
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf.json",
+   "chars": 18656,
+   "images": 0,
+   "seconds": 14.7,
+   "cost_text": 0.008433,
+   "cost_vision": 0.0,
+   "cost_usd": 0.008433,
+   "error": null,
+   "graph": {
+    "entities": 42,
+    "relations": 31,
+    "graphml_bytes": 37209
+   },
+   "cum_vision_calls": 1370
+  },
+  {
+   "bench": "docbench",
+   "doc": "146.json",
+   "chars": 18821,
+   "images": 0,
+   "seconds": 12.4,
+   "cost_text": 0.008174,
+   "cost_vision": 0.0,
+   "cost_usd": 0.008174,
+   "error": null,
+   "graph": {
+    "entities": 39,
+    "relations": 30,
+    "graphml_bytes": 34640
+   },
+   "cum_vision_calls": 1370
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "edb88a99670417f64a6b719646aed326.pdf.json",
+   "chars": 19003,
+   "images": 9,
+   "seconds": 59.2,
+   "cost_text": 0.02367,
+   "cost_vision": 0.032468,
+   "cost_usd": 0.056138,
+   "error": null,
+   "graph": {
+    "entities": 93,
+    "relations": 134,
+    "graphml_bytes": 116950
+   },
+   "cum_vision_calls": 1379
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e79deb02a0c0e87511080836c5d4347b.pdf.json",
+   "chars": 19627,
+   "images": 11,
+   "seconds": 112.3,
+   "cost_text": 0.033718,
+   "cost_vision": 0.044638,
+   "cost_usd": 0.078356,
+   "error": null,
+   "graph": {
+    "entities": 256,
+    "relations": 297,
+    "graphml_bytes": 263314
+   },
+   "cum_vision_calls": 1390
+  },
+  {
+   "bench": "docbench",
+   "doc": "164.json",
+   "chars": 20539,
+   "images": 1,
+   "seconds": 19.7,
+   "cost_text": 0.009328,
+   "cost_vision": 0.00591,
+   "cost_usd": 0.015238,
+   "error": null,
+   "graph": {
+    "entities": 46,
+    "relations": 38,
+    "graphml_bytes": 41850
+   },
+   "cum_vision_calls": 1391
+  },
+  {
+   "bench": "docbench",
+   "doc": "4.json",
+   "chars": 21326,
+   "images": 6,
+   "seconds": 82.0,
+   "cost_text": 0.022932,
+   "cost_vision": 0.017797,
+   "cost_usd": 0.040729,
+   "error": null,
+   "graph": {
+    "entities": 110,
+    "relations": 188,
+    "graphml_bytes": 138319
+   },
+   "cum_vision_calls": 1397
+  },
+  {
+   "bench": "docbench",
+   "doc": "118.json",
+   "chars": 21385,
+   "images": 0,
+   "seconds": 13.5,
+   "cost_text": 0.008548,
+   "cost_vision": 0.0,
+   "cost_usd": 0.008548,
+   "error": null,
+   "graph": {
+    "entities": 35,
+    "relations": 37,
+    "graphml_bytes": 35863
+   },
+   "cum_vision_calls": 1397
+  },
+  {
+   "bench": "docbench",
+   "doc": "38.json",
+   "chars": 21608,
+   "images": 5,
+   "seconds": 65.0,
+   "cost_text": 0.021866,
+   "cost_vision": 0.016657,
+   "cost_usd": 0.038523,
+   "error": null,
+   "graph": {
+    "entities": 136,
+    "relations": 169,
+    "graphml_bytes": 136294
+   },
+   "cum_vision_calls": 1402
+  },
+  {
+   "bench": "docbench",
+   "doc": "35.json",
+   "chars": 21794,
+   "images": 2,
+   "seconds": 58.5,
+   "cost_text": 0.018256,
+   "cost_vision": 0.006967,
+   "cost_usd": 0.025223,
+   "error": null,
+   "graph": {
+    "entities": 172,
+    "relations": 117,
+    "graphml_bytes": 125394
+   },
+   "cum_vision_calls": 1404
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NUS-Business-School-BBA-Brochure-2024.pdf.json",
+   "chars": 21796,
+   "images": 28,
+   "seconds": 137.9,
+   "cost_text": 0.054912,
+   "cost_vision": 0.106748,
+   "cost_usd": 0.16166,
+   "error": null,
+   "graph": {
+    "entities": 263,
+    "relations": 362,
+    "graphml_bytes": 323617
+   },
+   "cum_vision_calls": 1432
+  },
+  {
+   "bench": "docbench",
+   "doc": "2.json",
+   "chars": 21798,
+   "images": 6,
+   "seconds": 72.7,
+   "cost_text": 0.025496,
+   "cost_vision": 0.017747,
+   "cost_usd": 0.043243,
+   "error": null,
+   "graph": {
+    "entities": 157,
+    "relations": 207,
+    "graphml_bytes": 167144
+   },
+   "cum_vision_calls": 1438
+  },
+  {
+   "bench": "docbench",
+   "doc": "10.json",
+   "chars": 22124,
+   "images": 9,
+   "seconds": 140.1,
+   "cost_text": 0.034099,
+   "cost_vision": 0.025662,
+   "cost_usd": 0.059761,
+   "error": null,
+   "graph": {
+    "entities": 221,
+    "relations": 286,
+    "graphml_bytes": 232624
+   },
+   "cum_vision_calls": 1447
+  },
+  {
+   "bench": "docbench",
+   "doc": "155.json",
+   "chars": 22262,
+   "images": 0,
+   "seconds": 15.4,
+   "cost_text": 0.009396,
+   "cost_vision": 0.0,
+   "cost_usd": 0.009396,
+   "error": null,
+   "graph": {
+    "entities": 64,
+    "relations": 45,
+    "graphml_bytes": 53004
+   },
+   "cum_vision_calls": 1447
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "05-03-18-political-release.pdf.json",
+   "chars": 22519,
+   "images": 11,
+   "seconds": 67.6,
+   "cost_text": 0.028691,
+   "cost_vision": 0.03789,
+   "cost_usd": 0.066581,
+   "error": null,
+   "graph": {
+    "entities": 95,
+    "relations": 177,
+    "graphml_bytes": 147059
+   },
+   "cum_vision_calls": 1458
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Independents-Report.pdf.json",
+   "chars": 22593,
+   "images": 13,
+   "seconds": 84.7,
+   "cost_text": 0.032052,
+   "cost_vision": 0.062901,
+   "cost_usd": 0.094953,
+   "error": null,
+   "graph": {
+    "entities": 116,
+    "relations": 243,
+    "graphml_bytes": 184949
+   },
+   "cum_vision_calls": 1471
+  },
+  {
+   "bench": "docbench",
+   "doc": "22.json",
+   "chars": 22771,
+   "images": 4,
+   "seconds": 69.1,
+   "cost_text": 0.020976,
+   "cost_vision": 0.011473,
+   "cost_usd": 0.032449,
+   "error": null,
+   "graph": {
+    "entities": 149,
+    "relations": 165,
+    "graphml_bytes": 142852
+   },
+   "cum_vision_calls": 1475
+  },
+  {
+   "bench": "docbench",
+   "doc": "12.json",
+   "chars": 22780,
+   "images": 7,
+   "seconds": 74.2,
+   "cost_text": 0.024171,
+   "cost_vision": 0.023012,
+   "cost_usd": 0.047183,
+   "error": null,
+   "graph": {
+    "entities": 131,
+    "relations": 185,
+    "graphml_bytes": 145647
+   },
+   "cum_vision_calls": 1482
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "a4f3ced0696009fec3179f493e4f28c4.pdf.json",
+   "chars": 22812,
+   "images": 0,
+   "seconds": 16.7,
+   "cost_text": 0.009909,
+   "cost_vision": 0.0,
+   "cost_usd": 0.009909,
+   "error": null,
+   "graph": {
+    "entities": 31,
+    "relations": 29,
+    "graphml_bytes": 35397
+   },
+   "cum_vision_calls": 1482
+  },
+  {
+   "bench": "docbench",
+   "doc": "25.json",
+   "chars": 23193,
+   "images": 4,
+   "seconds": 69.8,
+   "cost_text": 0.020537,
+   "cost_vision": 0.009797,
+   "cost_usd": 0.030334,
+   "error": null,
+   "graph": {
+    "entities": 113,
+    "relations": 162,
+    "graphml_bytes": 124941
+   },
+   "cum_vision_calls": 1486
+  },
+  {
+   "bench": "docbench",
+   "doc": "132.json",
+   "chars": 23484,
+   "images": 0,
+   "seconds": 16.8,
+   "cost_text": 0.008692,
+   "cost_vision": 0.0,
+   "cost_usd": 0.008692,
+   "error": null,
+   "graph": {
+    "entities": 41,
+    "relations": 38,
+    "graphml_bytes": 38398
+   },
+   "cum_vision_calls": 1486
+  },
+  {
+   "bench": "docbench",
+   "doc": "98.json",
+   "chars": 23939,
+   "images": 0,
+   "seconds": 15.3,
+   "cost_text": 0.00966,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00966,
+   "error": null,
+   "graph": {
+    "entities": 43,
+    "relations": 33,
+    "graphml_bytes": 38545
+   },
+   "cum_vision_calls": 1486
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "DSA-278777.pdf.json",
+   "chars": 24210,
+   "images": 34,
+   "seconds": 165.6,
+   "cost_text": 0.067504,
+   "cost_vision": 0.126412,
+   "cost_usd": 0.193916,
+   "error": null,
+   "graph": {
+    "entities": 254,
+    "relations": 523,
+    "graphml_bytes": 383466
+   },
+   "cum_vision_calls": 1520
+  },
+  {
+   "bench": "docbench",
+   "doc": "9.json",
+   "chars": 24662,
+   "images": 4,
+   "seconds": 66.5,
+   "cost_text": 0.021218,
+   "cost_vision": 0.008975,
+   "cost_usd": 0.030193,
+   "error": null,
+   "graph": {
+    "entities": 145,
+    "relations": 138,
+    "graphml_bytes": 129099
+   },
+   "cum_vision_calls": 1524
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "formwork-150318073913-conversion-gate01_95.pdf.json",
+   "chars": 24811,
+   "images": 79,
+   "seconds": 318.6,
+   "cost_text": 0.13802,
+   "cost_vision": 0.341234,
+   "cost_usd": 0.479254,
+   "error": null,
+   "graph": {
+    "entities": 448,
+    "relations": 985,
+    "graphml_bytes": 763493
+   },
+   "cum_vision_calls": 1603
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_20.07.30_U.S.-Views-China_final.pdf.json",
+   "chars": 25262,
+   "images": 17,
+   "seconds": 99.1,
+   "cost_text": 0.040798,
+   "cost_vision": 0.046862,
+   "cost_usd": 0.08766,
+   "error": null,
+   "graph": {
+    "entities": 114,
+    "relations": 248,
+    "graphml_bytes": 204130
+   },
+   "cum_vision_calls": 1620
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2021-Apple-Catalog.pdf.json",
+   "chars": 25513,
+   "images": 102,
+   "seconds": 373.3,
+   "cost_text": 0.168181,
+   "cost_vision": 0.375386,
+   "cost_usd": 0.543567,
+   "error": null,
+   "graph": {
+    "entities": 431,
+    "relations": 1134,
+    "graphml_bytes": 804940
+   },
+   "cum_vision_calls": 1722
+  },
+  {
+   "bench": "docbench",
+   "doc": "31.json",
+   "chars": 25721,
+   "images": 4,
+   "seconds": 106.6,
+   "cost_text": 0.027146,
+   "cost_vision": 0.01665,
+   "cost_usd": 0.043796,
+   "error": null,
+   "graph": {
+    "entities": 187,
+    "relations": 258,
+    "graphml_bytes": 190550
+   },
+   "cum_vision_calls": 1726
+  },
+  {
+   "bench": "docbench",
+   "doc": "139.json",
+   "chars": 26359,
+   "images": 0,
+   "seconds": 26.2,
+   "cost_text": 0.011131,
+   "cost_vision": 0.0,
+   "cost_usd": 0.011131,
+   "error": null,
+   "graph": {
+    "entities": 65,
+    "relations": 57,
+    "graphml_bytes": 54999
+   },
+   "cum_vision_calls": 1726
+  },
+  {
+   "bench": "docbench",
+   "doc": "169.json",
+   "chars": 26583,
+   "images": 0,
+   "seconds": 19.5,
+   "cost_text": 0.010449,
+   "cost_vision": 0.0,
+   "cost_usd": 0.010449,
+   "error": null,
+   "graph": {
+    "entities": 50,
+    "relations": 39,
+    "graphml_bytes": 43963
+   },
+   "cum_vision_calls": 1726
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NYU_graduate.pdf.json",
+   "chars": 27449,
+   "images": 48,
+   "seconds": 211.7,
+   "cost_text": 0.086961,
+   "cost_vision": 0.214826,
+   "cost_usd": 0.301787,
+   "error": null,
+   "graph": {
+    "entities": 330,
+    "relations": 641,
+    "graphml_bytes": 466128
+   },
+   "cum_vision_calls": 1774
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "mi_phone.pdf.json",
+   "chars": 27449,
+   "images": 48,
+   "seconds": 233.8,
+   "cost_text": 0.086182,
+   "cost_vision": 0.214679,
+   "cost_usd": 0.300861,
+   "error": null,
+   "graph": {
+    "entities": 348,
+    "relations": 645,
+    "graphml_bytes": 470773
+   },
+   "cum_vision_calls": 1822
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "52b3137455e7ca4df65021a200aef724.pdf.json",
+   "chars": 27570,
+   "images": 112,
+   "seconds": 434.5,
+   "cost_text": 0.187467,
+   "cost_vision": 0.567635,
+   "cost_usd": 0.755102,
+   "error": null,
+   "graph": {
+    "entities": 575,
+    "relations": 1322,
+    "graphml_bytes": 984193
+   },
+   "cum_vision_calls": 1934
+  },
+  {
+   "bench": "docbench",
+   "doc": "8.json",
+   "chars": 27651,
+   "images": 10,
+   "seconds": 71.2,
+   "cost_text": 0.029134,
+   "cost_vision": 0.032318,
+   "cost_usd": 0.061452,
+   "error": null,
+   "graph": {
+    "entities": 154,
+    "relations": 196,
+    "graphml_bytes": 158045
+   },
+   "cum_vision_calls": 1944
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf.json",
+   "chars": 27788,
+   "images": 80,
+   "seconds": 342.3,
+   "cost_text": 0.142675,
+   "cost_vision": 0.260622,
+   "cost_usd": 0.403297,
+   "error": null,
+   "graph": {
+    "entities": 441,
+    "relations": 1082,
+    "graphml_bytes": 808540
+   },
+   "cum_vision_calls": 2024
+  },
+  {
+   "bench": "docbench",
+   "doc": "166.json",
+   "chars": 28029,
+   "images": 0,
+   "seconds": 23.2,
+   "cost_text": 0.012066,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012066,
+   "error": null,
+   "graph": {
+    "entities": 54,
+    "relations": 44,
+    "graphml_bytes": 48151
+   },
+   "cum_vision_calls": 2024
+  },
+  {
+   "bench": "docbench",
+   "doc": "159.json",
+   "chars": 29202,
+   "images": 0,
+   "seconds": 17.3,
+   "cost_text": 0.011396,
+   "cost_vision": 0.0,
+   "cost_usd": 0.011396,
+   "error": null,
+   "graph": {
+    "entities": 47,
+    "relations": 41,
+    "graphml_bytes": 42866
+   },
+   "cum_vision_calls": 2024
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2020.03.09_US-Germany_FINAL.pdf.json",
+   "chars": 29392,
+   "images": 20,
+   "seconds": 126.7,
+   "cost_text": 0.048835,
+   "cost_vision": 0.05808,
+   "cost_usd": 0.106915,
+   "error": null,
+   "graph": {
+    "entities": 157,
+    "relations": 396,
+    "graphml_bytes": 298212
+   },
+   "cum_vision_calls": 2044
+  },
+  {
+   "bench": "docbench",
+   "doc": "115.json",
+   "chars": 30028,
+   "images": 0,
+   "seconds": 20.5,
+   "cost_text": 0.011687,
+   "cost_vision": 0.0,
+   "cost_usd": 0.011687,
+   "error": null,
+   "graph": {
+    "entities": 47,
+    "relations": 44,
+    "graphml_bytes": 45348
+   },
+   "cum_vision_calls": 2044
+  },
+  {
+   "bench": "docbench",
+   "doc": "102.json",
+   "chars": 30381,
+   "images": 0,
+   "seconds": 28.2,
+   "cost_text": 0.012485,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012485,
+   "error": null,
+   "graph": {
+    "entities": 56,
+    "relations": 51,
+    "graphml_bytes": 52096
+   },
+   "cum_vision_calls": 2044
+  },
+  {
+   "bench": "docbench",
+   "doc": "127.json",
+   "chars": 30923,
+   "images": 0,
+   "seconds": 24.4,
+   "cost_text": 0.012686,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012686,
+   "error": null,
+   "graph": {
+    "entities": 55,
+    "relations": 49,
+    "graphml_bytes": 53630
+   },
+   "cum_vision_calls": 2044
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "698bba535087fa9a7f9009e172a7f763.pdf.json",
+   "chars": 31610,
+   "images": 19,
+   "seconds": 102.7,
+   "cost_text": 0.044279,
+   "cost_vision": 0.06429,
+   "cost_usd": 0.108569,
+   "error": null,
+   "graph": {
+    "entities": 176,
+    "relations": 282,
+    "graphml_bytes": 229901
+   },
+   "cum_vision_calls": 2063
+  },
+  {
+   "bench": "docbench",
+   "doc": "101.json",
+   "chars": 31933,
+   "images": 0,
+   "seconds": 22.0,
+   "cost_text": 0.012233,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012233,
+   "error": null,
+   "graph": {
+    "entities": 54,
+    "relations": 45,
+    "graphml_bytes": 49465
+   },
+   "cum_vision_calls": 2063
+  },
+  {
+   "bench": "docbench",
+   "doc": "105.json",
+   "chars": 31998,
+   "images": 0,
+   "seconds": 29.5,
+   "cost_text": 0.01381,
+   "cost_vision": 0.0,
+   "cost_usd": 0.01381,
+   "error": null,
+   "graph": {
+    "entities": 66,
+    "relations": 61,
+    "graphml_bytes": 63647
+   },
+   "cum_vision_calls": 2063
+  },
+  {
+   "bench": "docbench",
+   "doc": "111.json",
+   "chars": 32194,
+   "images": 0,
+   "seconds": 33.2,
+   "cost_text": 0.01384,
+   "cost_vision": 0.0,
+   "cost_usd": 0.01384,
+   "error": null,
+   "graph": {
+    "entities": 63,
+    "relations": 58,
+    "graphml_bytes": 56523
+   },
+   "cum_vision_calls": 2063
+  },
+  {
+   "bench": "docbench",
+   "doc": "100.json",
+   "chars": 32613,
+   "images": 14,
+   "seconds": 95.6,
+   "cost_text": 0.034708,
+   "cost_vision": 0.050934,
+   "cost_usd": 0.085642,
+   "error": null,
+   "graph": {
+    "entities": 125,
+    "relations": 211,
+    "graphml_bytes": 166918
+   },
+   "cum_vision_calls": 2077
+  },
+  {
+   "bench": "docbench",
+   "doc": "135.json",
+   "chars": 32756,
+   "images": 1,
+   "seconds": 33.1,
+   "cost_text": 0.014562,
+   "cost_vision": 0.005911,
+   "cost_usd": 0.020473,
+   "error": null,
+   "graph": {
+    "entities": 78,
+    "relations": 51,
+    "graphml_bytes": 64754
+   },
+   "cum_vision_calls": 2078
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "welcome-to-nus.pdf.json",
+   "chars": 32904,
+   "images": 58,
+   "seconds": 277.3,
+   "cost_text": 0.104676,
+   "cost_vision": 0.236447,
+   "cost_usd": 0.341123,
+   "error": null,
+   "graph": {
+    "entities": 503,
+    "relations": 684,
+    "graphml_bytes": 570782
+   },
+   "cum_vision_calls": 2136
+  },
+  {
+   "bench": "docbench",
+   "doc": "104.json",
+   "chars": 33131,
+   "images": 0,
+   "seconds": 23.8,
+   "cost_text": 0.012623,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012623,
+   "error": null,
+   "graph": {
+    "entities": 55,
+    "relations": 58,
+    "graphml_bytes": 55706
+   },
+   "cum_vision_calls": 2136
+  },
+  {
+   "bench": "docbench",
+   "doc": "128.json",
+   "chars": 33303,
+   "images": 0,
+   "seconds": 25.0,
+   "cost_text": 0.013167,
+   "cost_vision": 0.0,
+   "cost_usd": 0.013167,
+   "error": null,
+   "graph": {
+    "entities": 60,
+    "relations": 59,
+    "graphml_bytes": 57128
+   },
+   "cum_vision_calls": 2136
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PH_2016.06.08_Economy-Final.pdf.json",
+   "chars": 33398,
+   "images": 15,
+   "seconds": 89.2,
+   "cost_text": 0.037808,
+   "cost_vision": 0.056742,
+   "cost_usd": 0.09455,
+   "error": null,
+   "graph": {
+    "entities": 143,
+    "relations": 254,
+    "graphml_bytes": 211600
+   },
+   "cum_vision_calls": 2151
+  },
+  {
+   "bench": "docbench",
+   "doc": "99.json",
+   "chars": 33600,
+   "images": 0,
+   "seconds": 24.9,
+   "cost_text": 0.013088,
+   "cost_vision": 0.0,
+   "cost_usd": 0.013088,
+   "error": null,
+   "graph": {
+    "entities": 57,
+    "relations": 56,
+    "graphml_bytes": 56624
+   },
+   "cum_vision_calls": 2151
+  },
+  {
+   "bench": "docbench",
+   "doc": "36.json",
+   "chars": 33787,
+   "images": 5,
+   "seconds": 88.7,
+   "cost_text": 0.02919,
+   "cost_vision": 0.024386,
+   "cost_usd": 0.053576,
+   "error": null,
+   "graph": {
+    "entities": 198,
+    "relations": 203,
+    "graphml_bytes": 178316
+   },
+   "cum_vision_calls": 2156
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf.json",
+   "chars": 33923,
+   "images": 23,
+   "seconds": 183.4,
+   "cost_text": 0.067537,
+   "cost_vision": 0.072537,
+   "cost_usd": 0.140074,
+   "error": null,
+   "graph": {
+    "entities": 493,
+    "relations": 533,
+    "graphml_bytes": 490838
+   },
+   "cum_vision_calls": 2179
+  },
+  {
+   "bench": "docbench",
+   "doc": "119.json",
+   "chars": 34272,
+   "images": 0,
+   "seconds": 21.5,
+   "cost_text": 0.012775,
+   "cost_vision": 0.0,
+   "cost_usd": 0.012775,
+   "error": null,
+   "graph": {
+    "entities": 56,
+    "relations": 41,
+    "graphml_bytes": 49347
+   },
+   "cum_vision_calls": 2179
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "owners-manual-2170416.pdf.json",
+   "chars": 34349,
+   "images": 50,
+   "seconds": 189.7,
+   "cost_text": 0.089738,
+   "cost_vision": 0.123751,
+   "cost_usd": 0.213489,
+   "error": null,
+   "graph": {
+    "entities": 270,
+    "relations": 562,
+    "graphml_bytes": 425640
+   },
+   "cum_vision_calls": 2229
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2019.01.17_Trump-economy_FINAL2.pdf.json",
+   "chars": 34350,
+   "images": 25,
+   "seconds": 129.6,
+   "cost_text": 0.056054,
+   "cost_vision": 0.089767,
+   "cost_usd": 0.145821,
+   "error": null,
+   "graph": {
+    "entities": 142,
+    "relations": 366,
+    "graphml_bytes": 289451
+   },
+   "cum_vision_calls": 2254
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PIP_Seniors-and-Tech-Use_040314.pdf.json",
+   "chars": 34366,
+   "images": 23,
+   "seconds": 120.2,
+   "cost_text": 0.050419,
+   "cost_vision": 0.086169,
+   "cost_usd": 0.136588,
+   "error": null,
+   "graph": {
+    "entities": 154,
+    "relations": 355,
+    "graphml_bytes": 279758
+   },
+   "cum_vision_calls": 2277
+  },
+  {
+   "bench": "docbench",
+   "doc": "26.json",
+   "chars": 34710,
+   "images": 8,
+   "seconds": 94.4,
+   "cost_text": 0.03211,
+   "cost_vision": 0.027979,
+   "cost_usd": 0.060089,
+   "error": null,
+   "graph": {
+    "entities": 209,
+    "relations": 214,
+    "graphml_bytes": 194249
+   },
+   "cum_vision_calls": 2285
+  },
+  {
+   "bench": "docbench",
+   "doc": "3.json",
+   "chars": 34767,
+   "images": 9,
+   "seconds": 106.1,
+   "cost_text": 0.036004,
+   "cost_vision": 0.033329,
+   "cost_usd": 0.069333,
+   "error": null,
+   "graph": {
+    "entities": 217,
+    "relations": 260,
+    "graphml_bytes": 216520
+   },
+   "cum_vision_calls": 2294
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "watch_d.pdf.json",
+   "chars": 35092,
+   "images": 17,
+   "seconds": 76.3,
+   "cost_text": 0.037626,
+   "cost_vision": 0.062054,
+   "cost_usd": 0.09968,
+   "error": null,
+   "graph": {
+    "entities": 118,
+    "relations": 213,
+    "graphml_bytes": 164749
+   },
+   "cum_vision_calls": 2311
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2021.04.22_voting-access_REPORT.pdf.json",
+   "chars": 35268,
+   "images": 19,
+   "seconds": 111.8,
+   "cost_text": 0.045716,
+   "cost_vision": 0.061956,
+   "cost_usd": 0.107672,
+   "error": null,
+   "graph": {
+    "entities": 161,
+    "relations": 340,
+    "graphml_bytes": 264747
+   },
+   "cum_vision_calls": 2330
+  },
+  {
+   "bench": "docbench",
+   "doc": "29.json",
+   "chars": 35280,
+   "images": 10,
+   "seconds": 107.6,
+   "cost_text": 0.037996,
+   "cost_vision": 0.035036,
+   "cost_usd": 0.073032,
+   "error": null,
+   "graph": {
+    "entities": 218,
+    "relations": 267,
+    "graphml_bytes": 223892
+   },
+   "cum_vision_calls": 2340
+  },
+  {
+   "bench": "docbench",
+   "doc": "28.json",
+   "chars": 35473,
+   "images": 7,
+   "seconds": 73.4,
+   "cost_text": 0.02967,
+   "cost_vision": 0.020364,
+   "cost_usd": 0.050034,
+   "error": null,
+   "graph": {
+    "entities": 177,
+    "relations": 202,
+    "graphml_bytes": 169752
+   },
+   "cum_vision_calls": 2347
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "a5879805d70c854ea4361e43a84e3bb2.pdf.json",
+   "chars": 35616,
+   "images": 1,
+   "seconds": 43.6,
+   "cost_text": 0.0168,
+   "cost_vision": 0.005813,
+   "cost_usd": 0.022613,
+   "error": null,
+   "graph": {
+    "entities": 88,
+    "relations": 80,
+    "graphml_bytes": 82258
+   },
+   "cum_vision_calls": 2348
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.07609v1.pdf.json",
+   "chars": 35886,
+   "images": 5,
+   "seconds": 135.6,
+   "cost_text": 0.038057,
+   "cost_vision": 0.020245,
+   "cost_usd": 0.058302,
+   "error": null,
+   "graph": {
+    "entities": 283,
+    "relations": 311,
+    "graphml_bytes": 275333
+   },
+   "cum_vision_calls": 2353
+  },
+  {
+   "bench": "docbench",
+   "doc": "14.json",
+   "chars": 35890,
+   "images": 7,
+   "seconds": 96.2,
+   "cost_text": 0.032565,
+   "cost_vision": 0.025575,
+   "cost_usd": 0.05814,
+   "error": null,
+   "graph": {
+    "entities": 181,
+    "relations": 237,
+    "graphml_bytes": 196335
+   },
+   "cum_vision_calls": 2360
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bdf54dxa.pdf.json",
+   "chars": 36089,
+   "images": 63,
+   "seconds": 247.0,
+   "cost_text": 0.10959,
+   "cost_vision": 0.169593,
+   "cost_usd": 0.279183,
+   "error": null,
+   "graph": {
+    "entities": 327,
+    "relations": 722,
+    "graphml_bytes": 527012
+   },
+   "cum_vision_calls": 2423
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "obs-productdesc-en.pdf.json",
+   "chars": 36190,
+   "images": 57,
+   "seconds": 288.0,
+   "cost_text": 0.109166,
+   "cost_vision": 0.299966,
+   "cost_usd": 0.409132,
+   "error": null,
+   "graph": {
+    "entities": 396,
+    "relations": 907,
+    "graphml_bytes": 651009
+   },
+   "cum_vision_calls": 2480
+  },
+  {
+   "bench": "docbench",
+   "doc": "47.json",
+   "chars": 36479,
+   "images": 9,
+   "seconds": 114.6,
+   "cost_text": 0.03791,
+   "cost_vision": 0.032461,
+   "cost_usd": 0.070371,
+   "error": null,
+   "graph": {
+    "entities": 256,
+    "relations": 286,
+    "graphml_bytes": 242228
+   },
+   "cum_vision_calls": 2489
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf.json",
+   "chars": 36513,
+   "images": 20,
+   "seconds": 119.2,
+   "cost_text": 0.046626,
+   "cost_vision": 0.093654,
+   "cost_usd": 0.14028,
+   "error": null,
+   "graph": {
+    "entities": 243,
+    "relations": 327,
+    "graphml_bytes": 310654
+   },
+   "cum_vision_calls": 2509
+  },
+  {
+   "bench": "docbench",
+   "doc": "0.json",
+   "chars": 36578,
+   "images": 6,
+   "seconds": 109.9,
+   "cost_text": 0.032407,
+   "cost_vision": 0.021187,
+   "cost_usd": 0.053594,
+   "error": null,
+   "graph": {
+    "entities": 219,
+    "relations": 223,
+    "graphml_bytes": 198723
+   },
+   "cum_vision_calls": 2515
+  },
+  {
+   "bench": "docbench",
+   "doc": "1.json",
+   "chars": 36881,
+   "images": 4,
+   "seconds": 112.8,
+   "cost_text": 0.035201,
+   "cost_vision": 0.019002,
+   "cost_usd": 0.054203,
+   "error": null,
+   "graph": {
+    "entities": 320,
+    "relations": 265,
+    "graphml_bytes": 262150
+   },
+   "cum_vision_calls": 2519
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf.json",
+   "chars": 36962,
+   "images": 25,
+   "seconds": 172.7,
+   "cost_text": 0.060171,
+   "cost_vision": 0.077962,
+   "cost_usd": 0.138133,
+   "error": null,
+   "graph": {
+    "entities": 193,
+    "relations": 442,
+    "graphml_bytes": 359226
+   },
+   "cum_vision_calls": 2544
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf.json",
+   "chars": 37085,
+   "images": 21,
+   "seconds": 131.7,
+   "cost_text": 0.052513,
+   "cost_vision": 0.068249,
+   "cost_usd": 0.120762,
+   "error": null,
+   "graph": {
+    "entities": 170,
+    "relations": 364,
+    "graphml_bytes": 297112
+   },
+   "cum_vision_calls": 2565
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ISEP_student_handbook_2020.pdf.json",
+   "chars": 37276,
+   "images": 19,
+   "seconds": 96.7,
+   "cost_text": 0.042954,
+   "cost_vision": 0.082501,
+   "cost_usd": 0.125455,
+   "error": null,
+   "graph": {
+    "entities": 163,
+    "relations": 264,
+    "graphml_bytes": 218169
+   },
+   "cum_vision_calls": 2584
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf.json",
+   "chars": 37439,
+   "images": 16,
+   "seconds": 100.1,
+   "cost_text": 0.041127,
+   "cost_vision": 0.059828,
+   "cost_usd": 0.100955,
+   "error": null,
+   "graph": {
+    "entities": 166,
+    "relations": 268,
+    "graphml_bytes": 227562
+   },
+   "cum_vision_calls": 2600
+  },
+  {
+   "bench": "docbench",
+   "doc": "17.json",
+   "chars": 37631,
+   "images": 8,
+   "seconds": 116.7,
+   "cost_text": 0.037129,
+   "cost_vision": 0.023872,
+   "cost_usd": 0.061001,
+   "error": null,
+   "graph": {
+    "entities": 227,
+    "relations": 255,
+    "graphml_bytes": 214503
+   },
+   "cum_vision_calls": 2608
+  },
+  {
+   "bench": "docbench",
+   "doc": "48.json",
+   "chars": 38206,
+   "images": 6,
+   "seconds": 134.9,
+   "cost_text": 0.039145,
+   "cost_vision": 0.017716,
+   "cost_usd": 0.056861,
+   "error": null,
+   "graph": {
+    "entities": 282,
+    "relations": 340,
+    "graphml_bytes": 285876
+   },
+   "cum_vision_calls": 2614
+  },
+  {
+   "bench": "docbench",
+   "doc": "27.json",
+   "chars": 38235,
+   "images": 10,
+   "seconds": 131.5,
+   "cost_text": 0.042466,
+   "cost_vision": 0.044017,
+   "cost_usd": 0.086483,
+   "error": null,
+   "graph": {
+    "entities": 220,
+    "relations": 320,
+    "graphml_bytes": 250803
+   },
+   "cum_vision_calls": 2624
+  },
+  {
+   "bench": "docbench",
+   "doc": "121.json",
+   "chars": 38279,
+   "images": 0,
+   "seconds": 29.4,
+   "cost_text": 0.014925,
+   "cost_vision": 0.0,
+   "cost_usd": 0.014925,
+   "error": null,
+   "graph": {
+    "entities": 61,
+    "relations": 62,
+    "graphml_bytes": 61679
+   },
+   "cum_vision_calls": 2624
+  },
+  {
+   "bench": "docbench",
+   "doc": "177.json",
+   "chars": 38408,
+   "images": 0,
+   "seconds": 20.9,
+   "cost_text": 0.014361,
+   "cost_vision": 0.0,
+   "cost_usd": 0.014361,
+   "error": null,
+   "graph": {
+    "entities": 52,
+    "relations": 46,
+    "graphml_bytes": 51104
+   },
+   "cum_vision_calls": 2624
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "san-francisco-11-contents.pdf.json",
+   "chars": 38849,
+   "images": 28,
+   "seconds": 182.7,
+   "cost_text": 0.078892,
+   "cost_vision": 0.098019,
+   "cost_usd": 0.176911,
+   "error": null,
+   "graph": {
+    "entities": 591,
+    "relations": 475,
+    "graphml_bytes": 494732
+   },
+   "cum_vision_calls": 2652
+  },
+  {
+   "bench": "docbench",
+   "doc": "117.json",
+   "chars": 39121,
+   "images": 0,
+   "seconds": 27.7,
+   "cost_text": 0.01518,
+   "cost_vision": 0.0,
+   "cost_usd": 0.01518,
+   "error": null,
+   "graph": {
+    "entities": 60,
+    "relations": 57,
+    "graphml_bytes": 59153
+   },
+   "cum_vision_calls": 2652
+  },
+  {
+   "bench": "docbench",
+   "doc": "40.json",
+   "chars": 39250,
+   "images": 8,
+   "seconds": 125.4,
+   "cost_text": 0.040612,
+   "cost_vision": 0.025063,
+   "cost_usd": 0.065675,
+   "error": null,
+   "graph": {
+    "entities": 286,
+    "relations": 334,
+    "graphml_bytes": 274311
+   },
+   "cum_vision_calls": 2660
+  },
+  {
+   "bench": "docbench",
+   "doc": "176.json",
+   "chars": 39452,
+   "images": 0,
+   "seconds": 20.2,
+   "cost_text": 0.016137,
+   "cost_vision": 0.0,
+   "cost_usd": 0.016137,
+   "error": null,
+   "graph": {
+    "entities": 72,
+    "relations": 60,
+    "graphml_bytes": 64942
+   },
+   "cum_vision_calls": 2660
+  },
+  {
+   "bench": "docbench",
+   "doc": "46.json",
+   "chars": 39513,
+   "images": 11,
+   "seconds": 153.8,
+   "cost_text": 0.046775,
+   "cost_vision": 0.041669,
+   "cost_usd": 0.088444,
+   "error": null,
+   "graph": {
+    "entities": 258,
+    "relations": 351,
+    "graphml_bytes": 287735
+   },
+   "cum_vision_calls": 2671
+  },
+  {
+   "bench": "docbench",
+   "doc": "134.json",
+   "chars": 39886,
+   "images": 0,
+   "seconds": 30.8,
+   "cost_text": 0.016035,
+   "cost_vision": 0.0,
+   "cost_usd": 0.016035,
+   "error": null,
+   "graph": {
+    "entities": 90,
+    "relations": 69,
+    "graphml_bytes": 76256
+   },
+   "cum_vision_calls": 2671
+  },
+  {
+   "bench": "docbench",
+   "doc": "32.json",
+   "chars": 40159,
+   "images": 8,
+   "seconds": 92.4,
+   "cost_text": 0.035306,
+   "cost_vision": 0.0214,
+   "cost_usd": 0.056706,
+   "error": null,
+   "graph": {
+    "entities": 222,
+    "relations": 233,
+    "graphml_bytes": 215853
+   },
+   "cum_vision_calls": 2679
+  },
+  {
+   "bench": "docbench",
+   "doc": "41.json",
+   "chars": 40497,
+   "images": 7,
+   "seconds": 95.6,
+   "cost_text": 0.034252,
+   "cost_vision": 0.022092,
+   "cost_usd": 0.056344,
+   "error": null,
+   "graph": {
+    "entities": 211,
+    "relations": 224,
+    "graphml_bytes": 200969
+   },
+   "cum_vision_calls": 2686
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "12-15-15-ISIS-and-terrorism-release-final.pdf.json",
+   "chars": 40515,
+   "images": 35,
+   "seconds": 175.4,
+   "cost_text": 0.077359,
+   "cost_vision": 0.120127,
+   "cost_usd": 0.197486,
+   "error": null,
+   "graph": {
+    "entities": 177,
+    "relations": 538,
+    "graphml_bytes": 413848
+   },
+   "cum_vision_calls": 2721
+  },
+  {
+   "bench": "docbench",
+   "doc": "113.json",
+   "chars": 40526,
+   "images": 0,
+   "seconds": 24.1,
+   "cost_text": 0.014858,
+   "cost_vision": 0.0,
+   "cost_usd": 0.014858,
+   "error": null,
+   "graph": {
+    "entities": 73,
+    "relations": 58,
+    "graphml_bytes": 64527
+   },
+   "cum_vision_calls": 2721
+  },
+  {
+   "bench": "docbench",
+   "doc": "18.json",
+   "chars": 40747,
+   "images": 8,
+   "seconds": 143.8,
+   "cost_text": 0.041107,
+   "cost_vision": 0.02898,
+   "cost_usd": 0.070087,
+   "error": null,
+   "graph": {
+    "entities": 257,
+    "relations": 378,
+    "graphml_bytes": 289970
+   },
+   "cum_vision_calls": 2729
+  },
+  {
+   "bench": "docbench",
+   "doc": "90.json",
+   "chars": 40835,
+   "images": 0,
+   "seconds": 23.2,
+   "cost_text": 0.015151,
+   "cost_vision": 0.0,
+   "cost_usd": 0.015151,
+   "error": null,
+   "graph": {
+    "entities": 73,
+    "relations": 61,
+    "graphml_bytes": 64895
+   },
+   "cum_vision_calls": 2729
+  },
+  {
+   "bench": "docbench",
+   "doc": "45.json",
+   "chars": 41117,
+   "images": 9,
+   "seconds": 103.3,
+   "cost_text": 0.038235,
+   "cost_vision": 0.024042,
+   "cost_usd": 0.062277,
+   "error": null,
+   "graph": {
+    "entities": 219,
+    "relations": 244,
+    "graphml_bytes": 216561
+   },
+   "cum_vision_calls": 2738
+  },
+  {
+   "bench": "docbench",
+   "doc": "126.json",
+   "chars": 41472,
+   "images": 0,
+   "seconds": 26.7,
+   "cost_text": 0.015744,
+   "cost_vision": 0.0,
+   "cost_usd": 0.015744,
+   "error": null,
+   "graph": {
+    "entities": 75,
+    "relations": 78,
+    "graphml_bytes": 72167
+   },
+   "cum_vision_calls": 2738
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "379f44022bb27aa53efd5d322c7b57bf.pdf.json",
+   "chars": 41835,
+   "images": 6,
+   "seconds": 48.3,
+   "cost_text": 0.024726,
+   "cost_vision": 0.029553,
+   "cost_usd": 0.054279,
+   "error": null,
+   "graph": {
+    "entities": 89,
+    "relations": 123,
+    "graphml_bytes": 110784
+   },
+   "cum_vision_calls": 2744
+  },
+  {
+   "bench": "docbench",
+   "doc": "24.json",
+   "chars": 41860,
+   "images": 9,
+   "seconds": 145.1,
+   "cost_text": 0.041734,
+   "cost_vision": 0.02314,
+   "cost_usd": 0.064874,
+   "error": null,
+   "graph": {
+    "entities": 277,
+    "relations": 329,
+    "graphml_bytes": 282011
+   },
+   "cum_vision_calls": 2753
+  },
+  {
+   "bench": "docbench",
+   "doc": "116.json",
+   "chars": 42005,
+   "images": 0,
+   "seconds": 27.7,
+   "cost_text": 0.016714,
+   "cost_vision": 0.0,
+   "cost_usd": 0.016714,
+   "error": null,
+   "graph": {
+    "entities": 60,
+    "relations": 61,
+    "graphml_bytes": 62597
+   },
+   "cum_vision_calls": 2753
+  },
+  {
+   "bench": "docbench",
+   "doc": "19.json",
+   "chars": 42223,
+   "images": 4,
+   "seconds": 121.3,
+   "cost_text": 0.039962,
+   "cost_vision": 0.014078,
+   "cost_usd": 0.05404,
+   "error": null,
+   "graph": {
+    "entities": 300,
+    "relations": 279,
+    "graphml_bytes": 262255
+   },
+   "cum_vision_calls": 2757
+  },
+  {
+   "bench": "docbench",
+   "doc": "16.json",
+   "chars": 42469,
+   "images": 9,
+   "seconds": 104.4,
+   "cost_text": 0.039387,
+   "cost_vision": 0.035976,
+   "cost_usd": 0.075363,
+   "error": null,
+   "graph": {
+    "entities": 249,
+    "relations": 232,
+    "graphml_bytes": 227493
+   },
+   "cum_vision_calls": 2766
+  },
+  {
+   "bench": "docbench",
+   "doc": "13.json",
+   "chars": 42605,
+   "images": 11,
+   "seconds": 155.2,
+   "cost_text": 0.053881,
+   "cost_vision": 0.040339,
+   "cost_usd": 0.09422,
+   "error": null,
+   "graph": {
+    "entities": 390,
+    "relations": 453,
+    "graphml_bytes": 372951
+   },
+   "cum_vision_calls": 2777
+  },
+  {
+   "bench": "docbench",
+   "doc": "44.json",
+   "chars": 43114,
+   "images": 8,
+   "seconds": 117.2,
+   "cost_text": 0.039801,
+   "cost_vision": 0.026476,
+   "cost_usd": 0.066277,
+   "error": null,
+   "graph": {
+    "entities": 260,
+    "relations": 303,
+    "graphml_bytes": 255027
+   },
+   "cum_vision_calls": 2785
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "8e7c4cb542ad160f80fb3d795ada35d8.pdf.json",
+   "chars": 43260,
+   "images": 13,
+   "seconds": 83.9,
+   "cost_text": 0.038043,
+   "cost_vision": 0.057438,
+   "cost_usd": 0.095481,
+   "error": null,
+   "graph": {
+    "entities": 151,
+    "relations": 247,
+    "graphml_bytes": 207817
+   },
+   "cum_vision_calls": 2798
+  },
+  {
+   "bench": "docbench",
+   "doc": "20.json",
+   "chars": 43979,
+   "images": 11,
+   "seconds": 119.5,
+   "cost_text": 0.045118,
+   "cost_vision": 0.038911,
+   "cost_usd": 0.084029,
+   "error": null,
+   "graph": {
+    "entities": 267,
+    "relations": 330,
+    "graphml_bytes": 274070
+   },
+   "cum_vision_calls": 2809
+  },
+  {
+   "bench": "docbench",
+   "doc": "11.json",
+   "chars": 44504,
+   "images": 13,
+   "seconds": 114.2,
+   "cost_text": 0.047469,
+   "cost_vision": 0.048568,
+   "cost_usd": 0.096037,
+   "error": null,
+   "graph": {
+    "entities": 286,
+    "relations": 334,
+    "graphml_bytes": 285847
+   },
+   "cum_vision_calls": 2822
+  },
+  {
+   "bench": "docbench",
+   "doc": "37.json",
+   "chars": 44701,
+   "images": 19,
+   "seconds": 164.8,
+   "cost_text": 0.059125,
+   "cost_vision": 0.075432,
+   "cost_usd": 0.134557,
+   "error": null,
+   "graph": {
+    "entities": 325,
+    "relations": 487,
+    "graphml_bytes": 369330
+   },
+   "cum_vision_calls": 2841
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2303.05039v2.pdf.json",
+   "chars": 44737,
+   "images": 8,
+   "seconds": 77.6,
+   "cost_text": 0.03396,
+   "cost_vision": 0.026554,
+   "cost_usd": 0.060514,
+   "error": null,
+   "graph": {
+    "entities": 169,
+    "relations": 213,
+    "graphml_bytes": 185952
+   },
+   "cum_vision_calls": 2849
+  },
+  {
+   "bench": "docbench",
+   "doc": "96.json",
+   "chars": 45033,
+   "images": 0,
+   "seconds": 33.0,
+   "cost_text": 0.018305,
+   "cost_vision": 0.0,
+   "cost_usd": 0.018305,
+   "error": null,
+   "graph": {
+    "entities": 115,
+    "relations": 85,
+    "graphml_bytes": 94640
+   },
+   "cum_vision_calls": 2849
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "fdac8d1e9ef56519371df7e6532df27d.pdf.json",
+   "chars": 45379,
+   "images": 11,
+   "seconds": 98.3,
+   "cost_text": 0.038162,
+   "cost_vision": 0.043195,
+   "cost_usd": 0.081357,
+   "error": null,
+   "graph": {
+    "entities": 180,
+    "relations": 247,
+    "graphml_bytes": 217688
+   },
+   "cum_vision_calls": 2860
+  },
+  {
+   "bench": "docbench",
+   "doc": "34.json",
+   "chars": 45730,
+   "images": 6,
+   "seconds": 111.8,
+   "cost_text": 0.039256,
+   "cost_vision": 0.020245,
+   "cost_usd": 0.059501,
+   "error": null,
+   "graph": {
+    "entities": 308,
+    "relations": 255,
+    "graphml_bytes": 256631
+   },
+   "cum_vision_calls": 2866
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "STEPBACK.pdf.json",
+   "chars": 46210,
+   "images": 37,
+   "seconds": 253.8,
+   "cost_text": 0.090446,
+   "cost_vision": 0.142241,
+   "cost_usd": 0.232687,
+   "error": null,
+   "graph": {
+    "entities": 402,
+    "relations": 683,
+    "graphml_bytes": 535481
+   },
+   "cum_vision_calls": 2903
+  },
+  {
+   "bench": "docbench",
+   "doc": "42.json",
+   "chars": 46247,
+   "images": 15,
+   "seconds": 160.3,
+   "cost_text": 0.058099,
+   "cost_vision": 0.0585,
+   "cost_usd": 0.116599,
+   "error": null,
+   "graph": {
+    "entities": 324,
+    "relations": 473,
+    "graphml_bytes": 374491
+   },
+   "cum_vision_calls": 2918
+  },
+  {
+   "bench": "docbench",
+   "doc": "21.json",
+   "chars": 46378,
+   "images": 11,
+   "seconds": 120.4,
+   "cost_text": 0.045683,
+   "cost_vision": 0.031009,
+   "cost_usd": 0.076692,
+   "error": null,
+   "graph": {
+    "entities": 365,
+    "relations": 263,
+    "graphml_bytes": 280404
+   },
+   "cum_vision_calls": 2929
+  },
+  {
+   "bench": "docbench",
+   "doc": "108.json",
+   "chars": 46491,
+   "images": 0,
+   "seconds": 31.2,
+   "cost_text": 0.018253,
+   "cost_vision": 0.0,
+   "cost_usd": 0.018253,
+   "error": null,
+   "graph": {
+    "entities": 89,
+    "relations": 77,
+    "graphml_bytes": 80856
+   },
+   "cum_vision_calls": 2929
+  },
+  {
+   "bench": "docbench",
+   "doc": "15.json",
+   "chars": 47021,
+   "images": 4,
+   "seconds": 77.9,
+   "cost_text": 0.032058,
+   "cost_vision": 0.015805,
+   "cost_usd": 0.047863,
+   "error": null,
+   "graph": {
+    "entities": 241,
+    "relations": 181,
+    "graphml_bytes": 189191
+   },
+   "cum_vision_calls": 2933
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "fd76bbefe469561966e5387aa709c482.pdf.json",
+   "chars": 47741,
+   "images": 6,
+   "seconds": 70.2,
+   "cost_text": 0.049682,
+   "cost_vision": 0.019838,
+   "cost_usd": 0.06952,
+   "error": null,
+   "graph": {
+    "entities": 145,
+    "relations": 175,
+    "graphml_bytes": 163545
+   },
+   "cum_vision_calls": 2939
+  },
+  {
+   "bench": "docbench",
+   "doc": "30.json",
+   "chars": 48214,
+   "images": 6,
+   "seconds": 125.1,
+   "cost_text": 0.045459,
+   "cost_vision": 0.021945,
+   "cost_usd": 0.067404,
+   "error": null,
+   "graph": {
+    "entities": 412,
+    "relations": 307,
+    "graphml_bytes": 318400
+   },
+   "cum_vision_calls": 2945
+  },
+  {
+   "bench": "docbench",
+   "doc": "144.json",
+   "chars": 48777,
+   "images": 7,
+   "seconds": 84.2,
+   "cost_text": 0.032323,
+   "cost_vision": 0.03407,
+   "cost_usd": 0.066393,
+   "error": null,
+   "graph": {
+    "entities": 143,
+    "relations": 221,
+    "graphml_bytes": 176319
+   },
+   "cum_vision_calls": 2952
+  },
+  {
+   "bench": "docbench",
+   "doc": "92.json",
+   "chars": 49232,
+   "images": 12,
+   "seconds": 89.4,
+   "cost_text": 0.038051,
+   "cost_vision": 0.045362,
+   "cost_usd": 0.083413,
+   "error": null,
+   "graph": {
+    "entities": 161,
+    "relations": 215,
+    "graphml_bytes": 186485
+   },
+   "cum_vision_calls": 2964
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "afe620b9beac86c1027b96d31d396407.pdf.json",
+   "chars": 49364,
+   "images": 24,
+   "seconds": 138.4,
+   "cost_text": 0.057155,
+   "cost_vision": 0.091645,
+   "cost_usd": 0.1488,
+   "error": null,
+   "graph": {
+    "entities": 223,
+    "relations": 412,
+    "graphml_bytes": 325361
+   },
+   "cum_vision_calls": 2988
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "chars": 49469,
+   "images": 53,
+   "seconds": 278.7,
+   "cost_text": 0.109281,
+   "cost_vision": 0.183525,
+   "cost_usd": 0.292806,
+   "error": null,
+   "graph": {
+    "entities": 518,
+    "relations": 837,
+    "graphml_bytes": 677465
+   },
+   "cum_vision_calls": 3041
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "StudentSupport_Guidebook.pdf.json",
+   "chars": 49469,
+   "images": 53,
+   "seconds": 271.5,
+   "cost_text": 0.107972,
+   "cost_vision": 0.183501,
+   "cost_usd": 0.291473,
+   "error": null,
+   "graph": {
+    "entities": 498,
+    "relations": 782,
+    "graphml_bytes": 628948
+   },
+   "cum_vision_calls": 3094
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "camry_ebrochure.pdf.json",
+   "chars": 50270,
+   "images": 76,
+   "seconds": 300.2,
+   "cost_text": 0.136723,
+   "cost_vision": 0.202462,
+   "cost_usd": 0.339185,
+   "error": null,
+   "graph": {
+    "entities": 408,
+    "relations": 866,
+    "graphml_bytes": 643446
+   },
+   "cum_vision_calls": 3170
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2305.14160v4.pdf.json",
+   "chars": 50292,
+   "images": 19,
+   "seconds": 180.8,
+   "cost_text": 0.065342,
+   "cost_vision": 0.06155,
+   "cost_usd": 0.126892,
+   "error": null,
+   "graph": {
+    "entities": 318,
+    "relations": 504,
+    "graphml_bytes": 396556
+   },
+   "cum_vision_calls": 3189
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "efd88e41c5f2606c57929cac6c1c0605.pdf.json",
+   "chars": 51116,
+   "images": 10,
+   "seconds": 148.9,
+   "cost_text": 0.056508,
+   "cost_vision": 0.047101,
+   "cost_usd": 0.103609,
+   "error": null,
+   "graph": {
+    "entities": 400,
+    "relations": 404,
+    "graphml_bytes": 406696
+   },
+   "cum_vision_calls": 3199
+  },
+  {
+   "bench": "docbench",
+   "doc": "33.json",
+   "chars": 51425,
+   "images": 4,
+   "seconds": 156.3,
+   "cost_text": 0.049435,
+   "cost_vision": 0.014126,
+   "cost_usd": 0.063561,
+   "error": null,
+   "graph": {
+    "entities": 398,
+    "relations": 365,
+    "graphml_bytes": 334423
+   },
+   "cum_vision_calls": 3203
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Guide-for-international-students-web.pdf.json",
+   "chars": 52221,
+   "images": 127,
+   "seconds": 581.3,
+   "cost_text": 0.225354,
+   "cost_vision": 0.275096,
+   "cost_usd": 0.50045,
+   "error": null,
+   "graph": {
+    "entities": 924,
+    "relations": 1631,
+    "graphml_bytes": 1313017
+   },
+   "cum_vision_calls": 3330
+  },
+  {
+   "bench": "docbench",
+   "doc": "7.json",
+   "chars": 52757,
+   "images": 14,
+   "seconds": 156.8,
+   "cost_text": 0.05112,
+   "cost_vision": 0.056477,
+   "cost_usd": 0.107597,
+   "error": null,
+   "graph": {
+    "entities": 291,
+    "relations": 373,
+    "graphml_bytes": 304819
+   },
+   "cum_vision_calls": 3344
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f8d3a162ab9507e021d83dd109118b60.pdf.json",
+   "chars": 52831,
+   "images": 5,
+   "seconds": 61.3,
+   "cost_text": 0.029209,
+   "cost_vision": 0.027768,
+   "cost_usd": 0.056977,
+   "error": null,
+   "graph": {
+    "entities": 173,
+    "relations": 161,
+    "graphml_bytes": 163387
+   },
+   "cum_vision_calls": 3349
+  },
+  {
+   "bench": "docbench",
+   "doc": "112.json",
+   "chars": 53232,
+   "images": 0,
+   "seconds": 40.9,
+   "cost_text": 0.022428,
+   "cost_vision": 0.0,
+   "cost_usd": 0.022428,
+   "error": null,
+   "graph": {
+    "entities": 93,
+    "relations": 88,
+    "graphml_bytes": 92176
+   },
+   "cum_vision_calls": 3349
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2210.02442v1.pdf.json",
+   "chars": 53524,
+   "images": 20,
+   "seconds": 189.4,
+   "cost_text": 0.069104,
+   "cost_vision": 0.081133,
+   "cost_usd": 0.150237,
+   "error": null,
+   "graph": {
+    "entities": 409,
+    "relations": 569,
+    "graphml_bytes": 473539
+   },
+   "cum_vision_calls": 3369
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PI_2018.11.19_algorithms_FINAL.pdf.json",
+   "chars": 56295,
+   "images": 11,
+   "seconds": 91.6,
+   "cost_text": 0.03991,
+   "cost_vision": 0.032307,
+   "cost_usd": 0.072217,
+   "error": null,
+   "graph": {
+    "entities": 127,
+    "relations": 210,
+    "graphml_bytes": 187694
+   },
+   "cum_vision_calls": 3380
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "0b85477387a9d0cc33fca0f4becaa0e5.pdf.json",
+   "chars": 56398,
+   "images": 25,
+   "seconds": 147.6,
+   "cost_text": 0.06467,
+   "cost_vision": 0.105373,
+   "cost_usd": 0.170043,
+   "error": null,
+   "graph": {
+    "entities": 341,
+    "relations": 412,
+    "graphml_bytes": 371400
+   },
+   "cum_vision_calls": 3405
+  },
+  {
+   "bench": "docbench",
+   "doc": "43.json",
+   "chars": 56476,
+   "images": 30,
+   "seconds": 228.8,
+   "cost_text": 0.08384,
+   "cost_vision": 0.131019,
+   "cost_usd": 0.214859,
+   "error": null,
+   "graph": {
+    "entities": 303,
+    "relations": 654,
+    "graphml_bytes": 474735
+   },
+   "cum_vision_calls": 3435
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f86d073b0d735ac873a65d906ba82758.pdf.json",
+   "chars": 57530,
+   "images": 31,
+   "seconds": 188.1,
+   "cost_text": 0.073398,
+   "cost_vision": 0.117771,
+   "cost_usd": 0.191169,
+   "error": null,
+   "graph": {
+    "entities": 339,
+    "relations": 560,
+    "graphml_bytes": 449825
+   },
+   "cum_vision_calls": 3466
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf.json",
+   "chars": 57841,
+   "images": 17,
+   "seconds": 114.0,
+   "cost_text": 0.054091,
+   "cost_vision": 0.057536,
+   "cost_usd": 0.111627,
+   "error": null,
+   "graph": {
+    "entities": 146,
+    "relations": 292,
+    "graphml_bytes": 264219
+   },
+   "cum_vision_calls": 3483
+  },
+  {
+   "bench": "docbench",
+   "doc": "5.json",
+   "chars": 57859,
+   "images": 0,
+   "seconds": 72.0,
+   "cost_text": 0.032218,
+   "cost_vision": 0.0,
+   "cost_usd": 0.032218,
+   "error": null,
+   "graph": {
+    "entities": 270,
+    "relations": 174,
+    "graphml_bytes": 188777
+   },
+   "cum_vision_calls": 3483
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "nova_y70.pdf.json",
+   "chars": 59262,
+   "images": 16,
+   "seconds": 105.7,
+   "cost_text": 0.047373,
+   "cost_vision": 0.056927,
+   "cost_usd": 0.1043,
+   "error": null,
+   "graph": {
+    "entities": 188,
+    "relations": 292,
+    "graphml_bytes": 226189
+   },
+   "cum_vision_calls": 3499
+  },
+  {
+   "bench": "docbench",
+   "doc": "39.json",
+   "chars": 59555,
+   "images": 13,
+   "seconds": 192.6,
+   "cost_text": 0.065789,
+   "cost_vision": 0.036764,
+   "cost_usd": 0.102553,
+   "error": null,
+   "graph": {
+    "entities": 353,
+    "relations": 454,
+    "graphml_bytes": 373066
+   },
+   "cum_vision_calls": 3512
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Macbook_air.pdf.json",
+   "chars": 60492,
+   "images": 28,
+   "seconds": 155.2,
+   "cost_text": 0.069616,
+   "cost_vision": 0.080323,
+   "cost_usd": 0.149939,
+   "error": null,
+   "graph": {
+    "entities": 210,
+    "relations": 376,
+    "graphml_bytes": 296650
+   },
+   "cum_vision_calls": 3540
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2005.12872v3.pdf.json",
+   "chars": 60634,
+   "images": 18,
+   "seconds": 193.1,
+   "cost_text": 0.068956,
+   "cost_vision": 0.054583,
+   "cost_usd": 0.123539,
+   "error": null,
+   "graph": {
+    "entities": 425,
+    "relations": 540,
+    "graphml_bytes": 442447
+   },
+   "cum_vision_calls": 3558
+  },
+  {
+   "bench": "docbench",
+   "doc": "124.json",
+   "chars": 60922,
+   "images": 0,
+   "seconds": 38.8,
+   "cost_text": 0.024629,
+   "cost_vision": 0.0,
+   "cost_usd": 0.024629,
+   "error": null,
+   "graph": {
+    "entities": 120,
+    "relations": 109,
+    "graphml_bytes": 110679
+   },
+   "cum_vision_calls": 3558
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2024.ug.eprospectus.pdf.json",
+   "chars": 61138,
+   "images": 75,
+   "seconds": 365.4,
+   "cost_text": 0.14113,
+   "cost_vision": 0.256986,
+   "cost_usd": 0.398116,
+   "error": null,
+   "graph": {
+    "entities": 584,
+    "relations": 913,
+    "graphml_bytes": 743820
+   },
+   "cum_vision_calls": 3633
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e639029d16094ea71d964e2fb953952b.pdf.json",
+   "chars": 61294,
+   "images": 0,
+   "seconds": 65.5,
+   "cost_text": 0.027049,
+   "cost_vision": 0.0,
+   "cost_usd": 0.027049,
+   "error": null,
+   "graph": {
+    "entities": 151,
+    "relations": 135,
+    "graphml_bytes": 145624
+   },
+   "cum_vision_calls": 3633
+  },
+  {
+   "bench": "docbench",
+   "doc": "6.json",
+   "chars": 61317,
+   "images": 7,
+   "seconds": 162.1,
+   "cost_text": 0.057649,
+   "cost_vision": 0.031334,
+   "cost_usd": 0.088983,
+   "error": null,
+   "graph": {
+    "entities": 405,
+    "relations": 466,
+    "graphml_bytes": 401330
+   },
+   "cum_vision_calls": 3640
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "honor_watch_gs_pro.pdf.json",
+   "chars": 61640,
+   "images": 17,
+   "seconds": 102.1,
+   "cost_text": 0.050351,
+   "cost_vision": 0.05632,
+   "cost_usd": 0.106671,
+   "error": null,
+   "graph": {
+    "entities": 160,
+    "relations": 251,
+    "graphml_bytes": 205766
+   },
+   "cum_vision_calls": 3657
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SnapNTell.pdf.json",
+   "chars": 62843,
+   "images": 24,
+   "seconds": 272.7,
+   "cost_text": 0.085534,
+   "cost_vision": 0.09806,
+   "cost_usd": 0.183594,
+   "error": null,
+   "graph": {
+    "entities": 550,
+    "relations": 703,
+    "graphml_bytes": 573094
+   },
+   "cum_vision_calls": 3681
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "11-21-16-Updated-Post-Election-Release.pdf.json",
+   "chars": 63092,
+   "images": 45,
+   "seconds": 240.8,
+   "cost_text": 0.101193,
+   "cost_vision": 0.142313,
+   "cost_usd": 0.243506,
+   "error": null,
+   "graph": {
+    "entities": 214,
+    "relations": 627,
+    "graphml_bytes": 485412
+   },
+   "cum_vision_calls": 3726
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2021.03.04_US-Views-on-China_FINAL.pdf.json",
+   "chars": 64069,
+   "images": 30,
+   "seconds": 229.5,
+   "cost_text": 0.079834,
+   "cost_vision": 0.117758,
+   "cost_usd": 0.197592,
+   "error": null,
+   "graph": {
+    "entities": 257,
+    "relations": 555,
+    "graphml_bytes": 441771
+   },
+   "cum_vision_calls": 3756
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf.json",
+   "chars": 65122,
+   "images": 0,
+   "seconds": 59.5,
+   "cost_text": 0.04536,
+   "cost_vision": 0.0,
+   "cost_usd": 0.04536,
+   "error": null,
+   "graph": {
+    "entities": 99,
+    "relations": 104,
+    "graphml_bytes": 122921
+   },
+   "cum_vision_calls": 3756
+  },
+  {
+   "bench": "docbench",
+   "doc": "23.json",
+   "chars": 66683,
+   "images": 9,
+   "seconds": 173.7,
+   "cost_text": 0.06262,
+   "cost_vision": 0.024014,
+   "cost_usd": 0.086634,
+   "error": null,
+   "graph": {
+    "entities": 445,
+    "relations": 475,
+    "graphml_bytes": 408343
+   },
+   "cum_vision_calls": 3765
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2401.18059v1.pdf.json",
+   "chars": 67340,
+   "images": 30,
+   "seconds": 279.5,
+   "cost_text": 0.09096,
+   "cost_vision": 0.09005,
+   "cost_usd": 0.18101,
+   "error": null,
+   "graph": {
+    "entities": 488,
+    "relations": 660,
+    "graphml_bytes": 551905
+   },
+   "cum_vision_calls": 3795
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "RAR.pdf.json",
+   "chars": 67655,
+   "images": 17,
+   "seconds": 272.4,
+   "cost_text": 0.071501,
+   "cost_vision": 0.051903,
+   "cost_usd": 0.123404,
+   "error": null,
+   "graph": {
+    "entities": 396,
+    "relations": 520,
+    "graphml_bytes": 432574
+   },
+   "cum_vision_calls": 3812
+  },
+  {
+   "bench": "docbench",
+   "doc": "94.json",
+   "chars": 69065,
+   "images": 0,
+   "seconds": 46.3,
+   "cost_text": 0.026964,
+   "cost_vision": 0.0,
+   "cost_usd": 0.026964,
+   "error": null,
+   "graph": {
+    "entities": 111,
+    "relations": 118,
+    "graphml_bytes": 115594
+   },
+   "cum_vision_calls": 3812
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2306.05425v1.pdf.json",
+   "chars": 70571,
+   "images": 6,
+   "seconds": 183.7,
+   "cost_text": 0.05986,
+   "cost_vision": 0.025998,
+   "cost_usd": 0.085858,
+   "error": null,
+   "graph": {
+    "entities": 470,
+    "relations": 472,
+    "graphml_bytes": 414025
+   },
+   "cum_vision_calls": 3818
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2405.09818v1.pdf.json",
+   "chars": 70964,
+   "images": 44,
+   "seconds": 403.5,
+   "cost_text": 0.128094,
+   "cost_vision": 0.125298,
+   "cost_usd": 0.253392,
+   "error": null,
+   "graph": {
+    "entities": 712,
+    "relations": 1000,
+    "graphml_bytes": 774704
+   },
+   "cum_vision_calls": 3862
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2023.findings-emnlp.248.pdf.json",
+   "chars": 72220,
+   "images": 9,
+   "seconds": 286.4,
+   "cost_text": 0.083508,
+   "cost_vision": 0.030032,
+   "cost_usd": 0.11354,
+   "error": null,
+   "graph": {
+    "entities": 661,
+    "relations": 708,
+    "graphml_bytes": 649005
+   },
+   "cum_vision_calls": 3871
+  },
+  {
+   "bench": "docbench",
+   "doc": "143.json",
+   "chars": 72986,
+   "images": 0,
+   "seconds": 44.2,
+   "cost_text": 0.027105,
+   "cost_vision": 0.0,
+   "cost_usd": 0.027105,
+   "error": null,
+   "graph": {
+    "entities": 133,
+    "relations": 101,
+    "graphml_bytes": 113193
+   },
+   "cum_vision_calls": 3871
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.05634v2.pdf.json",
+   "chars": 74298,
+   "images": 10,
+   "seconds": 208.2,
+   "cost_text": 0.068393,
+   "cost_vision": 0.031502,
+   "cost_usd": 0.099895,
+   "error": null,
+   "graph": {
+    "entities": 454,
+    "relations": 526,
+    "graphml_bytes": 449276
+   },
+   "cum_vision_calls": 3881
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf.json",
+   "chars": 75106,
+   "images": 157,
+   "seconds": 811.0,
+   "cost_text": 0.288151,
+   "cost_vision": 0.769959,
+   "cost_usd": 1.05811,
+   "error": null,
+   "graph": {
+    "entities": 1137,
+    "relations": 2338,
+    "graphml_bytes": 1917787
+   },
+   "cum_vision_calls": 4038
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf.json",
+   "chars": 75106,
+   "images": 157,
+   "seconds": 840.3,
+   "cost_text": 0.29493,
+   "cost_vision": 0.769841,
+   "cost_usd": 1.064771,
+   "error": null,
+   "graph": {
+    "entities": 1250,
+    "relations": 2576,
+    "graphml_bytes": 2038100
+   },
+   "cum_vision_calls": 4195
+  },
+  {
+   "bench": "docbench",
+   "doc": "109.json",
+   "chars": 77145,
+   "images": 0,
+   "seconds": 95.8,
+   "cost_text": 0.033205,
+   "cost_vision": 0.0,
+   "cost_usd": 0.033205,
+   "error": null,
+   "graph": {
+    "entities": 171,
+    "relations": 169,
+    "graphml_bytes": 163901
+   },
+   "cum_vision_calls": 4195
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.09158v1.pdf.json",
+   "chars": 78614,
+   "images": 15,
+   "seconds": 148.1,
+   "cost_text": 0.068147,
+   "cost_vision": 0.058261,
+   "cost_usd": 0.126408,
+   "error": null,
+   "graph": {
+    "entities": 326,
+    "relations": 427,
+    "graphml_bytes": 358436
+   },
+   "cum_vision_calls": 4210
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2305.13186v3.pdf.json",
+   "chars": 80070,
+   "images": 34,
+   "seconds": 321.0,
+   "cost_text": 0.110591,
+   "cost_vision": 0.097311,
+   "cost_usd": 0.207902,
+   "error": null,
+   "graph": {
+    "entities": 615,
+    "relations": 857,
+    "graphml_bytes": 683158
+   },
+   "cum_vision_calls": 4244
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2303.08559v2.pdf.json",
+   "chars": 81916,
+   "images": 27,
+   "seconds": 379.6,
+   "cost_text": 0.117487,
+   "cost_vision": 0.107848,
+   "cost_usd": 0.225335,
+   "error": null,
+   "graph": {
+    "entities": 724,
+    "relations": 804,
+    "graphml_bytes": 722031
+   },
+   "cum_vision_calls": 4271
+  },
+  {
+   "bench": "docbench",
+   "doc": "122.json",
+   "chars": 82762,
+   "images": 0,
+   "seconds": 52.8,
+   "cost_text": 0.031307,
+   "cost_vision": 0.0,
+   "cost_usd": 0.031307,
+   "error": null,
+   "graph": {
+    "entities": 144,
+    "relations": 134,
+    "graphml_bytes": 136189
+   },
+   "cum_vision_calls": 4271
+  },
+  {
+   "bench": "docbench",
+   "doc": "178.json",
+   "chars": 83703,
+   "images": 4,
+   "seconds": 89.7,
+   "cost_text": 0.041099,
+   "cost_vision": 0.018542,
+   "cost_usd": 0.059641,
+   "error": null,
+   "graph": {
+    "entities": 218,
+    "relations": 202,
+    "graphml_bytes": 200149
+   },
+   "cum_vision_calls": 4275
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NUS-FASS-Graduate-Guidebook-2021-small.pdf.json",
+   "chars": 84121,
+   "images": 85,
+   "seconds": 413.7,
+   "cost_text": 0.164664,
+   "cost_vision": 0.197952,
+   "cost_usd": 0.362616,
+   "error": null,
+   "graph": {
+    "entities": 500,
+    "relations": 951,
+    "graphml_bytes": 783052
+   },
+   "cum_vision_calls": 4360
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "tacl_a_00660.pdf.json",
+   "chars": 85658,
+   "images": 6,
+   "seconds": 480.7,
+   "cost_text": 0.125683,
+   "cost_vision": 0.027725,
+   "cost_usd": 0.153408,
+   "error": null,
+   "graph": {
+    "entities": 1064,
+    "relations": 1152,
+    "graphml_bytes": 1012789
+   },
+   "cum_vision_calls": 4366
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2023.acl-long.386.pdf.json",
+   "chars": 86317,
+   "images": 6,
+   "seconds": 270.4,
+   "cost_text": 0.084341,
+   "cost_vision": 0.017779,
+   "cost_usd": 0.10212,
+   "error": null,
+   "graph": {
+    "entities": 655,
+    "relations": 695,
+    "graphml_bytes": 621875
+   },
+   "cum_vision_calls": 4372
+  },
+  {
+   "bench": "docbench",
+   "doc": "167.json",
+   "chars": 86615,
+   "images": 9,
+   "seconds": 145.9,
+   "cost_text": 0.050078,
+   "cost_vision": 0.048368,
+   "cost_usd": 0.098446,
+   "error": null,
+   "graph": {
+    "entities": 234,
+    "relations": 279,
+    "graphml_bytes": 250934
+   },
+   "cum_vision_calls": 4381
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "guojixueshengshenghuozhinanyingwen9.1.pdf.json",
+   "chars": 88183,
+   "images": 79,
+   "seconds": 353.2,
+   "cost_text": 0.153264,
+   "cost_vision": 0.211988,
+   "cost_usd": 0.365252,
+   "error": null,
+   "graph": {
+    "entities": 461,
+    "relations": 759,
+    "graphml_bytes": 645801
+   },
+   "cum_vision_calls": 4460
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "User_Manual_1500S_Classic_EN.pdf.json",
+   "chars": 89298,
+   "images": 106,
+   "seconds": 511.8,
+   "cost_text": 0.201152,
+   "cost_vision": 0.229179,
+   "cost_usd": 0.430331,
+   "error": null,
+   "graph": {
+    "entities": 514,
+    "relations": 1169,
+    "graphml_bytes": 889233
+   },
+   "cum_vision_calls": 4566
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.04350v3.pdf.json",
+   "chars": 93240,
+   "images": 14,
+   "seconds": 295.1,
+   "cost_text": 0.097426,
+   "cost_vision": 0.049197,
+   "cost_usd": 0.146623,
+   "error": null,
+   "graph": {
+    "entities": 771,
+    "relations": 737,
+    "graphml_bytes": 693391
+   },
+   "cum_vision_calls": 4580
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Bergen-Brochure-en-2022-23.pdf.json",
+   "chars": 96492,
+   "images": 262,
+   "seconds": 1155.2,
+   "cost_text": 0.450076,
+   "cost_vision": 0.590993,
+   "cost_usd": 1.041069,
+   "error": null,
+   "graph": {
+    "entities": 1274,
+    "relations": 2688,
+    "graphml_bytes": 2038202
+   },
+   "cum_vision_calls": 4842
+  },
+  {
+   "bench": "docbench",
+   "doc": "149.json",
+   "chars": 100569,
+   "images": 0,
+   "seconds": 65.6,
+   "cost_text": 0.03777,
+   "cost_vision": 0.0,
+   "cost_usd": 0.03777,
+   "error": null,
+   "graph": {
+    "entities": 157,
+    "relations": 142,
+    "graphml_bytes": 144652
+   },
+   "cum_vision_calls": 4842
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.10997v5.pdf.json",
+   "chars": 101284,
+   "images": 9,
+   "seconds": 501.7,
+   "cost_text": 0.133705,
+   "cost_vision": 0.050308,
+   "cost_usd": 0.184013,
+   "error": null,
+   "graph": {
+    "entities": 1136,
+    "relations": 1255,
+    "graphml_bytes": 1089622
+   },
+   "cum_vision_calls": 4851
+  },
+  {
+   "bench": "docbench",
+   "doc": "154.json",
+   "chars": 102660,
+   "images": 0,
+   "seconds": 106.5,
+   "cost_text": 0.05129,
+   "cost_vision": 0.0,
+   "cost_usd": 0.05129,
+   "error": null,
+   "graph": {
+    "entities": 309,
+    "relations": 245,
+    "graphml_bytes": 258407
+   },
+   "cum_vision_calls": 4851
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Sinopolis-Chengdu.pdf.json",
+   "chars": 102857,
+   "images": 74,
+   "seconds": 469.0,
+   "cost_text": 0.1642,
+   "cost_vision": 0.316734,
+   "cost_usd": 0.480934,
+   "error": null,
+   "graph": {
+    "entities": 613,
+    "relations": 1034,
+    "graphml_bytes": 805107
+   },
+   "cum_vision_calls": 4925
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f1f5242528411b262be447e61e2eb10f.pdf.json",
+   "chars": 104725,
+   "images": 8,
+   "seconds": 132.4,
+   "cost_text": 0.055985,
+   "cost_vision": 0.03419,
+   "cost_usd": 0.090175,
+   "error": null,
+   "graph": {
+    "entities": 302,
+    "relations": 316,
+    "graphml_bytes": 307728
+   },
+   "cum_vision_calls": 4933
+  },
+  {
+   "bench": "docbench",
+   "doc": "157.json",
+   "chars": 108283,
+   "images": 10,
+   "seconds": 172.5,
+   "cost_text": 0.063907,
+   "cost_vision": 0.060921,
+   "cost_usd": 0.124828,
+   "error": null,
+   "graph": {
+    "entities": 302,
+    "relations": 414,
+    "graphml_bytes": 343351
+   },
+   "cum_vision_calls": 4943
+  },
+  {
+   "bench": "docbench",
+   "doc": "150.json",
+   "chars": 108560,
+   "images": 5,
+   "seconds": 93.3,
+   "cost_text": 0.048269,
+   "cost_vision": 0.028697,
+   "cost_usd": 0.076966,
+   "error": null,
+   "graph": {
+    "entities": 223,
+    "relations": 214,
+    "graphml_bytes": 212397
+   },
+   "cum_vision_calls": 4948
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PI_2017.10.04_Automation_FINAL.pdf.json",
+   "chars": 112836,
+   "images": 36,
+   "seconds": 239.5,
+   "cost_text": 0.1011,
+   "cost_vision": 0.115707,
+   "cost_usd": 0.216807,
+   "error": null,
+   "graph": {
+    "entities": 269,
+    "relations": 531,
+    "graphml_bytes": 451478
+   },
+   "cum_vision_calls": 4984
+  },
+  {
+   "bench": "docbench",
+   "doc": "147.json",
+   "chars": 119743,
+   "images": 6,
+   "seconds": 137.7,
+   "cost_text": 0.053187,
+   "cost_vision": 0.036092,
+   "cost_usd": 0.089279,
+   "error": null,
+   "graph": {
+    "entities": 220,
+    "relations": 246,
+    "graphml_bytes": 226410
+   },
+   "cum_vision_calls": 4990
+  },
+  {
+   "bench": "docbench",
+   "doc": "172.json",
+   "chars": 121058,
+   "images": 0,
+   "seconds": 93.8,
+   "cost_text": 0.049075,
+   "cost_vision": 0.0,
+   "cost_usd": 0.049075,
+   "error": null,
+   "graph": {
+    "entities": 236,
+    "relations": 194,
+    "graphml_bytes": 207313
+   },
+   "cum_vision_calls": 4990
+  },
+  {
+   "bench": "docbench",
+   "doc": "161.json",
+   "chars": 122425,
+   "images": 1,
+   "seconds": 132.2,
+   "cost_text": 0.050973,
+   "cost_vision": 0.007632,
+   "cost_usd": 0.058605,
+   "error": null,
+   "graph": {
+    "entities": 240,
+    "relations": 231,
+    "graphml_bytes": 228497
+   },
+   "cum_vision_calls": 4991
+  },
+  {
+   "bench": "docbench",
+   "doc": "156.json",
+   "chars": 122897,
+   "images": 45,
+   "seconds": 280.5,
+   "cost_text": 0.119608,
+   "cost_vision": 0.180946,
+   "cost_usd": 0.300554,
+   "error": null,
+   "graph": {
+    "entities": 435,
+    "relations": 718,
+    "graphml_bytes": 577142
+   },
+   "cum_vision_calls": 5036
+  },
+  {
+   "bench": "docbench",
+   "doc": "73.json",
+   "chars": 130220,
+   "images": 134,
+   "seconds": 746.0,
+   "cost_text": 0.26208,
+   "cost_vision": 0.419314,
+   "cost_usd": 0.681394,
+   "error": null,
+   "graph": {
+    "entities": 929,
+    "relations": 1691,
+    "graphml_bytes": 1253754
+   },
+   "cum_vision_calls": 5170
+  },
+  {
+   "bench": "docbench",
+   "doc": "133.json",
+   "chars": 135935,
+   "images": 0,
+   "seconds": 101.8,
+   "cost_text": 0.056955,
+   "cost_vision": 0.0,
+   "cost_usd": 0.056955,
+   "error": null,
+   "graph": {
+    "entities": 267,
+    "relations": 226,
+    "graphml_bytes": 234597
+   },
+   "cum_vision_calls": 5170
+  },
+  {
+   "bench": "docbench",
+   "doc": "87.json",
+   "chars": 138063,
+   "images": 118,
+   "seconds": 737.7,
+   "cost_text": 0.244237,
+   "cost_vision": 0.503036,
+   "cost_usd": 0.747273,
+   "error": null,
+   "graph": {
+    "entities": 751,
+    "relations": 1701,
+    "graphml_bytes": 1216121
+   },
+   "cum_vision_calls": 5288
+  },
+  {
+   "bench": "docbench",
+   "doc": "158.json",
+   "chars": 141765,
+   "images": 0,
+   "seconds": 85.8,
+   "cost_text": 0.052081,
+   "cost_vision": 0.0,
+   "cost_usd": 0.052081,
+   "error": null,
+   "graph": {
+    "entities": 234,
+    "relations": 212,
+    "graphml_bytes": 216381
+   },
+   "cum_vision_calls": 5288
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PRE_2022.09.29_NSL-politics_REPORT.pdf.json",
+   "chars": 144469,
+   "images": 68,
+   "seconds": 471.9,
+   "cost_text": 0.17393,
+   "cost_vision": 0.273912,
+   "cost_usd": 0.447842,
+   "error": null,
+   "graph": {
+    "entities": 372,
+    "relations": 1064,
+    "graphml_bytes": 834680
+   },
+   "cum_vision_calls": 5356
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.09390v1.pdf.json",
+   "chars": 147306,
+   "images": 28,
+   "seconds": 440.4,
+   "cost_text": 0.150352,
+   "cost_vision": 0.110512,
+   "cost_usd": 0.260864,
+   "error": null,
+   "graph": {
+    "entities": 996,
+    "relations": 1106,
+    "graphml_bytes": 1010482
+   },
+   "cum_vision_calls": 5384
+  },
+  {
+   "bench": "docbench",
+   "doc": "173.json",
+   "chars": 148239,
+   "images": 0,
+   "seconds": 99.6,
+   "cost_text": 0.058897,
+   "cost_vision": 0.0,
+   "cost_usd": 0.058897,
+   "error": null,
+   "graph": {
+    "entities": 310,
+    "relations": 232,
+    "graphml_bytes": 262785
+   },
+   "cum_vision_calls": 5384
+  },
+  {
+   "bench": "docbench",
+   "doc": "174.json",
+   "chars": 148253,
+   "images": 0,
+   "seconds": 83.4,
+   "cost_text": 0.055053,
+   "cost_vision": 0.0,
+   "cost_usd": 0.055053,
+   "error": null,
+   "graph": {
+    "entities": 244,
+    "relations": 205,
+    "graphml_bytes": 224692
+   },
+   "cum_vision_calls": 5384
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "stereo_headset.pdf.json",
+   "chars": 150808,
+   "images": 201,
+   "seconds": 827.2,
+   "cost_text": 0.353418,
+   "cost_vision": 0.422786,
+   "cost_usd": 0.776204,
+   "error": null,
+   "graph": {
+    "entities": 479,
+    "relations": 1333,
+    "graphml_bytes": 1039537
+   },
+   "cum_vision_calls": 5585
+  },
+  {
+   "bench": "docbench",
+   "doc": "75.json",
+   "chars": 158331,
+   "images": 37,
+   "seconds": 345.0,
+   "cost_text": 0.125486,
+   "cost_vision": 0.184222,
+   "cost_usd": 0.309708,
+   "error": null,
+   "graph": {
+    "entities": 414,
+    "relations": 733,
+    "graphml_bytes": 578605
+   },
+   "cum_vision_calls": 5622
+  },
+  {
+   "bench": "docbench",
+   "doc": "153.json",
+   "chars": 169558,
+   "images": 6,
+   "seconds": 127.9,
+   "cost_text": 0.071268,
+   "cost_vision": 0.031556,
+   "cost_usd": 0.102824,
+   "error": null,
+   "graph": {
+    "entities": 297,
+    "relations": 325,
+    "graphml_bytes": 300371
+   },
+   "cum_vision_calls": 5628
+  },
+  {
+   "bench": "docbench",
+   "doc": "74.json",
+   "chars": 170183,
+   "images": 201,
+   "seconds": 1157.1,
+   "cost_text": 0.402664,
+   "cost_vision": 0.83074,
+   "cost_usd": 1.233404,
+   "error": null,
+   "graph": {
+    "entities": 1430,
+    "relations": 2730,
+    "graphml_bytes": 2005019
+   },
+   "cum_vision_calls": 5829
+  },
+  {
+   "bench": "docbench",
+   "doc": "160.json",
+   "chars": 176814,
+   "images": 0,
+   "seconds": 128.7,
+   "cost_text": 0.070656,
+   "cost_vision": 0.0,
+   "cost_usd": 0.070656,
+   "error": null,
+   "graph": {
+    "entities": 287,
+    "relations": 258,
+    "graphml_bytes": 270507
+   },
+   "cum_vision_calls": 5829
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PS_2018.01.09_STEM_FINAL.pdf.json",
+   "chars": 177179,
+   "images": 57,
+   "seconds": 456.9,
+   "cost_text": 0.169083,
+   "cost_vision": 0.202454,
+   "cost_usd": 0.371537,
+   "error": null,
+   "graph": {
+    "entities": 450,
+    "relations": 1055,
+    "graphml_bytes": 834131
+   },
+   "cum_vision_calls": 5886
+  },
+  {
+   "bench": "docbench",
+   "doc": "138.json",
+   "chars": 184767,
+   "images": 5,
+   "seconds": 179.3,
+   "cost_text": 0.077742,
+   "cost_vision": 0.025434,
+   "cost_usd": 0.103176,
+   "error": null,
+   "graph": {
+    "entities": 387,
+    "relations": 364,
+    "graphml_bytes": 364768
+   },
+   "cum_vision_calls": 5891
+  },
+  {
+   "bench": "docbench",
+   "doc": "79.json",
+   "chars": 192064,
+   "images": 39,
+   "seconds": 472.6,
+   "cost_text": 0.149874,
+   "cost_vision": 0.170893,
+   "cost_usd": 0.320767,
+   "error": null,
+   "graph": {
+    "entities": 790,
+    "relations": 1009,
+    "graphml_bytes": 837052
+   },
+   "cum_vision_calls": 5930
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "COSTCO_2021_10K.pdf.json",
+   "chars": 192604,
+   "images": 49,
+   "seconds": 422.4,
+   "cost_text": 0.159083,
+   "cost_vision": 0.238553,
+   "cost_usd": 0.397636,
+   "error": null,
+   "graph": {
+    "entities": 574,
+    "relations": 1047,
+    "graphml_bytes": 825356
+   },
+   "cum_vision_calls": 5979
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2307.09288v2.pdf.json",
+   "chars": 197396,
+   "images": 83,
+   "seconds": 1120.7,
+   "cost_text": 0.314271,
+   "cost_vision": 0.351601,
+   "cost_usd": 0.665872,
+   "error": null,
+   "graph": {
+    "entities": 1748,
+    "relations": 2775,
+    "graphml_bytes": 2114860
+   },
+   "cum_vision_calls": 6062
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NETFLIX_2015_10K.pdf.json",
+   "chars": 199820,
+   "images": 56,
+   "seconds": 430.7,
+   "cost_text": 0.168112,
+   "cost_vision": 0.28174,
+   "cost_usd": 0.449852,
+   "error": null,
+   "graph": {
+    "entities": 543,
+    "relations": 1073,
+    "graphml_bytes": 849293
+   },
+   "cum_vision_calls": 6118
+  },
+  {
+   "bench": "docbench",
+   "doc": "162.json",
+   "chars": 215423,
+   "images": 0,
+   "seconds": 147.4,
+   "cost_text": 0.086793,
+   "cost_vision": 0.0,
+   "cost_usd": 0.086793,
+   "error": null,
+   "graph": {
+    "entities": 421,
+    "relations": 342,
+    "graphml_bytes": 363592
+   },
+   "cum_vision_calls": 6118
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2311.16502v3.pdf.json",
+   "chars": 216593,
+   "images": 95,
+   "seconds": 752.2,
+   "cost_text": 0.285141,
+   "cost_vision": 0.265508,
+   "cost_usd": 0.550649,
+   "error": null,
+   "graph": {
+    "entities": 1458,
+    "relations": 2044,
+    "graphml_bytes": 1662020
+   },
+   "cum_vision_calls": 6213
+  },
+  {
+   "bench": "docbench",
+   "doc": "163.json",
+   "chars": 226773,
+   "images": 2,
+   "seconds": 140.7,
+   "cost_text": 0.091084,
+   "cost_vision": 0.008358,
+   "cost_usd": 0.099442,
+   "error": null,
+   "graph": {
+    "entities": 353,
+    "relations": 365,
+    "graphml_bytes": 357549
+   },
+   "cum_vision_calls": 6215
+  },
+  {
+   "bench": "docbench",
+   "doc": "88.json",
+   "chars": 249692,
+   "images": 132,
+   "seconds": 760.1,
+   "cost_text": 0.303573,
+   "cost_vision": 0.382698,
+   "cost_usd": 0.686271,
+   "error": null,
+   "graph": {
+    "entities": 1035,
+    "relations": 1874,
+    "graphml_bytes": 1430335
+   },
+   "cum_vision_calls": 6347
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "BESTBUY_2023_10K.pdf.json",
+   "chars": 250167,
+   "images": 76,
+   "seconds": 555.6,
+   "cost_text": 0.224369,
+   "cost_vision": 0.35355,
+   "cost_usd": 0.577919,
+   "error": null,
+   "graph": {
+    "entities": 777,
+    "relations": 1519,
+    "graphml_bytes": 1188755
+   },
+   "cum_vision_calls": 6423
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "AMAZON_2017_10K.pdf.json",
+   "chars": 253229,
+   "images": 61,
+   "seconds": 580.2,
+   "cost_text": 0.201274,
+   "cost_vision": 0.296816,
+   "cost_usd": 0.49809,
+   "error": null,
+   "graph": {
+    "entities": 720,
+    "relations": 1275,
+    "graphml_bytes": 1030755
+   },
+   "cum_vision_calls": 6484
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "t480_ug_en.pdf.json",
+   "chars": 262685,
+   "images": 102,
+   "seconds": 601.1,
+   "cost_text": 0.256799,
+   "cost_vision": 0.345963,
+   "cost_usd": 0.602762,
+   "error": null,
+   "graph": {
+    "entities": 722,
+    "relations": 1400,
+    "graphml_bytes": 1083770
+   },
+   "cum_vision_calls": 6586
+  },
+  {
+   "bench": "docbench",
+   "doc": "78.json",
+   "chars": 276955,
+   "images": 164,
+   "seconds": 1072.4,
+   "cost_text": 0.38753,
+   "cost_vision": 0.672451,
+   "cost_usd": 1.059981,
+   "error": null,
+   "graph": {
+    "entities": 1238,
+    "relations": 2696,
+    "graphml_bytes": 1971475
+   },
+   "cum_vision_calls": 6750
+  },
+  {
+   "bench": "docbench",
+   "doc": "50.json",
+   "chars": 278218,
+   "images": 38,
+   "seconds": 371.0,
+   "cost_text": 0.165278,
+   "cost_vision": 0.167766,
+   "cost_usd": 0.333044,
+   "error": null,
+   "graph": {
+    "entities": 594,
+    "relations": 917,
+    "graphml_bytes": 765876
+   },
+   "cum_vision_calls": 6788
+  },
+  {
+   "bench": "docbench",
+   "doc": "86.json",
+   "chars": 285190,
+   "images": 86,
+   "seconds": 656.2,
+   "cost_text": 0.253138,
+   "cost_vision": 0.332373,
+   "cost_usd": 0.585511,
+   "error": null,
+   "graph": {
+    "entities": 859,
+    "relations": 1647,
+    "graphml_bytes": 1255229
+   },
+   "cum_vision_calls": 6874
+  },
+  {
+   "bench": "docbench",
+   "doc": "51.json",
+   "chars": 301888,
+   "images": 135,
+   "seconds": 933.9,
+   "cost_text": 0.343581,
+   "cost_vision": 0.594653,
+   "cost_usd": 0.938234,
+   "error": null,
+   "graph": {
+    "entities": 1306,
+    "relations": 2314,
+    "graphml_bytes": 1770504
+   },
+   "cum_vision_calls": 7009
+  },
+  {
+   "bench": "docbench",
+   "doc": "68.json",
+   "chars": 306973,
+   "images": 164,
+   "seconds": 1085.1,
+   "cost_text": 0.395872,
+   "cost_vision": 0.571794,
+   "cost_usd": 0.967666,
+   "error": null,
+   "graph": {
+    "entities": 1273,
+    "relations": 2596,
+    "graphml_bytes": 1944349
+   },
+   "cum_vision_calls": 7173
+  },
+  {
+   "bench": "docbench",
+   "doc": "52.json",
+   "chars": 311839,
+   "images": 115,
+   "seconds": 929.1,
+   "cost_text": 0.328412,
+   "cost_vision": 0.445397,
+   "cost_usd": 0.773809,
+   "error": null,
+   "graph": {
+    "entities": 1187,
+    "relations": 2317,
+    "graphml_bytes": 1738501
+   },
+   "cum_vision_calls": 7288
+  },
+  {
+   "bench": "docbench",
+   "doc": "77.json",
+   "chars": 312027,
+   "images": 80,
+   "seconds": 680.6,
+   "cost_text": 0.253624,
+   "cost_vision": 0.367303,
+   "cost_usd": 0.620927,
+   "error": null,
+   "graph": {
+    "entities": 880,
+    "relations": 1534,
+    "graphml_bytes": 1213555
+   },
+   "cum_vision_calls": 7368
+  },
+  {
+   "bench": "docbench",
+   "doc": "60.json",
+   "chars": 331616,
+   "images": 156,
+   "seconds": 1061.7,
+   "cost_text": 0.396031,
+   "cost_vision": 0.70992,
+   "cost_usd": 1.105951,
+   "error": null,
+   "graph": {
+    "entities": 1301,
+    "relations": 2751,
+    "graphml_bytes": 2050607
+   },
+   "cum_vision_calls": 7524
+  },
+  {
+   "bench": "docbench",
+   "doc": "49.json",
+   "chars": 341591,
+   "images": 117,
+   "seconds": 838.1,
+   "cost_text": 0.323328,
+   "cost_vision": 0.499355,
+   "cost_usd": 0.822683,
+   "error": null,
+   "graph": {
+    "entities": 1110,
+    "relations": 2095,
+    "graphml_bytes": 1595297
+   },
+   "cum_vision_calls": 7641
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NIKE_2021_10K.pdf.json",
+   "chars": 341944,
+   "images": 76,
+   "seconds": 587.1,
+   "cost_text": 0.258623,
+   "cost_vision": 0.36418,
+   "cost_usd": 0.622803,
+   "error": null,
+   "graph": {
+    "entities": 778,
+    "relations": 1509,
+    "graphml_bytes": 1207098
+   },
+   "cum_vision_calls": 7717
+  },
+  {
+   "bench": "docbench",
+   "doc": "55.json",
+   "chars": 349073,
+   "images": 139,
+   "seconds": 965.4,
+   "cost_text": 0.369041,
+   "cost_vision": 0.651267,
+   "cost_usd": 1.020308,
+   "error": null,
+   "graph": {
+    "entities": 1257,
+    "relations": 2557,
+    "graphml_bytes": 1904604
+   },
+   "cum_vision_calls": 7856
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2309.17421v2.pdf.json",
+   "chars": 358866,
+   "images": 335,
+   "seconds": 1784.2,
+   "cost_text": 0.72448,
+   "cost_vision": 0.813183,
+   "cost_usd": 1.537663,
+   "error": null,
+   "graph": {
+    "entities": 2988,
+    "relations": 4989,
+    "graphml_bytes": 3818638
+   },
+   "cum_vision_calls": 8191
+  },
+  {
+   "bench": "docbench",
+   "doc": "136.json",
+   "chars": 366160,
+   "images": 15,
+   "seconds": 315.4,
+   "cost_text": 0.173246,
+   "cost_vision": 0.08413,
+   "cost_usd": 0.257376,
+   "error": null,
+   "graph": {
+    "entities": 628,
+    "relations": 809,
+    "graphml_bytes": 732761
+   },
+   "cum_vision_calls": 8206
+  },
+  {
+   "bench": "docbench",
+   "doc": "151.json",
+   "chars": 367175,
+   "images": 37,
+   "seconds": 392.3,
+   "cost_text": 0.214904,
+   "cost_vision": 0.16734,
+   "cost_usd": 0.382244,
+   "error": null,
+   "graph": {
+    "entities": 862,
+    "relations": 1156,
+    "graphml_bytes": 974249
+   },
+   "cum_vision_calls": 8243
+  },
+  {
+   "bench": "docbench",
+   "doc": "84.json",
+   "chars": 371214,
+   "images": 76,
+   "seconds": 569.7,
+   "cost_text": 0.265793,
+   "cost_vision": 0.270465,
+   "cost_usd": 0.536258,
+   "error": null,
+   "graph": {
+    "entities": 917,
+    "relations": 1615,
+    "graphml_bytes": 1272576
+   },
+   "cum_vision_calls": 8319
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ADOBE_2015_10K.pdf.json",
+   "chars": 378517,
+   "images": 56,
+   "seconds": 502.8,
+   "cost_text": 0.244412,
+   "cost_vision": 0.285531,
+   "cost_usd": 0.529943,
+   "error": null,
+   "graph": {
+    "entities": 817,
+    "relations": 1420,
+    "graphml_bytes": 1175923
+   },
+   "cum_vision_calls": 8375
+  },
+  {
+   "bench": "docbench",
+   "doc": "59.json",
+   "chars": 384031,
+   "images": 111,
+   "seconds": 894.8,
+   "cost_text": 0.361512,
+   "cost_vision": 0.433416,
+   "cost_usd": 0.794928,
+   "error": null,
+   "graph": {
+    "entities": 1341,
+    "relations": 2567,
+    "graphml_bytes": 1911301
+   },
+   "cum_vision_calls": 8486
+  },
+  {
+   "bench": "docbench",
+   "doc": "106.json",
+   "chars": 395875,
+   "images": 154,
+   "seconds": 900.3,
+   "cost_text": 0.404005,
+   "cost_vision": 0.651346,
+   "cost_usd": 1.055351,
+   "error": null,
+   "graph": {
+    "entities": 1543,
+    "relations": 2643,
+    "graphml_bytes": 2083084
+   },
+   "cum_vision_calls": 8640
+  },
+  {
+   "bench": "docbench",
+   "doc": "76.json",
+   "chars": 401226,
+   "images": 58,
+   "seconds": 456.1,
+   "cost_text": 0.246597,
+   "cost_vision": 0.230609,
+   "cost_usd": 0.477206,
+   "error": null,
+   "graph": {
+    "entities": 823,
+    "relations": 1353,
+    "graphml_bytes": 1099102
+   },
+   "cum_vision_calls": 8698
+  },
+  {
+   "bench": "docbench",
+   "doc": "80.json",
+   "chars": 402294,
+   "images": 126,
+   "seconds": 880.9,
+   "cost_text": 0.385836,
+   "cost_vision": 0.609435,
+   "cost_usd": 0.995271,
+   "error": null,
+   "graph": {
+    "entities": 1303,
+    "relations": 2445,
+    "graphml_bytes": 1888259
+   },
+   "cum_vision_calls": 8824
+  },
+  {
+   "bench": "docbench",
+   "doc": "72.json",
+   "chars": 404276,
+   "images": 105,
+   "seconds": 741.6,
+   "cost_text": 0.349493,
+   "cost_vision": 0.401542,
+   "cost_usd": 0.751035,
+   "error": null,
+   "graph": {
+    "entities": 986,
+    "relations": 1983,
+    "graphml_bytes": 1569019
+   },
+   "cum_vision_calls": 8929
+  },
+  {
+   "bench": "docbench",
+   "doc": "170.json",
+   "chars": 406868,
+   "images": 1,
+   "seconds": 288.6,
+   "cost_text": 0.180387,
+   "cost_vision": 0.005941,
+   "cost_usd": 0.186328,
+   "error": null,
+   "graph": {
+    "entities": 842,
+    "relations": 723,
+    "graphml_bytes": 787114
+   },
+   "cum_vision_calls": 8930
+  },
+  {
+   "bench": "docbench",
+   "doc": "91.json",
+   "chars": 413542,
+   "images": 137,
+   "seconds": 831.6,
+   "cost_text": 0.381418,
+   "cost_vision": 0.573439,
+   "cost_usd": 0.954857,
+   "error": null,
+   "graph": {
+    "entities": 1489,
+    "relations": 2416,
+    "graphml_bytes": 1931705
+   },
+   "cum_vision_calls": 9067
+  },
+  {
+   "bench": "docbench",
+   "doc": "137.json",
+   "chars": 415470,
+   "images": 1,
+   "seconds": 222.1,
+   "cost_text": 0.162121,
+   "cost_vision": 0.007573,
+   "cost_usd": 0.169694,
+   "error": null,
+   "graph": {
+    "entities": 743,
+    "relations": 635,
+    "graphml_bytes": 669182
+   },
+   "cum_vision_calls": 9068
+  },
+  {
+   "bench": "docbench",
+   "doc": "114.json",
+   "chars": 416469,
+   "images": 140,
+   "seconds": 854.2,
+   "cost_text": 0.388518,
+   "cost_vision": 0.573907,
+   "cost_usd": 0.962425,
+   "error": null,
+   "graph": {
+    "entities": 1495,
+    "relations": 2541,
+    "graphml_bytes": 2004030
+   },
+   "cum_vision_calls": 9208
+  },
+  {
+   "bench": "docbench",
+   "doc": "56.json",
+   "chars": 465582,
+   "images": 179,
+   "seconds": 1058.7,
+   "cost_text": 0.485227,
+   "cost_vision": 0.677174,
+   "cost_usd": 1.162401,
+   "error": null,
+   "graph": {
+    "entities": 1459,
+    "relations": 3151,
+    "graphml_bytes": 2394755
+   },
+   "cum_vision_calls": 9387
+  },
+  {
+   "bench": "docbench",
+   "doc": "82.json",
+   "chars": 468592,
+   "images": 113,
+   "seconds": 878.3,
+   "cost_text": 0.384587,
+   "cost_vision": 0.483303,
+   "cost_usd": 0.86789,
+   "error": null,
+   "graph": {
+    "entities": 1374,
+    "relations": 2563,
+    "graphml_bytes": 1964466
+   },
+   "cum_vision_calls": 9500
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "3M_2018_10K.pdf.json",
+   "chars": 494623,
+   "images": 112,
+   "seconds": 875.7,
+   "cost_text": 0.392748,
+   "cost_vision": 0.453666,
+   "cost_usd": 0.846414,
+   "error": null,
+   "graph": {
+    "entities": 1211,
+    "relations": 2396,
+    "graphml_bytes": 1883184
+   },
+   "cum_vision_calls": 9612
+  },
+  {
+   "bench": "docbench",
+   "doc": "71.json",
+   "chars": 509890,
+   "images": 107,
+   "seconds": 852.3,
+   "cost_text": 0.37051,
+   "cost_vision": 0.542109,
+   "cost_usd": 0.912619,
+   "error": null,
+   "graph": {
+    "entities": 1299,
+    "relations": 2407,
+    "graphml_bytes": 1860363
+   },
+   "cum_vision_calls": 9719
+  },
+  {
+   "bench": "docbench",
+   "doc": "131.json",
+   "chars": 510710,
+   "images": 9,
+   "seconds": 360.3,
+   "cost_text": 0.228515,
+   "cost_vision": 0.038357,
+   "cost_usd": 0.266872,
+   "error": null,
+   "graph": {
+    "entities": 1054,
+    "relations": 1050,
+    "graphml_bytes": 1055003
+   },
+   "cum_vision_calls": 9728
+  },
+  {
+   "bench": "docbench",
+   "doc": "107.json",
+   "chars": 514116,
+   "images": 9,
+   "seconds": 374.6,
+   "cost_text": 0.232951,
+   "cost_vision": 0.040978,
+   "cost_usd": 0.273929,
+   "error": null,
+   "graph": {
+    "entities": 1120,
+    "relations": 1113,
+    "graphml_bytes": 1100311
+   },
+   "cum_vision_calls": 9737
+  },
+  {
+   "bench": "docbench",
+   "doc": "57.json",
+   "chars": 516267,
+   "images": 109,
+   "seconds": 1262.0,
+   "cost_text": 0.609229,
+   "cost_vision": 0.533593,
+   "cost_usd": 1.142822,
+   "error": null,
+   "graph": {
+    "entities": 2908,
+    "relations": 2093,
+    "graphml_bytes": 2368123
+   },
+   "cum_vision_calls": 9846
+  },
+  {
+   "bench": "docbench",
+   "doc": "129.json",
+   "chars": 533293,
+   "images": 9,
+   "seconds": 373.6,
+   "cost_text": 0.234157,
+   "cost_vision": 0.038369,
+   "cost_usd": 0.272526,
+   "error": null,
+   "graph": {
+    "entities": 1110,
+    "relations": 1091,
+    "graphml_bytes": 1079785
+   },
+   "cum_vision_calls": 9855
+  },
+  {
+   "bench": "docbench",
+   "doc": "58.json",
+   "chars": 568042,
+   "images": 102,
+   "seconds": 886.2,
+   "cost_text": 0.415023,
+   "cost_vision": 0.50526,
+   "cost_usd": 0.920283,
+   "error": null,
+   "graph": {
+    "entities": 1533,
+    "relations": 2572,
+    "graphml_bytes": 2020036
+   },
+   "cum_vision_calls": 9957
+  },
+  {
+   "bench": "docbench",
+   "doc": "81.json",
+   "chars": 568157,
+   "images": 458,
+   "seconds": 2183.4,
+   "cost_text": 1.00227,
+   "cost_vision": 1.637214,
+   "cost_usd": 2.639484,
+   "error": null,
+   "graph": {
+    "entities": 2738,
+    "relations": 6225,
+    "graphml_bytes": 4561887
+   },
+   "cum_vision_calls": 10415
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ACTIVISIONBLIZZARD_2019_10K.pdf.json",
+   "chars": 575037,
+   "images": 98,
+   "seconds": 746.9,
+   "cost_text": 0.391696,
+   "cost_vision": 0.477593,
+   "cost_usd": 0.869289,
+   "error": null,
+   "graph": {
+    "entities": 1082,
+    "relations": 2090,
+    "graphml_bytes": 1769577
+   },
+   "cum_vision_calls": 10513
+  },
+  {
+   "bench": "docbench",
+   "doc": "93.json",
+   "chars": 638061,
+   "images": 13,
+   "seconds": 443.3,
+   "cost_text": 0.297002,
+   "cost_vision": 0.070942,
+   "cost_usd": 0.367944,
+   "error": null,
+   "graph": {
+    "entities": 1296,
+    "relations": 1399,
+    "graphml_bytes": 1346540
+   },
+   "cum_vision_calls": 10526
+  },
+  {
+   "bench": "docbench",
+   "doc": "67.json",
+   "chars": 649898,
+   "images": 278,
+   "seconds": 1654.0,
+   "cost_text": 0.717217,
+   "cost_vision": 0.973643,
+   "cost_usd": 1.69086,
+   "error": null,
+   "graph": {
+    "entities": 1983,
+    "relations": 4812,
+    "graphml_bytes": 3525733
+   },
+   "cum_vision_calls": 10804
+  },
+  {
+   "bench": "docbench",
+   "doc": "70.json",
+   "chars": 688269,
+   "images": 112,
+   "seconds": 851.1,
+   "cost_text": 0.454194,
+   "cost_vision": 0.520007,
+   "cost_usd": 0.974201,
+   "error": null,
+   "graph": {
+    "entities": 1206,
+    "relations": 2466,
+    "graphml_bytes": 1949935
+   },
+   "cum_vision_calls": 10916
+  },
+  {
+   "bench": "docbench",
+   "doc": "61.json",
+   "chars": 699324,
+   "images": 272,
+   "seconds": 1697.8,
+   "cost_text": 0.714835,
+   "cost_vision": 0.990874,
+   "cost_usd": 1.705709,
+   "error": null,
+   "graph": {
+    "entities": 2293,
+    "relations": 5087,
+    "graphml_bytes": 3739313
+   },
+   "cum_vision_calls": 11188
+  },
+  {
+   "bench": "docbench",
+   "doc": "130.json",
+   "chars": 720662,
+   "images": 19,
+   "seconds": 530.4,
+   "cost_text": 0.339916,
+   "cost_vision": 0.099734,
+   "cost_usd": 0.43965,
+   "error": null,
+   "graph": {
+    "entities": 1468,
+    "relations": 1650,
+    "graphml_bytes": 1566979
+   },
+   "cum_vision_calls": 11207
+  },
+  {
+   "bench": "docbench",
+   "doc": "69.json",
+   "chars": 751333,
+   "images": 189,
+   "seconds": 1447.6,
+   "cost_text": 0.601259,
+   "cost_vision": 0.812738,
+   "cost_usd": 1.413997,
+   "error": null,
+   "graph": {
+    "entities": 2035,
+    "relations": 4273,
+    "graphml_bytes": 3152115
+   },
+   "cum_vision_calls": 11396
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "mmdetection-readthedocs-io-en-v2.18.0.pdf.json",
+   "chars": 790976,
+   "images": 98,
+   "seconds": 1016.3,
+   "cost_text": 0.583315,
+   "cost_vision": 0.387934,
+   "cost_usd": 0.971249,
+   "error": null,
+   "graph": {
+    "entities": 2072,
+    "relations": 3033,
+    "graphml_bytes": 2647381
+   },
+   "cum_vision_calls": 11494
+  },
+  {
+   "bench": "docbench",
+   "doc": "65.json",
+   "chars": 822708,
+   "images": 557,
+   "seconds": 2890.7,
+   "cost_text": 1.250076,
+   "cost_vision": 1.937311,
+   "cost_usd": 3.187387,
+   "error": null,
+   "graph": {
+    "entities": 3477,
+    "relations": 7835,
+    "graphml_bytes": 5781188
+   },
+   "cum_vision_calls": 12051
+  },
+  {
+   "bench": "docbench",
+   "doc": "54.json",
+   "chars": 847314,
+   "images": 329,
+   "seconds": 1947.7,
+   "cost_text": 0.901771,
+   "cost_vision": 1.16776,
+   "cost_usd": 2.069531,
+   "error": null,
+   "graph": {
+    "entities": 2526,
+    "relations": 5617,
+    "graphml_bytes": 4189284
+   },
+   "cum_vision_calls": 12380
+  },
+  {
+   "bench": "docbench",
+   "doc": "110.json",
+   "chars": 966361,
+   "images": 5,
+   "seconds": 798.2,
+   "cost_text": 0.468216,
+   "cost_vision": 0.015939,
+   "cost_usd": 0.484155,
+   "error": null,
+   "graph": {
+    "entities": 2236,
+    "relations": 2210,
+    "graphml_bytes": 2173242
+   },
+   "cum_vision_calls": 12385
+  },
+  {
+   "bench": "docbench",
+   "doc": "120.json",
+   "chars": 967771,
+   "images": 6,
+   "seconds": 842.1,
+   "cost_text": 0.496952,
+   "cost_vision": 0.025968,
+   "cost_usd": 0.52292,
+   "error": null,
+   "graph": {
+    "entities": 2738,
+    "relations": 2346,
+    "graphml_bytes": 2472002
+   },
+   "cum_vision_calls": 12391
+  },
+  {
+   "bench": "docbench",
+   "doc": "63.json",
+   "chars": 1057907,
+   "images": 98,
+   "seconds": 976.3,
+   "cost_text": 0.577436,
+   "cost_vision": 0.482185,
+   "cost_usd": 1.059621,
+   "error": null,
+   "graph": {
+    "entities": 1614,
+    "relations": 2767,
+    "graphml_bytes": 2299624
+   },
+   "cum_vision_calls": 12489
+  },
+  {
+   "bench": "docbench",
+   "doc": "62.json",
+   "chars": 1144976,
+   "images": 690,
+   "seconds": 3692.8,
+   "cost_text": 1.583549,
+   "cost_vision": 2.590335,
+   "cost_usd": 4.173884,
+   "error": null,
+   "graph": {
+    "entities": 3677,
+    "relations": 9412,
+    "graphml_bytes": 6836532
+   },
+   "cum_vision_calls": 13179
+  },
+  {
+   "bench": "docbench",
+   "doc": "66.json",
+   "chars": 1288658,
+   "images": 561,
+   "seconds": 3404.3,
+   "cost_text": 1.419381,
+   "cost_vision": 2.277628,
+   "cost_usd": 3.697009,
+   "error": null,
+   "graph": {
+    "entities": 3664,
+    "relations": 9195,
+    "graphml_bytes": 6636490
+   },
+   "cum_vision_calls": 13740
+  },
+  {
+   "bench": "docbench",
+   "doc": "53.json",
+   "chars": 1428682,
+   "images": 615,
+   "seconds": 3708.6,
+   "cost_text": 1.567134,
+   "cost_vision": 2.3147,
+   "cost_usd": 3.881834,
+   "error": null,
+   "graph": {
+    "entities": 4284,
+    "relations": 9545,
+    "graphml_bytes": 7097375
+   },
+   "cum_vision_calls": 14355
+  },
+  {
+   "bench": "docbench",
+   "doc": "83.json",
+   "chars": 1431635,
+   "images": 103,
+   "seconds": 1167.8,
+   "cost_text": 0.735037,
+   "cost_vision": 0.440239,
+   "cost_usd": 1.175276,
+   "error": null,
+   "graph": {
+    "entities": 1613,
+    "relations": 2817,
+    "graphml_bytes": 2470447
+   },
+   "cum_vision_calls": 14458
+  },
+  {
+   "bench": "docbench",
+   "doc": "64.json",
+   "chars": 1443965,
+   "images": 123,
+   "seconds": 1391.5,
+   "cost_text": 0.794873,
+   "cost_vision": 0.529381,
+   "cost_usd": 1.324254,
+   "error": null,
+   "graph": {
+    "entities": 2127,
+    "relations": 3489,
+    "graphml_bytes": 3004192
+   },
+   "cum_vision_calls": 14581
+  }
+ ],
+ "totals_text": {
+  "llm_calls": 49579,
+  "prompt_tokens": 202983899,
+  "completion_tokens": 21823823,
+  "embedding_calls": 442980,
+  "embedding_tokens": 32583412,
+  "cost_usd": 44.193547,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 442980,
+    "in": 32583412,
+    "out": 0
+   },
+   "gpt-4o-mini": {
+    "calls": 49579,
+    "in": 202983899,
+    "out": 21823823
+   }
+  }
+ },
+ "totals_vision": {
+  "llm_calls": 14581,
+  "prompt_tokens": 357544499,
+  "completion_tokens": 4448633,
+  "embedding_calls": 0,
+  "embedding_tokens": 0,
+  "cost_usd": 56.300855,
+  "by_model": {
+   "gpt-4o-mini": {
+    "calls": 14581,
+    "in": 357544499,
+    "out": 4448633
+   }
+  }
+ },
+ "wall_seconds": 104135.0,
+ "docs_indexed": 364,
+ "docs_expected": 364,
+ "cost_usd": 100.494402,
+ "projection_constrained": 92.09,
+ "projection_nnls": 137.21,
+ "projection_pooled": 144.29
+}

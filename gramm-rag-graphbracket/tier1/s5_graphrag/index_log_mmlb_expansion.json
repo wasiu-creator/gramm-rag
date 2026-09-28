@@ -1,0 +1,401 @@
+{
+ "RUN_CONFIG": {
+  "ARM": "s5_graphrag",
+  "GRAPHRAG_VERSION": "2.7.2",
+  "PYTHON": "3.11.16",
+  "LLM_MODEL": "gpt-4o-mini (asserted at load)",
+  "EMB_MODEL": "text-embedding-3-small",
+  "SCOPE": "one GraphRAG root per document (C-35)",
+  "CHUNKS": "1200/100 tokens (default)",
+  "MAX_GLEANINGS": 1,
+  "MAX_CLUSTER_SIZE": 10,
+  "CHAR_MEASURE": "len(mapper.elements_to_text) -- corpus_chars.json ingested_chars",
+  "STAGE_METER": "LiteLLM callback, classified by prompt-opening signature, dedup on litellm_call_id",
+  "RATES": {
+   "chat_in": 1.5e-07,
+   "chat_out": 6e-07,
+   "emb_in": 2e-08
+  }
+ },
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf.json",
+   "stem": "amb-siteaudits-ds15-150204174043-conversion-gate01_95",
+   "stratum": "mmlb octile 1",
+   "ingested_chars": 4224,
+   "seconds": 17.7,
+   "cost_usd": 0.002827,
+   "stages": {
+    "extraction": {
+     "calls": 2,
+     "prompt_tokens": 6020,
+     "completion_tokens": 643,
+     "cost_usd": 0.001289
+    },
+    "community_reports": {
+     "calls": 2,
+     "prompt_tokens": 4761,
+     "completion_tokens": 1293,
+     "cost_usd": 0.00149
+    },
+    "embedding": {
+     "calls": 3,
+     "prompt_tokens": 2416,
+     "completion_tokens": 0,
+     "cost_usd": 4.8e-05
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 1,
+   "n_entities": 8,
+   "n_relationships": 7,
+   "n_communities": 2,
+   "n_levels": 1,
+   "n_reports": 2,
+   "report_chars": 5800,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "disciplined-agile-business-analysis-160218012713_95.pdf.json",
+   "stem": "disciplined-agile-business-analysis-160218012713_95",
+   "stratum": "mmlb octile 2",
+   "ingested_chars": 8127,
+   "seconds": 23.0,
+   "cost_usd": 0.006536,
+   "stages": {
+    "extraction": {
+     "calls": 4,
+     "prompt_tokens": 12193,
+     "completion_tokens": 2093,
+     "cost_usd": 0.003085
+    },
+    "summarize": {
+     "calls": 1,
+     "prompt_tokens": 201,
+     "completion_tokens": 120,
+     "cost_usd": 0.000102
+    },
+    "community_reports": {
+     "calls": 4,
+     "prompt_tokens": 9843,
+     "completion_tokens": 2944,
+     "cost_usd": 0.003243
+    },
+    "embedding": {
+     "calls": 4,
+     "prompt_tokens": 5292,
+     "completion_tokens": 0,
+     "cost_usd": 0.000106
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 2,
+   "n_entities": 23,
+   "n_relationships": 17,
+   "n_communities": 4,
+   "n_levels": 1,
+   "n_reports": 4,
+   "report_chars": 14125,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2021-Apple-Catalog.pdf.json",
+   "stem": "2021-Apple-Catalog",
+   "stratum": "mmlb octile 3",
+   "ingested_chars": 26520,
+   "seconds": 36.1,
+   "cost_usd": 0.022931,
+   "stages": {
+    "extraction": {
+     "calls": 12,
+     "prompt_tokens": 37028,
+     "completion_tokens": 6638,
+     "cost_usd": 0.009537
+    },
+    "summarize": {
+     "calls": 10,
+     "prompt_tokens": 1838,
+     "completion_tokens": 966,
+     "cost_usd": 0.000855
+    },
+    "community_reports": {
+     "calls": 15,
+     "prompt_tokens": 38979,
+     "completion_tokens": 10558,
+     "cost_usd": 0.012182
+    },
+    "embedding": {
+     "calls": 9,
+     "prompt_tokens": 17832,
+     "completion_tokens": 0,
+     "cost_usd": 0.000357
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 6,
+   "n_entities": 86,
+   "n_relationships": 63,
+   "n_communities": 15,
+   "n_levels": 2,
+   "n_reports": 15,
+   "report_chars": 47818,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bdf54dxa.pdf.json",
+   "stem": "bdf54dxa",
+   "stratum": "mmlb octile 4",
+   "ingested_chars": 37115,
+   "seconds": 39.1,
+   "cost_usd": 0.014981,
+   "stages": {
+    "extraction": {
+     "calls": 14,
+     "prompt_tokens": 43956,
+     "completion_tokens": 6833,
+     "cost_usd": 0.010693
+    },
+    "summarize": {
+     "calls": 10,
+     "prompt_tokens": 1936,
+     "completion_tokens": 1203,
+     "cost_usd": 0.001012
+    },
+    "community_reports": {
+     "calls": 3,
+     "prompt_tokens": 11491,
+     "completion_tokens": 2174,
+     "cost_usd": 0.003028
+    },
+    "embedding": {
+     "calls": 8,
+     "prompt_tokens": 12389,
+     "completion_tokens": 0,
+     "cost_usd": 0.000248
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 7,
+   "n_entities": 74,
+   "n_relationships": 76,
+   "n_communities": 3,
+   "n_levels": 1,
+   "n_reports": 3,
+   "report_chars": 9635,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "stem": "SAO-StudentSupport_Guidebook-Content",
+   "stratum": "mmlb octile 5",
+   "ingested_chars": 50756,
+   "seconds": 57.0,
+   "cost_usd": 0.03542,
+   "stages": {
+    "extraction": {
+     "calls": 20,
+     "prompt_tokens": 66836,
+     "completion_tokens": 15954,
+     "cost_usd": 0.019598
+    },
+    "summarize": {
+     "calls": 25,
+     "prompt_tokens": 5090,
+     "completion_tokens": 3337,
+     "cost_usd": 0.002766
+    },
+    "community_reports": {
+     "calls": 12,
+     "prompt_tokens": 43541,
+     "completion_tokens": 10004,
+     "cost_usd": 0.012534
+    },
+    "embedding": {
+     "calls": 16,
+     "prompt_tokens": 26075,
+     "completion_tokens": 0,
+     "cost_usd": 0.000522
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 10,
+   "n_entities": 179,
+   "n_relationships": 152,
+   "n_communities": 12,
+   "n_levels": 2,
+   "n_reports": 12,
+   "report_chars": 46438,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2005.12872v3.pdf.json",
+   "stem": "2005.12872v3",
+   "stratum": "mmlb octile 6",
+   "ingested_chars": 60970,
+   "seconds": 51.1,
+   "cost_usd": 0.047694,
+   "stages": {
+    "extraction": {
+     "calls": 26,
+     "prompt_tokens": 84815,
+     "completion_tokens": 16237,
+     "cost_usd": 0.022464
+    },
+    "summarize": {
+     "calls": 25,
+     "prompt_tokens": 5148,
+     "completion_tokens": 3636,
+     "cost_usd": 0.002954
+    },
+    "community_reports": {
+     "calls": 24,
+     "prompt_tokens": 70371,
+     "completion_tokens": 18284,
+     "cost_usd": 0.021526
+    },
+    "embedding": {
+     "calls": 17,
+     "prompt_tokens": 37489,
+     "completion_tokens": 0,
+     "cost_usd": 0.00075
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 13,
+   "n_entities": 181,
+   "n_relationships": 153,
+   "n_communities": 24,
+   "n_levels": 2,
+   "n_reports": 24,
+   "report_chars": 82970,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.09158v1.pdf.json",
+   "stem": "2310.09158v1",
+   "stratum": "mmlb octile 7",
+   "ingested_chars": 79430,
+   "seconds": 89.0,
+   "cost_usd": 0.055475,
+   "stages": {
+    "extraction": {
+     "calls": 36,
+     "prompt_tokens": 124472,
+     "completion_tokens": 30321,
+     "cost_usd": 0.036863
+    },
+    "summarize": {
+     "calls": 34,
+     "prompt_tokens": 6680,
+     "completion_tokens": 4609,
+     "cost_usd": 0.003767
+    },
+    "community_reports": {
+     "calls": 16,
+     "prompt_tokens": 45872,
+     "completion_tokens": 11839,
+     "cost_usd": 0.013984
+    },
+    "embedding": {
+     "calls": 25,
+     "prompt_tokens": 43039,
+     "completion_tokens": 0,
+     "cost_usd": 0.000861
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 18,
+   "n_entities": 306,
+   "n_relationships": 293,
+   "n_communities": 16,
+   "n_levels": 2,
+   "n_reports": 16,
+   "report_chars": 53830,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "stereo_headset.pdf.json",
+   "stem": "stereo_headset",
+   "stratum": "mmlb octile 8",
+   "ingested_chars": 154217,
+   "seconds": 54.0,
+   "cost_usd": 0.070122,
+   "stages": {
+    "extraction": {
+     "calls": 60,
+     "prompt_tokens": 186612,
+     "completion_tokens": 24940,
+     "cost_usd": 0.042956
+    },
+    "summarize": {
+     "calls": 86,
+     "prompt_tokens": 19613,
+     "completion_tokens": 11525,
+     "cost_usd": 0.009857
+    },
+    "community_reports": {
+     "calls": 15,
+     "prompt_tokens": 61887,
+     "completion_tokens": 11652,
+     "cost_usd": 0.016274
+    },
+    "embedding": {
+     "calls": 14,
+     "prompt_tokens": 51743,
+     "completion_tokens": 0,
+     "cost_usd": 0.001035
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 30,
+   "n_entities": 105,
+   "n_relationships": 168,
+   "n_communities": 15,
+   "n_levels": 3,
+   "n_reports": 15,
+   "report_chars": 52380,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  }
+ ],
+ "spent_usd": 0.255986
+}

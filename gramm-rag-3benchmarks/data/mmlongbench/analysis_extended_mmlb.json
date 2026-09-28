@@ -1,0 +1,147 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_MODEL": "gpt-4.1-mini",
+    "GEN_PROVIDER": "openai",
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "GRAPH_PAGE_UNION": true,
+    "PAGE_CONTEXT_CHARS_3": 12000,
+    "ROUTE_ALL_HYBRID": true,
+    "SELF_HEAL_GENERATION": true,
+    "USE_PAGE_IMAGES": true,
+    "REWARD_PARAMS": {
+      "alpha": 0.4,
+      "beta": 0.4,
+      "lambda_": 0.2,
+      "tau": 0.0
+    }
+  },
+  "benchmark": "MMLongBench-Doc",
+  "seed_42": {
+    "ci": {
+      "ANLS": {
+        "gramm": [
+          0.35223944615545943,
+          0.3253489926394504,
+          0.3788127017249233
+        ],
+        "vec": [
+          0.31887904808641526,
+          0.29251507482727873,
+          0.3466084245889857
+        ],
+        "delta": [
+          0.03336039806904423,
+          0.014205881069676424,
+          0.052285219371864755
+        ],
+        "significant": true
+      },
+      "F1": {
+        "gramm": [
+          0.3657203297765111,
+          0.3389238675410353,
+          0.3914132546899629
+        ],
+        "vec": [
+          0.3360180786050182,
+          0.309356912411362,
+          0.36279708830841856
+        ],
+        "delta": [
+          0.029702251171492795,
+          0.01037154910690037,
+          0.0478175217778209
+        ],
+        "significant": true
+      },
+      "Exact match": {
+        "gramm": [
+          0.3125572868927589,
+          0.28686984417965167,
+          0.3391384051329056
+        ],
+        "vec": [
+          0.28139321723189736,
+          0.25572868927589365,
+          0.30980751604032997
+        ],
+        "delta": [
+          0.031164069660861594,
+          0.011915673693858845,
+          0.04860219981668192
+        ],
+        "significant": true
+      },
+      "Ctx-hit": {
+        "gramm": [
+          0.33363886342804766,
+          0.30703483043079743,
+          0.3593033913840513
+        ],
+        "vec": [
+          0.17873510540788268,
+          0.15582034830430797,
+          0.19983959670027496
+        ],
+        "delta": [
+          0.15490375802016498,
+          0.13290559120073328,
+          0.1769019248395967
+        ],
+        "significant": true
+      }
+    },
+    "cov_anls_gramm_vec": 0.15728555837392214,
+    "corr_anls_gramm_vec": 0.7390960883287155,
+    "var_gramm": 0.2184194348849802,
+    "var_vec": 0.2073407237832698,
+    "var_delta": 0.11118904192040527,
+    "pairing_variance_reduction_pct": 73.88458275001639,
+    "difficulty_bins": [
+      {
+        "Doc pages": "1-20",
+        "N": 265,
+        "GraMM ANLS": 0.416,
+        "Vec ANLS": 0.385,
+        "dANLS": 0.031
+      },
+      {
+        "Doc pages": "21-40",
+        "N": 430,
+        "GraMM ANLS": 0.368,
+        "Vec ANLS": 0.33,
+        "dANLS": 0.039
+      },
+      {
+        "Doc pages": "41-60",
+        "N": 130,
+        "GraMM ANLS": 0.33,
+        "Vec ANLS": 0.292,
+        "dANLS": 0.038
+      },
+      {
+        "Doc pages": "61-100",
+        "N": 151,
+        "GraMM ANLS": 0.289,
+        "Vec ANLS": 0.239,
+        "dANLS": 0.05
+      },
+      {
+        "Doc pages": "101-+",
+        "N": 115,
+        "GraMM ANLS": 0.252,
+        "Vec ANLS": 0.26,
+        "dANLS": -0.009
+      }
+    ]
+  }
+}

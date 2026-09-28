@@ -1,0 +1,30 @@
+# ColPali/ColQwen retrieval arm (T-C2). GPU, but deliberately NOT the benchmark image:
+# this arm needs torch + colpali-engine only. MinerU/magic-pdf is irrelevant here --
+# parsing is already done and is reused as-is, which is the whole point of the control.
+#
+# No CUDA base image: the torch cu124 wheels bundle the CUDA runtime, and the host
+# driver is injected by nvidia-container-toolkit at run time. Saves ~8 GB on the boot
+# volume, where Docker's data-root still lives.
+FROM python:3.11-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git libgl1 libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir torch torchvision \
+        --index-url https://download.pytorch.org/whl/cu124
+
+# PyMuPDF renders pages without a poppler dependency and is markedly faster than
+# pdf2image for whole-corpus rasterisation (20,530 pages here).
+RUN pip install --no-cache-dir \
+        colpali-engine \
+        transformers \
+        accelerate \
+        pymupdf \
+        pillow \
+        numpy \
+        tqdm
+
+ENV HF_HOME=/work/gramm-rag-colpali/hf_cache \
+    MPLCONFIGDIR=/tmp/mpl
+WORKDIR /work

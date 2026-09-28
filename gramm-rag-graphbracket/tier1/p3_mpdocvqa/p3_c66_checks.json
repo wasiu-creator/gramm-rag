@@ -1,0 +1,172 @@
+{
+ "NOTE": "C-66 checks on P3. Gold = image_name-derived truth, independent of any stored field.",
+ "n_common": 950,
+ "stored_gold_matches_filename_truth": 950,
+ "gramm_context_contains_page0_frac": 0.5621,
+ "flat_context_contains_page0_frac": 0.3021,
+ "true_gold_page0_frac": 0.2105,
+ "gramm_minus_flat_page_hit_at_3": {
+  "all": {
+   "n": 950,
+   "gramm": 0.7189,
+   "flat": 0.6632,
+   "diff": 0.0558,
+   "ci95": [
+    0.04,
+    0.0716
+   ]
+  },
+  "true_gold_page0": {
+   "n": 200,
+   "gramm": 0.94,
+   "flat": 0.855,
+   "diff": 0.085,
+   "ci95": [
+    0.05,
+    0.125
+   ]
+  },
+  "true_gold_not_page0": {
+   "n": 750,
+   "gramm": 0.66,
+   "flat": 0.612,
+   "diff": 0.048,
+   "ci95": [
+    0.032,
+    0.0653
+   ]
+  },
+  "vs_flatk3": {
+   "all": {
+    "n": 950,
+    "gramm": 0.7189,
+    "flatk3": 0.7347,
+    "diff": -0.0158,
+    "ci95": [
+     -0.0358,
+     0.0032
+    ]
+   },
+   "true_gold_page0": {
+    "n": 200,
+    "gramm": 0.94,
+    "flatk3": 0.89,
+    "diff": 0.05,
+    "ci95": [
+     0.01,
+     0.095
+    ]
+   },
+   "true_gold_not_page0": {
+    "n": 750,
+    "gramm": 0.66,
+    "flatk3": 0.6933,
+    "diff": -0.0333,
+    "ci95": [
+     -0.0547,
+     -0.012
+    ]
+   }
+  }
+ },
+ "leave_one_out_tau_b": {
+  "localisation": {
+   "mmlongbench_vs_docbench": {
+    "all": 0.6,
+    "drop_Flat-vector": 0.333,
+    "drop_GraMM-RAG": 0.667,
+    "drop_LightRAG": 1.0,
+    "drop_RAG-Anything": 0.667,
+    "drop_MS GraphRAG": 0.333
+   },
+   "mmlongbench_vs_mpdocvqa": {
+    "all": 0.2,
+    "drop_Flat-vector": 0.667,
+    "drop_GraMM-RAG": 0.0,
+    "drop_LightRAG": 0.0,
+    "drop_RAG-Anything": 0.333,
+    "drop_MS GraphRAG": 0.0
+   },
+   "docbench_vs_mpdocvqa": {
+    "all": -0.2,
+    "drop_Flat-vector": 0.0,
+    "drop_GraMM-RAG": -0.333,
+    "drop_LightRAG": 0.0,
+    "drop_RAG-Anything": 0.0,
+    "drop_MS GraphRAG": -0.667
+   }
+  },
+  "answer_quality": {
+   "mmlongbench_vs_docbench": {
+    "all": 0.8,
+    "drop_Flat-vector": 0.667,
+    "drop_GraMM-RAG": 1.0,
+    "drop_LightRAG": 1.0,
+    "drop_RAG-Anything": 0.667,
+    "drop_MS GraphRAG": 0.667
+   },
+   "mmlongbench_vs_mpdocvqa": {
+    "all": 0.0,
+    "drop_Flat-vector": 0.333,
+    "drop_GraMM-RAG": -0.333,
+    "drop_LightRAG": 0.0,
+    "drop_RAG-Anything": 0.333,
+    "drop_MS GraphRAG": -0.333
+   },
+   "docbench_vs_mpdocvqa": {
+    "all": -0.2,
+    "drop_Flat-vector": 0.0,
+    "drop_GraMM-RAG": -0.333,
+    "drop_LightRAG": 0.0,
+    "drop_RAG-Anything": 0.0,
+    "drop_MS GraphRAG": -0.667
+   }
+  }
+ },
+ "loc_values": {
+  "mmlongbench": {
+   "Flat-vector": 0.2327,
+   "GraMM-RAG": 0.4344,
+   "LightRAG": 0.28162291169451076,
+   "RAG-Anything": 0.5465393794749404,
+   "MS GraphRAG": 0.24821002386634844
+  },
+  "docbench": {
+   "Flat-vector": 0.3959,
+   "GraMM-RAG": 0.4534,
+   "LightRAG": 0.5068493150684932,
+   "RAG-Anything": 0.5013698630136987,
+   "MS GraphRAG": 0.4383561643835616
+  },
+  "mpdocvqa": {
+   "Flat-vector": 0.6632,
+   "GraMM-RAG": 0.7189,
+   "LightRAG": 0.3442,
+   "RAG-Anything": 0.3463,
+   "MS GraphRAG": 0.3263
+  }
+ },
+ "answer_values": {
+  "mmlongbench": {
+   "Flat-vector": 0.3188790480864152,
+   "GraMM-RAG": 0.35223944615545943,
+   "LightRAG": 0.3375510130133437,
+   "RAG-Anything": 0.3850086729296575,
+   "MS GraphRAG": 0.32011341965390283
+  },
+  "docbench": {
+   "Flat-vector": 0.4727767695099819,
+   "GraMM-RAG": 0.5326678765880217,
+   "LightRAG": 0.5671506352087115,
+   "RAG-Anything": 0.6125226860254084,
+   "MS GraphRAG": 0.4863883847549909
+  },
+  "mpdocvqa": {
+   "Flat-vector": 0.6663,
+   "GraMM-RAG": 0.6978,
+   "LightRAG": 0.4438,
+   "RAG-Anything": 0.4335,
+   "MS GraphRAG": 0.3914
+  }
+ }
+}

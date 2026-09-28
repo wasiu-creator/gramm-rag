@@ -1,0 +1,13 @@
+{
+ "total_elements": 170947,
+ "total_pages": 20530,
+ "sample_elements": 16167,
+ "pct_of_corpus": 9.999628887404437,
+ "seconds": 229.54050993919373,
+ "ms_per_element": 14.198089313984891,
+ "elements_per_page_mean": 8.326692644909889,
+ "elements_per_page_median_per_doc": 8.128792057363487,
+ "s_per_page_using_mean": 0.11822312586253167,
+ "s_per_page_using_median": 0.11541331564525778,
+ "total_hours_using_mean": 0.6742002149882709
+}

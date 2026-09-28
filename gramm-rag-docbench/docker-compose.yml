@@ -1,0 +1,63 @@
+version: "3.9"
+
+services:
+  gramm-rag-docbench:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gramm-rag-docbench:latest
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      # R-37: disable TorchScript. transformers' DeBERTa-v2 module carries
+      # module-level @torch.jit.script decorators; compiling them AFTER the
+      # pipeline has loaded E5-Mistral/SigLIP segfaults the process natively
+      # (Fatal Python error at torch/jit/_script.py:1209). Under nbconvert
+      # this surfaced only as 'Kernel died' with no traceback. The router
+      # runs eagerly without TorchScript; no accuracy impact.
+      - PYTORCH_JIT=0
+      - TOGETHER_API_KEY=${TOGETHER_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # D-11 (R-11): MinerU 1.x reads its config from ~/magic-pdf.json unless
+      # redirected. Point it at the repo copy so the config lives on vol3.
+      - MINERU_TOOLS_CONFIG_JSON=/app/magic-pdf.json
+    ports:
+      # 8889 on the host: MMLongBench already owns 8888 and both may run.
+      - "8889:8888"
+    volumes:
+      # DocBench dataset: the numbered {id}/ folders (one PDF + {id}_qa.jsonl).
+      # Put the DocBench `data/` tree under ./data_volume/ on the host.
+      - ./data_volume:/app/data/docbench/data
+      # D-12 (R-6): live-mount the code so `python gen_notebook.py` on the host
+      # takes effect without an image rebuild. Without these the container runs
+      # the stale baked-in copy and silently ignores every fix.
+      - ./docbench_e2e.ipynb:/app/docbench_e2e.ipynb
+      - ./gen_notebook.py:/app/gen_notebook.py
+      # Archived pilot + full-run artefacts (executed notebooks, PDFs, figures,
+      # metric JSONs). Mounted so they are browsable from JupyterLab.
+      - ./result_archive:/app/result_archive
+      - ./src:/app/src
+      - ./magic-pdf.json:/app/magic-pdf.json
+      # D-13 (R-7): MinerU layout/OCR/table weights (~16 GB) on vol3, not the
+      # boot disk. Shared with the MMLongBench repo rather than re-downloaded.
+      - ../gramm-rag-mmlongbench/mineru_models:/app/mineru_models
+      # D-14 (R-21): HuggingFace cache (HF_HOME=/app/.cache/huggingface in the
+      # Dockerfile). E5-Mistral-7B (~14 GB) + SigLIP (~1.5 GB) download here on
+      # first use; unmounted they land in the container's writable layer and are
+      # re-downloaded on every rebuild. Shared with MMLongBench: identical
+      # models, so DocBench starts warm.
+      - ../gramm-rag-mmlongbench/hf_cache:/app/.cache/huggingface
+      # Persist computed artefacts between runs (flat layout)
+      - ./cache/parsed:/app/parsed
+      - ./cache/embeddings:/app/embeddings
+      - ./cache/graphs:/app/graphs
+      - ./cache/results:/app/results
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

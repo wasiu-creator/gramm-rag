@@ -1,0 +1,26 @@
+{
+ "ARM": "s2_raganything",
+ "TIER": 1,
+ "SCOPE": "both",
+ "LLM_MODEL": "gpt-4o-mini",
+ "VISION_MODEL": "gpt-4o-mini",
+ "EMB_MODEL": "text-embedding-3-small",
+ "EMBEDDING_DIM": 1536,
+ "RETRIEVAL_SCOPE": "one store per document (C-35)",
+ "INGEST": "insert_content_list, pre-parsed (mineru NOT installed)",
+ "BUDGET_CEILING_USD": 15.0,
+ "RATES": {
+  "gpt-4o-mini": {
+   "in": 1.5e-07,
+   "out": 6e-07
+  },
+  "gpt-4.1-mini": {
+   "in": 4.0000000000000003e-07,
+   "out": 1.6000000000000001e-06
+  },
+  "text-embedding-3-small": {
+   "in": 2e-08,
+   "out": 0.0
+  }
+ }
+}

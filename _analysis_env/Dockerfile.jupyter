@@ -1,0 +1,13 @@
+# Notebook SERVER for reviewing phaseC_evidence.ipynb / joint_3benchmarks.ipynb.
+#
+# grammrag-analysis has nbconvert (enough to EXECUTE a notebook headlessly) but no
+# jupyter_server, so there was nothing listening on 8888 -- the dead URL was not a network
+# problem, there was simply no server. This adds only the server on top of that image, so
+# the execution environment a reviewer sees is byte-identical to the one that produced the
+# committed outputs. Building a fresh jupyter image from python:3.11 would NOT be, and a
+# notebook that re-runs differently than it was published is worse than no notebook.
+FROM grammrag-analysis:latest
+RUN pip install --no-cache-dir jupyterlab
+ENV MPLCONFIGDIR=/tmp/mpl JUPYTER_RUNTIME_DIR=/tmp/jupyter-runtime \
+    JUPYTER_CONFIG_DIR=/tmp/jupyter-config
+WORKDIR /work

@@ -1,0 +1,71 @@
+{
+ "RUN_CONFIG": {
+  "ARM": "s5_graphrag",
+  "GRAPHRAG_VERSION": "2.7.2",
+  "PYTHON": "3.11.16",
+  "LLM_MODEL": "gpt-4o-mini (asserted at load)",
+  "EMB_MODEL": "text-embedding-3-small",
+  "SCOPE": "one GraphRAG root per document (C-35)",
+  "CHUNKS": "1200/100 tokens (default)",
+  "MAX_GLEANINGS": 1,
+  "MAX_CLUSTER_SIZE": 10,
+  "CHAR_MEASURE": "len(mapper.elements_to_text) -- corpus_chars.json ingested_chars",
+  "STAGE_METER": "LiteLLM callback, classified by prompt-opening signature, dedup on litellm_call_id",
+  "RATES": {
+   "chat_in": 1.5e-07,
+   "chat_out": 6e-07,
+   "emb_in": 2e-08
+  }
+ },
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "mi_phone.pdf.json",
+   "stem": "mi_phone",
+   "stratum": "dup control",
+   "ingested_chars": 27788,
+   "seconds": 37.8,
+   "cost_usd": 0.022083,
+   "stages": {
+    "extraction": {
+     "calls": 12,
+     "prompt_tokens": 37826,
+     "completion_tokens": 7505,
+     "cost_usd": 0.010177
+    },
+    "summarize": {
+     "calls": 3,
+     "prompt_tokens": 586,
+     "completion_tokens": 373,
+     "cost_usd": 0.000312
+    },
+    "community_reports": {
+     "calls": 13,
+     "prompt_tokens": 35598,
+     "completion_tokens": 9849,
+     "cost_usd": 0.011249
+    },
+    "embedding": {
+     "calls": 8,
+     "prompt_tokens": 17254,
+     "completion_tokens": 0,
+     "cost_usd": 0.000345
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 6,
+   "n_entities": 81,
+   "n_relationships": 75,
+   "n_communities": 13,
+   "n_levels": 2,
+   "n_reports": 13,
+   "report_chars": 44565,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  }
+ ],
+ "spent_usd": 0.022083
+}

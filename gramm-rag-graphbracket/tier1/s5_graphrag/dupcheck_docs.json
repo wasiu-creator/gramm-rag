@@ -1,0 +1,11 @@
+{
+ "rule": "single-document control: re-index a duplicate-text document in a FRESH process",
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "mi_phone.pdf.json",
+   "chars": 27788,
+   "stratum": "dup control"
+  }
+ ]
+}

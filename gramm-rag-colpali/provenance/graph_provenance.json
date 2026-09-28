@@ -1,0 +1,156 @@
+{
+ "mmlongbench": {
+  "benchmark": "mmlongbench",
+  "n_graphs": 135,
+  "graph_manifest_sha256": "ec177c5584b49337f7c9a475bd014611c7245cabdb22ac31df09b79804c7ab10",
+  "edge_type_counts": {
+   "spatial": {
+    "docs_nonzero": 87,
+    "pct_docs": 64.4,
+    "total": 1113,
+    "median": 1,
+    "max": 123
+   },
+   "reading_order": {
+    "docs_nonzero": 135,
+    "pct_docs": 100.0,
+    "total": 20412,
+    "median": 75,
+    "max": 2663
+   },
+   "hierarchy": {
+    "docs_nonzero": 135,
+    "pct_docs": 100.0,
+    "total": 31223,
+    "median": 122,
+    "max": 3850
+   },
+   "temporal": {
+    "docs_nonzero": 94,
+    "pct_docs": 69.6,
+    "total": 1218732,
+    "median": 42,
+    "max": 350392
+   },
+   "coref": {
+    "docs_nonzero": 133,
+    "pct_docs": 98.5,
+    "total": 1682906,
+    "median": 1870,
+    "max": 336588
+   },
+   "crosspage": {
+    "docs_nonzero": 133,
+    "pct_docs": 98.5,
+    "total": 1619088,
+    "median": 1592,
+    "max": 334348
+   },
+   "caption": {
+    "docs_nonzero": 8,
+    "pct_docs": 5.9,
+    "total": 14,
+    "median": 0,
+    "max": 4
+   },
+   "kg": {
+    "docs_nonzero": 98,
+    "pct_docs": 72.6,
+    "total": 10298,
+    "median": 28,
+    "max": 646
+   }
+  },
+  "n_edge_types": 8,
+  "model_extracted_types": [
+   "kg"
+  ],
+  "hgt_checkpoint_sha256": "625dd7c0ae74ee18c550680f69282f766e2e93625584117b3d3e41281623d04c",
+  "hgt_checkpoint_bytes": 20534626,
+  "degenerate_types": [
+   "caption"
+  ]
+ },
+ "docbench": {
+  "benchmark": "docbench",
+  "n_graphs": 229,
+  "graph_manifest_sha256": "6f2b8732f74a0edd1f981d5abd2ab0de2af231f3c031543f3526602c42eb99bf",
+  "edge_type_counts": {
+   "spatial": {
+    "docs_nonzero": 93,
+    "pct_docs": 40.6,
+    "total": 5142,
+    "median": 0,
+    "max": 505
+   },
+   "reading_order": {
+    "docs_nonzero": 229,
+    "pct_docs": 100.0,
+    "total": 59935,
+    "median": 63,
+    "max": 3458
+   },
+   "hierarchy": {
+    "docs_nonzero": 229,
+    "pct_docs": 100.0,
+    "total": 83242,
+    "median": 78,
+    "max": 4398
+   },
+   "temporal": {
+    "docs_nonzero": 202,
+    "pct_docs": 88.2,
+    "total": 11679636,
+    "median": 506,
+    "max": 1561916
+   },
+   "coref": {
+    "docs_nonzero": 225,
+    "pct_docs": 98.3,
+    "total": 14814980,
+    "median": 1766,
+    "max": 1390896
+   },
+   "crosspage": {
+    "docs_nonzero": 174,
+    "pct_docs": 76.0,
+    "total": 14463466,
+    "median": 1630,
+    "max": 1369084
+   },
+   "caption": {
+    "docs_nonzero": 6,
+    "pct_docs": 2.6,
+    "total": 8,
+    "median": 0,
+    "max": 3
+   },
+   "kg": {
+    "docs_nonzero": 208,
+    "pct_docs": 90.8,
+    "total": 22086,
+    "median": 38,
+    "max": 1010
+   }
+  },
+  "n_edge_types": 8,
+  "model_extracted_types": [
+   "kg"
+  ],
+  "hgt_checkpoint_sha256": "dc24f6e5959e4b20e97a019d08bdd97e8b2ac1538f1b2d8b7b7f10639142adc5",
+  "hgt_checkpoint_bytes": 20534626,
+  "degenerate_types": [
+   "spatial",
+   "caption"
+  ]
+ },
+ "hgt_behavioural_mmlongbench": {
+  "appa10_trained": 0.806,
+  "appa10_fresh_init": 0.448,
+  "delta": 0.358,
+  "n": 67,
+  "verdict": "PASS",
+  "method": "APPA@10, checkpoint vs same-shape random init",
+  "note": "HGTConv params are lazy; weight statistics are unavailable pre-forward, so the check is necessarily behavioural (C-22)."
+ }
+}

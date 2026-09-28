@@ -1,0 +1,41 @@
+
+services:
+  gramm-rag-mpdocvqa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gramm-rag-mpdocvqa:latest
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - TOGETHER_API_KEY=${TOGETHER_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # Reduce CUDA allocator fragmentation (this VM is a 40GB A100, not 80GB)
+      - PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+    ports:
+      - "8888:8888"
+    volumes:
+      # MP-DocVQA data — provide your local copy via these mounts
+      - ./data_volume/ocr:/app/data/mpdocvqa/ocr
+      - ./data_volume/images:/app/data/mpdocvqa/images
+      - ./data_volume/imdbs:/app/data/mpdocvqa/imdbs
+      # Live source + notebook mounts so fixes apply without an image rebuild
+      - ./src:/app/src
+      - ./mpdocvqa_e2e.ipynb:/app/mpdocvqa_e2e.ipynb
+      # Persist computed artefacts between runs (flat layout)
+      - ./cache/parsed:/app/parsed
+      - ./cache/embeddings:/app/embeddings
+      - ./cache/graphs:/app/graphs
+      - ./cache/results:/app/results
+      # Persist HF model cache (E5-Mistral-7B ~14GB) so it survives container
+      # recreation and isn't re-downloaded; matches HF_HOME set in the Dockerfile.
+      - ./cache/hf:/app/.cache/huggingface
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

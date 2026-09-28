@@ -1,0 +1,1952 @@
+{
+ "run_config": {
+  "ARM": "lightrag_current",
+  "TIER": 1,
+  "SCOPE": "mmlongbench",
+  "LIGHTRAG_VERSION": "1.5.7",
+  "LLM_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "text-embedding-3-small",
+  "EMBEDDING_DIM": 1536,
+  "CHUNK_TOKEN_SIZE": 1200,
+  "GLEANING": 1,
+  "LLM_MAX_ASYNC": 4,
+  "MAX_PARALLEL_INSERT": 3,
+  "RETRIEVAL_MODE_PREREGISTERED": "hybrid",
+  "RETRIEVAL_SCOPE": "one store per document -- matches every other arm (C-35)",
+  "INGEST": "mapper.elements_to_text (canonical, shared with every text-side arm)",
+  "BUDGET_CEILING_USD": 9.0,
+  "FAIL_FAST_N": 5,
+  "GATE_G": "MMLongBench-only scope; $10 gate NOT raised",
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   },
+   "gpt-4.1-mini": {
+    "in": 4.0000000000000003e-07,
+    "out": 1.6000000000000001e-06
+   },
+   "text-embedding-3-small": {
+    "in": 2e-08,
+    "out": 0.0
+   }
+  }
+ },
+ "batches": [
+  {
+   "doc": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf.json",
+   "chars": 1004,
+   "pages": 27,
+   "seconds": 10.7,
+   "cost_usd": 0.001541,
+   "cum_cost_usd": 0.001541,
+   "graph": {
+    "entities": 15,
+    "relations": 12,
+    "graphml_bytes": 16883
+   },
+   "error": null
+  },
+  {
+   "doc": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf.json",
+   "chars": 3122,
+   "pages": 25,
+   "seconds": 1.9,
+   "cost_usd": 3.3e-05,
+   "cum_cost_usd": 0.001574,
+   "graph": {
+    "entities": 22,
+    "relations": 17,
+    "graphml_bytes": 21961
+   },
+   "error": null
+  },
+  {
+   "doc": "0e94b4197b10096b1f4c699701570fbf.pdf.json",
+   "chars": 3565,
+   "pages": 15,
+   "seconds": 1.8,
+   "cost_usd": 3.2e-05,
+   "cum_cost_usd": 0.001606,
+   "graph": {
+    "entities": 9,
+    "relations": 8,
+    "graphml_bytes": 10198
+   },
+   "error": null
+  },
+  {
+   "doc": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf.json",
+   "chars": 3729,
+   "pages": 41,
+   "seconds": 1.8,
+   "cost_usd": 3.9e-05,
+   "cum_cost_usd": 0.001645,
+   "graph": {
+    "entities": 11,
+    "relations": 10,
+    "graphml_bytes": 13692
+   },
+   "error": null
+  },
+  {
+   "doc": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf.json",
+   "chars": 4030,
+   "pages": 36,
+   "seconds": 1.9,
+   "cost_usd": 5.4e-05,
+   "cum_cost_usd": 0.001699,
+   "graph": {
+    "entities": 26,
+    "relations": 21,
+    "graphml_bytes": 27980
+   },
+   "error": null
+  },
+  {
+   "doc": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf.json",
+   "chars": 4157,
+   "pages": 31,
+   "seconds": 1.9,
+   "cost_usd": 5e-05,
+   "cum_cost_usd": 0.001749,
+   "graph": {
+    "entities": 20,
+    "relations": 20,
+    "graphml_bytes": 24637
+   },
+   "error": null
+  },
+  {
+   "doc": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf.json",
+   "chars": 4169,
+   "pages": 35,
+   "seconds": 2.0,
+   "cost_usd": 3.8e-05,
+   "cum_cost_usd": 0.001787,
+   "graph": {
+    "entities": 21,
+    "relations": 18,
+    "graphml_bytes": 23396
+   },
+   "error": null
+  },
+  {
+   "doc": "earthlinkweb-150213112111-conversion-gate02_95.pdf.json",
+   "chars": 4196,
+   "pages": 44,
+   "seconds": 2.4,
+   "cost_usd": 5.3e-05,
+   "cum_cost_usd": 0.00184,
+   "graph": {
+    "entities": 32,
+    "relations": 23,
+    "graphml_bytes": 30973
+   },
+   "error": null
+  },
+  {
+   "doc": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf.json",
+   "chars": 4543,
+   "pages": 28,
+   "seconds": 2.3,
+   "cost_usd": 6.2e-05,
+   "cum_cost_usd": 0.001902,
+   "graph": {
+    "entities": 42,
+    "relations": 26,
+    "graphml_bytes": 38126
+   },
+   "error": null
+  },
+  {
+   "doc": "reportq32015-151009093138-lva1-app6891_95.pdf.json",
+   "chars": 5138,
+   "pages": 34,
+   "seconds": 8.4,
+   "cost_usd": 5.8e-05,
+   "cum_cost_usd": 0.00196,
+   "graph": {
+    "entities": 23,
+    "relations": 19,
+    "graphml_bytes": 24568
+   },
+   "error": null
+  },
+  {
+   "doc": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf.json",
+   "chars": 5455,
+   "pages": 20,
+   "seconds": 2.9,
+   "cost_usd": 7e-05,
+   "cum_cost_usd": 0.00203,
+   "graph": {
+    "entities": 44,
+    "relations": 36,
+    "graphml_bytes": 40837
+   },
+   "error": null
+  },
+  {
+   "doc": "ddoseattle-150627210357-lva1-app6891_95.pdf.json",
+   "chars": 6865,
+   "pages": 63,
+   "seconds": 2.0,
+   "cost_usd": 8.1e-05,
+   "cum_cost_usd": 0.002111,
+   "graph": {
+    "entities": 39,
+    "relations": 30,
+    "graphml_bytes": 39509
+   },
+   "error": null
+  },
+  {
+   "doc": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf.json",
+   "chars": 7221,
+   "pages": 45,
+   "seconds": 2.2,
+   "cost_usd": 9.3e-05,
+   "cum_cost_usd": 0.002204,
+   "graph": {
+    "entities": 44,
+    "relations": 26,
+    "graphml_bytes": 45285
+   },
+   "error": null
+  },
+  {
+   "doc": "bigdatatrends-120723191058-phpapp02_95.pdf.json",
+   "chars": 7259,
+   "pages": 53,
+   "seconds": 2.3,
+   "cost_usd": 0.000118,
+   "cum_cost_usd": 0.002322,
+   "graph": {
+    "entities": 69,
+    "relations": 60,
+    "graphml_bytes": 66884
+   },
+   "error": null
+  },
+  {
+   "doc": "efis-140411041451-phpapp01_95.pdf.json",
+   "chars": 7368,
+   "pages": 32,
+   "seconds": 2.2,
+   "cost_usd": 8.3e-05,
+   "cum_cost_usd": 0.002405,
+   "graph": {
+    "entities": 41,
+    "relations": 39,
+    "graphml_bytes": 42821
+   },
+   "error": null
+  },
+  {
+   "doc": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf.json",
+   "chars": 7553,
+   "pages": 65,
+   "seconds": 2.1,
+   "cost_usd": 0.000104,
+   "cum_cost_usd": 0.002509,
+   "graph": {
+    "entities": 53,
+    "relations": 42,
+    "graphml_bytes": 70358
+   },
+   "error": null
+  },
+  {
+   "doc": "disciplined-agile-business-analysis-160218012713_95.pdf.json",
+   "chars": 7829,
+   "pages": 41,
+   "seconds": 1.7,
+   "cost_usd": 7.2e-05,
+   "cum_cost_usd": 0.002581,
+   "graph": {
+    "entities": 28,
+    "relations": 19,
+    "graphml_bytes": 28241
+   },
+   "error": null
+  },
+  {
+   "doc": "q1-2023-bilibili-inc-investor-presentation.pdf.json",
+   "chars": 7837,
+   "pages": 27,
+   "seconds": 1.8,
+   "cost_usd": 6.1e-05,
+   "cum_cost_usd": 0.002642,
+   "graph": {
+    "entities": 19,
+    "relations": 18,
+    "graphml_bytes": 21287
+   },
+   "error": null
+  },
+  {
+   "doc": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf.json",
+   "chars": 8617,
+   "pages": 23,
+   "seconds": 1.9,
+   "cost_usd": 0.000107,
+   "cum_cost_usd": 0.002749,
+   "graph": {
+    "entities": 39,
+    "relations": 38,
+    "graphml_bytes": 47612
+   },
+   "error": null
+  },
+  {
+   "doc": "transform-software-delivery-with-valueedge-brochure.pdf.json",
+   "chars": 8959,
+   "pages": 20,
+   "seconds": 2.3,
+   "cost_usd": 7.2e-05,
+   "cum_cost_usd": 0.002821,
+   "graph": {
+    "entities": 32,
+    "relations": 31,
+    "graphml_bytes": 37520
+   },
+   "error": null
+  },
+  {
+   "doc": "earlybird-110722143746-phpapp02_95.pdf.json",
+   "chars": 9661,
+   "pages": 41,
+   "seconds": 9.2,
+   "cost_usd": 0.000113,
+   "cum_cost_usd": 0.002934,
+   "graph": {
+    "entities": 57,
+    "relations": 51,
+    "graphml_bytes": 57168
+   },
+   "error": null
+  },
+  {
+   "doc": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf.json",
+   "chars": 10833,
+   "pages": 44,
+   "seconds": 2.3,
+   "cost_usd": 0.000108,
+   "cum_cost_usd": 0.003042,
+   "graph": {
+    "entities": 50,
+    "relations": 48,
+    "graphml_bytes": 55051
+   },
+   "error": null
+  },
+  {
+   "doc": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf.json",
+   "chars": 11529,
+   "pages": 78,
+   "seconds": 2.7,
+   "cost_usd": 0.000143,
+   "cum_cost_usd": 0.003185,
+   "graph": {
+    "entities": 68,
+    "relations": 50,
+    "graphml_bytes": 70353
+   },
+   "error": null
+  },
+  {
+   "doc": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf.json",
+   "chars": 11896,
+   "pages": 21,
+   "seconds": 1.9,
+   "cost_usd": 0.000106,
+   "cum_cost_usd": 0.003291,
+   "graph": {
+    "entities": 49,
+    "relations": 35,
+    "graphml_bytes": 45331
+   },
+   "error": null
+  },
+  {
+   "doc": "competitiveoutcomes-091006065143-phpapp01_95.pdf.json",
+   "chars": 12716,
+   "pages": 48,
+   "seconds": 2.0,
+   "cost_usd": 0.000116,
+   "cum_cost_usd": 0.003407,
+   "graph": {
+    "entities": 58,
+    "relations": 22,
+    "graphml_bytes": 44129
+   },
+   "error": null
+  },
+  {
+   "doc": "bariumswallowpresentation-090810084400-phpapp01_95.pdf.json",
+   "chars": 12993,
+   "pages": 77,
+   "seconds": 6.7,
+   "cost_usd": 0.000172,
+   "cum_cost_usd": 0.003579,
+   "graph": {
+    "entities": 64,
+    "relations": 66,
+    "graphml_bytes": 71865
+   },
+   "error": null
+  },
+  {
+   "doc": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf.json",
+   "chars": 13422,
+   "pages": 15,
+   "seconds": 2.3,
+   "cost_usd": 0.000105,
+   "cum_cost_usd": 0.003684,
+   "graph": {
+    "entities": 38,
+    "relations": 31,
+    "graphml_bytes": 39357
+   },
+   "error": null
+  },
+  {
+   "doc": "BRO-GL-MMONEY.pdf.json",
+   "chars": 15719,
+   "pages": 16,
+   "seconds": 1.9,
+   "cost_usd": 0.000108,
+   "cum_cost_usd": 0.003792,
+   "graph": {
+    "entities": 37,
+    "relations": 35,
+    "graphml_bytes": 37327
+   },
+   "error": null
+  },
+  {
+   "doc": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf.json",
+   "chars": 15720,
+   "pages": 68,
+   "seconds": 2.3,
+   "cost_usd": 0.000167,
+   "cum_cost_usd": 0.003959,
+   "graph": {
+    "entities": 71,
+    "relations": 57,
+    "graphml_bytes": 69610
+   },
+   "error": null
+  },
+  {
+   "doc": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf.json",
+   "chars": 16697,
+   "pages": 38,
+   "seconds": 3.1,
+   "cost_usd": 0.000262,
+   "cum_cost_usd": 0.004221,
+   "graph": {
+    "entities": 183,
+    "relations": 146,
+    "graphml_bytes": 182460
+   },
+   "error": null
+  },
+  {
+   "doc": "PWC_opportunity_of_lifetime.pdf.json",
+   "chars": 17984,
+   "pages": 18,
+   "seconds": 2.2,
+   "cost_usd": 0.000154,
+   "cum_cost_usd": 0.004375,
+   "graph": {
+    "entities": 61,
+    "relations": 68,
+    "graphml_bytes": 67466
+   },
+   "error": null
+  },
+  {
+   "doc": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf.json",
+   "chars": 18656,
+   "pages": 16,
+   "seconds": 2.1,
+   "cost_usd": 0.000166,
+   "cum_cost_usd": 0.004541,
+   "graph": {
+    "entities": 55,
+    "relations": 45,
+    "graphml_bytes": 57150
+   },
+   "error": null
+  },
+  {
+   "doc": "edb88a99670417f64a6b719646aed326.pdf.json",
+   "chars": 19003,
+   "pages": 20,
+   "seconds": 2.1,
+   "cost_usd": 0.000185,
+   "cum_cost_usd": 0.004726,
+   "graph": {
+    "entities": 57,
+    "relations": 55,
+    "graphml_bytes": 58988
+   },
+   "error": null
+  },
+  {
+   "doc": "e79deb02a0c0e87511080836c5d4347b.pdf.json",
+   "chars": 19627,
+   "pages": 17,
+   "seconds": 3.0,
+   "cost_usd": 0.000255,
+   "cum_cost_usd": 0.004981,
+   "graph": {
+    "entities": 220,
+    "relations": 109,
+    "graphml_bytes": 162930
+   },
+   "error": null
+  },
+  {
+   "doc": "NUS-Business-School-BBA-Brochure-2024.pdf.json",
+   "chars": 21796,
+   "pages": 24,
+   "seconds": 3.6,
+   "cost_usd": 0.000213,
+   "cum_cost_usd": 0.005194,
+   "graph": {
+    "entities": 178,
+    "relations": 33,
+    "graphml_bytes": 114585
+   },
+   "error": null
+  },
+  {
+   "doc": "05-03-18-political-release.pdf.json",
+   "chars": 22519,
+   "pages": 17,
+   "seconds": 2.5,
+   "cost_usd": 0.000204,
+   "cum_cost_usd": 0.005398,
+   "graph": {
+    "entities": 67,
+    "relations": 78,
+    "graphml_bytes": 80615
+   },
+   "error": null
+  },
+  {
+   "doc": "Independents-Report.pdf.json",
+   "chars": 22593,
+   "pages": 23,
+   "seconds": 3.2,
+   "cost_usd": 0.000178,
+   "cum_cost_usd": 0.005576,
+   "graph": {
+    "entities": 37,
+    "relations": 56,
+    "graphml_bytes": 54304
+   },
+   "error": null
+  },
+  {
+   "doc": "a4f3ced0696009fec3179f493e4f28c4.pdf.json",
+   "chars": 22812,
+   "pages": 17,
+   "seconds": 2.8,
+   "cost_usd": 0.000198,
+   "cum_cost_usd": 0.005774,
+   "graph": {
+    "entities": 57,
+    "relations": 60,
+    "graphml_bytes": 68854
+   },
+   "error": null
+  },
+  {
+   "doc": "DSA-278777.pdf.json",
+   "chars": 24210,
+   "pages": 21,
+   "seconds": 2.8,
+   "cost_usd": 0.000244,
+   "cum_cost_usd": 0.006018,
+   "graph": {
+    "entities": 74,
+    "relations": 78,
+    "graphml_bytes": 74014
+   },
+   "error": null
+  },
+  {
+   "doc": "formwork-150318073913-conversion-gate01_95.pdf.json",
+   "chars": 24811,
+   "pages": 60,
+   "seconds": 2.7,
+   "cost_usd": 0.000223,
+   "cum_cost_usd": 0.006241,
+   "graph": {
+    "entities": 71,
+    "relations": 68,
+    "graphml_bytes": 78374
+   },
+   "error": null
+  },
+  {
+   "doc": "PG_20.07.30_U.S.-Views-China_final.pdf.json",
+   "chars": 25262,
+   "pages": 22,
+   "seconds": 2.7,
+   "cost_usd": 0.000187,
+   "cum_cost_usd": 0.006428,
+   "graph": {
+    "entities": 35,
+    "relations": 49,
+    "graphml_bytes": 52076
+   },
+   "error": null
+  },
+  {
+   "doc": "2021-Apple-Catalog.pdf.json",
+   "chars": 25513,
+   "pages": 55,
+   "seconds": 3.6,
+   "cost_usd": 0.00023,
+   "cum_cost_usd": 0.006658,
+   "graph": {
+    "entities": 99,
+    "relations": 84,
+    "graphml_bytes": 89387
+   },
+   "error": null
+  },
+  {
+   "doc": "NYU_graduate.pdf.json",
+   "chars": 27449,
+   "pages": 30,
+   "seconds": 3.2,
+   "cost_usd": 0.000234,
+   "cum_cost_usd": 0.006892,
+   "graph": {
+    "entities": 90,
+    "relations": 83,
+    "graphml_bytes": 85282
+   },
+   "error": null
+  },
+  {
+   "doc": "mi_phone.pdf.json",
+   "chars": 27449,
+   "pages": 30,
+   "seconds": 3.3,
+   "cost_usd": 0.000235,
+   "cum_cost_usd": 0.007127,
+   "graph": {
+    "entities": 90,
+    "relations": 83,
+    "graphml_bytes": 83834
+   },
+   "error": null
+  },
+  {
+   "doc": "52b3137455e7ca4df65021a200aef724.pdf.json",
+   "chars": 27570,
+   "pages": 112,
+   "seconds": 3.1,
+   "cost_usd": 0.000263,
+   "cum_cost_usd": 0.00739,
+   "graph": {
+    "entities": 57,
+    "relations": 53,
+    "graphml_bytes": 61761
+   },
+   "error": null
+  },
+  {
+   "doc": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf.json",
+   "chars": 27788,
+   "pages": 40,
+   "seconds": 3.0,
+   "cost_usd": 0.000228,
+   "cum_cost_usd": 0.007618,
+   "graph": {
+    "entities": 72,
+    "relations": 79,
+    "graphml_bytes": 81903
+   },
+   "error": null
+  },
+  {
+   "doc": "PG_2020.03.09_US-Germany_FINAL.pdf.json",
+   "chars": 29392,
+   "pages": 21,
+   "seconds": 7.7,
+   "cost_usd": 0.000266,
+   "cum_cost_usd": 0.007884,
+   "graph": {
+    "entities": 87,
+    "relations": 104,
+    "graphml_bytes": 105080
+   },
+   "error": null
+  },
+  {
+   "doc": "698bba535087fa9a7f9009e172a7f763.pdf.json",
+   "chars": 31610,
+   "pages": 20,
+   "seconds": 3.3,
+   "cost_usd": 0.000285,
+   "cum_cost_usd": 0.008169,
+   "graph": {
+    "entities": 110,
+    "relations": 98,
+    "graphml_bytes": 110478
+   },
+   "error": null
+  },
+  {
+   "doc": "welcome-to-nus.pdf.json",
+   "chars": 32904,
+   "pages": 24,
+   "seconds": 3.3,
+   "cost_usd": 0.000392,
+   "cum_cost_usd": 0.008561,
+   "graph": {
+    "entities": 217,
+    "relations": 185,
+    "graphml_bytes": 189763
+   },
+   "error": null
+  },
+  {
+   "doc": "PH_2016.06.08_Economy-Final.pdf.json",
+   "chars": 33398,
+   "pages": 23,
+   "seconds": 2.6,
+   "cost_usd": 0.000291,
+   "cum_cost_usd": 0.008852,
+   "graph": {
+    "entities": 94,
+    "relations": 89,
+    "graphml_bytes": 103557
+   },
+   "error": null
+  },
+  {
+   "doc": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf.json",
+   "chars": 33923,
+   "pages": 18,
+   "seconds": 4.9,
+   "cost_usd": 0.000489,
+   "cum_cost_usd": 0.009341,
+   "graph": {
+    "entities": 456,
+    "relations": 253,
+    "graphml_bytes": 339542
+   },
+   "error": null
+  },
+  {
+   "doc": "owners-manual-2170416.pdf.json",
+   "chars": 34349,
+   "pages": 32,
+   "seconds": 2.6,
+   "cost_usd": 0.000306,
+   "cum_cost_usd": 0.009647,
+   "graph": {
+    "entities": 110,
+    "relations": 111,
+    "graphml_bytes": 109333
+   },
+   "error": null
+  },
+  {
+   "doc": "PP_2019.01.17_Trump-economy_FINAL2.pdf.json",
+   "chars": 34350,
+   "pages": 28,
+   "seconds": 2.5,
+   "cost_usd": 0.000269,
+   "cum_cost_usd": 0.009916,
+   "graph": {
+    "entities": 71,
+    "relations": 75,
+    "graphml_bytes": 86523
+   },
+   "error": null
+  },
+  {
+   "doc": "PIP_Seniors-and-Tech-Use_040314.pdf.json",
+   "chars": 34366,
+   "pages": 27,
+   "seconds": 2.3,
+   "cost_usd": 0.000246,
+   "cum_cost_usd": 0.010162,
+   "graph": {
+    "entities": 71,
+    "relations": 70,
+    "graphml_bytes": 80001
+   },
+   "error": null
+  },
+  {
+   "doc": "watch_d.pdf.json",
+   "chars": 35092,
+   "pages": 27,
+   "seconds": 2.5,
+   "cost_usd": 0.000237,
+   "cum_cost_usd": 0.010399,
+   "graph": {
+    "entities": 60,
+    "relations": 61,
+    "graphml_bytes": 58465
+   },
+   "error": null
+  },
+  {
+   "doc": "PP_2021.04.22_voting-access_REPORT.pdf.json",
+   "chars": 35268,
+   "pages": 24,
+   "seconds": 4.9,
+   "cost_usd": 0.000277,
+   "cum_cost_usd": 0.010676,
+   "graph": {
+    "entities": 78,
+    "relations": 86,
+    "graphml_bytes": 98506
+   },
+   "error": null
+  },
+  {
+   "doc": "a5879805d70c854ea4361e43a84e3bb2.pdf.json",
+   "chars": 35616,
+   "pages": 15,
+   "seconds": 4.4,
+   "cost_usd": 0.000309,
+   "cum_cost_usd": 0.010985,
+   "graph": {
+    "entities": 104,
+    "relations": 94,
+    "graphml_bytes": 112460
+   },
+   "error": null
+  },
+  {
+   "doc": "2310.07609v1.pdf.json",
+   "chars": 35886,
+   "pages": 10,
+   "seconds": 4.3,
+   "cost_usd": 0.000611,
+   "cum_cost_usd": 0.011596,
+   "graph": {
+    "entities": 324,
+    "relations": 240,
+    "graphml_bytes": 279359
+   },
+   "error": null
+  },
+  {
+   "doc": "bdf54dxa.pdf.json",
+   "chars": 36089,
+   "pages": 54,
+   "seconds": 3.1,
+   "cost_usd": 0.000263,
+   "cum_cost_usd": 0.011859,
+   "graph": {
+    "entities": 80,
+    "relations": 78,
+    "graphml_bytes": 76855
+   },
+   "error": null
+  },
+  {
+   "doc": "obs-productdesc-en.pdf.json",
+   "chars": 36190,
+   "pages": 65,
+   "seconds": 2.6,
+   "cost_usd": 0.000279,
+   "cum_cost_usd": 0.012138,
+   "graph": {
+    "entities": 92,
+    "relations": 94,
+    "graphml_bytes": 96015
+   },
+   "error": null
+  },
+  {
+   "doc": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf.json",
+   "chars": 36513,
+   "pages": 17,
+   "seconds": 4.4,
+   "cost_usd": 0.000275,
+   "cum_cost_usd": 0.012413,
+   "graph": {
+    "entities": 113,
+    "relations": 82,
+    "graphml_bytes": 123223
+   },
+   "error": null
+  },
+  {
+   "doc": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf.json",
+   "chars": 36962,
+   "pages": 26,
+   "seconds": 3.3,
+   "cost_usd": 0.000324,
+   "cum_cost_usd": 0.012737,
+   "graph": {
+    "entities": 90,
+    "relations": 105,
+    "graphml_bytes": 124925
+   },
+   "error": null
+  },
+  {
+   "doc": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf.json",
+   "chars": 37085,
+   "pages": 26,
+   "seconds": 3.3,
+   "cost_usd": 0.000285,
+   "cum_cost_usd": 0.013022,
+   "graph": {
+    "entities": 82,
+    "relations": 75,
+    "graphml_bytes": 97325
+   },
+   "error": null
+  },
+  {
+   "doc": "ISEP_student_handbook_2020.pdf.json",
+   "chars": 37276,
+   "pages": 24,
+   "seconds": 7.3,
+   "cost_usd": 0.000264,
+   "cum_cost_usd": 0.013286,
+   "graph": {
+    "entities": 78,
+    "relations": 74,
+    "graphml_bytes": 81612
+   },
+   "error": null
+  },
+  {
+   "doc": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf.json",
+   "chars": 37439,
+   "pages": 28,
+   "seconds": 3.4,
+   "cost_usd": 0.000282,
+   "cum_cost_usd": 0.013568,
+   "graph": {
+    "entities": 85,
+    "relations": 82,
+    "graphml_bytes": 101221
+   },
+   "error": null
+  },
+  {
+   "doc": "san-francisco-11-contents.pdf.json",
+   "chars": 38849,
+   "pages": 40,
+   "seconds": 6.4,
+   "cost_usd": 0.000724,
+   "cum_cost_usd": 0.014292,
+   "graph": {
+    "entities": 636,
+    "relations": 281,
+    "graphml_bytes": 426548
+   },
+   "error": null
+  },
+  {
+   "doc": "12-15-15-ISIS-and-terrorism-release-final.pdf.json",
+   "chars": 40515,
+   "pages": 28,
+   "seconds": 3.2,
+   "cost_usd": 0.000323,
+   "cum_cost_usd": 0.014615,
+   "graph": {
+    "entities": 83,
+    "relations": 98,
+    "graphml_bytes": 108980
+   },
+   "error": null
+  },
+  {
+   "doc": "379f44022bb27aa53efd5d322c7b57bf.pdf.json",
+   "chars": 41835,
+   "pages": 17,
+   "seconds": 3.1,
+   "cost_usd": 0.000312,
+   "cum_cost_usd": 0.014927,
+   "graph": {
+    "entities": 107,
+    "relations": 94,
+    "graphml_bytes": 114227
+   },
+   "error": null
+  },
+  {
+   "doc": "8e7c4cb542ad160f80fb3d795ada35d8.pdf.json",
+   "chars": 43260,
+   "pages": 17,
+   "seconds": 3.7,
+   "cost_usd": 0.000346,
+   "cum_cost_usd": 0.015273,
+   "graph": {
+    "entities": 106,
+    "relations": 110,
+    "graphml_bytes": 121931
+   },
+   "error": null
+  },
+  {
+   "doc": "2303.05039v2.pdf.json",
+   "chars": 44737,
+   "pages": 9,
+   "seconds": 3.9,
+   "cost_usd": 0.000421,
+   "cum_cost_usd": 0.015694,
+   "graph": {
+    "entities": 145,
+    "relations": 161,
+    "graphml_bytes": 151626
+   },
+   "error": null
+  },
+  {
+   "doc": "fdac8d1e9ef56519371df7e6532df27d.pdf.json",
+   "chars": 45379,
+   "pages": 20,
+   "seconds": 3.9,
+   "cost_usd": 0.000429,
+   "cum_cost_usd": 0.016123,
+   "graph": {
+    "entities": 185,
+    "relations": 135,
+    "graphml_bytes": 175547
+   },
+   "error": null
+  },
+  {
+   "doc": "STEPBACK.pdf.json",
+   "chars": 46210,
+   "pages": 36,
+   "seconds": 4.9,
+   "cost_usd": 0.000609,
+   "cum_cost_usd": 0.016732,
+   "graph": {
+    "entities": 268,
+    "relations": 227,
+    "graphml_bytes": 245359
+   },
+   "error": null
+  },
+  {
+   "doc": "fd76bbefe469561966e5387aa709c482.pdf.json",
+   "chars": 47741,
+   "pages": 17,
+   "seconds": 11.3,
+   "cost_usd": 0.000745,
+   "cum_cost_usd": 0.017477,
+   "graph": {
+    "entities": 140,
+    "relations": 159,
+    "graphml_bytes": 166623
+   },
+   "error": null
+  },
+  {
+   "doc": "afe620b9beac86c1027b96d31d396407.pdf.json",
+   "chars": 49364,
+   "pages": 20,
+   "seconds": 3.4,
+   "cost_usd": 0.000309,
+   "cum_cost_usd": 0.017786,
+   "graph": {
+    "entities": 76,
+    "relations": 83,
+    "graphml_bytes": 84097
+   },
+   "error": null
+  },
+  {
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "chars": 49469,
+   "pages": 44,
+   "seconds": 8.0,
+   "cost_usd": 0.000428,
+   "cum_cost_usd": 0.018214,
+   "graph": {
+    "entities": 198,
+    "relations": 144,
+    "graphml_bytes": 183408
+   },
+   "error": null
+  },
+  {
+   "doc": "StudentSupport_Guidebook.pdf.json",
+   "chars": 49469,
+   "pages": 44,
+   "seconds": 9.6,
+   "cost_usd": 0.000428,
+   "cum_cost_usd": 0.018642,
+   "graph": {
+    "entities": 198,
+    "relations": 144,
+    "graphml_bytes": 174732
+   },
+   "error": null
+  },
+  {
+   "doc": "camry_ebrochure.pdf.json",
+   "chars": 50270,
+   "pages": 26,
+   "seconds": 4.8,
+   "cost_usd": 0.000531,
+   "cum_cost_usd": 0.019173,
+   "graph": {
+    "entities": 224,
+    "relations": 204,
+    "graphml_bytes": 220462
+   },
+   "error": null
+  },
+  {
+   "doc": "2305.14160v4.pdf.json",
+   "chars": 50292,
+   "pages": 16,
+   "seconds": 4.6,
+   "cost_usd": 0.000589,
+   "cum_cost_usd": 0.019762,
+   "graph": {
+    "entities": 251,
+    "relations": 246,
+    "graphml_bytes": 237415
+   },
+   "error": null
+  },
+  {
+   "doc": "efd88e41c5f2606c57929cac6c1c0605.pdf.json",
+   "chars": 51116,
+   "pages": 20,
+   "seconds": 7.5,
+   "cost_usd": 0.000638,
+   "cum_cost_usd": 0.0204,
+   "graph": {
+    "entities": 345,
+    "relations": 296,
+    "graphml_bytes": 349549
+   },
+   "error": null
+  },
+  {
+   "doc": "Guide-for-international-students-web.pdf.json",
+   "chars": 52221,
+   "pages": 76,
+   "seconds": 5.1,
+   "cost_usd": 0.000566,
+   "cum_cost_usd": 0.020966,
+   "graph": {
+    "entities": 404,
+    "relations": 188,
+    "graphml_bytes": 311255
+   },
+   "error": null
+  },
+  {
+   "doc": "f8d3a162ab9507e021d83dd109118b60.pdf.json",
+   "chars": 52831,
+   "pages": 17,
+   "seconds": 4.5,
+   "cost_usd": 0.000449,
+   "cum_cost_usd": 0.021415,
+   "graph": {
+    "entities": 199,
+    "relations": 162,
+    "graphml_bytes": 194227
+   },
+   "error": null
+  },
+  {
+   "doc": "2210.02442v1.pdf.json",
+   "chars": 53524,
+   "pages": 24,
+   "seconds": 6.0,
+   "cost_usd": 0.00071,
+   "cum_cost_usd": 0.022125,
+   "graph": {
+    "entities": 329,
+    "relations": 330,
+    "graphml_bytes": 319066
+   },
+   "error": null
+  },
+  {
+   "doc": "PI_2018.11.19_algorithms_FINAL.pdf.json",
+   "chars": 56295,
+   "pages": 30,
+   "seconds": 3.7,
+   "cost_usd": 0.000432,
+   "cum_cost_usd": 0.022557,
+   "graph": {
+    "entities": 116,
+    "relations": 142,
+    "graphml_bytes": 147514
+   },
+   "error": null
+  },
+  {
+   "doc": "0b85477387a9d0cc33fca0f4becaa0e5.pdf.json",
+   "chars": 56398,
+   "pages": 16,
+   "seconds": 4.3,
+   "cost_usd": 0.000543,
+   "cum_cost_usd": 0.0231,
+   "graph": {
+    "entities": 231,
+    "relations": 160,
+    "graphml_bytes": 211116
+   },
+   "error": null
+  },
+  {
+   "doc": "f86d073b0d735ac873a65d906ba82758.pdf.json",
+   "chars": 57530,
+   "pages": 20,
+   "seconds": 5.8,
+   "cost_usd": 0.000469,
+   "cum_cost_usd": 0.023569,
+   "graph": {
+    "entities": 192,
+    "relations": 142,
+    "graphml_bytes": 182831
+   },
+   "error": null
+  },
+  {
+   "doc": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf.json",
+   "chars": 57841,
+   "pages": 32,
+   "seconds": 3.8,
+   "cost_usd": 0.000488,
+   "cum_cost_usd": 0.024057,
+   "graph": {
+    "entities": 146,
+    "relations": 154,
+    "graphml_bytes": 191996
+   },
+   "error": null
+  },
+  {
+   "doc": "nova_y70.pdf.json",
+   "chars": 59262,
+   "pages": 45,
+   "seconds": 4.5,
+   "cost_usd": 0.000461,
+   "cum_cost_usd": 0.024518,
+   "graph": {
+    "entities": 139,
+    "relations": 157,
+    "graphml_bytes": 141621
+   },
+   "error": null
+  },
+  {
+   "doc": "Macbook_air.pdf.json",
+   "chars": 60492,
+   "pages": 76,
+   "seconds": 3.9,
+   "cost_usd": 0.000503,
+   "cum_cost_usd": 0.025021,
+   "graph": {
+    "entities": 166,
+    "relations": 156,
+    "graphml_bytes": 162287
+   },
+   "error": null
+  },
+  {
+   "doc": "2005.12872v3.pdf.json",
+   "chars": 60634,
+   "pages": 26,
+   "seconds": 4.7,
+   "cost_usd": 0.000666,
+   "cum_cost_usd": 0.025687,
+   "graph": {
+    "entities": 325,
+    "relations": 210,
+    "graphml_bytes": 257223
+   },
+   "error": null
+  },
+  {
+   "doc": "2024.ug.eprospectus.pdf.json",
+   "chars": 61138,
+   "pages": 27,
+   "seconds": 4.5,
+   "cost_usd": 0.00056,
+   "cum_cost_usd": 0.026247,
+   "graph": {
+    "entities": 243,
+    "relations": 206,
+    "graphml_bytes": 235572
+   },
+   "error": null
+  },
+  {
+   "doc": "e639029d16094ea71d964e2fb953952b.pdf.json",
+   "chars": 61294,
+   "pages": 20,
+   "seconds": 4.6,
+   "cost_usd": 0.000538,
+   "cum_cost_usd": 0.026785,
+   "graph": {
+    "entities": 199,
+    "relations": 202,
+    "graphml_bytes": 220613
+   },
+   "error": null
+  },
+  {
+   "doc": "honor_watch_gs_pro.pdf.json",
+   "chars": 61640,
+   "pages": 42,
+   "seconds": 3.6,
+   "cost_usd": 0.000475,
+   "cum_cost_usd": 0.02726,
+   "graph": {
+    "entities": 124,
+    "relations": 141,
+    "graphml_bytes": 133648
+   },
+   "error": null
+  },
+  {
+   "doc": "SnapNTell.pdf.json",
+   "chars": 62843,
+   "pages": 20,
+   "seconds": 5.9,
+   "cost_usd": 0.00088,
+   "cum_cost_usd": 0.02814,
+   "graph": {
+    "entities": 443,
+    "relations": 395,
+    "graphml_bytes": 391648
+   },
+   "error": null
+  },
+  {
+   "doc": "11-21-16-Updated-Post-Election-Release.pdf.json",
+   "chars": 63092,
+   "pages": 45,
+   "seconds": 3.5,
+   "cost_usd": 0.000488,
+   "cum_cost_usd": 0.028628,
+   "graph": {
+    "entities": 77,
+    "relations": 130,
+    "graphml_bytes": 138298
+   },
+   "error": null
+  },
+  {
+   "doc": "PG_2021.03.04_US-Views-on-China_FINAL.pdf.json",
+   "chars": 64069,
+   "pages": 40,
+   "seconds": 3.5,
+   "cost_usd": 0.000527,
+   "cum_cost_usd": 0.029155,
+   "graph": {
+    "entities": 130,
+    "relations": 158,
+    "graphml_bytes": 179270
+   },
+   "error": null
+  },
+  {
+   "doc": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf.json",
+   "chars": 65122,
+   "pages": 15,
+   "seconds": 5.8,
+   "cost_usd": 0.000784,
+   "cum_cost_usd": 0.029939,
+   "graph": {
+    "entities": 134,
+    "relations": 153,
+    "graphml_bytes": 188281
+   },
+   "error": null
+  },
+  {
+   "doc": "2401.18059v1.pdf.json",
+   "chars": 67340,
+   "pages": 23,
+   "seconds": 7.1,
+   "cost_usd": 0.001115,
+   "cum_cost_usd": 0.031054,
+   "graph": {
+    "entities": 492,
+    "relations": 527,
+    "graphml_bytes": 508820
+   },
+   "error": null
+  },
+  {
+   "doc": "RAR.pdf.json",
+   "chars": 67655,
+   "pages": 28,
+   "seconds": 5.1,
+   "cost_usd": 0.000765,
+   "cum_cost_usd": 0.031819,
+   "graph": {
+    "entities": 324,
+    "relations": 271,
+    "graphml_bytes": 277495
+   },
+   "error": null
+  },
+  {
+   "doc": "2306.05425v1.pdf.json",
+   "chars": 70571,
+   "pages": 22,
+   "seconds": 7.1,
+   "cost_usd": 0.000812,
+   "cum_cost_usd": 0.032631,
+   "graph": {
+    "entities": 374,
+    "relations": 353,
+    "graphml_bytes": 333446
+   },
+   "error": null
+  },
+  {
+   "doc": "2405.09818v1.pdf.json",
+   "chars": 70964,
+   "pages": 27,
+   "seconds": 7.5,
+   "cost_usd": 0.001209,
+   "cum_cost_usd": 0.03384,
+   "graph": {
+    "entities": 531,
+    "relations": 578,
+    "graphml_bytes": 536337
+   },
+   "error": null
+  },
+  {
+   "doc": "2023.findings-emnlp.248.pdf.json",
+   "chars": 72220,
+   "pages": 19,
+   "seconds": 11.4,
+   "cost_usd": 0.001127,
+   "cum_cost_usd": 0.034967,
+   "graph": {
+    "entities": 541,
+    "relations": 482,
+    "graphml_bytes": 518309
+   },
+   "error": null
+  },
+  {
+   "doc": "2310.05634v2.pdf.json",
+   "chars": 74298,
+   "pages": 24,
+   "seconds": 23.4,
+   "cost_usd": 0.000865,
+   "cum_cost_usd": 0.035832,
+   "graph": {
+    "entities": 412,
+    "relations": 299,
+    "graphml_bytes": 340152
+   },
+   "error": null
+  },
+  {
+   "doc": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf.json",
+   "chars": 75106,
+   "pages": 196,
+   "seconds": 6.4,
+   "cost_usd": 0.000676,
+   "cum_cost_usd": 0.036508,
+   "graph": {
+    "entities": 292,
+    "relations": 191,
+    "graphml_bytes": 296675
+   },
+   "error": null
+  },
+  {
+   "doc": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf.json",
+   "chars": 75106,
+   "pages": 196,
+   "seconds": 4.9,
+   "cost_usd": 0.000675,
+   "cum_cost_usd": 0.037183,
+   "graph": {
+    "entities": 292,
+    "relations": 191,
+    "graphml_bytes": 284603
+   },
+   "error": null
+  },
+  {
+   "doc": "2310.09158v1.pdf.json",
+   "chars": 78614,
+   "pages": 23,
+   "seconds": 8.1,
+   "cost_usd": 0.000891,
+   "cum_cost_usd": 0.038074,
+   "graph": {
+    "entities": 366,
+    "relations": 303,
+    "graphml_bytes": 321769
+   },
+   "error": null
+  },
+  {
+   "doc": "2305.13186v3.pdf.json",
+   "chars": 80070,
+   "pages": 27,
+   "seconds": 6.5,
+   "cost_usd": 0.001058,
+   "cum_cost_usd": 0.039132,
+   "graph": {
+    "entities": 413,
+    "relations": 378,
+    "graphml_bytes": 384981
+   },
+   "error": null
+  },
+  {
+   "doc": "2303.08559v2.pdf.json",
+   "chars": 81916,
+   "pages": 30,
+   "seconds": 8.6,
+   "cost_usd": 0.00134,
+   "cum_cost_usd": 0.040472,
+   "graph": {
+    "entities": 705,
+    "relations": 610,
+    "graphml_bytes": 634169
+   },
+   "error": null
+  },
+  {
+   "doc": "NUS-FASS-Graduate-Guidebook-2021-small.pdf.json",
+   "chars": 84121,
+   "pages": 31,
+   "seconds": 4.6,
+   "cost_usd": 0.000705,
+   "cum_cost_usd": 0.041177,
+   "graph": {
+    "entities": 205,
+    "relations": 210,
+    "graphml_bytes": 238272
+   },
+   "error": null
+  },
+  {
+   "doc": "tacl_a_00660.pdf.json",
+   "chars": 85658,
+   "pages": 23,
+   "seconds": 11.5,
+   "cost_usd": 0.001854,
+   "cum_cost_usd": 0.043031,
+   "graph": {
+    "entities": 1014,
+    "relations": 893,
+    "graphml_bytes": 913708
+   },
+   "error": null
+  },
+  {
+   "doc": "2023.acl-long.386.pdf.json",
+   "chars": 86317,
+   "pages": 24,
+   "seconds": 7.2,
+   "cost_usd": 0.00114,
+   "cum_cost_usd": 0.044171,
+   "graph": {
+    "entities": 530,
+    "relations": 471,
+    "graphml_bytes": 482799
+   },
+   "error": null
+  },
+  {
+   "doc": "guojixueshengshenghuozhinanyingwen9.1.pdf.json",
+   "chars": 88183,
+   "pages": 40,
+   "seconds": 5.2,
+   "cost_usd": 0.000768,
+   "cum_cost_usd": 0.044939,
+   "graph": {
+    "entities": 298,
+    "relations": 234,
+    "graphml_bytes": 292794
+   },
+   "error": null
+  },
+  {
+   "doc": "User_Manual_1500S_Classic_EN.pdf.json",
+   "chars": 89298,
+   "pages": 108,
+   "seconds": 4.9,
+   "cost_usd": 0.000855,
+   "cum_cost_usd": 0.045794,
+   "graph": {
+    "entities": 265,
+    "relations": 286,
+    "graphml_bytes": 304990
+   },
+   "error": null
+  },
+  {
+   "doc": "2312.04350v3.pdf.json",
+   "chars": 93240,
+   "pages": 28,
+   "seconds": 37.6,
+   "cost_usd": 0.001563,
+   "cum_cost_usd": 0.047357,
+   "graph": {
+    "entities": 732,
+    "relations": 756,
+    "graphml_bytes": 716753
+   },
+   "error": null
+  },
+  {
+   "doc": "Bergen-Brochure-en-2022-23.pdf.json",
+   "chars": 96492,
+   "pages": 46,
+   "seconds": 6.3,
+   "cost_usd": 0.001068,
+   "cum_cost_usd": 0.048425,
+   "graph": {
+    "entities": 373,
+    "relations": 353,
+    "graphml_bytes": 382318
+   },
+   "error": null
+  },
+  {
+   "doc": "2312.10997v5.pdf.json",
+   "chars": 101284,
+   "pages": 21,
+   "seconds": 11.6,
+   "cost_usd": 0.001923,
+   "cum_cost_usd": 0.050348,
+   "graph": {
+    "entities": 988,
+    "relations": 803,
+    "graphml_bytes": 887664
+   },
+   "error": null
+  },
+  {
+   "doc": "Sinopolis-Chengdu.pdf.json",
+   "chars": 102857,
+   "pages": 96,
+   "seconds": 5.4,
+   "cost_usd": 0.001006,
+   "cum_cost_usd": 0.051354,
+   "graph": {
+    "entities": 345,
+    "relations": 311,
+    "graphml_bytes": 337739
+   },
+   "error": null
+  },
+  {
+   "doc": "f1f5242528411b262be447e61e2eb10f.pdf.json",
+   "chars": 104725,
+   "pages": 20,
+   "seconds": 5.3,
+   "cost_usd": 0.000888,
+   "cum_cost_usd": 0.052242,
+   "graph": {
+    "entities": 314,
+    "relations": 297,
+    "graphml_bytes": 334933
+   },
+   "error": null
+  },
+  {
+   "doc": "PI_2017.10.04_Automation_FINAL.pdf.json",
+   "chars": 112836,
+   "pages": 61,
+   "seconds": 6.3,
+   "cost_usd": 0.000862,
+   "cum_cost_usd": 0.053104,
+   "graph": {
+    "entities": 234,
+    "relations": 278,
+    "graphml_bytes": 297448
+   },
+   "error": null
+  },
+  {
+   "doc": "PRE_2022.09.29_NSL-politics_REPORT.pdf.json",
+   "chars": 144469,
+   "pages": 108,
+   "seconds": 6.1,
+   "cost_usd": 0.001257,
+   "cum_cost_usd": 0.054361,
+   "graph": {
+    "entities": 269,
+    "relations": 438,
+    "graphml_bytes": 440804
+   },
+   "error": null
+  },
+  {
+   "doc": "2312.09390v1.pdf.json",
+   "chars": 147306,
+   "pages": 49,
+   "seconds": 10.6,
+   "cost_usd": 0.001911,
+   "cum_cost_usd": 0.056272,
+   "graph": {
+    "entities": 1057,
+    "relations": 757,
+    "graphml_bytes": 856956
+   },
+   "error": null
+  },
+  {
+   "doc": "stereo_headset.pdf.json",
+   "chars": 150808,
+   "pages": 151,
+   "seconds": 3.9,
+   "cost_usd": 0.001038,
+   "cum_cost_usd": 0.05731,
+   "graph": {
+    "entities": 119,
+    "relations": 176,
+    "graphml_bytes": 198522
+   },
+   "error": null
+  },
+  {
+   "doc": "PS_2018.01.09_STEM_FINAL.pdf.json",
+   "chars": 177179,
+   "pages": 105,
+   "seconds": 9.0,
+   "cost_usd": 0.001377,
+   "cum_cost_usd": 0.058687,
+   "graph": {
+    "entities": 306,
+    "relations": 442,
+    "graphml_bytes": 434314
+   },
+   "error": null
+  },
+  {
+   "doc": "COSTCO_2021_10K.pdf.json",
+   "chars": 192604,
+   "pages": 76,
+   "seconds": 6.8,
+   "cost_usd": 0.001453,
+   "cum_cost_usd": 0.06014,
+   "graph": {
+    "entities": 447,
+    "relations": 488,
+    "graphml_bytes": 493581
+   },
+   "error": null
+  },
+  {
+   "doc": "2307.09288v2.pdf.json",
+   "chars": 197396,
+   "pages": 77,
+   "seconds": 45.6,
+   "cost_usd": 0.002901,
+   "cum_cost_usd": 0.063041,
+   "graph": {
+    "entities": 1356,
+    "relations": 1331,
+    "graphml_bytes": 1320380
+   },
+   "error": null
+  },
+  {
+   "doc": "NETFLIX_2015_10K.pdf.json",
+   "chars": 199820,
+   "pages": 72,
+   "seconds": 6.7,
+   "cost_usd": 0.001472,
+   "cum_cost_usd": 0.064513,
+   "graph": {
+    "entities": 418,
+    "relations": 452,
+    "graphml_bytes": 471921
+   },
+   "error": null
+  },
+  {
+   "doc": "2311.16502v3.pdf.json",
+   "chars": 216593,
+   "pages": 117,
+   "seconds": 11.8,
+   "cost_usd": 0.002587,
+   "cum_cost_usd": 0.0671,
+   "graph": {
+    "entities": 1003,
+    "relations": 904,
+    "graphml_bytes": 916321
+   },
+   "error": null
+  },
+  {
+   "doc": "BESTBUY_2023_10K.pdf.json",
+   "chars": 250167,
+   "pages": 75,
+   "seconds": 9.3,
+   "cost_usd": 0.001891,
+   "cum_cost_usd": 0.068991,
+   "graph": {
+    "entities": 580,
+    "relations": 631,
+    "graphml_bytes": 647032
+   },
+   "error": null
+  },
+  {
+   "doc": "AMAZON_2017_10K.pdf.json",
+   "chars": 253229,
+   "pages": 85,
+   "seconds": 16.4,
+   "cost_usd": 0.001878,
+   "cum_cost_usd": 0.070869,
+   "graph": {
+    "entities": 614,
+    "relations": 530,
+    "graphml_bytes": 599371
+   },
+   "error": null
+  },
+  {
+   "doc": "t480_ug_en.pdf.json",
+   "chars": 262685,
+   "pages": 170,
+   "seconds": 8.9,
+   "cost_usd": 0.002062,
+   "cum_cost_usd": 0.072931,
+   "graph": {
+    "entities": 639,
+    "relations": 675,
+    "graphml_bytes": 663743
+   },
+   "error": null
+  },
+  {
+   "doc": "NIKE_2021_10K.pdf.json",
+   "chars": 341944,
+   "pages": 109,
+   "seconds": 9.4,
+   "cost_usd": 0.002515,
+   "cum_cost_usd": 0.075446,
+   "graph": {
+    "entities": 661,
+    "relations": 762,
+    "graphml_bytes": 781603
+   },
+   "error": null
+  },
+  {
+   "doc": "2309.17421v2.pdf.json",
+   "chars": 358866,
+   "pages": 166,
+   "seconds": 14.3,
+   "cost_usd": 0.003714,
+   "cum_cost_usd": 0.07916,
+   "graph": {
+    "entities": 1362,
+    "relations": 1215,
+    "graphml_bytes": 1240063
+   },
+   "error": null
+  },
+  {
+   "doc": "ADOBE_2015_10K.pdf.json",
+   "chars": 378517,
+   "pages": 116,
+   "seconds": 10.1,
+   "cost_usd": 0.002716,
+   "cum_cost_usd": 0.081876,
+   "graph": {
+    "entities": 752,
+    "relations": 776,
+    "graphml_bytes": 837606
+   },
+   "error": null
+  },
+  {
+   "doc": "3M_2018_10K.pdf.json",
+   "chars": 494623,
+   "pages": 160,
+   "seconds": 11.8,
+   "cost_usd": 0.003798,
+   "cum_cost_usd": 0.085674,
+   "graph": {
+    "entities": 925,
+    "relations": 1055,
+    "graphml_bytes": 1083951
+   },
+   "error": null
+  },
+  {
+   "doc": "ACTIVISIONBLIZZARD_2019_10K.pdf.json",
+   "chars": 575037,
+   "pages": 198,
+   "seconds": 14.4,
+   "cost_usd": 0.004119,
+   "cum_cost_usd": 0.089793,
+   "graph": {
+    "entities": 873,
+    "relations": 1135,
+    "graphml_bytes": 1217886
+   },
+   "error": null
+  },
+  {
+   "doc": "mmdetection-readthedocs-io-en-v2.18.0.pdf.json",
+   "chars": 790976,
+   "pages": 468,
+   "seconds": 26.2,
+   "cost_usd": 0.007728,
+   "cum_cost_usd": 0.097521,
+   "graph": {
+    "entities": 1995,
+    "relations": 2489,
+    "graphml_bytes": 2583708
+   },
+   "error": null
+  }
+ ],
+ "totals": {
+  "llm_calls": 2,
+  "prompt_tokens": 5580,
+  "completion_tokens": 1137,
+  "embedding_calls": 7211,
+  "embedding_tokens": 4800115,
+  "cost_usd": 0.097521,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 7211,
+    "in": 4800115,
+    "out": 0
+   },
+   "gpt-4o-mini": {
+    "calls": 2,
+    "in": 5580,
+    "out": 1137
+   }
+  }
+ },
+ "wall_seconds": 804.1,
+ "docs_indexed": 135,
+ "docs_expected": 135,
+ "projected_usd": 5.06,
+ "projected_seconds_parallel": 2952.0
+}

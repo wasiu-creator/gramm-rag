@@ -1,0 +1,56 @@
+{
+ "run_config": {
+  "ARM": "lightrag_current",
+  "TIER": 1,
+  "SCOPE": "mpdocvqa",
+  "LIGHTRAG_VERSION": "1.5.7",
+  "LLM_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "text-embedding-3-small",
+  "EMBEDDING_DIM": 1536,
+  "CHUNK_TOKEN_SIZE": 1200,
+  "GLEANING": 1,
+  "LLM_MAX_ASYNC": 4,
+  "MAX_PARALLEL_INSERT": 3,
+  "RETRIEVAL_MODE_PREREGISTERED": "hybrid",
+  "RETRIEVAL_SCOPE": "one store per document -- matches every other arm (C-35)",
+  "INGEST": "mapper.elements_to_text (canonical, shared with every text-side arm)",
+  "BUDGET_CEILING_USD": 15.0,
+  "FAIL_FAST_N": 5,
+  "GATE_G": "MMLongBench-only scope; $10 gate NOT raised",
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   },
+   "gpt-4.1-mini": {
+    "in": 4.0000000000000003e-07,
+    "out": 1.6000000000000001e-06
+   },
+   "text-embedding-3-small": {
+    "in": 2e-08,
+    "out": 0.0
+   }
+  }
+ },
+ "batches": [],
+ "totals": {
+  "llm_calls": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "embedding_calls": 1,
+  "embedding_tokens": 2,
+  "cost_usd": 0.0,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 1,
+    "in": 2,
+    "out": 0
+   }
+  }
+ },
+ "wall_seconds": 0.0,
+ "docs_indexed": 50,
+ "docs_expected": 50,
+ "projected_usd": null,
+ "benchmark": "mpdocvqa"
+}

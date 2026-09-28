@@ -1,0 +1,49 @@
+{
+ "RUN_CONFIG": {
+  "ARM": "s4_mmgraphrag",
+  "TIER": 1,
+  "BENCH": "mmlongbench",
+  "MMGRAPHRAG_COMMIT": "ec0065d2e026e42c797b42723b1fffd0347a82c4",
+  "LLM_MODEL": "gpt-4o-mini",
+  "VISION_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "all-MiniLM-L6-v2 (384-d, vendor default)",
+  "INGEST": "our MinerU parse injected at <working>/<stem>/auto (no re-parse)",
+  "PARSE_GUARD": "content alignment vs injected markdown, floor 0.95 (C-52)",
+  "PILOT_N": 1,
+  "STRATIFIED_ON": "images per document (C-48)",
+  "CEILING_USD": 3.0,
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   }
+  }
+ },
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.09158v1.pdf.json",
+   "stem": "2310.09158v1",
+   "chars": 79430,
+   "images": 15,
+   "seconds": 244.9,
+   "cost_usd": 0.224618,
+   "calls": 107,
+   "chunks": 18,
+   "alignment": 1.0,
+   "error": null
+  }
+ ],
+ "totals": {
+  "calls": 107,
+  "vision_calls": 45,
+  "prompt_tokens": 1344567,
+  "completion_tokens": 38222,
+  "cost_usd": 0.224618
+ },
+ "wall_seconds": 244.9,
+ "alignment_min": 1.0,
+ "alignment_mean": 1.0,
+ "per_image_usd": 0.014975,
+ "per_1m_chars_usd": 2.8279
+}

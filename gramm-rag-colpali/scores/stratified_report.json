@@ -1,0 +1,150 @@
+{
+ "mmlongbench": {
+  "Flat-vector": {
+   "pooled": 0.3188790480864152,
+   "answerable": 0.1840579001915927,
+   "unanswerable": 0.7868852459016393,
+   "decline_unans": 0.7909836065573771,
+   "decline_ans": 0.16646989374262103,
+   "abstention_balanced_acc": 0.812256856407378
+  },
+  "GraMM-RAG": {
+   "pooled": 0.35223944615545943,
+   "answerable": 0.2435575392628173,
+   "unanswerable": 0.7295081967213115,
+   "decline_unans": 0.7336065573770492,
+   "decline_ans": 0.12160566706021252,
+   "abstention_balanced_acc": 0.8060004451584184
+  },
+  "ColPali": {
+   "pooled": 0.4682515492937268,
+   "answerable": 0.47445388462745686,
+   "unanswerable": 0.44672131147540983,
+   "decline_unans": 0.46311475409836067,
+   "decline_ans": 0.04132231404958678,
+   "abstention_balanced_acc": 0.7108962200243869
+  },
+  "Union(CP\u222aGraMM)": {
+   "pooled": 0.462762569101566,
+   "answerable": 0.48037067637521663,
+   "unanswerable": 0.4016393442622951,
+   "decline_unans": 0.4344262295081967,
+   "decline_ans": 0.0448642266824085,
+   "abstention_balanced_acc": 0.6947810014128941
+  },
+  "ColPali size-matched": {
+   "pooled": 0.48114801687419106,
+   "answerable": 0.5016912472370041,
+   "unanswerable": 0.4098360655737705,
+   "decline_unans": 0.44672131147540983,
+   "decline_ans": 0.03541912632821724,
+   "abstention_balanced_acc": 0.7056510925735964
+  },
+  "LightRAG 1.5.7": {
+   "pooled": 0.3375510130133437,
+   "answerable": 0.21991517732887603,
+   "unanswerable": 0.7459016393442623,
+   "decline_unans": 0.7581967213114754,
+   "decline_ans": 0.12987012987012986,
+   "abstention_balanced_acc": 0.8141632957206728
+  },
+  "RAG-Anything 1.2.8": {
+   "pooled": 0.3850086729296575,
+   "answerable": 0.3400761064536675,
+   "unanswerable": 0.5409836065573771,
+   "decline_unans": 0.5655737704918032,
+   "decline_ans": 0.06729634002361275,
+   "abstention_balanced_acc": 0.7491387152340953
+  },
+  "MS GraphRAG 2.7.2": {
+   "pooled": 0.32011341965390283,
+   "answerable": 0.19981551457191024,
+   "unanswerable": 0.7377049180327869,
+   "decline_unans": 0.7540983606557377,
+   "decline_ans": 0.12750885478158205,
+   "abstention_balanced_acc": 0.8132947529370778
+  },
+  "Flat-vector (k=3)": {
+   "pooled": 0.3229030098256039,
+   "answerable": 0.1986861673196385,
+   "unanswerable": 0.7540983606557377,
+   "decline_unans": 0.7581967213114754,
+   "decline_ans": 0.14049586776859505,
+   "abstention_balanced_acc": 0.8088504267714403
+  }
+ },
+ "docbench": {
+  "Flat-vector": {
+   "pooled": 0.4727767695099819,
+   "answerable": 0.4458077709611452,
+   "unanswerable": 0.6854838709677419,
+   "decline_unans": 0.7016129032258065,
+   "decline_ans": 0.2965235173824131,
+   "abstention_balanced_acc": 0.7025446929216967
+  },
+  "GraMM-RAG": {
+   "pooled": 0.5326678765880217,
+   "answerable": 0.50920245398773,
+   "unanswerable": 0.717741935483871,
+   "decline_unans": 0.7258064516129032,
+   "decline_ans": 0.22597137014314927,
+   "abstention_balanced_acc": 0.749917540734877
+  },
+  "ColPali": {
+   "pooled": 0.7740471869328494,
+   "answerable": 0.7944785276073619,
+   "unanswerable": 0.6129032258064516,
+   "decline_unans": 0.5967741935483871,
+   "decline_ans": 0.027607361963190184,
+   "abstention_balanced_acc": 0.7845834157925985
+  },
+  "Union(CP\u222aGraMM)": {
+   "pooled": 0.7767695099818511,
+   "answerable": 0.7965235173824131,
+   "unanswerable": 0.6209677419354839,
+   "decline_unans": 0.5967741935483871,
+   "decline_ans": 0.02044989775051125,
+   "abstention_balanced_acc": 0.788162147898938
+  },
+  "ColPali size-matched": {
+   "pooled": 0.7758620689655172,
+   "answerable": 0.7934560327198364,
+   "unanswerable": 0.6370967741935484,
+   "decline_unans": 0.5967741935483871,
+   "decline_ans": 0.02044989775051125,
+   "abstention_balanced_acc": 0.788162147898938
+  },
+  "LightRAG 1.5.7": {
+   "pooled": 0.5671506352087115,
+   "answerable": 0.556237218813906,
+   "unanswerable": 0.6532258064516129,
+   "decline_unans": 0.6612903225806451,
+   "decline_ans": 0.16155419222903886,
+   "abstention_balanced_acc": 0.7498680651758032
+  },
+  "RAG-Anything 1.2.8": {
+   "pooled": 0.6125226860254084,
+   "answerable": 0.6134969325153374,
+   "unanswerable": 0.6048387096774194,
+   "decline_unans": 0.6129032258064516,
+   "decline_ans": 0.11758691206543967,
+   "abstention_balanced_acc": 0.747658156870506
+  },
+  "MS GraphRAG 2.7.2": {
+   "pooled": 0.4863883847549909,
+   "answerable": 0.4611451942740286,
+   "unanswerable": 0.6854838709677419,
+   "decline_unans": 0.6693548387096774,
+   "decline_ans": 0.2147239263803681,
+   "abstention_balanced_acc": 0.7273154561646547
+  },
+  "Flat-vector (k=3)": {
+   "pooled": 0.5054446460980037,
+   "answerable": 0.4867075664621677,
+   "unanswerable": 0.6532258064516129,
+   "decline_unans": 0.6451612903225806,
+   "decline_ans": 0.25357873210633947,
+   "abstention_balanced_acc": 0.6957912791081207
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "arm": "s5",
+ "bench": "mmlongbench",
+ "state": "warm",
+ "occurrence": 2,
+ "n_timed": 500,
+ "warmup_discarded": 20,
+ "n_docs_touched": 64,
+ "median_s": 1.3543,
+ "p95_s": 3.2187,
+ "p99_s": 4.3408,
+ "tail_ratio_p95_over_median": 2.3766,
+ "median_ci": [
+  1.3083,
+  1.4232
+ ],
+ "tail_ratio_ci": [
+  2.1486,
+  2.6873
+ ],
+ "mean_s": 1.6234,
+ "peak_query_gpu_mib_torch": null,
+ "gpu_mib_nvidia_smi_at_end": null,
+ "gpu_basis": "container started without --gpus and exposes no /dev/nvidia* device, so this arm cannot allocate GPU memory at query time -- structurally 0, not merely observed 0",
+ "index_bytes_whole_corpus": 5227228494,
+ "index_gib_whole_corpus": 4.868,
+ "prep_a100_hours": "0.0 -- indexing for this arm is API-mediated; it has no GPU stage",
+ "api_cost_usd": 0.68192,
+ "api_cost_per_query_usd": 0.00136383,
+ "cell_wall_s": 870.2,
+ "meter_stages": {
+  "embedding": {
+   "calls": 520,
+   "prompt_tokens": 10807,
+   "completion_tokens": 0,
+   "cost_usd": 0.000216
+  },
+  "extraction": {
+   "calls": 519,
+   "prompt_tokens": 4275376,
+   "completion_tokens": 67324,
+   "cost_usd": 0.681701
+  },
+  "_gen_capture_rate": 1.0
+ },
+ "context_only_median_s": 0.0,
+ "context_only_p95_s": 1.7019,
+ "generation_overhead_median_s": 1.3543,
+ "gen_capture_rate": 1.0,
+ "context_only_note": "api.local_search always generates; the generation leg's duration is measured from litellm start/end stamps and subtracted, so context_only_* is what compares against the other arms. Validity is bounded by gen_capture_rate: a query whose success callback lands outside its window subtracts nothing and reports context_only == total, which inflates the UPPER tail only. Read the median, treat context_only_p95 as an upper bound."
+}

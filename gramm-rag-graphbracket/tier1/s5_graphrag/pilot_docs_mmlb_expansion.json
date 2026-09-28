@@ -1,0 +1,54 @@
+{
+ "rule": "seeded (42) octile draw over MMLongBench documents, excluding those already indexed",
+ "purpose": "raise criterion-3 sample to the amended minimum of 60 scored questions",
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf.json",
+   "chars": 3729,
+   "stratum": "mmlb octile 1"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "disciplined-agile-business-analysis-160218012713_95.pdf.json",
+   "chars": 7829,
+   "stratum": "mmlb octile 2"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2021-Apple-Catalog.pdf.json",
+   "chars": 25513,
+   "stratum": "mmlb octile 3"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bdf54dxa.pdf.json",
+   "chars": 36089,
+   "stratum": "mmlb octile 4"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "chars": 49469,
+   "stratum": "mmlb octile 5"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2005.12872v3.pdf.json",
+   "chars": 60634,
+   "stratum": "mmlb octile 6"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.09158v1.pdf.json",
+   "chars": 78614,
+   "stratum": "mmlb octile 7"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "stereo_headset.pdf.json",
+   "chars": 150808,
+   "stratum": "mmlb octile 8"
+  }
+ ]
+}

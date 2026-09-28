@@ -1,0 +1,15 @@
+{
+ "calls": 50,
+ "prompt_tokens": 342637,
+ "completion_tokens": 453,
+ "wall_s": 16.5,
+ "usd_estimated": 0.1378,
+ "usd_per_call": 0.002756,
+ "prompt_tokens_per_call": 6852.7,
+ "price_stamped": {
+  "in": 0.4,
+  "out": 1.6
+ },
+ "bench": "mmlongbench",
+ "limit": 50
+}

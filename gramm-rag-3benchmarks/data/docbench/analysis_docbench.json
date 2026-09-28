@@ -1,0 +1,87 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_MODEL": "gpt-4.1-mini",
+    "GEN_PROVIDER": "openai",
+    "GRAPH_PAGE_UNION": true,
+    "PAGE_CONTEXT_CHARS_3": 12000,
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "ROUTE_ALL_HYBRID": true,
+    "SELF_HEAL_GENERATION": true,
+    "USE_PAGE_IMAGES": true,
+    "QUOTE_MIN_OVERLAP": 0.6,
+    "RUN_JUDGE": true,
+    "JUDGE_MODEL": "gpt-4-turbo",
+    "REWARD_PARAMS": {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "lambda_": 0.2,
+      "tau": 0.0
+    }
+  },
+  "benchmark": "DocBench",
+  "funnels": [
+    {
+      "system": "Flat-vector RAG",
+      "n": 730,
+      "ctx_hit_rate": 0.4684931506849315,
+      "anls_given_hit": 0.08595255788243426,
+      "anls_given_miss": 0.09444389765503709,
+      "extract_success_given_hit": 0.12573099415204678,
+      "anls": 0.0647469076653322
+    },
+    {
+      "system": "GraMM-RAG s42",
+      "n": 730,
+      "ctx_hit_rate": 0.6452054794520548,
+      "anls_given_hit": 0.10268341604629919,
+      "anls_given_miss": 0.13137591229472625,
+      "extract_success_given_hit": 0.14861995753715498,
+      "anls": 0.08052847776814435
+    }
+  ],
+  "seed_42": {
+    "mean_delta_anls": 0.01578157010281217,
+    "bootstrap_ci95": [
+      0.004509515523301585,
+      0.027580361153642808
+    ],
+    "p_delta_positive": 1.0,
+    "n_wins": 76,
+    "n_losses": 53,
+    "n_ties": 973,
+    "verbosity_tokens": {
+      "gold": 9.868421052631579,
+      "gramm": 33.704174228675136,
+      "vec": 34.48275862068966
+    },
+    "top_losses": [
+      500,
+      698,
+      729,
+      868,
+      705,
+      12,
+      1042,
+      313
+    ],
+    "top_wins": [
+      958,
+      913,
+      385,
+      949,
+      774,
+      645,
+      909,
+      804
+    ]
+  }
+}

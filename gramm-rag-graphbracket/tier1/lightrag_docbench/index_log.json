@@ -1,0 +1,3270 @@
+{
+ "run_config": {
+  "ARM": "lightrag_current",
+  "TIER": 1,
+  "SCOPE": "docbench",
+  "LIGHTRAG_VERSION": "1.5.7",
+  "LLM_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "text-embedding-3-small",
+  "EMBEDDING_DIM": 1536,
+  "CHUNK_TOKEN_SIZE": 1200,
+  "GLEANING": 1,
+  "LLM_MAX_ASYNC": 4,
+  "MAX_PARALLEL_INSERT": 3,
+  "RETRIEVAL_MODE_PREREGISTERED": "hybrid",
+  "RETRIEVAL_SCOPE": "one store per document -- matches every other arm (C-35)",
+  "INGEST": "mapper.elements_to_text (canonical, shared with every text-side arm)",
+  "BUDGET_CEILING_USD": 32.0,
+  "FAIL_FAST_N": 5,
+  "GATE_G": "MMLongBench-only scope; $10 gate NOT raised",
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   },
+   "gpt-4.1-mini": {
+    "in": 4.0000000000000003e-07,
+    "out": 1.6000000000000001e-06
+   },
+   "text-embedding-3-small": {
+    "in": 2e-08,
+    "out": 0.0
+   }
+  }
+ },
+ "batches": [
+  {
+   "doc": "142.json",
+   "chars": 1188,
+   "pages": 8,
+   "seconds": 9.1,
+   "cost_usd": 0.001252,
+   "cum_cost_usd": 0.001252,
+   "graph": {
+    "entities": 10,
+    "relations": 7,
+    "graphml_bytes": 8991
+   },
+   "error": null
+  },
+  {
+   "doc": "165.json",
+   "chars": 1305,
+   "pages": 17,
+   "seconds": 14.0,
+   "cost_usd": 0.001658,
+   "cum_cost_usd": 0.00291,
+   "graph": {
+    "entities": 18,
+    "relations": 17,
+    "graphml_bytes": 13949
+   },
+   "error": null
+  },
+  {
+   "doc": "148.json",
+   "chars": 1573,
+   "pages": 8,
+   "seconds": 17.0,
+   "cost_usd": 0.002337,
+   "cum_cost_usd": 0.005247,
+   "graph": {
+    "entities": 18,
+    "relations": 19,
+    "graphml_bytes": 19249
+   },
+   "error": null
+  },
+  {
+   "doc": "152.json",
+   "chars": 2309,
+   "pages": 9,
+   "seconds": 6.4,
+   "cost_usd": 0.001239,
+   "cum_cost_usd": 0.006486,
+   "graph": {
+    "entities": 8,
+    "relations": 6,
+    "graphml_bytes": 7458
+   },
+   "error": null
+  },
+  {
+   "doc": "140.json",
+   "chars": 2543,
+   "pages": 17,
+   "seconds": 17.3,
+   "cost_usd": 0.002261,
+   "cum_cost_usd": 0.008747,
+   "graph": {
+    "entities": 22,
+    "relations": 21,
+    "graphml_bytes": 20154
+   },
+   "error": null
+  },
+  {
+   "doc": "171.json",
+   "chars": 2689,
+   "pages": 21,
+   "seconds": 8.2,
+   "cost_usd": 0.00136,
+   "cum_cost_usd": 0.010107,
+   "graph": {
+    "entities": 11,
+    "relations": 7,
+    "graphml_bytes": 9346
+   },
+   "error": null
+  },
+  {
+   "doc": "103.json",
+   "chars": 4413,
+   "pages": 3,
+   "seconds": 18.5,
+   "cost_usd": 0.003186,
+   "cum_cost_usd": 0.013293,
+   "graph": {
+    "entities": 21,
+    "relations": 22,
+    "graphml_bytes": 20379
+   },
+   "error": null
+  },
+  {
+   "doc": "141.json",
+   "chars": 7047,
+   "pages": 7,
+   "seconds": 10.7,
+   "cost_usd": 0.00305,
+   "cum_cost_usd": 0.016343,
+   "graph": {
+    "entities": 15,
+    "relations": 14,
+    "graphml_bytes": 15413
+   },
+   "error": null
+  },
+  {
+   "doc": "185.json",
+   "chars": 8864,
+   "pages": 1,
+   "seconds": 12.7,
+   "cost_usd": 0.003866,
+   "cum_cost_usd": 0.020209,
+   "graph": {
+    "entities": 35,
+    "relations": 22,
+    "graphml_bytes": 26514
+   },
+   "error": null
+  },
+  {
+   "doc": "168.json",
+   "chars": 9812,
+   "pages": 27,
+   "seconds": 26.2,
+   "cost_usd": 0.005648,
+   "cum_cost_usd": 0.025857,
+   "graph": {
+    "entities": 55,
+    "relations": 55,
+    "graphml_bytes": 50835
+   },
+   "error": null
+  },
+  {
+   "doc": "186.json",
+   "chars": 10053,
+   "pages": 1,
+   "seconds": 17.1,
+   "cost_usd": 0.005653,
+   "cum_cost_usd": 0.03151,
+   "graph": {
+    "entities": 48,
+    "relations": 35,
+    "graphml_bytes": 38647
+   },
+   "error": null
+  },
+  {
+   "doc": "217.json",
+   "chars": 10225,
+   "pages": 1,
+   "seconds": 14.7,
+   "cost_usd": 0.005252,
+   "cum_cost_usd": 0.036762,
+   "graph": {
+    "entities": 46,
+    "relations": 33,
+    "graphml_bytes": 35637
+   },
+   "error": null
+  },
+  {
+   "doc": "95.json",
+   "chars": 10237,
+   "pages": 14,
+   "seconds": 17.4,
+   "cost_usd": 0.005847,
+   "cum_cost_usd": 0.042609,
+   "graph": {
+    "entities": 37,
+    "relations": 41,
+    "graphml_bytes": 36946
+   },
+   "error": null
+  },
+  {
+   "doc": "210.json",
+   "chars": 10561,
+   "pages": 1,
+   "seconds": 13.2,
+   "cost_usd": 0.005241,
+   "cum_cost_usd": 0.04785,
+   "graph": {
+    "entities": 41,
+    "relations": 30,
+    "graphml_bytes": 33347
+   },
+   "error": null
+  },
+  {
+   "doc": "209.json",
+   "chars": 10668,
+   "pages": 1,
+   "seconds": 12.4,
+   "cost_usd": 0.004822,
+   "cum_cost_usd": 0.052672,
+   "graph": {
+    "entities": 45,
+    "relations": 25,
+    "graphml_bytes": 30494
+   },
+   "error": null
+  },
+  {
+   "doc": "206.json",
+   "chars": 10700,
+   "pages": 1,
+   "seconds": 13.6,
+   "cost_usd": 0.005186,
+   "cum_cost_usd": 0.057858,
+   "graph": {
+    "entities": 47,
+    "relations": 34,
+    "graphml_bytes": 35885
+   },
+   "error": null
+  },
+  {
+   "doc": "89.json",
+   "chars": 10973,
+   "pages": 10,
+   "seconds": 16.9,
+   "cost_usd": 0.004009,
+   "cum_cost_usd": 0.061867,
+   "graph": {
+    "entities": 25,
+    "relations": 25,
+    "graphml_bytes": 26981
+   },
+   "error": null
+  },
+  {
+   "doc": "123.json",
+   "chars": 11100,
+   "pages": 9,
+   "seconds": 13.7,
+   "cost_usd": 0.003674,
+   "cum_cost_usd": 0.065541,
+   "graph": {
+    "entities": 19,
+    "relations": 22,
+    "graphml_bytes": 22211
+   },
+   "error": null
+  },
+  {
+   "doc": "200.json",
+   "chars": 11211,
+   "pages": 1,
+   "seconds": 16.3,
+   "cost_usd": 0.005874,
+   "cum_cost_usd": 0.071415,
+   "graph": {
+    "entities": 56,
+    "relations": 29,
+    "graphml_bytes": 40041
+   },
+   "error": null
+  },
+  {
+   "doc": "220.json",
+   "chars": 11440,
+   "pages": 1,
+   "seconds": 12.5,
+   "cost_usd": 0.005727,
+   "cum_cost_usd": 0.077142,
+   "graph": {
+    "entities": 54,
+    "relations": 33,
+    "graphml_bytes": 39881
+   },
+   "error": null
+  },
+  {
+   "doc": "175.json",
+   "chars": 11517,
+   "pages": 12,
+   "seconds": 18.0,
+   "cost_usd": 0.006582,
+   "cum_cost_usd": 0.083724,
+   "graph": {
+    "entities": 51,
+    "relations": 43,
+    "graphml_bytes": 45493
+   },
+   "error": null
+  },
+  {
+   "doc": "190.json",
+   "chars": 11575,
+   "pages": 1,
+   "seconds": 18.2,
+   "cost_usd": 0.006249,
+   "cum_cost_usd": 0.089973,
+   "graph": {
+    "entities": 71,
+    "relations": 46,
+    "graphml_bytes": 50255
+   },
+   "error": null
+  },
+  {
+   "doc": "197.json",
+   "chars": 11577,
+   "pages": 1,
+   "seconds": 16.9,
+   "cost_usd": 0.006452,
+   "cum_cost_usd": 0.096425,
+   "graph": {
+    "entities": 54,
+    "relations": 44,
+    "graphml_bytes": 45753
+   },
+   "error": null
+  },
+  {
+   "doc": "198.json",
+   "chars": 11701,
+   "pages": 1,
+   "seconds": 20.5,
+   "cost_usd": 0.00701,
+   "cum_cost_usd": 0.103435,
+   "graph": {
+    "entities": 75,
+    "relations": 56,
+    "graphml_bytes": 57618
+   },
+   "error": null
+  },
+  {
+   "doc": "223.json",
+   "chars": 11708,
+   "pages": 1,
+   "seconds": 13.4,
+   "cost_usd": 0.005839,
+   "cum_cost_usd": 0.109274,
+   "graph": {
+    "entities": 53,
+    "relations": 31,
+    "graphml_bytes": 38013
+   },
+   "error": null
+  },
+  {
+   "doc": "228.json",
+   "chars": 11753,
+   "pages": 1,
+   "seconds": 14.2,
+   "cost_usd": 0.005708,
+   "cum_cost_usd": 0.114982,
+   "graph": {
+    "entities": 52,
+    "relations": 22,
+    "graphml_bytes": 33280
+   },
+   "error": null
+  },
+  {
+   "doc": "196.json",
+   "chars": 11781,
+   "pages": 1,
+   "seconds": 12.3,
+   "cost_usd": 0.00546,
+   "cum_cost_usd": 0.120442,
+   "graph": {
+    "entities": 53,
+    "relations": 32,
+    "graphml_bytes": 38200
+   },
+   "error": null
+  },
+  {
+   "doc": "182.json",
+   "chars": 11840,
+   "pages": 1,
+   "seconds": 14.1,
+   "cost_usd": 0.005656,
+   "cum_cost_usd": 0.126098,
+   "graph": {
+    "entities": 52,
+    "relations": 34,
+    "graphml_bytes": 39372
+   },
+   "error": null
+  },
+  {
+   "doc": "193.json",
+   "chars": 11840,
+   "pages": 1,
+   "seconds": 14.4,
+   "cost_usd": 0.006001,
+   "cum_cost_usd": 0.132099,
+   "graph": {
+    "entities": 65,
+    "relations": 36,
+    "graphml_bytes": 44073
+   },
+   "error": null
+  },
+  {
+   "doc": "183.json",
+   "chars": 11845,
+   "pages": 1,
+   "seconds": 14.4,
+   "cost_usd": 0.006142,
+   "cum_cost_usd": 0.138241,
+   "graph": {
+    "entities": 66,
+    "relations": 43,
+    "graphml_bytes": 48917
+   },
+   "error": null
+  },
+  {
+   "doc": "199.json",
+   "chars": 11847,
+   "pages": 1,
+   "seconds": 14.8,
+   "cost_usd": 0.006036,
+   "cum_cost_usd": 0.144277,
+   "graph": {
+    "entities": 50,
+    "relations": 37,
+    "graphml_bytes": 40316
+   },
+   "error": null
+  },
+  {
+   "doc": "213.json",
+   "chars": 11907,
+   "pages": 1,
+   "seconds": 15.6,
+   "cost_usd": 0.00645,
+   "cum_cost_usd": 0.150727,
+   "graph": {
+    "entities": 66,
+    "relations": 47,
+    "graphml_bytes": 49974
+   },
+   "error": null
+  },
+  {
+   "doc": "216.json",
+   "chars": 11956,
+   "pages": 1,
+   "seconds": 17.9,
+   "cost_usd": 0.00593,
+   "cum_cost_usd": 0.156657,
+   "graph": {
+    "entities": 54,
+    "relations": 36,
+    "graphml_bytes": 40645
+   },
+   "error": null
+  },
+  {
+   "doc": "226.json",
+   "chars": 11969,
+   "pages": 1,
+   "seconds": 14.7,
+   "cost_usd": 0.005684,
+   "cum_cost_usd": 0.162341,
+   "graph": {
+    "entities": 52,
+    "relations": 35,
+    "graphml_bytes": 39899
+   },
+   "error": null
+  },
+  {
+   "doc": "125.json",
+   "chars": 12104,
+   "pages": 7,
+   "seconds": 13.1,
+   "cost_usd": 0.005333,
+   "cum_cost_usd": 0.167674,
+   "graph": {
+    "entities": 37,
+    "relations": 30,
+    "graphml_bytes": 33104
+   },
+   "error": null
+  },
+  {
+   "doc": "201.json",
+   "chars": 12113,
+   "pages": 1,
+   "seconds": 19.3,
+   "cost_usd": 0.006536,
+   "cum_cost_usd": 0.17421,
+   "graph": {
+    "entities": 62,
+    "relations": 43,
+    "graphml_bytes": 47551
+   },
+   "error": null
+  },
+  {
+   "doc": "215.json",
+   "chars": 12159,
+   "pages": 1,
+   "seconds": 11.9,
+   "cost_usd": 0.005733,
+   "cum_cost_usd": 0.179943,
+   "graph": {
+    "entities": 55,
+    "relations": 38,
+    "graphml_bytes": 41446
+   },
+   "error": null
+  },
+  {
+   "doc": "179.json",
+   "chars": 12170,
+   "pages": 1,
+   "seconds": 16.8,
+   "cost_usd": 0.006267,
+   "cum_cost_usd": 0.18621,
+   "graph": {
+    "entities": 60,
+    "relations": 42,
+    "graphml_bytes": 46582
+   },
+   "error": null
+  },
+  {
+   "doc": "202.json",
+   "chars": 12200,
+   "pages": 1,
+   "seconds": 17.0,
+   "cost_usd": 0.00561,
+   "cum_cost_usd": 0.19182,
+   "graph": {
+    "entities": 53,
+    "relations": 29,
+    "graphml_bytes": 37948
+   },
+   "error": null
+  },
+  {
+   "doc": "227.json",
+   "chars": 12201,
+   "pages": 1,
+   "seconds": 14.9,
+   "cost_usd": 0.005673,
+   "cum_cost_usd": 0.197493,
+   "graph": {
+    "entities": 52,
+    "relations": 33,
+    "graphml_bytes": 38036
+   },
+   "error": null
+  },
+  {
+   "doc": "205.json",
+   "chars": 12235,
+   "pages": 1,
+   "seconds": 14.3,
+   "cost_usd": 0.005784,
+   "cum_cost_usd": 0.203277,
+   "graph": {
+    "entities": 59,
+    "relations": 30,
+    "graphml_bytes": 40435
+   },
+   "error": null
+  },
+  {
+   "doc": "214.json",
+   "chars": 12260,
+   "pages": 1,
+   "seconds": 14.9,
+   "cost_usd": 0.006024,
+   "cum_cost_usd": 0.209301,
+   "graph": {
+    "entities": 62,
+    "relations": 43,
+    "graphml_bytes": 46560
+   },
+   "error": null
+  },
+  {
+   "doc": "180.json",
+   "chars": 12292,
+   "pages": 1,
+   "seconds": 13.0,
+   "cost_usd": 0.005274,
+   "cum_cost_usd": 0.214575,
+   "graph": {
+    "entities": 42,
+    "relations": 29,
+    "graphml_bytes": 33654
+   },
+   "error": null
+  },
+  {
+   "doc": "204.json",
+   "chars": 12332,
+   "pages": 1,
+   "seconds": 15.6,
+   "cost_usd": 0.005822,
+   "cum_cost_usd": 0.220397,
+   "graph": {
+    "entities": 50,
+    "relations": 35,
+    "graphml_bytes": 39534
+   },
+   "error": null
+  },
+  {
+   "doc": "195.json",
+   "chars": 12342,
+   "pages": 1,
+   "seconds": 17.1,
+   "cost_usd": 0.006614,
+   "cum_cost_usd": 0.227011,
+   "graph": {
+    "entities": 70,
+    "relations": 42,
+    "graphml_bytes": 49743
+   },
+   "error": null
+  },
+  {
+   "doc": "203.json",
+   "chars": 12344,
+   "pages": 1,
+   "seconds": 12.2,
+   "cost_usd": 0.005664,
+   "cum_cost_usd": 0.232675,
+   "graph": {
+    "entities": 57,
+    "relations": 36,
+    "graphml_bytes": 41009
+   },
+   "error": null
+  },
+  {
+   "doc": "212.json",
+   "chars": 12376,
+   "pages": 1,
+   "seconds": 15.7,
+   "cost_usd": 0.006291,
+   "cum_cost_usd": 0.238966,
+   "graph": {
+    "entities": 62,
+    "relations": 41,
+    "graphml_bytes": 46259
+   },
+   "error": null
+  },
+  {
+   "doc": "189.json",
+   "chars": 12416,
+   "pages": 1,
+   "seconds": 17.6,
+   "cost_usd": 0.006621,
+   "cum_cost_usd": 0.245587,
+   "graph": {
+    "entities": 63,
+    "relations": 45,
+    "graphml_bytes": 48991
+   },
+   "error": null
+  },
+  {
+   "doc": "192.json",
+   "chars": 12432,
+   "pages": 1,
+   "seconds": 17.6,
+   "cost_usd": 0.00677,
+   "cum_cost_usd": 0.252357,
+   "graph": {
+    "entities": 76,
+    "relations": 46,
+    "graphml_bytes": 53066
+   },
+   "error": null
+  },
+  {
+   "doc": "225.json",
+   "chars": 12446,
+   "pages": 1,
+   "seconds": 22.4,
+   "cost_usd": 0.007072,
+   "cum_cost_usd": 0.259429,
+   "graph": {
+    "entities": 85,
+    "relations": 53,
+    "graphml_bytes": 58305
+   },
+   "error": null
+  },
+  {
+   "doc": "181.json",
+   "chars": 12539,
+   "pages": 1,
+   "seconds": 16.9,
+   "cost_usd": 0.006598,
+   "cum_cost_usd": 0.266027,
+   "graph": {
+    "entities": 75,
+    "relations": 42,
+    "graphml_bytes": 51133
+   },
+   "error": null
+  },
+  {
+   "doc": "211.json",
+   "chars": 12555,
+   "pages": 1,
+   "seconds": 14.6,
+   "cost_usd": 0.005866,
+   "cum_cost_usd": 0.271893,
+   "graph": {
+    "entities": 58,
+    "relations": 37,
+    "graphml_bytes": 42471
+   },
+   "error": null
+  },
+  {
+   "doc": "221.json",
+   "chars": 12567,
+   "pages": 1,
+   "seconds": 9.1,
+   "cost_usd": 0.005001,
+   "cum_cost_usd": 0.276894,
+   "graph": {
+    "entities": 44,
+    "relations": 28,
+    "graphml_bytes": 31961
+   },
+   "error": null
+  },
+  {
+   "doc": "191.json",
+   "chars": 12576,
+   "pages": 1,
+   "seconds": 15.0,
+   "cost_usd": 0.005697,
+   "cum_cost_usd": 0.282591,
+   "graph": {
+    "entities": 46,
+    "relations": 35,
+    "graphml_bytes": 37141
+   },
+   "error": null
+  },
+  {
+   "doc": "208.json",
+   "chars": 12596,
+   "pages": 1,
+   "seconds": 12.9,
+   "cost_usd": 0.00614,
+   "cum_cost_usd": 0.288731,
+   "graph": {
+    "entities": 59,
+    "relations": 44,
+    "graphml_bytes": 45596
+   },
+   "error": null
+  },
+  {
+   "doc": "224.json",
+   "chars": 12728,
+   "pages": 1,
+   "seconds": 13.0,
+   "cost_usd": 0.005856,
+   "cum_cost_usd": 0.294587,
+   "graph": {
+    "entities": 42,
+    "relations": 36,
+    "graphml_bytes": 37430
+   },
+   "error": null
+  },
+  {
+   "doc": "194.json",
+   "chars": 12849,
+   "pages": 1,
+   "seconds": 13.7,
+   "cost_usd": 0.005956,
+   "cum_cost_usd": 0.300543,
+   "graph": {
+    "entities": 55,
+    "relations": 40,
+    "graphml_bytes": 42360
+   },
+   "error": null
+  },
+  {
+   "doc": "222.json",
+   "chars": 12894,
+   "pages": 1,
+   "seconds": 15.8,
+   "cost_usd": 0.006285,
+   "cum_cost_usd": 0.306828,
+   "graph": {
+    "entities": 68,
+    "relations": 41,
+    "graphml_bytes": 46833
+   },
+   "error": null
+  },
+  {
+   "doc": "184.json",
+   "chars": 12896,
+   "pages": 1,
+   "seconds": 14.6,
+   "cost_usd": 0.005671,
+   "cum_cost_usd": 0.312499,
+   "graph": {
+    "entities": 53,
+    "relations": 36,
+    "graphml_bytes": 41118
+   },
+   "error": null
+  },
+  {
+   "doc": "207.json",
+   "chars": 12936,
+   "pages": 1,
+   "seconds": 17.8,
+   "cost_usd": 0.006909,
+   "cum_cost_usd": 0.319408,
+   "graph": {
+    "entities": 69,
+    "relations": 47,
+    "graphml_bytes": 52714
+   },
+   "error": null
+  },
+  {
+   "doc": "218.json",
+   "chars": 13119,
+   "pages": 1,
+   "seconds": 13.1,
+   "cost_usd": 0.00565,
+   "cum_cost_usd": 0.325058,
+   "graph": {
+    "entities": 41,
+    "relations": 35,
+    "graphml_bytes": 35798
+   },
+   "error": null
+  },
+  {
+   "doc": "187.json",
+   "chars": 13286,
+   "pages": 1,
+   "seconds": 13.7,
+   "cost_usd": 0.006234,
+   "cum_cost_usd": 0.331292,
+   "graph": {
+    "entities": 59,
+    "relations": 40,
+    "graphml_bytes": 44600
+   },
+   "error": null
+  },
+  {
+   "doc": "188.json",
+   "chars": 13476,
+   "pages": 1,
+   "seconds": 14.3,
+   "cost_usd": 0.005899,
+   "cum_cost_usd": 0.337191,
+   "graph": {
+    "entities": 48,
+    "relations": 39,
+    "graphml_bytes": 39181
+   },
+   "error": null
+  },
+  {
+   "doc": "85.json",
+   "chars": 13791,
+   "pages": 9,
+   "seconds": 13.2,
+   "cost_usd": 0.005753,
+   "cum_cost_usd": 0.342944,
+   "graph": {
+    "entities": 37,
+    "relations": 39,
+    "graphml_bytes": 36183
+   },
+   "error": null
+  },
+  {
+   "doc": "219.json",
+   "chars": 13975,
+   "pages": 1,
+   "seconds": 17.5,
+   "cost_usd": 0.00651,
+   "cum_cost_usd": 0.349454,
+   "graph": {
+    "entities": 58,
+    "relations": 46,
+    "graphml_bytes": 46010
+   },
+   "error": null
+  },
+  {
+   "doc": "97.json",
+   "chars": 14414,
+   "pages": 11,
+   "seconds": 14.5,
+   "cost_usd": 0.005648,
+   "cum_cost_usd": 0.355102,
+   "graph": {
+    "entities": 31,
+    "relations": 33,
+    "graphml_bytes": 32317
+   },
+   "error": null
+  },
+  {
+   "doc": "145.json",
+   "chars": 14517,
+   "pages": 9,
+   "seconds": 12.5,
+   "cost_usd": 0.00533,
+   "cum_cost_usd": 0.360432,
+   "graph": {
+    "entities": 35,
+    "relations": 30,
+    "graphml_bytes": 31788
+   },
+   "error": null
+  },
+  {
+   "doc": "146.json",
+   "chars": 18821,
+   "pages": 12,
+   "seconds": 31.5,
+   "cost_usd": 0.007551,
+   "cum_cost_usd": 0.367983,
+   "graph": {
+    "entities": 50,
+    "relations": 48,
+    "graphml_bytes": 49066
+   },
+   "error": null
+  },
+  {
+   "doc": "164.json",
+   "chars": 20539,
+   "pages": 13,
+   "seconds": 15.7,
+   "cost_usd": 0.007729,
+   "cum_cost_usd": 0.375712,
+   "graph": {
+    "entities": 51,
+    "relations": 51,
+    "graphml_bytes": 52335
+   },
+   "error": null
+  },
+  {
+   "doc": "4.json",
+   "chars": 21326,
+   "pages": 6,
+   "seconds": 25.0,
+   "cost_usd": 0.010741,
+   "cum_cost_usd": 0.386453,
+   "graph": {
+    "entities": 112,
+    "relations": 61,
+    "graphml_bytes": 73535
+   },
+   "error": null
+  },
+  {
+   "doc": "118.json",
+   "chars": 21385,
+   "pages": 17,
+   "seconds": 12.2,
+   "cost_usd": 0.007274,
+   "cum_cost_usd": 0.393727,
+   "graph": {
+    "entities": 37,
+    "relations": 39,
+    "graphml_bytes": 39888
+   },
+   "error": null
+  },
+  {
+   "doc": "38.json",
+   "chars": 21608,
+   "pages": 6,
+   "seconds": 39.4,
+   "cost_usd": 0.01246,
+   "cum_cost_usd": 0.406187,
+   "graph": {
+    "entities": 102,
+    "relations": 86,
+    "graphml_bytes": 86169
+   },
+   "error": null
+  },
+  {
+   "doc": "35.json",
+   "chars": 21794,
+   "pages": 6,
+   "seconds": 49.8,
+   "cost_usd": 0.013199,
+   "cum_cost_usd": 0.419386,
+   "graph": {
+    "entities": 151,
+    "relations": 99,
+    "graphml_bytes": 106957
+   },
+   "error": null
+  },
+  {
+   "doc": "2.json",
+   "chars": 21798,
+   "pages": 6,
+   "seconds": 46.2,
+   "cost_usd": 0.013802,
+   "cum_cost_usd": 0.433188,
+   "graph": {
+    "entities": 127,
+    "relations": 115,
+    "graphml_bytes": 113646
+   },
+   "error": null
+  },
+  {
+   "doc": "10.json",
+   "chars": 22124,
+   "pages": 7,
+   "seconds": 42.2,
+   "cost_usd": 0.013557,
+   "cum_cost_usd": 0.446745,
+   "graph": {
+    "entities": 150,
+    "relations": 113,
+    "graphml_bytes": 116155
+   },
+   "error": null
+  },
+  {
+   "doc": "155.json",
+   "chars": 22262,
+   "pages": 12,
+   "seconds": 17.2,
+   "cost_usd": 0.008689,
+   "cum_cost_usd": 0.455434,
+   "graph": {
+    "entities": 76,
+    "relations": 60,
+    "graphml_bytes": 66169
+   },
+   "error": null
+  },
+  {
+   "doc": "22.json",
+   "chars": 22771,
+   "pages": 6,
+   "seconds": 38.7,
+   "cost_usd": 0.012333,
+   "cum_cost_usd": 0.467767,
+   "graph": {
+    "entities": 125,
+    "relations": 96,
+    "graphml_bytes": 95433
+   },
+   "error": null
+  },
+  {
+   "doc": "12.json",
+   "chars": 22780,
+   "pages": 7,
+   "seconds": 44.6,
+   "cost_usd": 0.014605,
+   "cum_cost_usd": 0.482372,
+   "graph": {
+    "entities": 149,
+    "relations": 116,
+    "graphml_bytes": 120736
+   },
+   "error": null
+  },
+  {
+   "doc": "25.json",
+   "chars": 23193,
+   "pages": 7,
+   "seconds": 31.6,
+   "cost_usd": 0.013881,
+   "cum_cost_usd": 0.496253,
+   "graph": {
+    "entities": 133,
+    "relations": 115,
+    "graphml_bytes": 110284
+   },
+   "error": null
+  },
+  {
+   "doc": "132.json",
+   "chars": 23484,
+   "pages": 17,
+   "seconds": 12.9,
+   "cost_usd": 0.0075,
+   "cum_cost_usd": 0.503753,
+   "graph": {
+    "entities": 48,
+    "relations": 46,
+    "graphml_bytes": 46384
+   },
+   "error": null
+  },
+  {
+   "doc": "98.json",
+   "chars": 23939,
+   "pages": 16,
+   "seconds": 14.5,
+   "cost_usd": 0.009294,
+   "cum_cost_usd": 0.513047,
+   "graph": {
+    "entities": 58,
+    "relations": 60,
+    "graphml_bytes": 59479
+   },
+   "error": null
+  },
+  {
+   "doc": "9.json",
+   "chars": 24662,
+   "pages": 6,
+   "seconds": 43.4,
+   "cost_usd": 0.015266,
+   "cum_cost_usd": 0.528313,
+   "graph": {
+    "entities": 153,
+    "relations": 107,
+    "graphml_bytes": 116797
+   },
+   "error": null
+  },
+  {
+   "doc": "31.json",
+   "chars": 25721,
+   "pages": 6,
+   "seconds": 50.0,
+   "cost_usd": 0.016156,
+   "cum_cost_usd": 0.544469,
+   "graph": {
+    "entities": 191,
+    "relations": 99,
+    "graphml_bytes": 124738
+   },
+   "error": null
+  },
+  {
+   "doc": "139.json",
+   "chars": 26359,
+   "pages": 14,
+   "seconds": 23.2,
+   "cost_usd": 0.011343,
+   "cum_cost_usd": 0.555812,
+   "graph": {
+    "entities": 97,
+    "relations": 76,
+    "graphml_bytes": 82951
+   },
+   "error": null
+  },
+  {
+   "doc": "169.json",
+   "chars": 26583,
+   "pages": 19,
+   "seconds": 19.1,
+   "cost_usd": 0.008974,
+   "cum_cost_usd": 0.564786,
+   "graph": {
+    "entities": 54,
+    "relations": 45,
+    "graphml_bytes": 51270
+   },
+   "error": null
+  },
+  {
+   "doc": "8.json",
+   "chars": 27651,
+   "pages": 9,
+   "seconds": 38.4,
+   "cost_usd": 0.015616,
+   "cum_cost_usd": 0.580402,
+   "graph": {
+    "entities": 153,
+    "relations": 106,
+    "graphml_bytes": 114215
+   },
+   "error": null
+  },
+  {
+   "doc": "166.json",
+   "chars": 28029,
+   "pages": 17,
+   "seconds": 19.9,
+   "cost_usd": 0.011551,
+   "cum_cost_usd": 0.591953,
+   "graph": {
+    "entities": 73,
+    "relations": 76,
+    "graphml_bytes": 71611
+   },
+   "error": null
+  },
+  {
+   "doc": "159.json",
+   "chars": 29202,
+   "pages": 16,
+   "seconds": 17.2,
+   "cost_usd": 0.010473,
+   "cum_cost_usd": 0.602426,
+   "graph": {
+    "entities": 68,
+    "relations": 65,
+    "graphml_bytes": 64304
+   },
+   "error": null
+  },
+  {
+   "doc": "115.json",
+   "chars": 30028,
+   "pages": 19,
+   "seconds": 17.9,
+   "cost_usd": 0.011308,
+   "cum_cost_usd": 0.613734,
+   "graph": {
+    "entities": 76,
+    "relations": 73,
+    "graphml_bytes": 73274
+   },
+   "error": null
+  },
+  {
+   "doc": "102.json",
+   "chars": 30381,
+   "pages": 20,
+   "seconds": 27.9,
+   "cost_usd": 0.012309,
+   "cum_cost_usd": 0.626043,
+   "graph": {
+    "entities": 72,
+    "relations": 79,
+    "graphml_bytes": 77931
+   },
+   "error": null
+  },
+  {
+   "doc": "127.json",
+   "chars": 30923,
+   "pages": 19,
+   "seconds": 23.4,
+   "cost_usd": 0.011845,
+   "cum_cost_usd": 0.637888,
+   "graph": {
+    "entities": 79,
+    "relations": 63,
+    "graphml_bytes": 74636
+   },
+   "error": null
+  },
+  {
+   "doc": "101.json",
+   "chars": 31933,
+   "pages": 20,
+   "seconds": 29.5,
+   "cost_usd": 0.013865,
+   "cum_cost_usd": 0.651753,
+   "graph": {
+    "entities": 111,
+    "relations": 108,
+    "graphml_bytes": 103646
+   },
+   "error": null
+  },
+  {
+   "doc": "105.json",
+   "chars": 31998,
+   "pages": 20,
+   "seconds": 27.1,
+   "cost_usd": 0.012702,
+   "cum_cost_usd": 0.664455,
+   "graph": {
+    "entities": 79,
+    "relations": 91,
+    "graphml_bytes": 83993
+   },
+   "error": null
+  },
+  {
+   "doc": "111.json",
+   "chars": 32194,
+   "pages": 20,
+   "seconds": 31.6,
+   "cost_usd": 0.016005,
+   "cum_cost_usd": 0.68046,
+   "graph": {
+    "entities": 118,
+    "relations": 138,
+    "graphml_bytes": 124730
+   },
+   "error": null
+  },
+  {
+   "doc": "100.json",
+   "chars": 32613,
+   "pages": 18,
+   "seconds": 22.4,
+   "cost_usd": 0.010476,
+   "cum_cost_usd": 0.690936,
+   "graph": {
+    "entities": 60,
+    "relations": 58,
+    "graphml_bytes": 60208
+   },
+   "error": null
+  },
+  {
+   "doc": "135.json",
+   "chars": 32756,
+   "pages": 23,
+   "seconds": 25.0,
+   "cost_usd": 0.012079,
+   "cum_cost_usd": 0.703015,
+   "graph": {
+    "entities": 85,
+    "relations": 71,
+    "graphml_bytes": 75195
+   },
+   "error": null
+  },
+  {
+   "doc": "104.json",
+   "chars": 33131,
+   "pages": 19,
+   "seconds": 18.5,
+   "cost_usd": 0.011746,
+   "cum_cost_usd": 0.714761,
+   "graph": {
+    "entities": 70,
+    "relations": 77,
+    "graphml_bytes": 73578
+   },
+   "error": null
+  },
+  {
+   "doc": "128.json",
+   "chars": 33303,
+   "pages": 20,
+   "seconds": 23.4,
+   "cost_usd": 0.012758,
+   "cum_cost_usd": 0.727519,
+   "graph": {
+    "entities": 77,
+    "relations": 84,
+    "graphml_bytes": 79094
+   },
+   "error": null
+  },
+  {
+   "doc": "99.json",
+   "chars": 33600,
+   "pages": 19,
+   "seconds": 19.0,
+   "cost_usd": 0.012142,
+   "cum_cost_usd": 0.739661,
+   "graph": {
+    "entities": 70,
+    "relations": 70,
+    "graphml_bytes": 73714
+   },
+   "error": null
+  },
+  {
+   "doc": "36.json",
+   "chars": 33787,
+   "pages": 10,
+   "seconds": 57.6,
+   "cost_usd": 0.021661,
+   "cum_cost_usd": 0.761322,
+   "graph": {
+    "entities": 202,
+    "relations": 163,
+    "graphml_bytes": 163843
+   },
+   "error": null
+  },
+  {
+   "doc": "119.json",
+   "chars": 34272,
+   "pages": 22,
+   "seconds": 19.1,
+   "cost_usd": 0.011639,
+   "cum_cost_usd": 0.772961,
+   "graph": {
+    "entities": 67,
+    "relations": 71,
+    "graphml_bytes": 71642
+   },
+   "error": null
+  },
+  {
+   "doc": "26.json",
+   "chars": 34710,
+   "pages": 10,
+   "seconds": 49.3,
+   "cost_usd": 0.016832,
+   "cum_cost_usd": 0.789793,
+   "graph": {
+    "entities": 121,
+    "relations": 112,
+    "graphml_bytes": 111492
+   },
+   "error": null
+  },
+  {
+   "doc": "3.json",
+   "chars": 34767,
+   "pages": 10,
+   "seconds": 66.7,
+   "cost_usd": 0.02234,
+   "cum_cost_usd": 0.812133,
+   "graph": {
+    "entities": 196,
+    "relations": 174,
+    "graphml_bytes": 165666
+   },
+   "error": null
+  },
+  {
+   "doc": "29.json",
+   "chars": 35280,
+   "pages": 10,
+   "seconds": 52.1,
+   "cost_usd": 0.020856,
+   "cum_cost_usd": 0.832989,
+   "graph": {
+    "entities": 167,
+    "relations": 154,
+    "graphml_bytes": 146752
+   },
+   "error": null
+  },
+  {
+   "doc": "28.json",
+   "chars": 35473,
+   "pages": 10,
+   "seconds": 57.2,
+   "cost_usd": 0.021608,
+   "cum_cost_usd": 0.854597,
+   "graph": {
+    "entities": 186,
+    "relations": 165,
+    "graphml_bytes": 162711
+   },
+   "error": null
+  },
+  {
+   "doc": "14.json",
+   "chars": 35890,
+   "pages": 10,
+   "seconds": 42.5,
+   "cost_usd": 0.019216,
+   "cum_cost_usd": 0.873813,
+   "graph": {
+    "entities": 212,
+    "relations": 115,
+    "graphml_bytes": 148187
+   },
+   "error": null
+  },
+  {
+   "doc": "47.json",
+   "chars": 36479,
+   "pages": 10,
+   "seconds": 69.0,
+   "cost_usd": 0.022824,
+   "cum_cost_usd": 0.896637,
+   "graph": {
+    "entities": 220,
+    "relations": 171,
+    "graphml_bytes": 173664
+   },
+   "error": null
+  },
+  {
+   "doc": "0.json",
+   "chars": 36578,
+   "pages": 10,
+   "seconds": 59.5,
+   "cost_usd": 0.01929,
+   "cum_cost_usd": 0.915927,
+   "graph": {
+    "entities": 166,
+    "relations": 100,
+    "graphml_bytes": 120389
+   },
+   "error": null
+  },
+  {
+   "doc": "1.json",
+   "chars": 36881,
+   "pages": 11,
+   "seconds": 61.1,
+   "cost_usd": 0.027332,
+   "cum_cost_usd": 0.943259,
+   "graph": {
+    "entities": 282,
+    "relations": 235,
+    "graphml_bytes": 227964
+   },
+   "error": null
+  },
+  {
+   "doc": "17.json",
+   "chars": 37631,
+   "pages": 10,
+   "seconds": 136.0,
+   "cost_usd": 0.032509,
+   "cum_cost_usd": 0.975768,
+   "graph": {
+    "entities": 242,
+    "relations": 247,
+    "graphml_bytes": 216575
+   },
+   "error": null
+  },
+  {
+   "doc": "48.json",
+   "chars": 38206,
+   "pages": 9,
+   "seconds": 69.6,
+   "cost_usd": 0.029844,
+   "cum_cost_usd": 1.005612,
+   "graph": {
+    "entities": 296,
+    "relations": 251,
+    "graphml_bytes": 255833
+   },
+   "error": null
+  },
+  {
+   "doc": "27.json",
+   "chars": 38235,
+   "pages": 14,
+   "seconds": 74.8,
+   "cost_usd": 0.024914,
+   "cum_cost_usd": 1.030526,
+   "graph": {
+    "entities": 206,
+    "relations": 186,
+    "graphml_bytes": 175509
+   },
+   "error": null
+  },
+  {
+   "doc": "121.json",
+   "chars": 38279,
+   "pages": 23,
+   "seconds": 21.8,
+   "cost_usd": 0.013534,
+   "cum_cost_usd": 1.04406,
+   "graph": {
+    "entities": 77,
+    "relations": 82,
+    "graphml_bytes": 79753
+   },
+   "error": null
+  },
+  {
+   "doc": "177.json",
+   "chars": 38408,
+   "pages": 19,
+   "seconds": 22.4,
+   "cost_usd": 0.013609,
+   "cum_cost_usd": 1.057669,
+   "graph": {
+    "entities": 76,
+    "relations": 70,
+    "graphml_bytes": 76832
+   },
+   "error": null
+  },
+  {
+   "doc": "117.json",
+   "chars": 39121,
+   "pages": 22,
+   "seconds": 23.0,
+   "cost_usd": 0.01448,
+   "cum_cost_usd": 1.072149,
+   "graph": {
+    "entities": 79,
+    "relations": 80,
+    "graphml_bytes": 83054
+   },
+   "error": null
+  },
+  {
+   "doc": "40.json",
+   "chars": 39250,
+   "pages": 11,
+   "seconds": 58.0,
+   "cost_usd": 0.025681,
+   "cum_cost_usd": 1.09783,
+   "graph": {
+    "entities": 222,
+    "relations": 204,
+    "graphml_bytes": 198248
+   },
+   "error": null
+  },
+  {
+   "doc": "176.json",
+   "chars": 39452,
+   "pages": 23,
+   "seconds": 25.6,
+   "cost_usd": 0.01452,
+   "cum_cost_usd": 1.11235,
+   "graph": {
+    "entities": 86,
+    "relations": 82,
+    "graphml_bytes": 83275
+   },
+   "error": null
+  },
+  {
+   "doc": "46.json",
+   "chars": 39513,
+   "pages": 12,
+   "seconds": 77.7,
+   "cost_usd": 0.026538,
+   "cum_cost_usd": 1.138888,
+   "graph": {
+    "entities": 227,
+    "relations": 192,
+    "graphml_bytes": 192656
+   },
+   "error": null
+  },
+  {
+   "doc": "134.json",
+   "chars": 39886,
+   "pages": 21,
+   "seconds": 30.3,
+   "cost_usd": 0.015533,
+   "cum_cost_usd": 1.154421,
+   "graph": {
+    "entities": 110,
+    "relations": 91,
+    "graphml_bytes": 99277
+   },
+   "error": null
+  },
+  {
+   "doc": "32.json",
+   "chars": 40159,
+   "pages": 10,
+   "seconds": 37.1,
+   "cost_usd": 0.019858,
+   "cum_cost_usd": 1.174279,
+   "graph": {
+    "entities": 182,
+    "relations": 102,
+    "graphml_bytes": 134257
+   },
+   "error": null
+  },
+  {
+   "doc": "41.json",
+   "chars": 40497,
+   "pages": 10,
+   "seconds": 49.3,
+   "cost_usd": 0.023257,
+   "cum_cost_usd": 1.197536,
+   "graph": {
+    "entities": 208,
+    "relations": 148,
+    "graphml_bytes": 161637
+   },
+   "error": null
+  },
+  {
+   "doc": "113.json",
+   "chars": 40526,
+   "pages": 24,
+   "seconds": 28.5,
+   "cost_usd": 0.015068,
+   "cum_cost_usd": 1.212604,
+   "graph": {
+    "entities": 115,
+    "relations": 100,
+    "graphml_bytes": 104856
+   },
+   "error": null
+  },
+  {
+   "doc": "18.json",
+   "chars": 40747,
+   "pages": 11,
+   "seconds": 80.0,
+   "cost_usd": 0.028273,
+   "cum_cost_usd": 1.240877,
+   "graph": {
+    "entities": 203,
+    "relations": 267,
+    "graphml_bytes": 212193
+   },
+   "error": null
+  },
+  {
+   "doc": "90.json",
+   "chars": 40835,
+   "pages": 23,
+   "seconds": 27.0,
+   "cost_usd": 0.014718,
+   "cum_cost_usd": 1.255595,
+   "graph": {
+    "entities": 77,
+    "relations": 91,
+    "graphml_bytes": 86122
+   },
+   "error": null
+  },
+  {
+   "doc": "45.json",
+   "chars": 41117,
+   "pages": 11,
+   "seconds": 71.8,
+   "cost_usd": 0.02555,
+   "cum_cost_usd": 1.281145,
+   "graph": {
+    "entities": 200,
+    "relations": 182,
+    "graphml_bytes": 177809
+   },
+   "error": null
+  },
+  {
+   "doc": "126.json",
+   "chars": 41472,
+   "pages": 24,
+   "seconds": 37.2,
+   "cost_usd": 0.015163,
+   "cum_cost_usd": 1.296308,
+   "graph": {
+    "entities": 101,
+    "relations": 104,
+    "graphml_bytes": 100856
+   },
+   "error": null
+  },
+  {
+   "doc": "24.json",
+   "chars": 41860,
+   "pages": 11,
+   "seconds": 95.0,
+   "cost_usd": 0.028393,
+   "cum_cost_usd": 1.324701,
+   "graph": {
+    "entities": 228,
+    "relations": 276,
+    "graphml_bytes": 228412
+   },
+   "error": null
+  },
+  {
+   "doc": "116.json",
+   "chars": 42005,
+   "pages": 24,
+   "seconds": 27.9,
+   "cost_usd": 0.016034,
+   "cum_cost_usd": 1.340735,
+   "graph": {
+    "entities": 71,
+    "relations": 87,
+    "graphml_bytes": 85479
+   },
+   "error": null
+  },
+  {
+   "doc": "19.json",
+   "chars": 42223,
+   "pages": 11,
+   "seconds": 71.7,
+   "cost_usd": 0.029144,
+   "cum_cost_usd": 1.369879,
+   "graph": {
+    "entities": 277,
+    "relations": 205,
+    "graphml_bytes": 221026
+   },
+   "error": null
+  },
+  {
+   "doc": "16.json",
+   "chars": 42469,
+   "pages": 12,
+   "seconds": 76.2,
+   "cost_usd": 0.025856,
+   "cum_cost_usd": 1.395735,
+   "graph": {
+    "entities": 238,
+    "relations": 204,
+    "graphml_bytes": 199329
+   },
+   "error": null
+  },
+  {
+   "doc": "13.json",
+   "chars": 42605,
+   "pages": 12,
+   "seconds": 75.6,
+   "cost_usd": 0.034264,
+   "cum_cost_usd": 1.429999,
+   "graph": {
+    "entities": 340,
+    "relations": 250,
+    "graphml_bytes": 264531
+   },
+   "error": null
+  },
+  {
+   "doc": "44.json",
+   "chars": 43114,
+   "pages": 12,
+   "seconds": 54.9,
+   "cost_usd": 0.024285,
+   "cum_cost_usd": 1.454284,
+   "graph": {
+    "entities": 187,
+    "relations": 148,
+    "graphml_bytes": 151092
+   },
+   "error": null
+  },
+  {
+   "doc": "20.json",
+   "chars": 43979,
+   "pages": 12,
+   "seconds": 53.7,
+   "cost_usd": 0.024045,
+   "cum_cost_usd": 1.478329,
+   "graph": {
+    "entities": 191,
+    "relations": 162,
+    "graphml_bytes": 161198
+   },
+   "error": null
+  },
+  {
+   "doc": "11.json",
+   "chars": 44504,
+   "pages": 14,
+   "seconds": 45.6,
+   "cost_usd": 0.023913,
+   "cum_cost_usd": 1.502242,
+   "graph": {
+    "entities": 205,
+    "relations": 143,
+    "graphml_bytes": 160321
+   },
+   "error": null
+  },
+  {
+   "doc": "37.json",
+   "chars": 44701,
+   "pages": 18,
+   "seconds": 59.3,
+   "cost_usd": 0.025856,
+   "cum_cost_usd": 1.528098,
+   "graph": {
+    "entities": 225,
+    "relations": 173,
+    "graphml_bytes": 179664
+   },
+   "error": null
+  },
+  {
+   "doc": "96.json",
+   "chars": 45033,
+   "pages": 31,
+   "seconds": 43.5,
+   "cost_usd": 0.018471,
+   "cum_cost_usd": 1.546569,
+   "graph": {
+    "entities": 138,
+    "relations": 127,
+    "graphml_bytes": 130857
+   },
+   "error": null
+  },
+  {
+   "doc": "34.json",
+   "chars": 45730,
+   "pages": 12,
+   "seconds": 72.2,
+   "cost_usd": 0.028546,
+   "cum_cost_usd": 1.575115,
+   "graph": {
+    "entities": 230,
+    "relations": 227,
+    "graphml_bytes": 206584
+   },
+   "error": null
+  },
+  {
+   "doc": "42.json",
+   "chars": 46247,
+   "pages": 18,
+   "seconds": 64.0,
+   "cost_usd": 0.031078,
+   "cum_cost_usd": 1.606193,
+   "graph": {
+    "entities": 298,
+    "relations": 257,
+    "graphml_bytes": 246385
+   },
+   "error": null
+  },
+  {
+   "doc": "21.json",
+   "chars": 46378,
+   "pages": 12,
+   "seconds": 62.9,
+   "cost_usd": 0.028028,
+   "cum_cost_usd": 1.634221,
+   "graph": {
+    "entities": 323,
+    "relations": 179,
+    "graphml_bytes": 224510
+   },
+   "error": null
+  },
+  {
+   "doc": "108.json",
+   "chars": 46491,
+   "pages": 32,
+   "seconds": 26.4,
+   "cost_usd": 0.016373,
+   "cum_cost_usd": 1.650594,
+   "graph": {
+    "entities": 98,
+    "relations": 100,
+    "graphml_bytes": 98770
+   },
+   "error": null
+  },
+  {
+   "doc": "15.json",
+   "chars": 47021,
+   "pages": 12,
+   "seconds": 74.0,
+   "cost_usd": 0.029203,
+   "cum_cost_usd": 1.679797,
+   "graph": {
+    "entities": 319,
+    "relations": 225,
+    "graphml_bytes": 242472
+   },
+   "error": null
+  },
+  {
+   "doc": "30.json",
+   "chars": 48214,
+   "pages": 14,
+   "seconds": 107.9,
+   "cost_usd": 0.040084,
+   "cum_cost_usd": 1.719881,
+   "graph": {
+    "entities": 439,
+    "relations": 321,
+    "graphml_bytes": 343711
+   },
+   "error": null
+  },
+  {
+   "doc": "144.json",
+   "chars": 48777,
+   "pages": 36,
+   "seconds": 36.8,
+   "cost_usd": 0.019475,
+   "cum_cost_usd": 1.739356,
+   "graph": {
+    "entities": 145,
+    "relations": 138,
+    "graphml_bytes": 135121
+   },
+   "error": null
+  },
+  {
+   "doc": "92.json",
+   "chars": 49232,
+   "pages": 34,
+   "seconds": 37.5,
+   "cost_usd": 0.019607,
+   "cum_cost_usd": 1.758963,
+   "graph": {
+    "entities": 131,
+    "relations": 124,
+    "graphml_bytes": 128800
+   },
+   "error": null
+  },
+  {
+   "doc": "33.json",
+   "chars": 51425,
+   "pages": 13,
+   "seconds": 93.6,
+   "cost_usd": 0.035785,
+   "cum_cost_usd": 1.794748,
+   "graph": {
+    "entities": 345,
+    "relations": 291,
+    "graphml_bytes": 278451
+   },
+   "error": null
+  },
+  {
+   "doc": "7.json",
+   "chars": 52757,
+   "pages": 22,
+   "seconds": 79.7,
+   "cost_usd": 0.026973,
+   "cum_cost_usd": 1.821721,
+   "graph": {
+    "entities": 271,
+    "relations": 115,
+    "graphml_bytes": 177928
+   },
+   "error": null
+  },
+  {
+   "doc": "112.json",
+   "chars": 53232,
+   "pages": 29,
+   "seconds": 33.5,
+   "cost_usd": 0.020947,
+   "cum_cost_usd": 1.842668,
+   "graph": {
+    "entities": 124,
+    "relations": 127,
+    "graphml_bytes": 125041
+   },
+   "error": null
+  },
+  {
+   "doc": "43.json",
+   "chars": 56476,
+   "pages": 29,
+   "seconds": 62.7,
+   "cost_usd": 0.030654,
+   "cum_cost_usd": 1.873322,
+   "graph": {
+    "entities": 239,
+    "relations": 232,
+    "graphml_bytes": 214217
+   },
+   "error": null
+  },
+  {
+   "doc": "5.json",
+   "chars": 57859,
+   "pages": 14,
+   "seconds": 80.0,
+   "cost_usd": 0.036995,
+   "cum_cost_usd": 1.910317,
+   "graph": {
+    "entities": 398,
+    "relations": 259,
+    "graphml_bytes": 294066
+   },
+   "error": null
+  },
+  {
+   "doc": "39.json",
+   "chars": 59555,
+   "pages": 16,
+   "seconds": 94.8,
+   "cost_usd": 0.045181,
+   "cum_cost_usd": 1.955498,
+   "graph": {
+    "entities": 363,
+    "relations": 364,
+    "graphml_bytes": 339742
+   },
+   "error": null
+  },
+  {
+   "doc": "124.json",
+   "chars": 60922,
+   "pages": 29,
+   "seconds": 47.9,
+   "cost_usd": 0.02685,
+   "cum_cost_usd": 1.982348,
+   "graph": {
+    "entities": 191,
+    "relations": 181,
+    "graphml_bytes": 189500
+   },
+   "error": null
+  },
+  {
+   "doc": "6.json",
+   "chars": 61317,
+   "pages": 16,
+   "seconds": 102.7,
+   "cost_usd": 0.047387,
+   "cum_cost_usd": 2.029735,
+   "graph": {
+    "entities": 373,
+    "relations": 451,
+    "graphml_bytes": 369298
+   },
+   "error": null
+  },
+  {
+   "doc": "23.json",
+   "chars": 66683,
+   "pages": 16,
+   "seconds": 93.8,
+   "cost_usd": 0.049325,
+   "cum_cost_usd": 2.07906,
+   "graph": {
+    "entities": 507,
+    "relations": 417,
+    "graphml_bytes": 405629
+   },
+   "error": null
+  },
+  {
+   "doc": "94.json",
+   "chars": 69065,
+   "pages": 37,
+   "seconds": 53.6,
+   "cost_usd": 0.028605,
+   "cum_cost_usd": 2.107665,
+   "graph": {
+    "entities": 180,
+    "relations": 186,
+    "graphml_bytes": 188768
+   },
+   "error": null
+  },
+  {
+   "doc": "143.json",
+   "chars": 72986,
+   "pages": 40,
+   "seconds": 46.9,
+   "cost_usd": 0.027674,
+   "cum_cost_usd": 2.135339,
+   "graph": {
+    "entities": 205,
+    "relations": 159,
+    "graphml_bytes": 179398
+   },
+   "error": null
+  },
+  {
+   "doc": "109.json",
+   "chars": 77145,
+   "pages": 47,
+   "seconds": 65.1,
+   "cost_usd": 0.034023,
+   "cum_cost_usd": 2.169362,
+   "graph": {
+    "entities": 232,
+    "relations": 254,
+    "graphml_bytes": 240801
+   },
+   "error": null
+  },
+  {
+   "doc": "122.json",
+   "chars": 82762,
+   "pages": 32,
+   "seconds": 58.3,
+   "cost_usd": 0.032141,
+   "cum_cost_usd": 2.201503,
+   "graph": {
+    "entities": 235,
+    "relations": 220,
+    "graphml_bytes": 223369
+   },
+   "error": null
+  },
+  {
+   "doc": "178.json",
+   "chars": 83703,
+   "pages": 54,
+   "seconds": 53.1,
+   "cost_usd": 0.033035,
+   "cum_cost_usd": 2.234538,
+   "graph": {
+    "entities": 244,
+    "relations": 208,
+    "graphml_bytes": 217299
+   },
+   "error": null
+  },
+  {
+   "doc": "167.json",
+   "chars": 86615,
+   "pages": 57,
+   "seconds": 56.6,
+   "cost_usd": 0.035498,
+   "cum_cost_usd": 2.270036,
+   "graph": {
+    "entities": 264,
+    "relations": 235,
+    "graphml_bytes": 242583
+   },
+   "error": null
+  },
+  {
+   "doc": "149.json",
+   "chars": 100569,
+   "pages": 47,
+   "seconds": 59.7,
+   "cost_usd": 0.036933,
+   "cum_cost_usd": 2.306969,
+   "graph": {
+    "entities": 212,
+    "relations": 229,
+    "graphml_bytes": 219511
+   },
+   "error": null
+  },
+  {
+   "doc": "154.json",
+   "chars": 102660,
+   "pages": 59,
+   "seconds": 74.1,
+   "cost_usd": 0.046064,
+   "cum_cost_usd": 2.353033,
+   "graph": {
+    "entities": 322,
+    "relations": 277,
+    "graphml_bytes": 290273
+   },
+   "error": null
+  },
+  {
+   "doc": "157.json",
+   "chars": 108283,
+   "pages": 71,
+   "seconds": 76.4,
+   "cost_usd": 0.045306,
+   "cum_cost_usd": 2.398339,
+   "graph": {
+    "entities": 336,
+    "relations": 308,
+    "graphml_bytes": 311802
+   },
+   "error": null
+  },
+  {
+   "doc": "150.json",
+   "chars": 108560,
+   "pages": 64,
+   "seconds": 63.7,
+   "cost_usd": 0.039066,
+   "cum_cost_usd": 2.437405,
+   "graph": {
+    "entities": 267,
+    "relations": 223,
+    "graphml_bytes": 243145
+   },
+   "error": null
+  },
+  {
+   "doc": "147.json",
+   "chars": 119743,
+   "pages": 69,
+   "seconds": 65.4,
+   "cost_usd": 0.042553,
+   "cum_cost_usd": 2.479958,
+   "graph": {
+    "entities": 250,
+    "relations": 235,
+    "graphml_bytes": 245095
+   },
+   "error": null
+  },
+  {
+   "doc": "172.json",
+   "chars": 121058,
+   "pages": 65,
+   "seconds": 83.4,
+   "cost_usd": 0.049543,
+   "cum_cost_usd": 2.529501,
+   "graph": {
+    "entities": 346,
+    "relations": 340,
+    "graphml_bytes": 324007
+   },
+   "error": null
+  },
+  {
+   "doc": "161.json",
+   "chars": 122425,
+   "pages": 61,
+   "seconds": 80.3,
+   "cost_usd": 0.046641,
+   "cum_cost_usd": 2.576142,
+   "graph": {
+    "entities": 292,
+    "relations": 283,
+    "graphml_bytes": 286234
+   },
+   "error": null
+  },
+  {
+   "doc": "156.json",
+   "chars": 122897,
+   "pages": 84,
+   "seconds": 85.8,
+   "cost_usd": 0.05097,
+   "cum_cost_usd": 2.627112,
+   "graph": {
+    "entities": 344,
+    "relations": 358,
+    "graphml_bytes": 337621
+   },
+   "error": null
+  },
+  {
+   "doc": "73.json",
+   "chars": 130220,
+   "pages": 75,
+   "seconds": 115.0,
+   "cost_usd": 0.060412,
+   "cum_cost_usd": 2.687524,
+   "graph": {
+    "entities": 413,
+    "relations": 416,
+    "graphml_bytes": 396225
+   },
+   "error": null
+  },
+  {
+   "doc": "133.json",
+   "chars": 135935,
+   "pages": 72,
+   "seconds": 80.1,
+   "cost_usd": 0.052406,
+   "cum_cost_usd": 2.73993,
+   "graph": {
+    "entities": 318,
+    "relations": 309,
+    "graphml_bytes": 308013
+   },
+   "error": null
+  },
+  {
+   "doc": "87.json",
+   "chars": 138063,
+   "pages": 88,
+   "seconds": 82.1,
+   "cost_usd": 0.051707,
+   "cum_cost_usd": 2.791637,
+   "graph": {
+    "entities": 272,
+    "relations": 300,
+    "graphml_bytes": 282309
+   },
+   "error": null
+  },
+  {
+   "doc": "158.json",
+   "chars": 141765,
+   "pages": 77,
+   "seconds": 85.0,
+   "cost_usd": 0.051678,
+   "cum_cost_usd": 2.843315,
+   "graph": {
+    "entities": 332,
+    "relations": 331,
+    "graphml_bytes": 328244
+   },
+   "error": null
+  },
+  {
+   "doc": "173.json",
+   "chars": 148239,
+   "pages": 81,
+   "seconds": 132.6,
+   "cost_usd": 0.058124,
+   "cum_cost_usd": 2.901439,
+   "graph": {
+    "entities": 397,
+    "relations": 385,
+    "graphml_bytes": 389472
+   },
+   "error": null
+  },
+  {
+   "doc": "174.json",
+   "chars": 148253,
+   "pages": 85,
+   "seconds": 76.2,
+   "cost_usd": 0.051973,
+   "cum_cost_usd": 2.953412,
+   "graph": {
+    "entities": 303,
+    "relations": 307,
+    "graphml_bytes": 308309
+   },
+   "error": null
+  },
+  {
+   "doc": "75.json",
+   "chars": 158331,
+   "pages": 65,
+   "seconds": 83.5,
+   "cost_usd": 0.057392,
+   "cum_cost_usd": 3.010804,
+   "graph": {
+    "entities": 270,
+    "relations": 293,
+    "graphml_bytes": 288544
+   },
+   "error": null
+  },
+  {
+   "doc": "153.json",
+   "chars": 169558,
+   "pages": 90,
+   "seconds": 96.1,
+   "cost_usd": 0.061779,
+   "cum_cost_usd": 3.072583,
+   "graph": {
+    "entities": 372,
+    "relations": 395,
+    "graphml_bytes": 384144
+   },
+   "error": null
+  },
+  {
+   "doc": "74.json",
+   "chars": 170183,
+   "pages": 166,
+   "seconds": 172.9,
+   "cost_usd": 0.093665,
+   "cum_cost_usd": 3.166248,
+   "graph": {
+    "entities": 667,
+    "relations": 587,
+    "graphml_bytes": 594507
+   },
+   "error": null
+  },
+  {
+   "doc": "160.json",
+   "chars": 176814,
+   "pages": 95,
+   "seconds": 122.1,
+   "cost_usd": 0.069596,
+   "cum_cost_usd": 3.235844,
+   "graph": {
+    "entities": 415,
+    "relations": 427,
+    "graphml_bytes": 415685
+   },
+   "error": null
+  },
+  {
+   "doc": "138.json",
+   "chars": 184767,
+   "pages": 95,
+   "seconds": 110.4,
+   "cost_usd": 0.065635,
+   "cum_cost_usd": 3.301479,
+   "graph": {
+    "entities": 462,
+    "relations": 421,
+    "graphml_bytes": 435483
+   },
+   "error": null
+  },
+  {
+   "doc": "79.json",
+   "chars": 192064,
+   "pages": 76,
+   "seconds": 131.3,
+   "cost_usd": 0.074242,
+   "cum_cost_usd": 3.375721,
+   "graph": {
+    "entities": 614,
+    "relations": 487,
+    "graphml_bytes": 504926
+   },
+   "error": null
+  },
+  {
+   "doc": "162.json",
+   "chars": 215423,
+   "pages": 121,
+   "seconds": 149.7,
+   "cost_usd": 0.088842,
+   "cum_cost_usd": 3.464563,
+   "graph": {
+    "entities": 643,
+    "relations": 575,
+    "graphml_bytes": 580813
+   },
+   "error": null
+  },
+  {
+   "doc": "163.json",
+   "chars": 226773,
+   "pages": 128,
+   "seconds": 139.6,
+   "cost_usd": 0.086745,
+   "cum_cost_usd": 3.551308,
+   "graph": {
+    "entities": 482,
+    "relations": 519,
+    "graphml_bytes": 504670
+   },
+   "error": null
+  },
+  {
+   "doc": "88.json",
+   "chars": 249692,
+   "pages": 54,
+   "seconds": 154.0,
+   "cost_usd": 0.095802,
+   "cum_cost_usd": 3.64711,
+   "graph": {
+    "entities": 546,
+    "relations": 541,
+    "graphml_bytes": 545427
+   },
+   "error": null
+  },
+  {
+   "doc": "78.json",
+   "chars": 276955,
+   "pages": 116,
+   "seconds": 186.1,
+   "cost_usd": 0.110943,
+   "cum_cost_usd": 3.758053,
+   "graph": {
+    "entities": 719,
+    "relations": 737,
+    "graphml_bytes": 695345
+   },
+   "error": null
+  },
+  {
+   "doc": "50.json",
+   "chars": 278218,
+   "pages": 100,
+   "seconds": 145.4,
+   "cost_usd": 0.09647,
+   "cum_cost_usd": 3.854523,
+   "graph": {
+    "entities": 492,
+    "relations": 552,
+    "graphml_bytes": 537628
+   },
+   "error": null
+  },
+  {
+   "doc": "86.json",
+   "chars": 285190,
+   "pages": 106,
+   "seconds": 176.8,
+   "cost_usd": 0.106307,
+   "cum_cost_usd": 3.96083,
+   "graph": {
+    "entities": 642,
+    "relations": 717,
+    "graphml_bytes": 658646
+   },
+   "error": null
+  },
+  {
+   "doc": "51.json",
+   "chars": 301888,
+   "pages": 202,
+   "seconds": 189.6,
+   "cost_usd": 0.123731,
+   "cum_cost_usd": 4.084561,
+   "graph": {
+    "entities": 726,
+    "relations": 717,
+    "graphml_bytes": 712476
+   },
+   "error": null
+  },
+  {
+   "doc": "68.json",
+   "chars": 306973,
+   "pages": 99,
+   "seconds": 208.0,
+   "cost_usd": 0.129782,
+   "cum_cost_usd": 4.214343,
+   "graph": {
+    "entities": 713,
+    "relations": 700,
+    "graphml_bytes": 727697
+   },
+   "error": null
+  },
+  {
+   "doc": "52.json",
+   "chars": 311839,
+   "pages": 92,
+   "seconds": 199.5,
+   "cost_usd": 0.12296,
+   "cum_cost_usd": 4.337303,
+   "graph": {
+    "entities": 754,
+    "relations": 857,
+    "graphml_bytes": 781626
+   },
+   "error": null
+  },
+  {
+   "doc": "77.json",
+   "chars": 312027,
+   "pages": 98,
+   "seconds": 173.0,
+   "cost_usd": 0.118938,
+   "cum_cost_usd": 4.456241,
+   "graph": {
+    "entities": 689,
+    "relations": 689,
+    "graphml_bytes": 696751
+   },
+   "error": null
+  },
+  {
+   "doc": "60.json",
+   "chars": 331616,
+   "pages": 148,
+   "seconds": 209.8,
+   "cost_usd": 0.136928,
+   "cum_cost_usd": 4.593169,
+   "graph": {
+    "entities": 824,
+    "relations": 887,
+    "graphml_bytes": 858525
+   },
+   "error": null
+  },
+  {
+   "doc": "49.json",
+   "chars": 341591,
+   "pages": 128,
+   "seconds": 191.2,
+   "cost_usd": 0.127412,
+   "cum_cost_usd": 4.720581,
+   "graph": {
+    "entities": 736,
+    "relations": 803,
+    "graphml_bytes": 766522
+   },
+   "error": null
+  },
+  {
+   "doc": "55.json",
+   "chars": 349073,
+   "pages": 116,
+   "seconds": 201.6,
+   "cost_usd": 0.131094,
+   "cum_cost_usd": 4.851675,
+   "graph": {
+    "entities": 781,
+    "relations": 847,
+    "graphml_bytes": 798687
+   },
+   "error": null
+  },
+  {
+   "doc": "136.json",
+   "chars": 366160,
+   "pages": 194,
+   "seconds": 222.9,
+   "cost_usd": 0.149481,
+   "cum_cost_usd": 5.001156,
+   "graph": {
+    "entities": 787,
+    "relations": 903,
+    "graphml_bytes": 876391
+   },
+   "error": null
+  },
+  {
+   "doc": "151.json",
+   "chars": 367175,
+   "pages": 209,
+   "seconds": 311.5,
+   "cost_usd": 0.175529,
+   "cum_cost_usd": 5.176685,
+   "graph": {
+    "entities": 994,
+    "relations": 985,
+    "graphml_bytes": 963396
+   },
+   "error": null
+  },
+  {
+   "doc": "84.json",
+   "chars": 371214,
+   "pages": 142,
+   "seconds": 232.1,
+   "cost_usd": 0.139684,
+   "cum_cost_usd": 5.316369,
+   "graph": {
+    "entities": 841,
+    "relations": 887,
+    "graphml_bytes": 857149
+   },
+   "error": null
+  },
+  {
+   "doc": "59.json",
+   "chars": 384031,
+   "pages": 147,
+   "seconds": 279.0,
+   "cost_usd": 0.16157,
+   "cum_cost_usd": 5.477939,
+   "graph": {
+    "entities": 1072,
+    "relations": 993,
+    "graphml_bytes": 1000314
+   },
+   "error": null
+  },
+  {
+   "doc": "106.json",
+   "chars": 395875,
+   "pages": 162,
+   "seconds": 240.8,
+   "cost_usd": 0.149978,
+   "cum_cost_usd": 5.627917,
+   "graph": {
+    "entities": 948,
+    "relations": 882,
+    "graphml_bytes": 926220
+   },
+   "error": null
+  },
+  {
+   "doc": "76.json",
+   "chars": 401226,
+   "pages": 97,
+   "seconds": 216.6,
+   "cost_usd": 0.14715,
+   "cum_cost_usd": 5.775067,
+   "graph": {
+    "entities": 784,
+    "relations": 936,
+    "graphml_bytes": 868573
+   },
+   "error": null
+  },
+  {
+   "doc": "80.json",
+   "chars": 402294,
+   "pages": 141,
+   "seconds": 251.4,
+   "cost_usd": 0.169857,
+   "cum_cost_usd": 5.944924,
+   "graph": {
+    "entities": 913,
+    "relations": 1048,
+    "graphml_bytes": 992503
+   },
+   "error": null
+  },
+  {
+   "doc": "72.json",
+   "chars": 404276,
+   "pages": 118,
+   "seconds": 251.7,
+   "cost_usd": 0.162026,
+   "cum_cost_usd": 6.10695,
+   "graph": {
+    "entities": 704,
+    "relations": 779,
+    "graphml_bytes": 801923
+   },
+   "error": null
+  },
+  {
+   "doc": "170.json",
+   "chars": 406868,
+   "pages": 199,
+   "seconds": 268.8,
+   "cost_usd": 0.179851,
+   "cum_cost_usd": 6.286801,
+   "graph": {
+    "entities": 1054,
+    "relations": 1086,
+    "graphml_bytes": 1099978
+   },
+   "error": null
+  },
+  {
+   "doc": "91.json",
+   "chars": 413542,
+   "pages": 168,
+   "seconds": 235.4,
+   "cost_usd": 0.159108,
+   "cum_cost_usd": 6.445909,
+   "graph": {
+    "entities": 1023,
+    "relations": 931,
+    "graphml_bytes": 985060
+   },
+   "error": null
+  },
+  {
+   "doc": "137.json",
+   "chars": 415470,
+   "pages": 212,
+   "seconds": 225.4,
+   "cost_usd": 0.15855,
+   "cum_cost_usd": 6.604459,
+   "graph": {
+    "entities": 1001,
+    "relations": 949,
+    "graphml_bytes": 970567
+   },
+   "error": null
+  },
+  {
+   "doc": "114.json",
+   "chars": 416469,
+   "pages": 188,
+   "seconds": 266.1,
+   "cost_usd": 0.162182,
+   "cum_cost_usd": 6.766641,
+   "graph": {
+    "entities": 1050,
+    "relations": 1035,
+    "graphml_bytes": 1046526
+   },
+   "error": null
+  },
+  {
+   "doc": "56.json",
+   "chars": 465582,
+   "pages": 146,
+   "seconds": 264.3,
+   "cost_usd": 0.176839,
+   "cum_cost_usd": 6.94348,
+   "graph": {
+    "entities": 933,
+    "relations": 1066,
+    "graphml_bytes": 1024229
+   },
+   "error": null
+  },
+  {
+   "doc": "82.json",
+   "chars": 468592,
+   "pages": 143,
+   "seconds": 259.7,
+   "cost_usd": 0.181765,
+   "cum_cost_usd": 7.125245,
+   "graph": {
+    "entities": 1119,
+    "relations": 1173,
+    "graphml_bytes": 1121325
+   },
+   "error": null
+  },
+  {
+   "doc": "71.json",
+   "chars": 509890,
+   "pages": 188,
+   "seconds": 459.4,
+   "cost_usd": 0.210127,
+   "cum_cost_usd": 7.335372,
+   "graph": {
+    "entities": 1192,
+    "relations": 1189,
+    "graphml_bytes": 1209487
+   },
+   "error": null
+  },
+  {
+   "doc": "131.json",
+   "chars": 510710,
+   "pages": 198,
+   "seconds": 323.8,
+   "cost_usd": 0.215052,
+   "cum_cost_usd": 7.550424,
+   "graph": {
+    "entities": 1206,
+    "relations": 1315,
+    "graphml_bytes": 1303524
+   },
+   "error": null
+  },
+  {
+   "doc": "107.json",
+   "chars": 514116,
+   "pages": 200,
+   "seconds": 324.9,
+   "cost_usd": 0.214684,
+   "cum_cost_usd": 7.765108,
+   "graph": {
+    "entities": 1189,
+    "relations": 1282,
+    "graphml_bytes": 1289291
+   },
+   "error": null
+  },
+  {
+   "doc": "57.json",
+   "chars": 516267,
+   "pages": 162,
+   "seconds": 444.4,
+   "cost_usd": 0.300475,
+   "cum_cost_usd": 8.065583,
+   "graph": {
+    "entities": 1216,
+    "relations": 897,
+    "graphml_bytes": 1032291
+   },
+   "error": null
+  },
+  {
+   "doc": "129.json",
+   "chars": 533293,
+   "pages": 206,
+   "seconds": 346.6,
+   "cost_usd": 0.229156,
+   "cum_cost_usd": 8.294739,
+   "graph": {
+    "entities": 1265,
+    "relations": 1504,
+    "graphml_bytes": 1428019
+   },
+   "error": null
+  },
+  {
+   "doc": "58.json",
+   "chars": 568042,
+   "pages": 170,
+   "seconds": 363.5,
+   "cost_usd": 0.238006,
+   "cum_cost_usd": 8.532745,
+   "graph": {
+    "entities": 1355,
+    "relations": 1488,
+    "graphml_bytes": 1410556
+   },
+   "error": null
+  },
+  {
+   "doc": "81.json",
+   "chars": 568157,
+   "pages": 339,
+   "seconds": 384.3,
+   "cost_usd": 0.260829,
+   "cum_cost_usd": 8.793574,
+   "graph": {
+    "entities": 1219,
+    "relations": 1422,
+    "graphml_bytes": 1320366
+   },
+   "error": null
+  },
+  {
+   "doc": "93.json",
+   "chars": 638061,
+   "pages": 249,
+   "seconds": 419.4,
+   "cost_usd": 0.278286,
+   "cum_cost_usd": 9.07186,
+   "graph": {
+    "entities": 1540,
+    "relations": 1827,
+    "graphml_bytes": 1715041
+   },
+   "error": null
+  },
+  {
+   "doc": "67.json",
+   "chars": 649898,
+   "pages": 173,
+   "seconds": 350.9,
+   "cost_usd": 0.245015,
+   "cum_cost_usd": 9.316875,
+   "graph": {
+    "entities": 1283,
+    "relations": 1487,
+    "graphml_bytes": 1418766
+   },
+   "error": null
+  },
+  {
+   "doc": "70.json",
+   "chars": 688269,
+   "pages": 199,
+   "seconds": 361.6,
+   "cost_usd": 0.25461,
+   "cum_cost_usd": 9.571485,
+   "graph": {
+    "entities": 1011,
+    "relations": 1343,
+    "graphml_bytes": 1259632
+   },
+   "error": null
+  },
+  {
+   "doc": "61.json",
+   "chars": 699324,
+   "pages": 207,
+   "seconds": 408.1,
+   "cost_usd": 0.272679,
+   "cum_cost_usd": 9.844164,
+   "graph": {
+    "entities": 1560,
+    "relations": 1778,
+    "graphml_bytes": 1678255
+   },
+   "error": null
+  },
+  {
+   "doc": "130.json",
+   "chars": 720662,
+   "pages": 280,
+   "seconds": 485.2,
+   "cost_usd": 0.316499,
+   "cum_cost_usd": 10.160663,
+   "graph": {
+    "entities": 1745,
+    "relations": 2029,
+    "graphml_bytes": 1928382
+   },
+   "error": null
+  },
+  {
+   "doc": "69.json",
+   "chars": 751333,
+   "pages": 226,
+   "seconds": 405.2,
+   "cost_usd": 0.284471,
+   "cum_cost_usd": 10.445134,
+   "graph": {
+    "entities": 1569,
+    "relations": 1784,
+    "graphml_bytes": 1698176
+   },
+   "error": null
+  },
+  {
+   "doc": "65.json",
+   "chars": 822708,
+   "pages": 186,
+   "seconds": 488.0,
+   "cost_usd": 0.34364,
+   "cum_cost_usd": 10.788774,
+   "graph": {
+    "entities": 1761,
+    "relations": 1939,
+    "graphml_bytes": 1880116
+   },
+   "error": null
+  },
+  {
+   "doc": "54.json",
+   "chars": 847314,
+   "pages": 293,
+   "seconds": 526.3,
+   "cost_usd": 0.364462,
+   "cum_cost_usd": 11.153236,
+   "graph": {
+    "entities": 1755,
+    "relations": 2104,
+    "graphml_bytes": 1976979
+   },
+   "error": null
+  },
+  {
+   "doc": "110.json",
+   "chars": 966361,
+   "pages": 318,
+   "seconds": 722.3,
+   "cost_usd": 0.470122,
+   "cum_cost_usd": 11.623358,
+   "graph": {
+    "entities": 2740,
+    "relations": 3056,
+    "graphml_bytes": 2919482
+   },
+   "error": null
+  },
+  {
+   "doc": "120.json",
+   "chars": 967771,
+   "pages": 330,
+   "seconds": 722.5,
+   "cost_usd": 0.474939,
+   "cum_cost_usd": 12.098297,
+   "graph": {
+    "entities": 2972,
+    "relations": 2950,
+    "graphml_bytes": 2966818
+   },
+   "error": null
+  },
+  {
+   "doc": "63.json",
+   "chars": 1057907,
+   "pages": 316,
+   "seconds": 551.5,
+   "cost_usd": 0.40697,
+   "cum_cost_usd": 12.505267,
+   "graph": {
+    "entities": 1571,
+    "relations": 2025,
+    "graphml_bytes": 1943004
+   },
+   "error": null
+  },
+  {
+   "doc": "62.json",
+   "chars": 1144976,
+   "pages": 312,
+   "seconds": 779.7,
+   "cost_usd": 0.49456,
+   "cum_cost_usd": 12.999827,
+   "graph": {
+    "entities": 2181,
+    "relations": 2674,
+    "graphml_bytes": 2569056
+   },
+   "error": null
+  },
+  {
+   "doc": "66.json",
+   "chars": 1288658,
+   "pages": 382,
+   "seconds": 749.1,
+   "cost_usd": 0.513194,
+   "cum_cost_usd": 13.513021,
+   "graph": {
+    "entities": 2449,
+    "relations": 3105,
+    "graphml_bytes": 2847964
+   },
+   "error": null
+  },
+  {
+   "doc": "53.json",
+   "chars": 1428682,
+   "pages": 844,
+   "seconds": 816.1,
+   "cost_usd": 0.574477,
+   "cum_cost_usd": 14.087498,
+   "graph": {
+    "entities": 2524,
+    "relations": 3050,
+    "graphml_bytes": 2970370
+   },
+   "error": null
+  },
+  {
+   "doc": "83.json",
+   "chars": 1431635,
+   "pages": 564,
+   "seconds": 687.5,
+   "cost_usd": 0.528533,
+   "cum_cost_usd": 14.616031,
+   "graph": {
+    "entities": 1592,
+    "relations": 2311,
+    "graphml_bytes": 2185012
+   },
+   "error": null
+  },
+  {
+   "doc": "64.json",
+   "chars": 1443965,
+   "pages": 449,
+   "seconds": 860.2,
+   "cost_usd": 0.617469,
+   "cum_cost_usd": 15.2335,
+   "graph": {
+    "entities": 2143,
+    "relations": 3067,
+    "graphml_bytes": 2885622
+   },
+   "error": null
+  }
+ ],
+ "totals": {
+  "llm_calls": 14649,
+  "prompt_tokens": 52263992,
+  "completion_tokens": 11833524,
+  "embedding_calls": 18848,
+  "embedding_tokens": 14689328,
+  "cost_usd": 15.2335,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 18848,
+    "in": 14689328,
+    "out": 0
+   },
+   "gpt-4o-mini": {
+    "calls": 14649,
+    "in": 52263992,
+    "out": 11833524
+   }
+  }
+ },
+ "wall_seconds": 25122.9,
+ "docs_indexed": 229,
+ "docs_expected": 229,
+ "projected_usd": 18.0,
+ "projected_seconds_parallel": 2952.0,
+ "benchmark": "docbench",
+ "_correction": "projected_usd was written as 5.06 (MMLongBench constant); corrected to the DocBench Gate G projection of 18.00. Measured 15.2335."
+}

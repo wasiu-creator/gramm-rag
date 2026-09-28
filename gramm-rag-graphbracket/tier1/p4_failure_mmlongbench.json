@@ -1,0 +1,51 @@
+{
+ "benchmark": "mmlongbench",
+ "anls_threshold": 0.5,
+ "arms": {
+  "LightRAG": {
+   "cells": {
+    "BOTH_OK": 113,
+    "CONVERSION_MISS": 123,
+    "LOCALISATION_MISS": 516,
+    "LUCKY_HIT": 86,
+    "ABSTAIN_OK": 182,
+    "ABSTAIN_MISS": 62,
+    "SKIPPED": 0
+   },
+   "n_scoreable": 838,
+   "ctx_hit": 0.2816,
+   "conversion_given_hit": 0.4788,
+   "abstain_accuracy": 0.7459
+  },
+  "RAG-Anything": {
+   "cells": {
+    "BOTH_OK": 235,
+    "CONVERSION_MISS": 223,
+    "LOCALISATION_MISS": 315,
+    "LUCKY_HIT": 65,
+    "ABSTAIN_OK": 132,
+    "ABSTAIN_MISS": 112,
+    "SKIPPED": 0
+   },
+   "n_scoreable": 838,
+   "ctx_hit": 0.5465,
+   "conversion_given_hit": 0.5131,
+   "abstain_accuracy": 0.541
+  },
+  "MS GraphRAG": {
+   "cells": {
+    "BOTH_OK": 96,
+    "CONVERSION_MISS": 112,
+    "LOCALISATION_MISS": 547,
+    "LUCKY_HIT": 83,
+    "ABSTAIN_OK": 180,
+    "ABSTAIN_MISS": 64,
+    "SKIPPED": 0
+   },
+   "n_scoreable": 838,
+   "ctx_hit": 0.2482,
+   "conversion_given_hit": 0.4615,
+   "abstain_accuracy": 0.7377
+  }
+ }
+}

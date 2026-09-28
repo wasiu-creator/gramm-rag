@@ -1,0 +1,7 @@
+{
+ "bench": "mmlongbench",
+ "n": 40,
+ "gate_max_abs_diff": 5.744196474552141e-05,
+ "gate_pass": false,
+ "limit": 40
+}

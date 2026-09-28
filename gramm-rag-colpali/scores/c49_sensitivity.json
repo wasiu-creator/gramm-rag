@@ -1,0 +1,18 @@
+{
+ "mmlongbench": {
+  "metric": "ctx-hit",
+  "denominator": 838,
+  "shipped": 0.5465393794749404,
+  "text_only": 0.32935560859188545,
+  "align_shipped": 0.9589002749770865,
+  "align_text_only": 0.45439890009165934
+ },
+ "docbench": {
+  "metric": "quote-recall@5",
+  "denominator": 730,
+  "shipped": 0.5013698630136987,
+  "text_only": 0.49726027397260275,
+  "align_shipped": 0.9576892921960053,
+  "align_text_only": 0.7500786751361158
+ }
+}

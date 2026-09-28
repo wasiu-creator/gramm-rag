@@ -1,0 +1,2189 @@
+{
+ "measure": "len(mapper.elements_to_text(parse)) -- the exact string GraphRAG ingests",
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf.json",
+   "ingested_chars": 1141,
+   "s2_log_chars": 1004
+  },
+  {
+   "bench": "docbench",
+   "doc": "142.json",
+   "ingested_chars": 1204,
+   "s2_log_chars": 1188
+  },
+  {
+   "bench": "docbench",
+   "doc": "165.json",
+   "ingested_chars": 1333,
+   "s2_log_chars": 1305
+  },
+  {
+   "bench": "docbench",
+   "doc": "148.json",
+   "ingested_chars": 1600,
+   "s2_log_chars": 1573
+  },
+  {
+   "bench": "docbench",
+   "doc": "152.json",
+   "ingested_chars": 2336,
+   "s2_log_chars": 2309
+  },
+  {
+   "bench": "docbench",
+   "doc": "140.json",
+   "ingested_chars": 2564,
+   "s2_log_chars": 2543
+  },
+  {
+   "bench": "docbench",
+   "doc": "171.json",
+   "ingested_chars": 2722,
+   "s2_log_chars": 2689
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf.json",
+   "ingested_chars": 3360,
+   "s2_log_chars": 3122
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "0e94b4197b10096b1f4c699701570fbf.pdf.json",
+   "ingested_chars": 3651,
+   "s2_log_chars": 3565
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf.json",
+   "ingested_chars": 4224,
+   "s2_log_chars": 3729
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf.json",
+   "ingested_chars": 4289,
+   "s2_log_chars": 4030
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf.json",
+   "ingested_chars": 4434,
+   "s2_log_chars": 4157
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf.json",
+   "ingested_chars": 4374,
+   "s2_log_chars": 4169
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earthlinkweb-150213112111-conversion-gate02_95.pdf.json",
+   "ingested_chars": 4544,
+   "s2_log_chars": 4196
+  },
+  {
+   "bench": "docbench",
+   "doc": "103.json",
+   "ingested_chars": 4470,
+   "s2_log_chars": 4413
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf.json",
+   "ingested_chars": 4743,
+   "s2_log_chars": 4543
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "reportq32015-151009093138-lva1-app6891_95.pdf.json",
+   "ingested_chars": 5491,
+   "s2_log_chars": 5138
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf.json",
+   "ingested_chars": 5640,
+   "s2_log_chars": 5455
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ddoseattle-150627210357-lva1-app6891_95.pdf.json",
+   "ingested_chars": 7250,
+   "s2_log_chars": 6865
+  },
+  {
+   "bench": "docbench",
+   "doc": "141.json",
+   "ingested_chars": 7126,
+   "s2_log_chars": 7047
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf.json",
+   "ingested_chars": 7560,
+   "s2_log_chars": 7221
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bigdatatrends-120723191058-phpapp02_95.pdf.json",
+   "ingested_chars": 7641,
+   "s2_log_chars": 7259
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "efis-140411041451-phpapp01_95.pdf.json",
+   "ingested_chars": 7670,
+   "s2_log_chars": 7368
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf.json",
+   "ingested_chars": 8078,
+   "s2_log_chars": 7553
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "disciplined-agile-business-analysis-160218012713_95.pdf.json",
+   "ingested_chars": 8127,
+   "s2_log_chars": 7829
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "q1-2023-bilibili-inc-investor-presentation.pdf.json",
+   "ingested_chars": 8170,
+   "s2_log_chars": 7837
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf.json",
+   "ingested_chars": 8924,
+   "s2_log_chars": 8617
+  },
+  {
+   "bench": "docbench",
+   "doc": "185.json",
+   "ingested_chars": 8987,
+   "s2_log_chars": 8864
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "transform-software-delivery-with-valueedge-brochure.pdf.json",
+   "ingested_chars": 9157,
+   "s2_log_chars": 8959
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earlybird-110722143746-phpapp02_95.pdf.json",
+   "ingested_chars": 9991,
+   "s2_log_chars": 9661
+  },
+  {
+   "bench": "docbench",
+   "doc": "168.json",
+   "ingested_chars": 9906,
+   "s2_log_chars": 9812
+  },
+  {
+   "bench": "docbench",
+   "doc": "186.json",
+   "ingested_chars": 10228,
+   "s2_log_chars": 10053
+  },
+  {
+   "bench": "docbench",
+   "doc": "217.json",
+   "ingested_chars": 10404,
+   "s2_log_chars": 10225
+  },
+  {
+   "bench": "docbench",
+   "doc": "95.json",
+   "ingested_chars": 10337,
+   "s2_log_chars": 10237
+  },
+  {
+   "bench": "docbench",
+   "doc": "210.json",
+   "ingested_chars": 10715,
+   "s2_log_chars": 10561
+  },
+  {
+   "bench": "docbench",
+   "doc": "209.json",
+   "ingested_chars": 10829,
+   "s2_log_chars": 10668
+  },
+  {
+   "bench": "docbench",
+   "doc": "206.json",
+   "ingested_chars": 10894,
+   "s2_log_chars": 10700
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf.json",
+   "ingested_chars": 11093,
+   "s2_log_chars": 10833
+  },
+  {
+   "bench": "docbench",
+   "doc": "89.json",
+   "ingested_chars": 11074,
+   "s2_log_chars": 10973
+  },
+  {
+   "bench": "docbench",
+   "doc": "123.json",
+   "ingested_chars": 11197,
+   "s2_log_chars": 11100
+  },
+  {
+   "bench": "docbench",
+   "doc": "200.json",
+   "ingested_chars": 11421,
+   "s2_log_chars": 11211
+  },
+  {
+   "bench": "docbench",
+   "doc": "220.json",
+   "ingested_chars": 11669,
+   "s2_log_chars": 11440
+  },
+  {
+   "bench": "docbench",
+   "doc": "175.json",
+   "ingested_chars": 11744,
+   "s2_log_chars": 11517
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf.json",
+   "ingested_chars": 12022,
+   "s2_log_chars": 11529
+  },
+  {
+   "bench": "docbench",
+   "doc": "190.json",
+   "ingested_chars": 11797,
+   "s2_log_chars": 11575
+  },
+  {
+   "bench": "docbench",
+   "doc": "197.json",
+   "ingested_chars": 11791,
+   "s2_log_chars": 11577
+  },
+  {
+   "bench": "docbench",
+   "doc": "198.json",
+   "ingested_chars": 11932,
+   "s2_log_chars": 11701
+  },
+  {
+   "bench": "docbench",
+   "doc": "223.json",
+   "ingested_chars": 11941,
+   "s2_log_chars": 11708
+  },
+  {
+   "bench": "docbench",
+   "doc": "228.json",
+   "ingested_chars": 11983,
+   "s2_log_chars": 11753
+  },
+  {
+   "bench": "docbench",
+   "doc": "196.json",
+   "ingested_chars": 12011,
+   "s2_log_chars": 11781
+  },
+  {
+   "bench": "docbench",
+   "doc": "182.json",
+   "ingested_chars": 12089,
+   "s2_log_chars": 11840
+  },
+  {
+   "bench": "docbench",
+   "doc": "193.json",
+   "ingested_chars": 12064,
+   "s2_log_chars": 11840
+  },
+  {
+   "bench": "docbench",
+   "doc": "183.json",
+   "ingested_chars": 12096,
+   "s2_log_chars": 11845
+  },
+  {
+   "bench": "docbench",
+   "doc": "199.json",
+   "ingested_chars": 12070,
+   "s2_log_chars": 11847
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf.json",
+   "ingested_chars": 12074,
+   "s2_log_chars": 11896
+  },
+  {
+   "bench": "docbench",
+   "doc": "213.json",
+   "ingested_chars": 12131,
+   "s2_log_chars": 11907
+  },
+  {
+   "bench": "docbench",
+   "doc": "216.json",
+   "ingested_chars": 12193,
+   "s2_log_chars": 11956
+  },
+  {
+   "bench": "docbench",
+   "doc": "226.json",
+   "ingested_chars": 12187,
+   "s2_log_chars": 11969
+  },
+  {
+   "bench": "docbench",
+   "doc": "125.json",
+   "ingested_chars": 12192,
+   "s2_log_chars": 12104
+  },
+  {
+   "bench": "docbench",
+   "doc": "201.json",
+   "ingested_chars": 12318,
+   "s2_log_chars": 12113
+  },
+  {
+   "bench": "docbench",
+   "doc": "215.json",
+   "ingested_chars": 12360,
+   "s2_log_chars": 12159
+  },
+  {
+   "bench": "docbench",
+   "doc": "179.json",
+   "ingested_chars": 12410,
+   "s2_log_chars": 12170
+  },
+  {
+   "bench": "docbench",
+   "doc": "202.json",
+   "ingested_chars": 12477,
+   "s2_log_chars": 12200
+  },
+  {
+   "bench": "docbench",
+   "doc": "227.json",
+   "ingested_chars": 12457,
+   "s2_log_chars": 12201
+  },
+  {
+   "bench": "docbench",
+   "doc": "205.json",
+   "ingested_chars": 12471,
+   "s2_log_chars": 12235
+  },
+  {
+   "bench": "docbench",
+   "doc": "214.json",
+   "ingested_chars": 12474,
+   "s2_log_chars": 12260
+  },
+  {
+   "bench": "docbench",
+   "doc": "180.json",
+   "ingested_chars": 12529,
+   "s2_log_chars": 12292
+  },
+  {
+   "bench": "docbench",
+   "doc": "204.json",
+   "ingested_chars": 12554,
+   "s2_log_chars": 12332
+  },
+  {
+   "bench": "docbench",
+   "doc": "195.json",
+   "ingested_chars": 12559,
+   "s2_log_chars": 12342
+  },
+  {
+   "bench": "docbench",
+   "doc": "203.json",
+   "ingested_chars": 12562,
+   "s2_log_chars": 12344
+  },
+  {
+   "bench": "docbench",
+   "doc": "212.json",
+   "ingested_chars": 12615,
+   "s2_log_chars": 12376
+  },
+  {
+   "bench": "docbench",
+   "doc": "189.json",
+   "ingested_chars": 12657,
+   "s2_log_chars": 12416
+  },
+  {
+   "bench": "docbench",
+   "doc": "192.json",
+   "ingested_chars": 12662,
+   "s2_log_chars": 12432
+  },
+  {
+   "bench": "docbench",
+   "doc": "225.json",
+   "ingested_chars": 12669,
+   "s2_log_chars": 12446
+  },
+  {
+   "bench": "docbench",
+   "doc": "181.json",
+   "ingested_chars": 12774,
+   "s2_log_chars": 12539
+  },
+  {
+   "bench": "docbench",
+   "doc": "211.json",
+   "ingested_chars": 12804,
+   "s2_log_chars": 12555
+  },
+  {
+   "bench": "docbench",
+   "doc": "221.json",
+   "ingested_chars": 12817,
+   "s2_log_chars": 12567
+  },
+  {
+   "bench": "docbench",
+   "doc": "191.json",
+   "ingested_chars": 12806,
+   "s2_log_chars": 12576
+  },
+  {
+   "bench": "docbench",
+   "doc": "208.json",
+   "ingested_chars": 12808,
+   "s2_log_chars": 12596
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "competitiveoutcomes-091006065143-phpapp01_95.pdf.json",
+   "ingested_chars": 13102,
+   "s2_log_chars": 12716
+  },
+  {
+   "bench": "docbench",
+   "doc": "224.json",
+   "ingested_chars": 12938,
+   "s2_log_chars": 12728
+  },
+  {
+   "bench": "docbench",
+   "doc": "194.json",
+   "ingested_chars": 13091,
+   "s2_log_chars": 12849
+  },
+  {
+   "bench": "docbench",
+   "doc": "222.json",
+   "ingested_chars": 13139,
+   "s2_log_chars": 12894
+  },
+  {
+   "bench": "docbench",
+   "doc": "184.json",
+   "ingested_chars": 13139,
+   "s2_log_chars": 12896
+  },
+  {
+   "bench": "docbench",
+   "doc": "207.json",
+   "ingested_chars": 13172,
+   "s2_log_chars": 12936
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bariumswallowpresentation-090810084400-phpapp01_95.pdf.json",
+   "ingested_chars": 13515,
+   "s2_log_chars": 12993
+  },
+  {
+   "bench": "docbench",
+   "doc": "218.json",
+   "ingested_chars": 13337,
+   "s2_log_chars": 13119
+  },
+  {
+   "bench": "docbench",
+   "doc": "187.json",
+   "ingested_chars": 13531,
+   "s2_log_chars": 13286
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf.json",
+   "ingested_chars": 13590,
+   "s2_log_chars": 13422
+  },
+  {
+   "bench": "docbench",
+   "doc": "188.json",
+   "ingested_chars": 13723,
+   "s2_log_chars": 13476
+  },
+  {
+   "bench": "docbench",
+   "doc": "85.json",
+   "ingested_chars": 14012,
+   "s2_log_chars": 13791
+  },
+  {
+   "bench": "docbench",
+   "doc": "219.json",
+   "ingested_chars": 14172,
+   "s2_log_chars": 13975
+  },
+  {
+   "bench": "docbench",
+   "doc": "97.json",
+   "ingested_chars": 14526,
+   "s2_log_chars": 14414
+  },
+  {
+   "bench": "docbench",
+   "doc": "145.json",
+   "ingested_chars": 14633,
+   "s2_log_chars": 14517
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "BRO-GL-MMONEY.pdf.json",
+   "ingested_chars": 15986,
+   "s2_log_chars": 15719
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf.json",
+   "ingested_chars": 16377,
+   "s2_log_chars": 15720
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf.json",
+   "ingested_chars": 16930,
+   "s2_log_chars": 16697
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PWC_opportunity_of_lifetime.pdf.json",
+   "ingested_chars": 18436,
+   "s2_log_chars": 17984
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf.json",
+   "ingested_chars": 18878,
+   "s2_log_chars": 18656
+  },
+  {
+   "bench": "docbench",
+   "doc": "146.json",
+   "ingested_chars": 19000,
+   "s2_log_chars": 18821
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "edb88a99670417f64a6b719646aed326.pdf.json",
+   "ingested_chars": 19437,
+   "s2_log_chars": 19003
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e79deb02a0c0e87511080836c5d4347b.pdf.json",
+   "ingested_chars": 20032,
+   "s2_log_chars": 19627
+  },
+  {
+   "bench": "docbench",
+   "doc": "164.json",
+   "ingested_chars": 20718,
+   "s2_log_chars": 20539
+  },
+  {
+   "bench": "docbench",
+   "doc": "4.json",
+   "ingested_chars": 21472,
+   "s2_log_chars": 21326
+  },
+  {
+   "bench": "docbench",
+   "doc": "118.json",
+   "ingested_chars": 21620,
+   "s2_log_chars": 21385
+  },
+  {
+   "bench": "docbench",
+   "doc": "38.json",
+   "ingested_chars": 21780,
+   "s2_log_chars": 21608
+  },
+  {
+   "bench": "docbench",
+   "doc": "35.json",
+   "ingested_chars": 21924,
+   "s2_log_chars": 21794
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NUS-Business-School-BBA-Brochure-2024.pdf.json",
+   "ingested_chars": 22409,
+   "s2_log_chars": 21796
+  },
+  {
+   "bench": "docbench",
+   "doc": "2.json",
+   "ingested_chars": 21991,
+   "s2_log_chars": 21798
+  },
+  {
+   "bench": "docbench",
+   "doc": "10.json",
+   "ingested_chars": 22305,
+   "s2_log_chars": 22124
+  },
+  {
+   "bench": "docbench",
+   "doc": "155.json",
+   "ingested_chars": 22492,
+   "s2_log_chars": 22262
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "05-03-18-political-release.pdf.json",
+   "ingested_chars": 22899,
+   "s2_log_chars": 22519
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Independents-Report.pdf.json",
+   "ingested_chars": 22935,
+   "s2_log_chars": 22593
+  },
+  {
+   "bench": "docbench",
+   "doc": "22.json",
+   "ingested_chars": 22934,
+   "s2_log_chars": 22771
+  },
+  {
+   "bench": "docbench",
+   "doc": "12.json",
+   "ingested_chars": 22952,
+   "s2_log_chars": 22780
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "a4f3ced0696009fec3179f493e4f28c4.pdf.json",
+   "ingested_chars": 22927,
+   "s2_log_chars": 22812
+  },
+  {
+   "bench": "docbench",
+   "doc": "25.json",
+   "ingested_chars": 23385,
+   "s2_log_chars": 23193
+  },
+  {
+   "bench": "docbench",
+   "doc": "132.json",
+   "ingested_chars": 23636,
+   "s2_log_chars": 23484
+  },
+  {
+   "bench": "docbench",
+   "doc": "98.json",
+   "ingested_chars": 24104,
+   "s2_log_chars": 23939
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "DSA-278777.pdf.json",
+   "ingested_chars": 24621,
+   "s2_log_chars": 24210
+  },
+  {
+   "bench": "docbench",
+   "doc": "9.json",
+   "ingested_chars": 24860,
+   "s2_log_chars": 24662
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "formwork-150318073913-conversion-gate01_95.pdf.json",
+   "ingested_chars": 25462,
+   "s2_log_chars": 24811
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_20.07.30_U.S.-Views-China_final.pdf.json",
+   "ingested_chars": 25650,
+   "s2_log_chars": 25262
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2021-Apple-Catalog.pdf.json",
+   "ingested_chars": 26520,
+   "s2_log_chars": 25513
+  },
+  {
+   "bench": "docbench",
+   "doc": "31.json",
+   "ingested_chars": 25864,
+   "s2_log_chars": 25721
+  },
+  {
+   "bench": "docbench",
+   "doc": "139.json",
+   "ingested_chars": 26591,
+   "s2_log_chars": 26359
+  },
+  {
+   "bench": "docbench",
+   "doc": "169.json",
+   "ingested_chars": 26811,
+   "s2_log_chars": 26583
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NYU_graduate.pdf.json",
+   "ingested_chars": 27788,
+   "s2_log_chars": 27449
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "mi_phone.pdf.json",
+   "ingested_chars": 27788,
+   "s2_log_chars": 27449
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "52b3137455e7ca4df65021a200aef724.pdf.json",
+   "ingested_chars": 28192,
+   "s2_log_chars": 27570
+  },
+  {
+   "bench": "docbench",
+   "doc": "8.json",
+   "ingested_chars": 27923,
+   "s2_log_chars": 27651
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf.json",
+   "ingested_chars": 28363,
+   "s2_log_chars": 27788
+  },
+  {
+   "bench": "docbench",
+   "doc": "166.json",
+   "ingested_chars": 28293,
+   "s2_log_chars": 28029
+  },
+  {
+   "bench": "docbench",
+   "doc": "159.json",
+   "ingested_chars": 29400,
+   "s2_log_chars": 29202
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2020.03.09_US-Germany_FINAL.pdf.json",
+   "ingested_chars": 29797,
+   "s2_log_chars": 29392
+  },
+  {
+   "bench": "docbench",
+   "doc": "115.json",
+   "ingested_chars": 30220,
+   "s2_log_chars": 30028
+  },
+  {
+   "bench": "docbench",
+   "doc": "102.json",
+   "ingested_chars": 30565,
+   "s2_log_chars": 30381
+  },
+  {
+   "bench": "docbench",
+   "doc": "127.json",
+   "ingested_chars": 31063,
+   "s2_log_chars": 30923
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "698bba535087fa9a7f9009e172a7f763.pdf.json",
+   "ingested_chars": 31843,
+   "s2_log_chars": 31610
+  },
+  {
+   "bench": "docbench",
+   "doc": "101.json",
+   "ingested_chars": 32093,
+   "s2_log_chars": 31933
+  },
+  {
+   "bench": "docbench",
+   "doc": "105.json",
+   "ingested_chars": 32222,
+   "s2_log_chars": 31998
+  },
+  {
+   "bench": "docbench",
+   "doc": "111.json",
+   "ingested_chars": 32361,
+   "s2_log_chars": 32194
+  },
+  {
+   "bench": "docbench",
+   "doc": "100.json",
+   "ingested_chars": 33084,
+   "s2_log_chars": 32613
+  },
+  {
+   "bench": "docbench",
+   "doc": "135.json",
+   "ingested_chars": 33058,
+   "s2_log_chars": 32756
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "welcome-to-nus.pdf.json",
+   "ingested_chars": 33865,
+   "s2_log_chars": 32904
+  },
+  {
+   "bench": "docbench",
+   "doc": "104.json",
+   "ingested_chars": 33328,
+   "s2_log_chars": 33131
+  },
+  {
+   "bench": "docbench",
+   "doc": "128.json",
+   "ingested_chars": 33502,
+   "s2_log_chars": 33303
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PH_2016.06.08_Economy-Final.pdf.json",
+   "ingested_chars": 33825,
+   "s2_log_chars": 33398
+  },
+  {
+   "bench": "docbench",
+   "doc": "99.json",
+   "ingested_chars": 33788,
+   "s2_log_chars": 33600
+  },
+  {
+   "bench": "docbench",
+   "doc": "36.json",
+   "ingested_chars": 34063,
+   "s2_log_chars": 33787
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf.json",
+   "ingested_chars": 35150,
+   "s2_log_chars": 33923
+  },
+  {
+   "bench": "docbench",
+   "doc": "119.json",
+   "ingested_chars": 34452,
+   "s2_log_chars": 34272
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "owners-manual-2170416.pdf.json",
+   "ingested_chars": 35457,
+   "s2_log_chars": 34349
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2019.01.17_Trump-economy_FINAL2.pdf.json",
+   "ingested_chars": 34941,
+   "s2_log_chars": 34350
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PIP_Seniors-and-Tech-Use_040314.pdf.json",
+   "ingested_chars": 34860,
+   "s2_log_chars": 34366
+  },
+  {
+   "bench": "docbench",
+   "doc": "26.json",
+   "ingested_chars": 34941,
+   "s2_log_chars": 34710
+  },
+  {
+   "bench": "docbench",
+   "doc": "3.json",
+   "ingested_chars": 35055,
+   "s2_log_chars": 34767
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "watch_d.pdf.json",
+   "ingested_chars": 35879,
+   "s2_log_chars": 35092
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2021.04.22_voting-access_REPORT.pdf.json",
+   "ingested_chars": 35748,
+   "s2_log_chars": 35268
+  },
+  {
+   "bench": "docbench",
+   "doc": "29.json",
+   "ingested_chars": 35556,
+   "s2_log_chars": 35280
+  },
+  {
+   "bench": "docbench",
+   "doc": "28.json",
+   "ingested_chars": 35670,
+   "s2_log_chars": 35473
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "a5879805d70c854ea4361e43a84e3bb2.pdf.json",
+   "ingested_chars": 35864,
+   "s2_log_chars": 35616
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.07609v1.pdf.json",
+   "ingested_chars": 36156,
+   "s2_log_chars": 35886
+  },
+  {
+   "bench": "docbench",
+   "doc": "14.json",
+   "ingested_chars": 36143,
+   "s2_log_chars": 35890
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "bdf54dxa.pdf.json",
+   "ingested_chars": 37115,
+   "s2_log_chars": 36089
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "obs-productdesc-en.pdf.json",
+   "ingested_chars": 36907,
+   "s2_log_chars": 36190
+  },
+  {
+   "bench": "docbench",
+   "doc": "47.json",
+   "ingested_chars": 36733,
+   "s2_log_chars": 36479
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf.json",
+   "ingested_chars": 37056,
+   "s2_log_chars": 36513
+  },
+  {
+   "bench": "docbench",
+   "doc": "0.json",
+   "ingested_chars": 36797,
+   "s2_log_chars": 36578
+  },
+  {
+   "bench": "docbench",
+   "doc": "1.json",
+   "ingested_chars": 37052,
+   "s2_log_chars": 36881
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf.json",
+   "ingested_chars": 37474,
+   "s2_log_chars": 36962
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf.json",
+   "ingested_chars": 37628,
+   "s2_log_chars": 37085
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ISEP_student_handbook_2020.pdf.json",
+   "ingested_chars": 37829,
+   "s2_log_chars": 37276
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf.json",
+   "ingested_chars": 37917,
+   "s2_log_chars": 37439
+  },
+  {
+   "bench": "docbench",
+   "doc": "17.json",
+   "ingested_chars": 37846,
+   "s2_log_chars": 37631
+  },
+  {
+   "bench": "docbench",
+   "doc": "48.json",
+   "ingested_chars": 38451,
+   "s2_log_chars": 38206
+  },
+  {
+   "bench": "docbench",
+   "doc": "27.json",
+   "ingested_chars": 38499,
+   "s2_log_chars": 38235
+  },
+  {
+   "bench": "docbench",
+   "doc": "121.json",
+   "ingested_chars": 38460,
+   "s2_log_chars": 38279
+  },
+  {
+   "bench": "docbench",
+   "doc": "177.json",
+   "ingested_chars": 38598,
+   "s2_log_chars": 38408
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "san-francisco-11-contents.pdf.json",
+   "ingested_chars": 40050,
+   "s2_log_chars": 38849
+  },
+  {
+   "bench": "docbench",
+   "doc": "117.json",
+   "ingested_chars": 39337,
+   "s2_log_chars": 39121
+  },
+  {
+   "bench": "docbench",
+   "doc": "40.json",
+   "ingested_chars": 39567,
+   "s2_log_chars": 39250
+  },
+  {
+   "bench": "docbench",
+   "doc": "176.json",
+   "ingested_chars": 39809,
+   "s2_log_chars": 39452
+  },
+  {
+   "bench": "docbench",
+   "doc": "46.json",
+   "ingested_chars": 39867,
+   "s2_log_chars": 39513
+  },
+  {
+   "bench": "docbench",
+   "doc": "134.json",
+   "ingested_chars": 40182,
+   "s2_log_chars": 39886
+  },
+  {
+   "bench": "docbench",
+   "doc": "32.json",
+   "ingested_chars": 40399,
+   "s2_log_chars": 40159
+  },
+  {
+   "bench": "docbench",
+   "doc": "41.json",
+   "ingested_chars": 40773,
+   "s2_log_chars": 40497
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "12-15-15-ISIS-and-terrorism-release-final.pdf.json",
+   "ingested_chars": 41169,
+   "s2_log_chars": 40515
+  },
+  {
+   "bench": "docbench",
+   "doc": "113.json",
+   "ingested_chars": 40723,
+   "s2_log_chars": 40526
+  },
+  {
+   "bench": "docbench",
+   "doc": "18.json",
+   "ingested_chars": 41093,
+   "s2_log_chars": 40747
+  },
+  {
+   "bench": "docbench",
+   "doc": "90.json",
+   "ingested_chars": 41074,
+   "s2_log_chars": 40835
+  },
+  {
+   "bench": "docbench",
+   "doc": "45.json",
+   "ingested_chars": 41429,
+   "s2_log_chars": 41117
+  },
+  {
+   "bench": "docbench",
+   "doc": "126.json",
+   "ingested_chars": 41698,
+   "s2_log_chars": 41472
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "379f44022bb27aa53efd5d322c7b57bf.pdf.json",
+   "ingested_chars": 42256,
+   "s2_log_chars": 41835
+  },
+  {
+   "bench": "docbench",
+   "doc": "24.json",
+   "ingested_chars": 42111,
+   "s2_log_chars": 41860
+  },
+  {
+   "bench": "docbench",
+   "doc": "116.json",
+   "ingested_chars": 42209,
+   "s2_log_chars": 42005
+  },
+  {
+   "bench": "docbench",
+   "doc": "19.json",
+   "ingested_chars": 42525,
+   "s2_log_chars": 42223
+  },
+  {
+   "bench": "docbench",
+   "doc": "16.json",
+   "ingested_chars": 42784,
+   "s2_log_chars": 42469
+  },
+  {
+   "bench": "docbench",
+   "doc": "13.json",
+   "ingested_chars": 43053,
+   "s2_log_chars": 42605
+  },
+  {
+   "bench": "docbench",
+   "doc": "44.json",
+   "ingested_chars": 43436,
+   "s2_log_chars": 43114
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "8e7c4cb542ad160f80fb3d795ada35d8.pdf.json",
+   "ingested_chars": 43525,
+   "s2_log_chars": 43260
+  },
+  {
+   "bench": "docbench",
+   "doc": "20.json",
+   "ingested_chars": 44296,
+   "s2_log_chars": 43979
+  },
+  {
+   "bench": "docbench",
+   "doc": "11.json",
+   "ingested_chars": 44867,
+   "s2_log_chars": 44504
+  },
+  {
+   "bench": "docbench",
+   "doc": "37.json",
+   "ingested_chars": 45037,
+   "s2_log_chars": 44701
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2303.05039v2.pdf.json",
+   "ingested_chars": 45015,
+   "s2_log_chars": 44737
+  },
+  {
+   "bench": "docbench",
+   "doc": "96.json",
+   "ingested_chars": 45242,
+   "s2_log_chars": 45033
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "fdac8d1e9ef56519371df7e6532df27d.pdf.json",
+   "ingested_chars": 45761,
+   "s2_log_chars": 45379
+  },
+  {
+   "bench": "docbench",
+   "doc": "34.json",
+   "ingested_chars": 46070,
+   "s2_log_chars": 45730
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "STEPBACK.pdf.json",
+   "ingested_chars": 46624,
+   "s2_log_chars": 46210
+  },
+  {
+   "bench": "docbench",
+   "doc": "42.json",
+   "ingested_chars": 46636,
+   "s2_log_chars": 46247
+  },
+  {
+   "bench": "docbench",
+   "doc": "21.json",
+   "ingested_chars": 46659,
+   "s2_log_chars": 46378
+  },
+  {
+   "bench": "docbench",
+   "doc": "108.json",
+   "ingested_chars": 46705,
+   "s2_log_chars": 46491
+  },
+  {
+   "bench": "docbench",
+   "doc": "15.json",
+   "ingested_chars": 47248,
+   "s2_log_chars": 47021
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "fd76bbefe469561966e5387aa709c482.pdf.json",
+   "ingested_chars": 47888,
+   "s2_log_chars": 47741
+  },
+  {
+   "bench": "docbench",
+   "doc": "30.json",
+   "ingested_chars": 48445,
+   "s2_log_chars": 48214
+  },
+  {
+   "bench": "docbench",
+   "doc": "144.json",
+   "ingested_chars": 49344,
+   "s2_log_chars": 48777
+  },
+  {
+   "bench": "docbench",
+   "doc": "92.json",
+   "ingested_chars": 49621,
+   "s2_log_chars": 49232
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "afe620b9beac86c1027b96d31d396407.pdf.json",
+   "ingested_chars": 49935,
+   "s2_log_chars": 49364
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "ingested_chars": 50756,
+   "s2_log_chars": 49469
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "StudentSupport_Guidebook.pdf.json",
+   "ingested_chars": 50756,
+   "s2_log_chars": 49469
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "camry_ebrochure.pdf.json",
+   "ingested_chars": 51246,
+   "s2_log_chars": 50270
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2305.14160v4.pdf.json",
+   "ingested_chars": 50768,
+   "s2_log_chars": 50292
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "efd88e41c5f2606c57929cac6c1c0605.pdf.json",
+   "ingested_chars": 51630,
+   "s2_log_chars": 51116
+  },
+  {
+   "bench": "docbench",
+   "doc": "33.json",
+   "ingested_chars": 51685,
+   "s2_log_chars": 51425
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Guide-for-international-students-web.pdf.json",
+   "ingested_chars": 53667,
+   "s2_log_chars": 52221
+  },
+  {
+   "bench": "docbench",
+   "doc": "7.json",
+   "ingested_chars": 53236,
+   "s2_log_chars": 52757
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f8d3a162ab9507e021d83dd109118b60.pdf.json",
+   "ingested_chars": 53582,
+   "s2_log_chars": 52831
+  },
+  {
+   "bench": "docbench",
+   "doc": "112.json",
+   "ingested_chars": 53502,
+   "s2_log_chars": 53232
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2210.02442v1.pdf.json",
+   "ingested_chars": 53779,
+   "s2_log_chars": 53524
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PI_2018.11.19_algorithms_FINAL.pdf.json",
+   "ingested_chars": 56859,
+   "s2_log_chars": 56295
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "0b85477387a9d0cc33fca0f4becaa0e5.pdf.json",
+   "ingested_chars": 56889,
+   "s2_log_chars": 56398
+  },
+  {
+   "bench": "docbench",
+   "doc": "43.json",
+   "ingested_chars": 57069,
+   "s2_log_chars": 56476
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f86d073b0d735ac873a65d906ba82758.pdf.json",
+   "ingested_chars": 58119,
+   "s2_log_chars": 57530
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf.json",
+   "ingested_chars": 58510,
+   "s2_log_chars": 57841
+  },
+  {
+   "bench": "docbench",
+   "doc": "5.json",
+   "ingested_chars": 58109,
+   "s2_log_chars": 57859
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "nova_y70.pdf.json",
+   "ingested_chars": 60941,
+   "s2_log_chars": 59262
+  },
+  {
+   "bench": "docbench",
+   "doc": "39.json",
+   "ingested_chars": 59977,
+   "s2_log_chars": 59555
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Macbook_air.pdf.json",
+   "ingested_chars": 61653,
+   "s2_log_chars": 60492
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2005.12872v3.pdf.json",
+   "ingested_chars": 60970,
+   "s2_log_chars": 60634
+  },
+  {
+   "bench": "docbench",
+   "doc": "124.json",
+   "ingested_chars": 61299,
+   "s2_log_chars": 60922
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2024.ug.eprospectus.pdf.json",
+   "ingested_chars": 62932,
+   "s2_log_chars": 61138
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e639029d16094ea71d964e2fb953952b.pdf.json",
+   "ingested_chars": 61682,
+   "s2_log_chars": 61294
+  },
+  {
+   "bench": "docbench",
+   "doc": "6.json",
+   "ingested_chars": 61782,
+   "s2_log_chars": 61317
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "honor_watch_gs_pro.pdf.json",
+   "ingested_chars": 62921,
+   "s2_log_chars": 61640
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SnapNTell.pdf.json",
+   "ingested_chars": 63230,
+   "s2_log_chars": 62843
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "11-21-16-Updated-Post-Election-Release.pdf.json",
+   "ingested_chars": 64118,
+   "s2_log_chars": 63092
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PG_2021.03.04_US-Views-on-China_FINAL.pdf.json",
+   "ingested_chars": 64867,
+   "s2_log_chars": 64069
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf.json",
+   "ingested_chars": 65551,
+   "s2_log_chars": 65122
+  },
+  {
+   "bench": "docbench",
+   "doc": "23.json",
+   "ingested_chars": 66964,
+   "s2_log_chars": 66683
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2401.18059v1.pdf.json",
+   "ingested_chars": 67714,
+   "s2_log_chars": 67340
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "RAR.pdf.json",
+   "ingested_chars": 67980,
+   "s2_log_chars": 67655
+  },
+  {
+   "bench": "docbench",
+   "doc": "94.json",
+   "ingested_chars": 69310,
+   "s2_log_chars": 69065
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2306.05425v1.pdf.json",
+   "ingested_chars": 71038,
+   "s2_log_chars": 70571
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2405.09818v1.pdf.json",
+   "ingested_chars": 71535,
+   "s2_log_chars": 70964
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2023.findings-emnlp.248.pdf.json",
+   "ingested_chars": 72959,
+   "s2_log_chars": 72220
+  },
+  {
+   "bench": "docbench",
+   "doc": "143.json",
+   "ingested_chars": 73719,
+   "s2_log_chars": 72986
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.05634v2.pdf.json",
+   "ingested_chars": 74943,
+   "s2_log_chars": 74298
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf.json",
+   "ingested_chars": 77255,
+   "s2_log_chars": 75106
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf.json",
+   "ingested_chars": 77255,
+   "s2_log_chars": 75106
+  },
+  {
+   "bench": "docbench",
+   "doc": "109.json",
+   "ingested_chars": 77504,
+   "s2_log_chars": 77145
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2310.09158v1.pdf.json",
+   "ingested_chars": 79430,
+   "s2_log_chars": 78614
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2305.13186v3.pdf.json",
+   "ingested_chars": 80948,
+   "s2_log_chars": 80070
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2303.08559v2.pdf.json",
+   "ingested_chars": 82665,
+   "s2_log_chars": 81916
+  },
+  {
+   "bench": "docbench",
+   "doc": "122.json",
+   "ingested_chars": 83269,
+   "s2_log_chars": 82762
+  },
+  {
+   "bench": "docbench",
+   "doc": "178.json",
+   "ingested_chars": 84536,
+   "s2_log_chars": 83703
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NUS-FASS-Graduate-Guidebook-2021-small.pdf.json",
+   "ingested_chars": 85404,
+   "s2_log_chars": 84121
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "tacl_a_00660.pdf.json",
+   "ingested_chars": 86291,
+   "s2_log_chars": 85658
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2023.acl-long.386.pdf.json",
+   "ingested_chars": 86968,
+   "s2_log_chars": 86317
+  },
+  {
+   "bench": "docbench",
+   "doc": "167.json",
+   "ingested_chars": 87301,
+   "s2_log_chars": 86615
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "guojixueshengshenghuozhinanyingwen9.1.pdf.json",
+   "ingested_chars": 89846,
+   "s2_log_chars": 88183
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "User_Manual_1500S_Classic_EN.pdf.json",
+   "ingested_chars": 92611,
+   "s2_log_chars": 89298
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.04350v3.pdf.json",
+   "ingested_chars": 93801,
+   "s2_log_chars": 93240
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Bergen-Brochure-en-2022-23.pdf.json",
+   "ingested_chars": 99080,
+   "s2_log_chars": 96492
+  },
+  {
+   "bench": "docbench",
+   "doc": "149.json",
+   "ingested_chars": 101270,
+   "s2_log_chars": 100569
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.10997v5.pdf.json",
+   "ingested_chars": 101712,
+   "s2_log_chars": 101284
+  },
+  {
+   "bench": "docbench",
+   "doc": "154.json",
+   "ingested_chars": 103449,
+   "s2_log_chars": 102660
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "Sinopolis-Chengdu.pdf.json",
+   "ingested_chars": 104132,
+   "s2_log_chars": 102857
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "f1f5242528411b262be447e61e2eb10f.pdf.json",
+   "ingested_chars": 105253,
+   "s2_log_chars": 104725
+  },
+  {
+   "bench": "docbench",
+   "doc": "157.json",
+   "ingested_chars": 109398,
+   "s2_log_chars": 108283
+  },
+  {
+   "bench": "docbench",
+   "doc": "150.json",
+   "ingested_chars": 109594,
+   "s2_log_chars": 108560
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PI_2017.10.04_Automation_FINAL.pdf.json",
+   "ingested_chars": 114175,
+   "s2_log_chars": 112836
+  },
+  {
+   "bench": "docbench",
+   "doc": "147.json",
+   "ingested_chars": 120962,
+   "s2_log_chars": 119743
+  },
+  {
+   "bench": "docbench",
+   "doc": "172.json",
+   "ingested_chars": 122303,
+   "s2_log_chars": 121058
+  },
+  {
+   "bench": "docbench",
+   "doc": "161.json",
+   "ingested_chars": 123290,
+   "s2_log_chars": 122425
+  },
+  {
+   "bench": "docbench",
+   "doc": "156.json",
+   "ingested_chars": 124166,
+   "s2_log_chars": 122897
+  },
+  {
+   "bench": "docbench",
+   "doc": "73.json",
+   "ingested_chars": 132129,
+   "s2_log_chars": 130220
+  },
+  {
+   "bench": "docbench",
+   "doc": "133.json",
+   "ingested_chars": 137351,
+   "s2_log_chars": 135935
+  },
+  {
+   "bench": "docbench",
+   "doc": "87.json",
+   "ingested_chars": 140459,
+   "s2_log_chars": 138063
+  },
+  {
+   "bench": "docbench",
+   "doc": "158.json",
+   "ingested_chars": 143298,
+   "s2_log_chars": 141765
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PRE_2022.09.29_NSL-politics_REPORT.pdf.json",
+   "ingested_chars": 146251,
+   "s2_log_chars": 144469
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2312.09390v1.pdf.json",
+   "ingested_chars": 148109,
+   "s2_log_chars": 147306
+  },
+  {
+   "bench": "docbench",
+   "doc": "173.json",
+   "ingested_chars": 149526,
+   "s2_log_chars": 148239
+  },
+  {
+   "bench": "docbench",
+   "doc": "174.json",
+   "ingested_chars": 149815,
+   "s2_log_chars": 148253
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "stereo_headset.pdf.json",
+   "ingested_chars": 154217,
+   "s2_log_chars": 150808
+  },
+  {
+   "bench": "docbench",
+   "doc": "75.json",
+   "ingested_chars": 160107,
+   "s2_log_chars": 158331
+  },
+  {
+   "bench": "docbench",
+   "doc": "153.json",
+   "ingested_chars": 170959,
+   "s2_log_chars": 169558
+  },
+  {
+   "bench": "docbench",
+   "doc": "74.json",
+   "ingested_chars": 172088,
+   "s2_log_chars": 170183
+  },
+  {
+   "bench": "docbench",
+   "doc": "160.json",
+   "ingested_chars": 178344,
+   "s2_log_chars": 176814
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PS_2018.01.09_STEM_FINAL.pdf.json",
+   "ingested_chars": 179200,
+   "s2_log_chars": 177179
+  },
+  {
+   "bench": "docbench",
+   "doc": "138.json",
+   "ingested_chars": 186138,
+   "s2_log_chars": 184767
+  },
+  {
+   "bench": "docbench",
+   "doc": "79.json",
+   "ingested_chars": 193672,
+   "s2_log_chars": 192064
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "COSTCO_2021_10K.pdf.json",
+   "ingested_chars": 194172,
+   "s2_log_chars": 192604
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2307.09288v2.pdf.json",
+   "ingested_chars": 198523,
+   "s2_log_chars": 197396
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NETFLIX_2015_10K.pdf.json",
+   "ingested_chars": 201486,
+   "s2_log_chars": 199820
+  },
+  {
+   "bench": "docbench",
+   "doc": "162.json",
+   "ingested_chars": 217281,
+   "s2_log_chars": 215423
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2311.16502v3.pdf.json",
+   "ingested_chars": 218542,
+   "s2_log_chars": 216593
+  },
+  {
+   "bench": "docbench",
+   "doc": "163.json",
+   "ingested_chars": 229047,
+   "s2_log_chars": 226773
+  },
+  {
+   "bench": "docbench",
+   "doc": "88.json",
+   "ingested_chars": 252617,
+   "s2_log_chars": 249692
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "BESTBUY_2023_10K.pdf.json",
+   "ingested_chars": 252417,
+   "s2_log_chars": 250167
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "AMAZON_2017_10K.pdf.json",
+   "ingested_chars": 255155,
+   "s2_log_chars": 253229
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "t480_ug_en.pdf.json",
+   "ingested_chars": 268291,
+   "s2_log_chars": 262685
+  },
+  {
+   "bench": "docbench",
+   "doc": "78.json",
+   "ingested_chars": 279346,
+   "s2_log_chars": 276955
+  },
+  {
+   "bench": "docbench",
+   "doc": "50.json",
+   "ingested_chars": 280322,
+   "s2_log_chars": 278218
+  },
+  {
+   "bench": "docbench",
+   "doc": "86.json",
+   "ingested_chars": 287519,
+   "s2_log_chars": 285190
+  },
+  {
+   "bench": "docbench",
+   "doc": "51.json",
+   "ingested_chars": 304926,
+   "s2_log_chars": 301888
+  },
+  {
+   "bench": "docbench",
+   "doc": "68.json",
+   "ingested_chars": 311499,
+   "s2_log_chars": 306973
+  },
+  {
+   "bench": "docbench",
+   "doc": "52.json",
+   "ingested_chars": 314305,
+   "s2_log_chars": 311839
+  },
+  {
+   "bench": "docbench",
+   "doc": "77.json",
+   "ingested_chars": 314458,
+   "s2_log_chars": 312027
+  },
+  {
+   "bench": "docbench",
+   "doc": "60.json",
+   "ingested_chars": 334724,
+   "s2_log_chars": 331616
+  },
+  {
+   "bench": "docbench",
+   "doc": "49.json",
+   "ingested_chars": 344870,
+   "s2_log_chars": 341591
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "NIKE_2021_10K.pdf.json",
+   "ingested_chars": 344465,
+   "s2_log_chars": 341944
+  },
+  {
+   "bench": "docbench",
+   "doc": "55.json",
+   "ingested_chars": 351971,
+   "s2_log_chars": 349073
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2309.17421v2.pdf.json",
+   "ingested_chars": 365624,
+   "s2_log_chars": 358866
+  },
+  {
+   "bench": "docbench",
+   "doc": "136.json",
+   "ingested_chars": 369525,
+   "s2_log_chars": 366160
+  },
+  {
+   "bench": "docbench",
+   "doc": "151.json",
+   "ingested_chars": 371010,
+   "s2_log_chars": 367175
+  },
+  {
+   "bench": "docbench",
+   "doc": "84.json",
+   "ingested_chars": 374072,
+   "s2_log_chars": 371214
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ADOBE_2015_10K.pdf.json",
+   "ingested_chars": 381902,
+   "s2_log_chars": 378517
+  },
+  {
+   "bench": "docbench",
+   "doc": "59.json",
+   "ingested_chars": 387264,
+   "s2_log_chars": 384031
+  },
+  {
+   "bench": "docbench",
+   "doc": "106.json",
+   "ingested_chars": 399207,
+   "s2_log_chars": 395875
+  },
+  {
+   "bench": "docbench",
+   "doc": "76.json",
+   "ingested_chars": 403367,
+   "s2_log_chars": 401226
+  },
+  {
+   "bench": "docbench",
+   "doc": "80.json",
+   "ingested_chars": 405452,
+   "s2_log_chars": 402294
+  },
+  {
+   "bench": "docbench",
+   "doc": "72.json",
+   "ingested_chars": 407207,
+   "s2_log_chars": 404276
+  },
+  {
+   "bench": "docbench",
+   "doc": "170.json",
+   "ingested_chars": 409782,
+   "s2_log_chars": 406868
+  },
+  {
+   "bench": "docbench",
+   "doc": "91.json",
+   "ingested_chars": 416639,
+   "s2_log_chars": 413542
+  },
+  {
+   "bench": "docbench",
+   "doc": "137.json",
+   "ingested_chars": 418707,
+   "s2_log_chars": 415470
+  },
+  {
+   "bench": "docbench",
+   "doc": "114.json",
+   "ingested_chars": 419723,
+   "s2_log_chars": 416469
+  },
+  {
+   "bench": "docbench",
+   "doc": "56.json",
+   "ingested_chars": 469885,
+   "s2_log_chars": 465582
+  },
+  {
+   "bench": "docbench",
+   "doc": "82.json",
+   "ingested_chars": 472190,
+   "s2_log_chars": 468592
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "3M_2018_10K.pdf.json",
+   "ingested_chars": 497942,
+   "s2_log_chars": 494623
+  },
+  {
+   "bench": "docbench",
+   "doc": "71.json",
+   "ingested_chars": 513496,
+   "s2_log_chars": 509890
+  },
+  {
+   "bench": "docbench",
+   "doc": "131.json",
+   "ingested_chars": 515853,
+   "s2_log_chars": 510710
+  },
+  {
+   "bench": "docbench",
+   "doc": "107.json",
+   "ingested_chars": 519263,
+   "s2_log_chars": 514116
+  },
+  {
+   "bench": "docbench",
+   "doc": "57.json",
+   "ingested_chars": 519464,
+   "s2_log_chars": 516267
+  },
+  {
+   "bench": "docbench",
+   "doc": "129.json",
+   "ingested_chars": 538575,
+   "s2_log_chars": 533293
+  },
+  {
+   "bench": "docbench",
+   "doc": "58.json",
+   "ingested_chars": 571380,
+   "s2_log_chars": 568042
+  },
+  {
+   "bench": "docbench",
+   "doc": "81.json",
+   "ingested_chars": 575953,
+   "s2_log_chars": 568157
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ACTIVISIONBLIZZARD_2019_10K.pdf.json",
+   "ingested_chars": 579520,
+   "s2_log_chars": 575037
+  },
+  {
+   "bench": "docbench",
+   "doc": "93.json",
+   "ingested_chars": 642725,
+   "s2_log_chars": 638061
+  },
+  {
+   "bench": "docbench",
+   "doc": "67.json",
+   "ingested_chars": 655911,
+   "s2_log_chars": 649898
+  },
+  {
+   "bench": "docbench",
+   "doc": "70.json",
+   "ingested_chars": 693750,
+   "s2_log_chars": 688269
+  },
+  {
+   "bench": "docbench",
+   "doc": "61.json",
+   "ingested_chars": 704898,
+   "s2_log_chars": 699324
+  },
+  {
+   "bench": "docbench",
+   "doc": "130.json",
+   "ingested_chars": 725637,
+   "s2_log_chars": 720662
+  },
+  {
+   "bench": "docbench",
+   "doc": "69.json",
+   "ingested_chars": 756025,
+   "s2_log_chars": 751333
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "mmdetection-readthedocs-io-en-v2.18.0.pdf.json",
+   "ingested_chars": 805409,
+   "s2_log_chars": 790976
+  },
+  {
+   "bench": "docbench",
+   "doc": "65.json",
+   "ingested_chars": 834590,
+   "s2_log_chars": 822708
+  },
+  {
+   "bench": "docbench",
+   "doc": "54.json",
+   "ingested_chars": 856308,
+   "s2_log_chars": 847314
+  },
+  {
+   "bench": "docbench",
+   "doc": "110.json",
+   "ingested_chars": 971782,
+   "s2_log_chars": 966361
+  },
+  {
+   "bench": "docbench",
+   "doc": "120.json",
+   "ingested_chars": 973205,
+   "s2_log_chars": 967771
+  },
+  {
+   "bench": "docbench",
+   "doc": "63.json",
+   "ingested_chars": 1064920,
+   "s2_log_chars": 1057907
+  },
+  {
+   "bench": "docbench",
+   "doc": "62.json",
+   "ingested_chars": 1159307,
+   "s2_log_chars": 1144976
+  },
+  {
+   "bench": "docbench",
+   "doc": "66.json",
+   "ingested_chars": 1303245,
+   "s2_log_chars": 1288658
+  },
+  {
+   "bench": "docbench",
+   "doc": "53.json",
+   "ingested_chars": 1443146,
+   "s2_log_chars": 1428682
+  },
+  {
+   "bench": "docbench",
+   "doc": "83.json",
+   "ingested_chars": 1442621,
+   "s2_log_chars": 1431635
+  },
+  {
+   "bench": "docbench",
+   "doc": "64.json",
+   "ingested_chars": 1452076,
+   "s2_log_chars": 1443965
+  }
+ ]
+}

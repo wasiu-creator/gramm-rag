@@ -1,0 +1,27 @@
+{
+ "lightrag": {
+  "page_hit_at_3": 0.3442,
+  "hit_any": 0.7263
+ },
+ "s2": {
+  "page_hit_at_3": 0.3463,
+  "hit_any": 0.7168
+ },
+ "s5": {
+  "page_hit_at_3": 0.3263,
+  "hit_any": 0.5863
+ },
+ "flat": {
+  "page_hit_at_3": 0.6632,
+  "hit_any": 0.9011
+ },
+ "gramm": {
+  "page_hit_at_3": 0.7189,
+  "hit_any": 0.4989
+ },
+ "flatk3": {
+  "page_hit_at_3": 0.7347,
+  "hit_any": null,
+  "note": "k=3 control (C-77(ii)): archived context + one reranked page. hit_any is not computed: the reranked pool is this environment's, not the archived one (C-79)."
+ }
+}

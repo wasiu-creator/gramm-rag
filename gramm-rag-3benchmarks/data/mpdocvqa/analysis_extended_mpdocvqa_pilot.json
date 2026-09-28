@@ -1,0 +1,154 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "ROUTE_ALL_HYBRID": true,
+    "PROMPT_V": 3,
+    "SELF_HEAL_GENERATION": true,
+    "CROSS_ENCODER": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "MM_IMAGES": true,
+    "MM_PROVIDER": "openai",
+    "MM_OPENAI_MODEL": "gpt-4.1-mini",
+    "POSTPROC_V": 2,
+    "GRAPH_PAGE_UNION": true,
+    "GRAPH_GATE_MIN_REWARD": 0.0,
+    "REFUSE_GEN": false
+  },
+  "seed_42": {
+    "ci": {
+      "ANLS": {
+        "gramm": [
+          0.683585428256515,
+          0.6707814311748524,
+          0.695731566064226
+        ],
+        "vec": [
+          0.6694875390757155,
+          0.6569655230955488,
+          0.68171195832861
+        ],
+        "delta": [
+          0.01409788918079954,
+          0.007466053969162929,
+          0.0204825220795037
+        ],
+        "significant": true
+      },
+      "F1": {
+        "gramm": [
+          0.6832775450457956,
+          0.6702951331999153,
+          0.6944351394331766
+        ],
+        "vec": [
+          0.6688634902868943,
+          0.6560007298242644,
+          0.6803163259667033
+        ],
+        "delta": [
+          0.014414054758901482,
+          0.007752935132187603,
+          0.020750509583318637
+        ],
+        "significant": true
+      },
+      "Exact match": {
+        "gramm": [
+          0.6283015230383652,
+          0.6151918257181415,
+          0.6402544823597455
+        ],
+        "vec": [
+          0.6115288220551378,
+          0.5978359359938307,
+          0.6240601503759399
+        ],
+        "delta": [
+          0.0167727009832273,
+          0.00963948332369385,
+          0.023525159051474835
+        ],
+        "significant": true
+      },
+      "Ctx-hit": {
+        "gramm": [
+          0.5409678041256989,
+          0.5282388663967611,
+          0.5544679005205322
+        ],
+        "vec": [
+          0.3938692886061307,
+          0.38095238095238093,
+          0.4069838056680162
+        ],
+        "delta": [
+          0.14709851551956815,
+          0.13726624252940042,
+          0.1569356082513977
+        ],
+        "significant": true
+      }
+    },
+    "cov_anls_gramm_vec": 0.17740346682639593,
+    "corr_anls_gramm_vec": 0.8609759039843766,
+    "var_gramm": 0.20378886150525619,
+    "var_vec": 0.20833477499636213,
+    "var_delta": 0.05731670284882647,
+    "pairing_variance_reduction_pct": 86.09235244661795,
+    "difficulty_bins": [
+      {
+        "Doc pages": "1-5",
+        "N": 1705,
+        "GraMM ANLS": 0.849,
+        "Vec ANLS": 0.843,
+        "dANLS": 0.006,
+        "GraMM ctx-hit": 0.8,
+        "Vec ctx-hit": 0.727
+      },
+      {
+        "Doc pages": "6-10",
+        "N": 834,
+        "GraMM ANLS": 0.702,
+        "Vec ANLS": 0.67,
+        "dANLS": 0.032,
+        "GraMM ctx-hit": 0.6,
+        "Vec ctx-hit": 0.373
+      },
+      {
+        "Doc pages": "11-20",
+        "N": 879,
+        "GraMM ANLS": 0.661,
+        "Vec ANLS": 0.647,
+        "dANLS": 0.014,
+        "GraMM ctx-hit": 0.414,
+        "Vec ctx-hit": 0.255
+      },
+      {
+        "Doc pages": "21-50",
+        "N": 694,
+        "GraMM ANLS": 0.549,
+        "Vec ANLS": 0.533,
+        "dANLS": 0.016,
+        "GraMM ctx-hit": 0.334,
+        "Vec ctx-hit": 0.182
+      },
+      {
+        "Doc pages": "51-+",
+        "N": 1075,
+        "GraMM ANLS": 0.512,
+        "Vec ANLS": 0.5,
+        "dANLS": 0.012,
+        "GraMM ctx-hit": 0.322,
+        "Vec ctx-hit": 0.133
+      }
+    ]
+  }
+}

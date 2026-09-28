@@ -1,0 +1,916 @@
+{
+ "run_config": {
+  "ARM": "s2_raganything",
+  "TIER": 1,
+  "SCOPE": "both",
+  "LLM_MODEL": "gpt-4o-mini",
+  "VISION_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "text-embedding-3-small",
+  "EMBEDDING_DIM": 1536,
+  "RETRIEVAL_SCOPE": "one store per document (C-35)",
+  "INGEST": "insert_content_list, pre-parsed (mineru NOT installed)",
+  "BUDGET_CEILING_USD": 15.0,
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   },
+   "gpt-4.1-mini": {
+    "in": 4.0000000000000003e-07,
+    "out": 1.6000000000000001e-06
+   },
+   "text-embedding-3-small": {
+    "in": 2e-08,
+    "out": 0.0
+   }
+  }
+ },
+ "docs": [
+  {
+   "bench": "mpdocvqa",
+   "doc": "gnjk0226.json",
+   "chars": 514,
+   "images": 0,
+   "seconds": 6.9,
+   "cost_text": 0.001379,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001379,
+   "error": null,
+   "graph": {
+    "entities": 5,
+    "relations": 4,
+    "graphml_bytes": 4820
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "fhxn0226.json",
+   "chars": 536,
+   "images": 0,
+   "seconds": 7.1,
+   "cost_text": 0.001565,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001565,
+   "error": null,
+   "graph": {
+    "entities": 7,
+    "relations": 5,
+    "graphml_bytes": 6080
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "nhpj0226.json",
+   "chars": 656,
+   "images": 0,
+   "seconds": 5.9,
+   "cost_text": 0.001481,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001481,
+   "error": null,
+   "graph": {
+    "entities": 8,
+    "relations": 5,
+    "graphml_bytes": 6517
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "jnnw0228.json",
+   "chars": 712,
+   "images": 0,
+   "seconds": 7.6,
+   "cost_text": 0.001704,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001704,
+   "error": null,
+   "graph": {
+    "entities": 13,
+    "relations": 5,
+    "graphml_bytes": 8573
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kfgl0226.json",
+   "chars": 721,
+   "images": 0,
+   "seconds": 7.1,
+   "cost_text": 0.001689,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001689,
+   "error": null,
+   "graph": {
+    "entities": 9,
+    "relations": 7,
+    "graphml_bytes": 8064
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "ztmb0228.json",
+   "chars": 752,
+   "images": 0,
+   "seconds": 7.1,
+   "cost_text": 0.001617,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001617,
+   "error": null,
+   "graph": {
+    "entities": 9,
+    "relations": 6,
+    "graphml_bytes": 7718
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "flfl0228.json",
+   "chars": 806,
+   "images": 0,
+   "seconds": 5.2,
+   "cost_text": 0.001455,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001455,
+   "error": null,
+   "graph": {
+    "entities": 6,
+    "relations": 5,
+    "graphml_bytes": 5607
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "ghlw0228.json",
+   "chars": 888,
+   "images": 0,
+   "seconds": 7.5,
+   "cost_text": 0.001677,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001677,
+   "error": null,
+   "graph": {
+    "entities": 10,
+    "relations": 7,
+    "graphml_bytes": 8229
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "qrmg0227.json",
+   "chars": 988,
+   "images": 0,
+   "seconds": 8.1,
+   "cost_text": 0.001684,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001684,
+   "error": null,
+   "graph": {
+    "entities": 11,
+    "relations": 7,
+    "graphml_bytes": 8842
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "ykmg0065.json",
+   "chars": 1003,
+   "images": 0,
+   "seconds": 6.9,
+   "cost_text": 0.001654,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001654,
+   "error": null,
+   "graph": {
+    "entities": 10,
+    "relations": 6,
+    "graphml_bytes": 7628
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "rxvw0217.json",
+   "chars": 1290,
+   "images": 0,
+   "seconds": 16.6,
+   "cost_text": 0.00246,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00246,
+   "error": null,
+   "graph": {
+    "entities": 47,
+    "relations": 5,
+    "graphml_bytes": 20510
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "gjgx0227.json",
+   "chars": 1321,
+   "images": 0,
+   "seconds": 10.0,
+   "cost_text": 0.001967,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001967,
+   "error": null,
+   "graph": {
+    "entities": 13,
+    "relations": 10,
+    "graphml_bytes": 11320
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "qtgl0226.json",
+   "chars": 1476,
+   "images": 0,
+   "seconds": 10.0,
+   "cost_text": 0.001987,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001987,
+   "error": null,
+   "graph": {
+    "entities": 10,
+    "relations": 9,
+    "graphml_bytes": 10136
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "mqgl0226.json",
+   "chars": 1665,
+   "images": 0,
+   "seconds": 4.7,
+   "cost_text": 0.00146,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00146,
+   "error": null,
+   "graph": {
+    "entities": 6,
+    "relations": 3,
+    "graphml_bytes": 4717
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "hljn0226.json",
+   "chars": 1676,
+   "images": 0,
+   "seconds": 8.3,
+   "cost_text": 0.001862,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001862,
+   "error": null,
+   "graph": {
+    "entities": 10,
+    "relations": 8,
+    "graphml_bytes": 9598
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "hjgw0228.json",
+   "chars": 1863,
+   "images": 0,
+   "seconds": 8.5,
+   "cost_text": 0.001924,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001924,
+   "error": null,
+   "graph": {
+    "entities": 13,
+    "relations": 8,
+    "graphml_bytes": 9967
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "xpcf0004.json",
+   "chars": 1909,
+   "images": 0,
+   "seconds": 8.8,
+   "cost_text": 0.001858,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001858,
+   "error": null,
+   "graph": {
+    "entities": 13,
+    "relations": 9,
+    "graphml_bytes": 10007
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kqwg0078.json",
+   "chars": 2079,
+   "images": 0,
+   "seconds": 7.8,
+   "cost_text": 0.001809,
+   "cost_vision": 0.0,
+   "cost_usd": 0.001809,
+   "error": null,
+   "graph": {
+    "entities": 9,
+    "relations": 7,
+    "graphml_bytes": 8013
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "qznp0053.json",
+   "chars": 2114,
+   "images": 0,
+   "seconds": 16.8,
+   "cost_text": 0.002676,
+   "cost_vision": 0.0,
+   "cost_usd": 0.002676,
+   "error": null,
+   "graph": {
+    "entities": 28,
+    "relations": 11,
+    "graphml_bytes": 17930
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "rmbv0054.json",
+   "chars": 2146,
+   "images": 0,
+   "seconds": 10.5,
+   "cost_text": 0.00205,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00205,
+   "error": null,
+   "graph": {
+    "entities": 18,
+    "relations": 9,
+    "graphml_bytes": 12333
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "jygp0000.json",
+   "chars": 2305,
+   "images": 0,
+   "seconds": 9.8,
+   "cost_text": 0.002062,
+   "cost_vision": 0.0,
+   "cost_usd": 0.002062,
+   "error": null,
+   "graph": {
+    "entities": 13,
+    "relations": 7,
+    "graphml_bytes": 9383
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "lsww0228.json",
+   "chars": 2926,
+   "images": 0,
+   "seconds": 9.2,
+   "cost_text": 0.003468,
+   "cost_vision": 0.0,
+   "cost_usd": 0.003468,
+   "error": null,
+   "graph": {
+    "entities": 22,
+    "relations": 12,
+    "graphml_bytes": 14523
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "rxxk0225.json",
+   "chars": 3050,
+   "images": 0,
+   "seconds": 17.9,
+   "cost_text": 0.004225,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004225,
+   "error": null,
+   "graph": {
+    "entities": 45,
+    "relations": 12,
+    "graphml_bytes": 22822
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "rzbj0037.json",
+   "chars": 3121,
+   "images": 0,
+   "seconds": 16.9,
+   "cost_text": 0.004521,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004521,
+   "error": null,
+   "graph": {
+    "entities": 20,
+    "relations": 32,
+    "graphml_bytes": 25425
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "pkkn0226.json",
+   "chars": 3519,
+   "images": 0,
+   "seconds": 18.6,
+   "cost_text": 0.004982,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004982,
+   "error": null,
+   "graph": {
+    "entities": 39,
+    "relations": 24,
+    "graphml_bytes": 28656
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "fshk0226.json",
+   "chars": 3664,
+   "images": 0,
+   "seconds": 41.2,
+   "cost_text": 0.008299,
+   "cost_vision": 0.0,
+   "cost_usd": 0.008299,
+   "error": null,
+   "graph": {
+    "entities": 99,
+    "relations": 40,
+    "graphml_bytes": 58177
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "xkbv0228.json",
+   "chars": 4466,
+   "images": 0,
+   "seconds": 15.0,
+   "cost_text": 0.004047,
+   "cost_vision": 0.0,
+   "cost_usd": 0.004047,
+   "error": null,
+   "graph": {
+    "entities": 22,
+    "relations": 19,
+    "graphml_bytes": 19270
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "hmjf0226.json",
+   "chars": 4873,
+   "images": 0,
+   "seconds": 12.0,
+   "cost_text": 0.006197,
+   "cost_vision": 0.0,
+   "cost_usd": 0.006197,
+   "error": null,
+   "graph": {
+    "entities": 36,
+    "relations": 24,
+    "graphml_bytes": 26473
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kjgf0227.json",
+   "chars": 5091,
+   "images": 0,
+   "seconds": 33.2,
+   "cost_text": 0.007251,
+   "cost_vision": 0.0,
+   "cost_usd": 0.007251,
+   "error": null,
+   "graph": {
+    "entities": 78,
+    "relations": 58,
+    "graphml_bytes": 59230
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "xfjv0228.json",
+   "chars": 5157,
+   "images": 0,
+   "seconds": 25.1,
+   "cost_text": 0.00452,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00452,
+   "error": null,
+   "graph": {
+    "entities": 20,
+    "relations": 17,
+    "graphml_bytes": 20836
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "yskm0227.json",
+   "chars": 5169,
+   "images": 0,
+   "seconds": 9.8,
+   "cost_text": 0.00355,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00355,
+   "error": null,
+   "graph": {
+    "entities": 17,
+    "relations": 13,
+    "graphml_bytes": 15187
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "lmmf0227.json",
+   "chars": 6591,
+   "images": 0,
+   "seconds": 19.8,
+   "cost_text": 0.005317,
+   "cost_vision": 0.0,
+   "cost_usd": 0.005317,
+   "error": null,
+   "graph": {
+    "entities": 61,
+    "relations": 22,
+    "graphml_bytes": 36438
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kshm0227.json",
+   "chars": 7871,
+   "images": 0,
+   "seconds": 9.5,
+   "cost_text": 0.005894,
+   "cost_vision": 0.0,
+   "cost_usd": 0.005894,
+   "error": null,
+   "graph": {
+    "entities": 31,
+    "relations": 23,
+    "graphml_bytes": 24901
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "rgbc0228.json",
+   "chars": 8063,
+   "images": 0,
+   "seconds": 9.1,
+   "cost_text": 0.003882,
+   "cost_vision": 0.0,
+   "cost_usd": 0.003882,
+   "error": null,
+   "graph": {
+    "entities": 20,
+    "relations": 15,
+    "graphml_bytes": 17384
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kmhx0227.json",
+   "chars": 9952,
+   "images": 0,
+   "seconds": 41.1,
+   "cost_text": 0.011123,
+   "cost_vision": 0.0,
+   "cost_usd": 0.011123,
+   "error": null,
+   "graph": {
+    "entities": 147,
+    "relations": 59,
+    "graphml_bytes": 88410
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "jlmf0227.json",
+   "chars": 9996,
+   "images": 0,
+   "seconds": 25.5,
+   "cost_text": 0.009137,
+   "cost_vision": 0.0,
+   "cost_usd": 0.009137,
+   "error": null,
+   "graph": {
+    "entities": 45,
+    "relations": 40,
+    "graphml_bytes": 42861
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "hhpj0226.json",
+   "chars": 10929,
+   "images": 0,
+   "seconds": 9.8,
+   "cost_text": 0.005495,
+   "cost_vision": 0.0,
+   "cost_usd": 0.005495,
+   "error": null,
+   "graph": {
+    "entities": 18,
+    "relations": 19,
+    "graphml_bytes": 19284
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "lqnn0081.json",
+   "chars": 11638,
+   "images": 0,
+   "seconds": 9.7,
+   "cost_text": 0.005943,
+   "cost_vision": 0.0,
+   "cost_usd": 0.005943,
+   "error": null,
+   "graph": {
+    "entities": 31,
+    "relations": 24,
+    "graphml_bytes": 26868
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "npvw0217.json",
+   "chars": 12154,
+   "images": 0,
+   "seconds": 11.9,
+   "cost_text": 0.00647,
+   "cost_vision": 0.0,
+   "cost_usd": 0.00647,
+   "error": null,
+   "graph": {
+    "entities": 29,
+    "relations": 24,
+    "graphml_bytes": 26656
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "grlh0227.json",
+   "chars": 20324,
+   "images": 0,
+   "seconds": 34.6,
+   "cost_text": 0.015903,
+   "cost_vision": 0.0,
+   "cost_usd": 0.015903,
+   "error": null,
+   "graph": {
+    "entities": 95,
+    "relations": 82,
+    "graphml_bytes": 80652
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "ggpf0227.json",
+   "chars": 21008,
+   "images": 0,
+   "seconds": 53.3,
+   "cost_text": 0.021097,
+   "cost_vision": 0.0,
+   "cost_usd": 0.021097,
+   "error": null,
+   "graph": {
+    "entities": 181,
+    "relations": 126,
+    "graphml_bytes": 127757
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "psyn0081.json",
+   "chars": 21173,
+   "images": 0,
+   "seconds": 27.5,
+   "cost_text": 0.013968,
+   "cost_vision": 0.0,
+   "cost_usd": 0.013968,
+   "error": null,
+   "graph": {
+    "entities": 71,
+    "relations": 55,
+    "graphml_bytes": 59416
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "lkcv0228.json",
+   "chars": 22391,
+   "images": 0,
+   "seconds": 24.9,
+   "cost_text": 0.013695,
+   "cost_vision": 0.0,
+   "cost_usd": 0.013695,
+   "error": null,
+   "graph": {
+    "entities": 88,
+    "relations": 66,
+    "graphml_bytes": 69082
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "jjpn0081.json",
+   "chars": 23977,
+   "images": 0,
+   "seconds": 35.2,
+   "cost_text": 0.025913,
+   "cost_vision": 0.0,
+   "cost_usd": 0.025913,
+   "error": null,
+   "graph": {
+    "entities": 107,
+    "relations": 119,
+    "graphml_bytes": 103820
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "qqjw0228.json",
+   "chars": 24741,
+   "images": 0,
+   "seconds": 41.3,
+   "cost_text": 0.016359,
+   "cost_vision": 0.0,
+   "cost_usd": 0.016359,
+   "error": null,
+   "graph": {
+    "entities": 101,
+    "relations": 73,
+    "graphml_bytes": 80362
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "lpdl0226.json",
+   "chars": 31674,
+   "images": 0,
+   "seconds": 35.9,
+   "cost_text": 0.020807,
+   "cost_vision": 0.0,
+   "cost_usd": 0.020807,
+   "error": null,
+   "graph": {
+    "entities": 80,
+    "relations": 96,
+    "graphml_bytes": 84365
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "kmxn0226.json",
+   "chars": 36359,
+   "images": 0,
+   "seconds": 85.2,
+   "cost_text": 0.033601,
+   "cost_vision": 0.0,
+   "cost_usd": 0.033601,
+   "error": null,
+   "graph": {
+    "entities": 221,
+    "relations": 201,
+    "graphml_bytes": 189329
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "xjhl0226.json",
+   "chars": 40652,
+   "images": 0,
+   "seconds": 23.8,
+   "cost_text": 0.018699,
+   "cost_vision": 0.0,
+   "cost_usd": 0.018699,
+   "error": null,
+   "graph": {
+    "entities": 74,
+    "relations": 67,
+    "graphml_bytes": 67890
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "pybv0228.json",
+   "chars": 53756,
+   "images": 0,
+   "seconds": 58.1,
+   "cost_text": 0.041585,
+   "cost_vision": 0.0,
+   "cost_usd": 0.041585,
+   "error": null,
+   "graph": {
+    "entities": 148,
+    "relations": 170,
+    "graphml_bytes": 166642
+   },
+   "cum_vision_calls": 0
+  },
+  {
+   "bench": "mpdocvqa",
+   "doc": "yplp0227.json",
+   "chars": 57349,
+   "images": 0,
+   "seconds": 125.5,
+   "cost_text": 0.060661,
+   "cost_vision": 0.0,
+   "cost_usd": 0.060661,
+   "error": null,
+   "graph": {
+    "entities": 550,
+    "relations": 331,
+    "graphml_bytes": 373460
+   },
+   "cum_vision_calls": 0
+  }
+ ],
+ "totals_text": {
+  "llm_calls": 371,
+  "prompt_tokens": 1756933,
+  "completion_tokens": 257085,
+  "embedding_calls": 4825,
+  "embedding_tokens": 341903,
+  "cost_usd": 0.424629,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 4825,
+    "in": 341903,
+    "out": 0
+   },
+   "gpt-4o-mini": {
+    "calls": 371,
+    "in": 1756933,
+    "out": 257085
+   }
+  }
+ },
+ "totals_vision": {
+  "llm_calls": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "embedding_calls": 0,
+  "embedding_tokens": 0,
+  "cost_usd": 0.0,
+  "by_model": {}
+ },
+ "wall_seconds": 1061.7,
+ "docs_indexed": 50,
+ "docs_expected": 50,
+ "cost_usd": 0.424629,
+ "projection_constrained": 92.09,
+ "projection_nnls": 137.21,
+ "projection_pooled": 144.29
+}

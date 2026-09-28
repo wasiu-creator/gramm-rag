@@ -1,0 +1,17 @@
+{
+ "bench": "docbench",
+ "n": 1102,
+ "gate_max_abs_diff": 0.0007774735987186449,
+ "gate_mean_abs_diff": 1.73928038666727e-05,
+ "gate_pass": true,
+ "limit": null,
+ "frac_within_1e-3": 1.0,
+ "n_excluded_boundary": 0,
+ "auc_recomputed": 0.7231017877168678,
+ "auc_archived": 0.7230605580843064,
+ "auc_coverage": 0.7169132198693845,
+ "auc_similarity": 0.5648542120192624,
+ "auc_temporal": 0.4990929480836467,
+ "auc_U": 0.7231017877168678,
+ "joint_cv_auc": 0.728494623655914
+}

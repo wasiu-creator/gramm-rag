@@ -1,0 +1,45 @@
+{
+  "N_PILOT": null,
+  "SEED": 42,
+  "benchmark": "MP-DocVQA",
+  "flat_vector_rag": {
+    "anls": 0.6694875390757156,
+    "f1": 0.6688634902868933,
+    "accuracy": 0.6115288220551378,
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "abstention_tp": 0,
+    "abstention_fp": 0,
+    "abstention_fn": 0,
+    "n_total": 5187,
+    "n_answerable": 5187,
+    "n_unanswerable": 0,
+    "n_refused": 0,
+    "appa@1": 0.3074995180258338,
+    "appa@5": 0.4582610372084056,
+    "appa@10": 0.5374975901291691,
+    "appa": 0.5374975901291691
+  },
+  "gramm_rag": {
+    "42": {
+      "anls": 0.6835854282565151,
+      "f1": 0.6832775450457947,
+      "accuracy": 0.6283015230383652,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "abstention_tp": 0,
+      "abstention_fp": 2258,
+      "abstention_fn": 0,
+      "n_total": 5187,
+      "n_answerable": 5187,
+      "n_unanswerable": 0,
+      "n_refused": 2258,
+      "appa@1": 0.5371120107962213,
+      "appa@5": 0.6096009253903991,
+      "appa@10": 0.6574127626759205,
+      "appa": 0.6574127626759205
+    }
+  }
+}

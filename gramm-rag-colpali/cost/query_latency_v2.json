@@ -1,0 +1,218 @@
+{
+ "design": "2x2x2 {GraMM,ColPali} x {cold,warm} x {MMLongBench,DocBench}",
+ "n_per_cell": 1000,
+ "occurrences": "A-B-B-A, pooled after drift check",
+ "warmup_discarded_per_run": 20,
+ "device": "NVIDIA A100-SXM4-40GB",
+ "stacks": {
+  "gramm": "transformers 4.57.6",
+  "colpali": "colpali-engine 0.3.4 / transformers 4.46.3"
+ },
+ "cells": {
+  "gramm|mmlongbench|cold": {
+   "n": 1000,
+   "median": 88.19007873535156,
+   "p95": 102.03055143356322,
+   "p99": 133.32520723342842,
+   "p95_over_median": 1.1569391126154376,
+   "ratio_ci95": [
+    1.1464513233343743,
+    1.1784014700927603
+   ],
+   "peak_gpu_gib": 6.728270530700684
+  },
+  "gramm|mmlongbench|warm": {
+   "n": 1000,
+   "median": 84.7862958908081,
+   "p95": 95.34686803817749,
+   "p99": 112.05503940582275,
+   "p95_over_median": 1.1245551776547686,
+   "ratio_ci95": [
+    1.1068290036970125,
+    1.1497941048908036
+   ],
+   "peak_gpu_gib": 8.602476119995117
+  },
+  "gramm|docbench|cold": {
+   "n": 1000,
+   "median": 87.73624897003174,
+   "p95": 196.4693069458007,
+   "p99": 340.01585483551025,
+   "p95_over_median": 2.2393173773922013,
+   "ratio_ci95": [
+    1.7773268985101025,
+    2.6461684248907016
+   ],
+   "peak_gpu_gib": 20.463692665100098
+  },
+  "gramm|docbench|warm": {
+   "n": 1000,
+   "median": 83.95814895629883,
+   "p95": 139.16616439819236,
+   "p99": 240.90157270431519,
+   "p95_over_median": 1.6575658959635942,
+   "ratio_ci95": [
+    1.4976769834028507,
+    2.039411573754864
+   ],
+   "peak_gpu_gib": 20.496601104736328
+  },
+  "colpali|mmlongbench|cold": {
+   "n": 1000,
+   "median": 113.63613605499268,
+   "p95": 323.9473581314084,
+   "p99": 438.1579065322875,
+   "p95_over_median": 2.8507424607841156,
+   "ratio_ci95": [
+    2.3144188482326924,
+    3.144585659194681
+   ],
+   "peak_gpu_gib": 4.283957481384277
+  },
+  "colpali|mmlongbench|warm": {
+   "n": 1000,
+   "median": 66.29443168640137,
+   "p95": 90.00868797302246,
+   "p99": 108.96005392074582,
+   "p95_over_median": 1.357711133248699,
+   "ratio_ci95": [
+    1.2997694574837757,
+    1.4003641555534811
+   ],
+   "peak_gpu_gib": 4.283957481384277
+  },
+  "colpali|docbench|cold": {
+   "n": 1000,
+   "median": 92.00918674468994,
+   "p95": 575.1113653182983,
+   "p99": 1032.471840381622,
+   "p95_over_median": 6.250586334537831,
+   "ratio_ci95": [
+    5.0524144456821105,
+    6.656053308380586
+   ],
+   "peak_gpu_gib": 4.283947467803955
+  },
+  "colpali|docbench|warm": {
+   "n": 1000,
+   "median": 62.165021896362305,
+   "p95": 108.97287130355835,
+   "p99": 142.92795419692993,
+   "p95_over_median": 1.7529611987466394,
+   "ratio_ci95": [
+    1.6225578701154715,
+    1.7864382862832837
+   ],
+   "peak_gpu_gib": 4.283947467803955
+  }
+ },
+ "drift_pct": {
+  "gramm|mmlongbench|cold": 0.58,
+  "gramm|mmlongbench|warm": 0.19,
+  "gramm|docbench|cold": 0.1,
+  "gramm|docbench|warm": 0.06,
+  "colpali|mmlongbench|cold": 1.78,
+  "colpali|mmlongbench|warm": 1.33,
+  "colpali|docbench|cold": 7.14,
+  "colpali|docbench|warm": 1.17
+ },
+ "median_diff": {
+  "mmlongbench|cold": {
+   "gramm_minus_colpali_ms": -25.446057319641113,
+   "ci95": [
+    -29.76968288421631,
+    -22.074419260025028
+   ]
+  },
+  "mmlongbench|warm": {
+   "gramm_minus_colpali_ms": 18.49186420440674,
+   "ci95": [
+    17.789065837860107,
+    19.074243307113647
+   ]
+  },
+  "docbench|cold": {
+   "gramm_minus_colpali_ms": -4.272937774658203,
+   "ci95": [
+    -8.704102039337158,
+    -1.0413378477096582
+   ]
+  },
+  "docbench|warm": {
+   "gramm_minus_colpali_ms": 21.793127059936523,
+   "ci95": [
+    21.06805145740509,
+    22.615694999694824
+   ]
+  }
+ },
+ "slope_ms_per_page": {
+  "gramm|mmlongbench|cold": {
+   "slope": 0.22278361817753378,
+   "ci95": [
+    0.15782943204528926,
+    0.28433186997012116
+   ]
+  },
+  "gramm|mmlongbench|warm": {
+   "slope": 0.0647163225710726,
+   "ci95": [
+    0.04557633984693787,
+    0.08880553840735712
+   ]
+  },
+  "gramm|docbench|cold": {
+   "slope": 0.36832656409832154,
+   "ci95": [
+    0.32954460519271067,
+    0.4100152989595302
+   ]
+  },
+  "gramm|docbench|warm": {
+   "slope": 0.18482880120057335,
+   "ci95": [
+    0.16846879481278065,
+    0.2036996528661567
+   ]
+  },
+  "colpali|mmlongbench|cold": {
+   "slope": 1.7562744367609708,
+   "ci95": [
+    1.7261005298449092,
+    1.7924995044404028
+   ]
+  },
+  "colpali|mmlongbench|warm": {
+   "slope": 0.17607339380472267,
+   "ci95": [
+    0.16814981540966883,
+    0.1874113780217347
+   ]
+  },
+  "colpali|docbench|cold": {
+   "slope": 1.7309243101085843,
+   "ci95": [
+    1.7049221454196344,
+    1.758594140338891
+   ]
+  },
+  "colpali|docbench|warm": {
+   "slope": 0.15975378270433296,
+   "ci95": [
+    0.15516736299053055,
+    0.1655933499442616
+   ]
+  }
+ },
+ "falsifier": {
+  "condition_1_warm_ratio_below_1.5": {
+   "mmlongbench": true,
+   "docbench": false
+  },
+  "condition_2_colpali_warm_median_below_gramm": {
+   "mmlongbench": true,
+   "docbench": true
+  },
+  "verdict": "FIRED \u2014 general query-time advantage WITHDRAWN; cold-start claim only"
+ }
+}

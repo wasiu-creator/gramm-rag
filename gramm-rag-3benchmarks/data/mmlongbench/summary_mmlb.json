@@ -1,0 +1,73 @@
+{
+  "N_PILOT": null,
+  "SEED": 42,
+  "benchmark": "MMLongBench-Doc",
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_MODEL": "gpt-4.1-mini",
+    "GEN_PROVIDER": "openai",
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "GRAPH_PAGE_UNION": true,
+    "PAGE_CONTEXT_CHARS_3": 12000,
+    "ROUTE_ALL_HYBRID": true,
+    "SELF_HEAL_GENERATION": true,
+    "USE_PAGE_IMAGES": true,
+    "REWARD_PARAMS": {
+      "alpha": 0.4,
+      "beta": 0.4,
+      "lambda_": 0.2,
+      "tau": 0.0
+    }
+  },
+  "model": "gpt-4.1-mini",
+  "flat_vector_rag": {
+    "anls": 0.31887904808641526,
+    "f1": 0.3360180786050184,
+    "accuracy": 0.28139321723189736,
+    "abstention_precision": 0.0,
+    "abstention_recall": 0.0,
+    "abstention_f1": 0.0,
+    "abstention_tp": 0,
+    "abstention_fp": 0,
+    "abstention_fn": 244,
+    "n_total": 1091,
+    "n_answerable": 847,
+    "n_unanswerable": 244,
+    "n_refused": 0,
+    "appa@1": 0.08994082840236686,
+    "appa@5": 0.24733727810650888,
+    "appa@10": 0.35976331360946745,
+    "appa": 0.35976331360946745,
+    "n_appa_scoreable": 845
+  },
+  "gramm_rag": {
+    "42": {
+      "anls": 0.3522394461554595,
+      "f1": 0.3657203297765112,
+      "accuracy": 0.3125572868927589,
+      "abstention_precision": 0.0,
+      "abstention_recall": 0.0,
+      "abstention_f1": 0.0,
+      "abstention_tp": 0,
+      "abstention_fp": 0,
+      "abstention_fn": 244,
+      "n_total": 1091,
+      "n_answerable": 847,
+      "n_unanswerable": 244,
+      "n_refused": 0,
+      "appa@1": 0.23905325443786982,
+      "appa@5": 0.5349112426035503,
+      "appa@10": 0.6745562130177515,
+      "appa": 0.6745562130177515,
+      "n_appa_scoreable": 845
+    }
+  }
+}

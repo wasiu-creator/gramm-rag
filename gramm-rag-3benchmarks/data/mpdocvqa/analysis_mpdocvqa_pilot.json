@@ -1,0 +1,85 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "ROUTE_ALL_HYBRID": true,
+    "PROMPT_V": 3,
+    "SELF_HEAL_GENERATION": true,
+    "CROSS_ENCODER": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "MM_IMAGES": true,
+    "MM_PROVIDER": "openai",
+    "MM_OPENAI_MODEL": "gpt-4.1-mini",
+    "POSTPROC_V": 2,
+    "GRAPH_PAGE_UNION": true,
+    "GRAPH_GATE_MIN_REWARD": 0.0,
+    "REFUSE_GEN": false
+  },
+  "funnels": [
+    {
+      "system": "Flat-vector RAG",
+      "n": 5187,
+      "ctx_hit_rate": 0.3938692886061307,
+      "anls_given_hit": 0.8399502429588006,
+      "anls_given_miss": 0.5587193126020694,
+      "extract_success_given_hit": 0.8556045031815956,
+      "anls": 0.6694875390757155
+    },
+    {
+      "system": "GraMM-RAG s42",
+      "n": 5187,
+      "ctx_hit_rate": 0.5409678041256989,
+      "anls_given_hit": 0.7939175851801362,
+      "anls_given_miss": 0.5535593751999501,
+      "extract_success_given_hit": 0.8114754098360656,
+      "anls": 0.683585428256515
+    }
+  ],
+  "seed_42": {
+    "mean_delta_anls": 0.01409788918079954,
+    "bootstrap_ci95": [
+      0.007466053969162929,
+      0.0204825220795037
+    ],
+    "p_delta_positive": 1.0,
+    "n_wins": 257,
+    "n_losses": 179,
+    "n_ties": 4751,
+    "verbosity_tokens": {
+      "gold": 2.199151725467515,
+      "gramm": 2.7626759205706573,
+      "vec": 2.655292076344708
+    },
+    "top_losses": [
+      5098,
+      5056,
+      5060,
+      5055,
+      4962,
+      4703,
+      4657,
+      4884,
+      4659,
+      4687
+    ],
+    "top_wins": [
+      4004,
+      4003,
+      258,
+      3388,
+      2831,
+      2829,
+      2427,
+      4582,
+      2136,
+      2491
+    ]
+  }
+}

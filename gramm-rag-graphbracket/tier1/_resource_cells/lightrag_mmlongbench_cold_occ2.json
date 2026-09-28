@@ -1,0 +1,46 @@
+{
+ "arm": "lightrag",
+ "bench": "mmlongbench",
+ "state": "cold",
+ "occurrence": 2,
+ "n_timed": 500,
+ "warmup_discarded": 20,
+ "n_docs_touched": 64,
+ "median_s": 1.9049,
+ "p95_s": 2.5528,
+ "p99_s": 3.2524,
+ "tail_ratio_p95_over_median": 1.3401,
+ "median_ci": [
+  1.8804,
+  1.9257
+ ],
+ "tail_ratio_ci": [
+  1.3058,
+  1.4498
+ ],
+ "mean_s": 1.9885,
+ "peak_query_gpu_mib_torch": null,
+ "gpu_mib_nvidia_smi_at_end": 0.0,
+ "gpu_basis": "host process; nvidia-smi read at cell end. torch absent from this venv, so the smi figure is the measurement",
+ "index_bytes_whole_corpus": 12889556598,
+ "index_gib_whole_corpus": 12.004,
+ "prep_a100_hours": "0.0 -- indexing for this arm is API-mediated; it has no GPU stage",
+ "api_cost_usd": 0.00036,
+ "api_cost_per_query_usd": 7.3e-07,
+ "cell_wall_s": 1042.2,
+ "meter_stages": {
+  "llm_calls": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "embedding_calls": 521,
+  "embedding_tokens": 18182,
+  "cost_usd": 0.000364,
+  "by_model": {
+   "text-embedding-3-small": {
+    "calls": 521,
+    "in": 18182,
+    "out": 0
+   }
+  }
+ }
+}

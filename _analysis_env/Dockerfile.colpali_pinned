@@ -1,0 +1,26 @@
+# ColPali arm, pinned to the stack the ColPali authors and the ViDoRe leaderboard use.
+#
+# Why pinned: under transformers 5.x, the ColQwen2 / ColQwen2.5 LoRA adapters do not
+# apply. The base loads clean (missing_keys == []) and the model then emits
+# NON-DISCRIMINATIVE embeddings -- score spread ~1.9 across a 24-page document, gold
+# page at mean rank 11.5, i.e. at chance (C-22 / C-24). Nothing raises. colpali-engine
+# 0.3.17 declares transformers>=5.3, so the fix is not to downgrade transformers under
+# that engine but to pin BOTH to the generation these checkpoints were released for.
+FROM python:3.11-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git libgl1 libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir torch torchvision \
+        --index-url https://download.pytorch.org/whl/cu124
+
+RUN pip install --no-cache-dir \
+        "colpali-engine==0.3.4" \
+        "transformers==4.46.3" \
+        accelerate \
+        pymupdf pillow numpy tqdm openai
+
+ENV HF_HOME=/work/gramm-rag-colpali/hf_cache \
+    MPLCONFIGDIR=/tmp/mpl
+WORKDIR /work

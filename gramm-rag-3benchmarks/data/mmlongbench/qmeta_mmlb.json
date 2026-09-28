@@ -1,0 +1,8502 @@
+{
+ "benchmark": "MMLongBench-Doc",
+ "n": 1091,
+ "source": "gramm-rag-mmlongbench/data/mmlongbench/mmlongbench_doc.json + cache/parsed",
+ "fields": [
+  "doc_id",
+  "doc_type",
+  "evidence_sources",
+  "doc_pages"
+ ],
+ "rows": [
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "PH_2016.06.08_Economy-Final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "Independents-Report.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "0e94b4197b10096b1f4c699701570fbf.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "fdac8d1e9ef56519371df7e6532df27d.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "52b3137455e7ca4df65021a200aef724.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 112
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Table"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "earlybird-110722143746-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "ddoseattle-150627210357-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 63
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "reportq32015-151009093138-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2310.05634v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2401.18059v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "2312.10997v5.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "honor_watch_gs_pro.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 42
+  },
+  {
+   "doc_id": "nova_y70.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "nova_y70.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "nova_y70.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "nova_y70.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "nova_y70.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "watch_d.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "watch_d.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "watch_d.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "watch_d.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "watch_d.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2024.ug.eprospectus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "Bergen-Brochure-en-2022-23.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 46
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2021.03.04_US-Views-on-China_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "PG_2020.03.09_US-Germany_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "fd76bbefe469561966e5387aa709c482.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "379f44022bb27aa53efd5d322c7b57bf.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "efd88e41c5f2606c57929cac6c1c0605.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "edb88a99670417f64a6b719646aed326.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "edb88a99670417f64a6b719646aed326.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "edb88a99670417f64a6b719646aed326.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "edb88a99670417f64a6b719646aed326.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "edb88a99670417f64a6b719646aed326.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "finalpresentationdeck-whatwhyhowofcertificationsocial-160324220748_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 35
+  },
+  {
+   "doc_id": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "avalaunchpresentationsthatkickasteriskv3copy-150318114804-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "finalmediafindingspdf-141228031149-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "2303.08559v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "guojixueshengshenghuozhinanyingwen9.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Macbook_air.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "05-03-18-political-release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "PIP_Seniors-and-Tech-Use_040314.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "0b85477387a9d0cc33fca0f4becaa0e5.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "8e7c4cb542ad160f80fb3d795ada35d8.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)",
+    "Chart"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)",
+    "Chart"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 38
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table",
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2310.07609v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2303.05039v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table",
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2305.13186v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "bdf54dxa.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "obs-productdesc-en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "welcome-to-nus.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PP_2019.01.17_Trump-economy_FINAL2.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "afe620b9beac86c1027b96d31d396407.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "e79deb02a0c0e87511080836c5d4347b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "chapter8-geneticscompatibilitymode-141214140247-conversion-gate02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 78
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ecommerceopportunityindia-141124010546-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 68
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "SnapNTell.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "RAR.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "STEPBACK.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "t480_ug_en.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "User_Manual_1500S_Classic_EN.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "camry_ebrochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "q1-2023-bilibili-inc-investor-presentation.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "PRE_2022.09.29_NSL-politics_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Chart"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "PRE_2022.09.29_NSL-politics_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "PRE_2022.09.29_NSL-politics_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "PRE_2022.09.29_NSL-politics_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "PRE_2022.09.29_NSL-politics_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 108
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "8dfc21ec151fb9d3578fc32d5c4e5df9.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Chart"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "measuringsuccessonfacebooktwitterlinkedin-160317142140_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 25
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "amb-siteaudits-ds15-150204174043-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2309.17421v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "2005.12872v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "StudentSupport_Guidebook.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "mmdetection-readthedocs-io-en-v2.18.0.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 468
+  },
+  {
+   "doc_id": "mmdetection-readthedocs-io-en-v2.18.0.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 468
+  },
+  {
+   "doc_id": "mmdetection-readthedocs-io-en-v2.18.0.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 468
+  },
+  {
+   "doc_id": "mmdetection-readthedocs-io-en-v2.18.0.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 468
+  },
+  {
+   "doc_id": "mmdetection-readthedocs-io-en-v2.18.0.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 468
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "12-15-15-ISIS-and-terrorism-release-final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "PS_2018.01.09_STEM_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 105
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "e639029d16094ea71d964e2fb953952b.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "a5879805d70c854ea4361e43a84e3bb2.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "3276a5b991c49cf5f9a4af0f7d6fce67.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "earthlinkweb-150213112111-conversion-gate02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "bariumswallowpresentation-090810084400-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "competitiveoutcomes-091006065143-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 48
+  },
+  {
+   "doc_id": "competitiveoutcomes-091006065143-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 48
+  },
+  {
+   "doc_id": "competitiveoutcomes-091006065143-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 48
+  },
+  {
+   "doc_id": "competitiveoutcomes-091006065143-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 48
+  },
+  {
+   "doc_id": "competitiveoutcomes-091006065143-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 48
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.findings-emnlp.248.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2023.acl-long.386.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "tacl_a_00660.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "NUS-FASS-Graduate-Guidebook-2021-small.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Table"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "DSA-278777.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "owners-manual-2170416.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "owners-manual-2170416.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "owners-manual-2170416.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "owners-manual-2170416.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "owners-manual-2170416.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "Campaign_038_Introducing_AC_Whitepaper_v5e.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "ISEP_student_handbook_2020.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "11-21-16-Updated-Post-Election-Release.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 45
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "PP_2020.08.06_COVID-19-Restrictions_FINAL-1.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 26
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "7c3f6204b3241f142f0f8eb8e1fefe7a.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f1f5242528411b262be447e61e2eb10f.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "936c0e2c2e6c8e0c07c51bfaf7fd0a83.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 15
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "formwork-150318073913-conversion-gate01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 60
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "germanwingsdigitalcrisisanalysis-150403064828-conversion-gate01_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "efis-140411041451-phpapp01_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2306.05425v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2210.02442v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "2405.09818v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "Sinopolis-Chengdu.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 96
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "san-francisco-11-contents.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "BRO-GL-MMONEY.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "transform-software-delivery-with-valueedge-brochure.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2017.10.04_Automation_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PI_2018.11.19_algorithms_FINAL.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "698bba535087fa9a7f9009e172a7f763.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "f8d3a162ab9507e021d83dd109118b60.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "dr-vorapptchapter1emissionsources-121120210508-phpapp02_95.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 196
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "bigdatatrends-120723191058-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart",
+    "Table",
+    "Figure",
+    "Pure-text (Plain-text)",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 53
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2311.16502v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 117
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2307.09288v2.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Figure"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "2312.09390v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 49
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Chart",
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "mi_phone.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "stereo_headset.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [],
+   "doc_pages": 151
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "NYU_graduate.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 30
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PWC_opportunity_of_lifetime.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "PP_2021.04.22_voting-access_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "PP_2021.04.22_voting-access_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "PP_2021.04.22_voting-access_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "PP_2021.04.22_voting-access_REPORT.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "PG_20.07.30_U.S.-Views-China_final.pdf",
+   "doc_type": "Research report / Introduction",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table",
+    "Chart"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "f86d073b0d735ac873a65d906ba82758.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "a4f3ced0696009fec3179f493e4f28c4.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "a4f3ced0696009fec3179f493e4f28c4.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "a4f3ced0696009fec3179f493e4f28c4.pdf",
+   "doc_type": "Administration/Industry file",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "csewt7zsecmmbzjufbyx-signature-24d91a254426c21c3079384270e1f138dc43a271cfe15d6d520d68205855b2a3-poli-150306115347-conversion-gate01_95.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "b3m5kaeqm2w8n4bwcesw-140602121350-phpapp02_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "disciplined-agile-business-analysis-160218012713_95.pdf",
+   "doc_type": "Tutorial/Workshop",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 41
+  },
+  {
+   "doc_id": "2310.09158v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2310.09158v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2310.09158v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2310.09158v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2310.09158v1.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2312.04350v3.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 28
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Chart"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "2305.14160v4.pdf",
+   "doc_type": "Academic paper",
+   "evidence_sources": [
+    "Chart",
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "SAO-StudentSupport_Guidebook-Content.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "SAO-StudentSupport_Guidebook-Content.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "SAO-StudentSupport_Guidebook-Content.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "SAO-StudentSupport_Guidebook-Content.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Table",
+    "Figure"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "SAO-StudentSupport_Guidebook-Content.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 44
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Figure"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "Guide-for-international-students-web.pdf",
+   "doc_type": "Guidebook",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Chart"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "NUS-Business-School-BBA-Brochure-2024.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "2021-Apple-Catalog.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 55
+  },
+  {
+   "doc_id": "2021-Apple-Catalog.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [],
+   "doc_pages": 55
+  },
+  {
+   "doc_id": "2021-Apple-Catalog.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Figure",
+    "Generalized-text (Layout)"
+   ],
+   "doc_pages": 55
+  },
+  {
+   "doc_id": "2021-Apple-Catalog.pdf",
+   "doc_type": "Brochure",
+   "evidence_sources": [
+    "Generalized-text (Layout)",
+    "Table"
+   ],
+   "doc_pages": 55
+  },
+  {
+   "doc_id": "ACTIVISIONBLIZZARD_2019_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "ACTIVISIONBLIZZARD_2019_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [],
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "ACTIVISIONBLIZZARD_2019_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "ACTIVISIONBLIZZARD_2019_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "ACTIVISIONBLIZZARD_2019_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "COSTCO_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)",
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NETFLIX_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "NIKE_2021_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 109
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "AMAZON_2017_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "ADOBE_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "ADOBE_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "ADOBE_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "ADOBE_2015_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "BESTBUY_2023_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "3M_2018_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 160
+  },
+  {
+   "doc_id": "3M_2018_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 160
+  },
+  {
+   "doc_id": "3M_2018_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Table"
+   ],
+   "doc_pages": 160
+  },
+  {
+   "doc_id": "3M_2018_10K.pdf",
+   "doc_type": "Financial report",
+   "evidence_sources": [
+    "Pure-text (Plain-text)"
+   ],
+   "doc_pages": 160
+  }
+ ]
+}

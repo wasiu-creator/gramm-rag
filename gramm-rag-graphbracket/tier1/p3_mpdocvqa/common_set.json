@@ -1,0 +1,79 @@
+{
+ "n_subsample": 978,
+ "n_common": 950,
+ "n_excluded": 28,
+ "per_arm_available": {
+  "lightrag": 978,
+  "s2": 950,
+  "s5": 978,
+  "flat": 978,
+  "gramm": 978
+ },
+ "excluded_indices": [
+  17,
+  59,
+  63,
+  133,
+  138,
+  144,
+  181,
+  224,
+  236,
+  269,
+  314,
+  364,
+  380,
+  382,
+  385,
+  437,
+  460,
+  473,
+  520,
+  564,
+  614,
+  644,
+  646,
+  665,
+  794,
+  796,
+  863,
+  897
+ ],
+ "excluded_documents": [
+  "flfl0228",
+  "flpp0227",
+  "fqpb0228",
+  "fqvw0217",
+  "ggpf0227",
+  "jlmf0227",
+  "kqwg0078",
+  "lpdl0226",
+  "mjkw0023",
+  "mldg0227",
+  "mqvv0228",
+  "nfdl0227",
+  "qffw0228",
+  "qhxj0037",
+  "qlcf0227",
+  "qnyg0227",
+  "qqjw0228",
+  "rxvw0217",
+  "tgph0227",
+  "tjpv0228",
+  "xfjv0228",
+  "zrdw0217",
+  "zzfv0228"
+ ],
+ "covariates": {
+  "excluded": {
+   "pages_median": 8.0,
+   "qchars_mean": 30.928571428571427,
+   "gold_depth_mean": 7.321428571428571
+  },
+  "retained": {
+   "pages_median": 12.0,
+   "qchars_mean": 46.63894736842105,
+   "gold_depth_mean": 15.17157894736842
+  }
+ }
+}

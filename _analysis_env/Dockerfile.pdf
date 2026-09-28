@@ -1,0 +1,16 @@
+# PDF-export variant of the analysis image. Kept SEPARATE so the everyday analysis
+# image stays ~600 MB: TeX Live adds roughly a gigabyte and is needed only when
+# re-rendering the report, which PHASE_A lists as a phase acceptance criterion
+# ("Joint notebook regenerated, PDF re-rendered, 0 errors").
+FROM grammrag-analysis:latest
+
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        pandoc \
+        texlive-xetex \
+        texlive-fonts-recommended \
+        texlive-plain-generic \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV MPLCONFIGDIR=/tmp/mpl
+WORKDIR /work

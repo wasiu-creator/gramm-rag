@@ -1,0 +1,914 @@
+{
+ "mmlongbench": {
+  "n_questions": 1091,
+  "n_answerable": 847,
+  "n_unanswerable": 244,
+  "n_localisation_scoreable": 838,
+  "rows": {
+   "Flat-vector": {
+    "ANLS pooled": 0.31887904808641526,
+    "ANLS answerable": 0.18405790019159268,
+    "ANLS unanswerable": 0.7868852459016393,
+    "ctx-hit (n=838)": 0.23269689737470167,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.812256856407378,
+    "false-decline (answerable)": 0.16646989374262103,
+    "decline on unanswerable": 0.7909836065573771
+   },
+   "GraMM-RAG": {
+    "ANLS pooled": 0.3522394461554595,
+    "ANLS answerable": 0.2435575392628172,
+    "ANLS unanswerable": 0.7295081967213115,
+    "ctx-hit (n=838)": 0.4343675417661098,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.8060004451584184,
+    "false-decline (answerable)": 0.12160566706021252,
+    "decline on unanswerable": 0.7336065573770492
+   },
+   "LightRAG 1.5.7": {
+    "ANLS pooled": 0.3375510130133437,
+    "ANLS answerable": 0.21991517732887594,
+    "ANLS unanswerable": 0.7459016393442623,
+    "ctx-hit (n=838)": 0.28162291169451076,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.8141632957206728,
+    "false-decline (answerable)": 0.12987012987012986,
+    "decline on unanswerable": 0.7581967213114754
+   },
+   "RAG-Anything 1.2.8": {
+    "ANLS pooled": 0.3850086729296576,
+    "ANLS answerable": 0.34007610645366765,
+    "ANLS unanswerable": 0.5409836065573771,
+    "ctx-hit (n=838)": 0.5465393794749404,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.7491387152340953,
+    "false-decline (answerable)": 0.06729634002361275,
+    "decline on unanswerable": 0.5655737704918032
+   },
+   "MS GraphRAG 2.7.2": {
+    "ANLS pooled": 0.32011341965390283,
+    "ANLS answerable": 0.1998155145719102,
+    "ANLS unanswerable": 0.7377049180327869,
+    "ctx-hit (n=838)": 0.24821002386634844,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.8132947529370778,
+    "false-decline (answerable)": 0.12750885478158205,
+    "decline on unanswerable": 0.7540983606557377
+   },
+   "ColPali": {
+    "ANLS pooled": 0.468251549293727,
+    "ANLS answerable": 0.4744538846274571,
+    "ANLS unanswerable": 0.44672131147540983,
+    "ctx-hit (n=838)": 0.7995226730310262,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.7108962200243869,
+    "false-decline (answerable)": 0.04132231404958678,
+    "decline on unanswerable": 0.46311475409836067
+   },
+   "ColPali size-matched": {
+    "ANLS pooled": 0.481148016874191,
+    "ANLS answerable": 0.5016912472370042,
+    "ANLS unanswerable": 0.4098360655737705,
+    "ctx-hit (n=838)": 0.8460620525059666,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.7056510925735964,
+    "false-decline (answerable)": 0.03541912632821724,
+    "decline on unanswerable": 0.44672131147540983
+   },
+   "Union(CP\u222aGraMM)": {
+    "ANLS pooled": 0.46276256910156616,
+    "ANLS answerable": 0.48037067637521685,
+    "ANLS unanswerable": 0.4016393442622951,
+    "ctx-hit (n=838)": 0.8460620525059666,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.6947810014128941,
+    "false-decline (answerable)": 0.0448642266824085,
+    "decline on unanswerable": 0.4344262295081967
+   },
+   "Flat-vector (k=3)": {
+    "ANLS pooled": 0.32290300982560394,
+    "ANLS answerable": 0.19868616731963842,
+    "ANLS unanswerable": 0.7540983606557377,
+    "ctx-hit (n=838)": 0.27804295942720764,
+    "ctx-hit pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 838 scoreable questions",
+    "decline balAcc": 0.8088504267714403,
+    "false-decline (answerable)": 0.14049586776859505,
+    "decline on unanswerable": 0.7581967213114754
+   }
+  },
+  "contrasts_vs_gramm": {
+   "Flat-vector": {
+    "ANLS pooled": {
+     "delta": -0.0334,
+     "ci": [
+      -0.0529,
+      -0.0139
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": -0.0595,
+     "ci": [
+      -0.0821,
+      -0.0375
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": 0.0574,
+     "ci": [
+      0.0205,
+      0.0943
+     ],
+     "sig": true
+    },
+    "ctx-hit": {
+     "delta": -0.2017,
+     "ci": [
+      -0.2303,
+      -0.173
+     ],
+     "sig": true
+    }
+   },
+   "LightRAG 1.5.7": {
+    "ANLS pooled": {
+     "delta": -0.0147,
+     "ci": [
+      -0.0428,
+      0.0138
+     ],
+     "sig": false
+    },
+    "ANLS answerable": {
+     "delta": -0.0236,
+     "ci": [
+      -0.056,
+      0.0079
+     ],
+     "sig": false
+    },
+    "ANLS unanswerable": {
+     "delta": 0.0164,
+     "ci": [
+      -0.0492,
+      0.082
+     ],
+     "sig": false
+    },
+    "ctx-hit": {
+     "delta": -0.1527,
+     "ci": [
+      -0.1969,
+      -0.111
+     ],
+     "sig": true
+    }
+   },
+   "RAG-Anything 1.2.8": {
+    "ANLS pooled": {
+     "delta": 0.0328,
+     "ci": [
+      0.0024,
+      0.0642
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": 0.0965,
+     "ci": [
+      0.0633,
+      0.1291
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": -0.1885,
+     "ci": [
+      -0.2541,
+      -0.1189
+     ],
+     "sig": true
+    },
+    "ctx-hit": {
+     "delta": 0.1122,
+     "ci": [
+      0.068,
+      0.1551
+     ],
+     "sig": true
+    }
+   },
+   "MS GraphRAG 2.7.2": {
+    "ANLS pooled": {
+     "delta": -0.0321,
+     "ci": [
+      -0.0604,
+      -0.0031
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": -0.0437,
+     "ci": [
+      -0.0743,
+      -0.0112
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": 0.0082,
+     "ci": [
+      -0.0533,
+      0.0738
+     ],
+     "sig": false
+    },
+    "ctx-hit": {
+     "delta": -0.1862,
+     "ci": [
+      -0.2279,
+      -0.1432
+     ],
+     "sig": true
+    }
+   },
+   "ColPali": {
+    "ANLS pooled": {
+     "delta": 0.116,
+     "ci": [
+      0.0852,
+      0.1499
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": 0.2309,
+     "ci": [
+      0.1975,
+      0.2634
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": -0.2828,
+     "ci": [
+      -0.3484,
+      -0.2172
+     ],
+     "sig": true
+    },
+    "ctx-hit": {
+     "delta": 0.3652,
+     "ci": [
+      0.327,
+      0.4021
+     ],
+     "sig": true
+    }
+   },
+   "ColPali size-matched": {
+    "ANLS pooled": {
+     "delta": 0.1289,
+     "ci": [
+      0.0968,
+      0.1626
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": 0.2581,
+     "ci": [
+      0.2252,
+      0.2903
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": -0.3197,
+     "ci": [
+      -0.3893,
+      -0.25
+     ],
+     "sig": true
+    },
+    "ctx-hit": {
+     "delta": 0.4117,
+     "ci": [
+      0.3747,
+      0.4475
+     ],
+     "sig": true
+    }
+   },
+   "Union(CP\u222aGraMM)": {
+    "ANLS pooled": {
+     "delta": 0.1105,
+     "ci": [
+      0.0795,
+      0.1436
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": 0.2368,
+     "ci": [
+      0.2027,
+      0.2694
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": -0.3279,
+     "ci": [
+      -0.3934,
+      -0.2623
+     ],
+     "sig": true
+    },
+    "ctx-hit": {
+     "delta": 0.4117,
+     "ci": [
+      0.3783,
+      0.4451
+     ],
+     "sig": true
+    }
+   },
+   "Flat-vector (k=3)": {
+    "ANLS pooled": {
+     "delta": -0.0293,
+     "ci": [
+      -0.0506,
+      -0.0083
+     ],
+     "sig": true
+    },
+    "ANLS answerable": {
+     "delta": -0.0449,
+     "ci": [
+      -0.0687,
+      -0.0215
+     ],
+     "sig": true
+    },
+    "ANLS unanswerable": {
+     "delta": 0.0246,
+     "ci": [
+      -0.0205,
+      0.0656
+     ],
+     "sig": false
+    },
+    "ctx-hit": {
+     "delta": -0.1563,
+     "ci": [
+      -0.1862,
+      -0.1265
+     ],
+     "sig": true
+    }
+   }
+  },
+  "eta_vs_flat": {
+   "GraMM-RAG": {
+    "d_quality": 0.0334,
+    "d_localisation": 0.2017,
+    "eta": 0.1654
+   },
+   "LightRAG 1.5.7": {
+    "d_quality": 0.0187,
+    "d_localisation": 0.0489,
+    "eta": 0.3816
+   },
+   "RAG-Anything 1.2.8": {
+    "d_quality": 0.0661,
+    "d_localisation": 0.3138,
+    "eta": 0.2107
+   },
+   "MS GraphRAG 2.7.2": {
+    "d_quality": 0.0012,
+    "d_localisation": 0.0155,
+    "eta": 0.0796
+   },
+   "ColPali": {
+    "d_quality": 0.1494,
+    "d_localisation": 0.5668,
+    "eta": 0.2635
+   },
+   "ColPali size-matched": {
+    "d_quality": 0.1623,
+    "d_localisation": 0.6134,
+    "eta": 0.2646
+   },
+   "Union(CP\u222aGraMM)": {
+    "d_quality": 0.1439,
+    "d_localisation": 0.6134,
+    "eta": 0.2346
+   },
+   "Flat-vector (k=3)": {
+    "d_quality": 0.004,
+    "d_localisation": 0.0453,
+    "eta": 0.0887
+   }
+  },
+  "eta_vs_flatk3": {
+   "Flat-vector": {
+    "d_quality": -0.004,
+    "d_localisation": -0.0453,
+    "eta": 0.0887
+   },
+   "GraMM-RAG": {
+    "d_quality": 0.0293,
+    "d_localisation": 0.1563,
+    "eta": 0.1877
+   },
+   "LightRAG 1.5.7": {
+    "d_quality": 0.0146,
+    "d_localisation": 0.0036,
+    "eta": 4.0917
+   },
+   "RAG-Anything 1.2.8": {
+    "d_quality": 0.0621,
+    "d_localisation": 0.2685,
+    "eta": 0.2313
+   },
+   "MS GraphRAG 2.7.2": {
+    "d_quality": -0.0028,
+    "d_localisation": -0.0298,
+    "eta": 0.0935
+   },
+   "ColPali": {
+    "d_quality": 0.1453,
+    "d_localisation": 0.5215,
+    "eta": 0.2787
+   },
+   "ColPali size-matched": {
+    "d_quality": 0.1582,
+    "d_localisation": 0.568,
+    "eta": 0.2786
+   },
+   "Union(CP\u222aGraMM)": {
+    "d_quality": 0.1399,
+    "d_localisation": 0.568,
+    "eta": 0.2462
+   }
+  }
+ },
+ "docbench": {
+  "n_questions": 1102,
+  "n_answerable": 978,
+  "n_unanswerable": 124,
+  "n_localisation_scoreable": 730,
+  "rows": {
+   "Flat-vector": {
+    "judge accuracy pooled": 0.4727767695099819,
+    "judge accuracy answerable": 0.4458077709611452,
+    "judge accuracy unanswerable": 0.6854838709677419,
+    "quote-recall@5 (n=730)": 0.39315068493150684,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.7025446929216967,
+    "false-decline (answerable)": 0.2965235173824131,
+    "decline on unanswerable": 0.7016129032258065
+   },
+   "GraMM-RAG": {
+    "judge accuracy pooled": 0.5326678765880217,
+    "judge accuracy answerable": 0.50920245398773,
+    "judge accuracy unanswerable": 0.717741935483871,
+    "quote-recall@5 (n=730)": 0.5095890410958904,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.749917540734877,
+    "false-decline (answerable)": 0.22597137014314927,
+    "decline on unanswerable": 0.7258064516129032
+   },
+   "LightRAG 1.5.7": {
+    "judge accuracy pooled": 0.5671506352087115,
+    "judge accuracy answerable": 0.556237218813906,
+    "judge accuracy unanswerable": 0.6532258064516129,
+    "quote-recall@5 (n=730)": 0.5068493150684932,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.7498680651758032,
+    "false-decline (answerable)": 0.16155419222903886,
+    "decline on unanswerable": 0.6612903225806451
+   },
+   "RAG-Anything 1.2.8": {
+    "judge accuracy pooled": 0.6125226860254084,
+    "judge accuracy answerable": 0.6134969325153374,
+    "judge accuracy unanswerable": 0.6048387096774194,
+    "quote-recall@5 (n=730)": 0.5013698630136987,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.747658156870506,
+    "false-decline (answerable)": 0.11758691206543967,
+    "decline on unanswerable": 0.6129032258064516
+   },
+   "MS GraphRAG 2.7.2": {
+    "judge accuracy pooled": 0.4863883847549909,
+    "judge accuracy answerable": 0.4611451942740286,
+    "judge accuracy unanswerable": 0.6854838709677419,
+    "quote-recall@5 (n=730)": 0.4383561643835616,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.7273154561646547,
+    "false-decline (answerable)": 0.2147239263803681,
+    "decline on unanswerable": 0.6693548387096774
+   },
+   "ColPali": {
+    "judge accuracy pooled": 0.7740471869328494,
+    "judge accuracy answerable": 0.7944785276073619,
+    "judge accuracy unanswerable": 0.6129032258064516,
+    "quote-recall@5 (n=730)": 0.5986301369863014,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.7845834157925985,
+    "false-decline (answerable)": 0.027607361963190184,
+    "decline on unanswerable": 0.5967741935483871
+   },
+   "ColPali size-matched": {
+    "judge accuracy pooled": 0.7758620689655172,
+    "judge accuracy answerable": 0.7934560327198364,
+    "judge accuracy unanswerable": 0.6370967741935484,
+    "quote-recall@5 (n=730)": 0.6178082191780822,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.788162147898938,
+    "false-decline (answerable)": 0.02044989775051125,
+    "decline on unanswerable": 0.5967741935483871
+   },
+   "Union(CP\u222aGraMM)": {
+    "judge accuracy pooled": 0.7767695099818511,
+    "judge accuracy answerable": 0.7965235173824131,
+    "judge accuracy unanswerable": 0.6209677419354839,
+    "quote-recall@5 (n=730)": 0.6273972602739726,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.788162147898938,
+    "false-decline (answerable)": 0.02044989775051125,
+    "decline on unanswerable": 0.5967741935483871
+   },
+   "Flat-vector (k=3)": {
+    "judge accuracy pooled": 0.5054446460980037,
+    "judge accuracy answerable": 0.4867075664621677,
+    "judge accuracy unanswerable": 0.6532258064516129,
+    "quote-recall@5 (n=730)": 0.4191780821917808,
+    "quote-recall@5 pooled/unanswerable": "not measured \u2014 undefined on unanswerable questions and on answerable ones lacking gold evidence (C-8/C-9); denominator is the 730 scoreable questions",
+    "decline balAcc": 0.6957912791081207,
+    "false-decline (answerable)": 0.25357873210633947,
+    "decline on unanswerable": 0.6451612903225806
+   }
+  },
+  "contrasts_vs_gramm": {
+   "Flat-vector": {
+    "judge accuracy pooled": {
+     "delta": -0.0599,
+     "ci": [
+      -0.0826,
+      -0.0372
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": -0.0634,
+     "ci": [
+      -0.0879,
+      -0.0389
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0323,
+     "ci": [
+      -0.0887,
+      0.0161
+     ],
+     "sig": false
+    },
+    "quote-recall@5": {
+     "delta": -0.1164,
+     "ci": [
+      -0.1425,
+      -0.0918
+     ],
+     "sig": true
+    }
+   },
+   "LightRAG 1.5.7": {
+    "judge accuracy pooled": {
+     "delta": 0.0345,
+     "ci": [
+      0.0027,
+      0.0653
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": 0.047,
+     "ci": [
+      0.0133,
+      0.0818
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0645,
+     "ci": [
+      -0.129,
+      0.0
+     ],
+     "sig": false
+    },
+    "quote-recall@5": {
+     "delta": -0.0027,
+     "ci": [
+      -0.0342,
+      0.0288
+     ],
+     "sig": false
+    }
+   },
+   "RAG-Anything 1.2.8": {
+    "judge accuracy pooled": {
+     "delta": 0.0799,
+     "ci": [
+      0.049,
+      0.1107
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": 0.1043,
+     "ci": [
+      0.0716,
+      0.138
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.1129,
+     "ci": [
+      -0.1774,
+      -0.0484
+     ],
+     "sig": true
+    },
+    "quote-recall@5": {
+     "delta": -0.0082,
+     "ci": [
+      -0.0397,
+      0.026
+     ],
+     "sig": false
+    }
+   },
+   "MS GraphRAG 2.7.2": {
+    "judge accuracy pooled": {
+     "delta": -0.0463,
+     "ci": [
+      -0.0762,
+      -0.0163
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": -0.0481,
+     "ci": [
+      -0.0798,
+      -0.0153
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0323,
+     "ci": [
+      -0.1048,
+      0.0403
+     ],
+     "sig": false
+    },
+    "quote-recall@5": {
+     "delta": -0.0712,
+     "ci": [
+      -0.1068,
+      -0.037
+     ],
+     "sig": true
+    }
+   },
+   "ColPali": {
+    "judge accuracy pooled": {
+     "delta": 0.2414,
+     "ci": [
+      0.2105,
+      0.2713
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": 0.2853,
+     "ci": [
+      0.2536,
+      0.317
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.1048,
+     "ci": [
+      -0.1774,
+      -0.0323
+     ],
+     "sig": true
+    },
+    "quote-recall@5": {
+     "delta": 0.089,
+     "ci": [
+      0.0616,
+      0.1178
+     ],
+     "sig": true
+    }
+   },
+   "ColPali size-matched": {
+    "judge accuracy pooled": {
+     "delta": 0.2432,
+     "ci": [
+      0.2132,
+      0.2731
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": 0.2843,
+     "ci": [
+      0.2526,
+      0.316
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0806,
+     "ci": [
+      -0.1452,
+      -0.0161
+     ],
+     "sig": true
+    },
+    "quote-recall@5": {
+     "delta": 0.1082,
+     "ci": [
+      0.0808,
+      0.137
+     ],
+     "sig": true
+    }
+   },
+   "Union(CP\u222aGraMM)": {
+    "judge accuracy pooled": {
+     "delta": 0.2441,
+     "ci": [
+      0.2151,
+      0.274
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": 0.2873,
+     "ci": [
+      0.2566,
+      0.318
+     ],
+     "sig": true
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0968,
+     "ci": [
+      -0.1694,
+      -0.0323
+     ],
+     "sig": true
+    },
+    "quote-recall@5": {
+     "delta": 0.1178,
+     "ci": [
+      0.0945,
+      0.1438
+     ],
+     "sig": true
+    }
+   },
+   "Flat-vector (k=3)": {
+    "judge accuracy pooled": {
+     "delta": -0.0272,
+     "ci": [
+      -0.0517,
+      -0.0036
+     ],
+     "sig": true
+    },
+    "judge accuracy answerable": {
+     "delta": -0.0225,
+     "ci": [
+      -0.0481,
+      0.0041
+     ],
+     "sig": false
+    },
+    "judge accuracy unanswerable": {
+     "delta": -0.0645,
+     "ci": [
+      -0.121,
+      -0.0081
+     ],
+     "sig": true
+    },
+    "quote-recall@5": {
+     "delta": -0.0904,
+     "ci": [
+      -0.1178,
+      -0.0658
+     ],
+     "sig": true
+    }
+   }
+  },
+  "eta_vs_flat": {
+   "GraMM-RAG": {
+    "d_quality": 0.0599,
+    "d_localisation": 0.1164,
+    "eta": 0.5144
+   },
+   "LightRAG 1.5.7": {
+    "d_quality": 0.0944,
+    "d_localisation": 0.1137,
+    "eta": 0.83
+   },
+   "RAG-Anything 1.2.8": {
+    "d_quality": 0.1397,
+    "d_localisation": 0.1082,
+    "eta": 1.2913
+   },
+   "MS GraphRAG 2.7.2": {
+    "d_quality": 0.0136,
+    "d_localisation": 0.0452,
+    "eta": 0.3011
+   },
+   "ColPali": {
+    "d_quality": 0.3013,
+    "d_localisation": 0.2055,
+    "eta": 1.4662
+   },
+   "ColPali size-matched": {
+    "d_quality": 0.3031,
+    "d_localisation": 0.2247,
+    "eta": 1.3491
+   },
+   "Union(CP\u222aGraMM)": {
+    "d_quality": 0.304,
+    "d_localisation": 0.2342,
+    "eta": 1.2977
+   },
+   "Flat-vector (k=3)": {
+    "d_quality": 0.0327,
+    "d_localisation": 0.026,
+    "eta": 1.2551
+   }
+  },
+  "eta_vs_flatk3": {
+   "Flat-vector": {
+    "d_quality": -0.0327,
+    "d_localisation": -0.026,
+    "eta": 1.2551
+   },
+   "GraMM-RAG": {
+    "d_quality": 0.0272,
+    "d_localisation": 0.0904,
+    "eta": 0.3011
+   },
+   "LightRAG 1.5.7": {
+    "d_quality": 0.0617,
+    "d_localisation": 0.0877,
+    "eta": 0.7038
+   },
+   "RAG-Anything 1.2.8": {
+    "d_quality": 0.1071,
+    "d_localisation": 0.0822,
+    "eta": 1.3028
+   },
+   "MS GraphRAG 2.7.2": {
+    "d_quality": -0.0191,
+    "d_localisation": 0.0192,
+    "eta": -0.9936
+   },
+   "ColPali": {
+    "d_quality": 0.2686,
+    "d_localisation": 0.1795,
+    "eta": 1.4968
+   },
+   "ColPali size-matched": {
+    "d_quality": 0.2704,
+    "d_localisation": 0.1986,
+    "eta": 1.3614
+   },
+   "Union(CP\u222aGraMM)": {
+    "d_quality": 0.2713,
+    "d_localisation": 0.2082,
+    "eta": 1.3031
+   }
+  }
+ }
+}

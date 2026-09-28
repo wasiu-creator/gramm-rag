@@ -1,0 +1,12 @@
+{
+ "n_questions": 1091,
+ "n_empty": 0,
+ "n_failures": 0,
+ "anls": 0.32290300982560394,
+ "f1": 0.3404665754220179,
+ "accuracy": 0.2859761686526123,
+ "ctx_hit_rate": 0.27804295942720764,
+ "ctx_hit_n": 838,
+ "ctx_hit_rate_gramm": 0.4343675417661098,
+ "ctx_hit_rate_baseline": 0.23269689737470167
+}

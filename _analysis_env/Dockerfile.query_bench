@@ -1,0 +1,9 @@
+# Single image holding BOTH stacks, so the 2x2 can interleave systems within one process
+# rather than alternating containers. colpali-engine 0.3.4 declares transformers>=4.45,<5 and
+# the GraMM re-run stack pins 4.57.6, which satisfies it — but C-22 forbids assuming a
+# checkpoint loads correctly just because the versions are compatible. The behavioural gate
+# is re-run inside this image before any latency number is taken.
+FROM grammrag-retrieval-pinned:latest
+RUN pip install --no-cache-dir "colpali-engine==0.3.4"
+ENV HF_HOME=/work/gramm-rag-colpali/hf_cache PYTORCH_JIT=0
+WORKDIR /work

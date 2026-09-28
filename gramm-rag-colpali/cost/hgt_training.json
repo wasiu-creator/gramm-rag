@@ -1,0 +1,19 @@
+{
+ "mmlongbench": {
+  "n_train": 1091,
+  "steps_timed": 250,
+  "s_per_step": 0.14501900100708007,
+  "epochs": 50,
+  "hours_50ep": 2.197440695815616,
+  "peak_gpu_gib": 10.2488694190979
+ },
+ "docbench": {
+  "n_train": 1102,
+  "steps_timed": 250,
+  "s_per_step": 0.1596725330352783,
+  "epochs": 50,
+  "hours_50ep": 2.4438768250677323,
+  "peak_gpu_gib": 37.63540744781494
+ },
+ "total_hgt_A100_h": 4.641317520883348
+}

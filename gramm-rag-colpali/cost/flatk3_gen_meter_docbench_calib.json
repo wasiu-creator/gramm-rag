@@ -1,0 +1,15 @@
+{
+ "calls": 50,
+ "prompt_tokens": 422938,
+ "completion_tokens": 2485,
+ "wall_s": 16.9,
+ "usd_estimated": 0.1732,
+ "usd_per_call": 0.003463,
+ "prompt_tokens_per_call": 8458.8,
+ "price_stamped": {
+  "in": 0.4,
+  "out": 1.6
+ },
+ "bench": "docbench",
+ "limit": 50
+}

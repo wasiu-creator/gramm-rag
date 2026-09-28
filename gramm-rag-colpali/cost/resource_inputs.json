@@ -1,0 +1,183 @@
+{
+ "measured_at": "2026-09-28T04:37:13+00:00",
+ "producer": "gramm-rag-colpali/persist_resource_inputs.py",
+ "units": "bytes; GiB = 2**30 bytes",
+ "index_bytes": {
+  "gramm|mmlongbench": {
+   "graphs": 817248245,
+   "graphs_files": 135,
+   "embeddings": 420508839,
+   "embeddings_files": 405,
+   "total": 1237757084
+  },
+  "colpali|mmlongbench": {
+   "index": 969245317,
+   "index_files": 135,
+   "total": 969245317
+  },
+  "gramm|docbench": {
+   "graphs": 2493625801,
+   "graphs_files": 229,
+   "embeddings": 1035191112,
+   "embeddings_files": 687,
+   "total": 3528816913
+  },
+  "colpali|docbench": {
+   "index": 2073936949,
+   "index_files": 229,
+   "total": 2073936949
+  },
+  "gramm|mpdocvqa": {
+   "graphs": 7401961920,
+   "graphs_files": 921,
+   "embeddings": 7016219427,
+   "embeddings_files": 2781,
+   "total": 14418181347
+  }
+ },
+ "embedding_census": {
+  "gramm|mmlongbench": {
+   "text_raw": {
+    "dim": 4096,
+    "dtype": "float16",
+    "files": 135
+   },
+   "text": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 135
+   },
+   "img": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 135
+   }
+  },
+  "colpali|mmlongbench": {
+   "dim": 128,
+   "dtype": "float16",
+   "files": 135,
+   "page_matrices": 6522,
+   "tokens_per_page_median": 755.0,
+   "tokens_per_page_min": 687,
+   "tokens_per_page_max": 779
+  },
+  "gramm|docbench": {
+   "text_raw": {
+    "dim": 4096,
+    "dtype": "float16",
+    "files": 229
+   },
+   "text": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 229
+   },
+   "img": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 229
+   }
+  },
+  "colpali|docbench": {
+   "dim": 128,
+   "dtype": "float16",
+   "files": 229,
+   "page_matrices": 14008,
+   "tokens_per_page_median": 755.0,
+   "tokens_per_page_min": 731,
+   "tokens_per_page_max": 779
+  },
+  "gramm|mpdocvqa": {
+   "text_raw": {
+    "dim": 1024,
+    "dtype": "float32",
+    "files": 927
+   },
+   "text": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 927
+   },
+   "img": {
+    "dim": 256,
+    "dtype": "float32",
+    "files": 927
+   }
+  },
+  "lightrag|mmlongbench": {
+   "dim": 1536,
+   "stores": 135,
+   "basis": "vdb_chunks.json embedding_dim, every store"
+  },
+  "lightrag|docbench": {
+   "dim": 1536,
+   "stores": 229,
+   "basis": "vdb_chunks.json embedding_dim, every store"
+  },
+  "s2|mmlongbench": {
+   "dim": 1536,
+   "stores": 135,
+   "basis": "vdb_chunks.json embedding_dim, every store"
+  },
+  "s2|docbench": {
+   "dim": 1536,
+   "stores": 229,
+   "basis": "vdb_chunks.json embedding_dim, every store"
+  },
+  "s5|mmlongbench": {
+   "model": "text-embedding-3-small",
+   "stores": 135,
+   "dim": null,
+   "basis": "settings.yaml default_embedding_model, every store; stored vector width not read (LanceDB)"
+  },
+  "s5|docbench": {
+   "model": "text-embedding-3-small",
+   "stores": 229,
+   "dim": null,
+   "basis": "settings.yaml default_embedding_model, every store; stored vector width not read (LanceDB)"
+  }
+ },
+ "corpus": {
+  "mmlongbench": {
+   "docs": 135,
+   "pages_with_elements": 6357,
+   "elements": 50751
+  },
+  "docbench": {
+   "docs": 229,
+   "pages_with_elements": 13843,
+   "elements": 120196
+  }
+ },
+ "transcribed": [
+  {
+   "key": "mineru_parse_rate",
+   "seconds": 141,
+   "pages": 196,
+   "source": "gramm-rag-mmlongbench/REVISION_LOG.md",
+   "quote": "196-page document in 141 s",
+   "note": "one document, A100; the notebook and SECTION_4_13 use the rounded 0.7 s/page"
+  },
+  {
+   "key": "colpali_embed_index_minutes",
+   "minutes": [
+    116.8,
+    262.5
+   ],
+   "source": "GraphRAG_baseline/SECTION_4_13_REBUILD.md",
+   "quote": "container log (116.8 + 262.5 min)",
+   "note": "container log not retained; which term is which corpus is not recorded"
+  },
+  {
+   "key": "colpali_render_minutes",
+   "minutes": [
+    10.2,
+    17.7
+   ],
+   "source": "gramm-rag-colpali/gen_phaseC_notebook.py",
+   "quote": "(10.2+17.7)/60",
+   "note": "CPU stage; container log not retained"
+  }
+ ]
+}

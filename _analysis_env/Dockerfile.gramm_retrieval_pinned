@@ -1,0 +1,15 @@
+# As Dockerfile.gramm_retrieval but pinned to the transformers version the ARCHIVED
+# MMLongBench/DocBench runs used (4.57.6, per the revision-log environment header).
+# The first attempt ran transformers 5.15.1 (sentence-transformers pulled it up) and the
+# integrity gate failed at max|diff| = 0.239 on a signal of sd 0.144.
+FROM python:3.11-slim
+RUN apt-get update && apt-get install -y --no-install-recommends git libgl1 libglib2.0-0 \
+    && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cu124
+RUN pip install --no-cache-dir \
+        "transformers==4.57.6" \
+        "sentence-transformers<4" \
+        torch-geometric bitsandbytes accelerate spacy numpy \
+    && python -m spacy download en_core_web_lg
+ENV HF_HOME=/work/gramm-rag-mmlongbench/hf_cache PYTORCH_JIT=0
+WORKDIR /work

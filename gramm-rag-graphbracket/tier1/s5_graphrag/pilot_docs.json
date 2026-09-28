@@ -1,0 +1,96 @@
+{
+ "rule": "one seeded (42) draw per size octile over all 364 docs, plus the single largest; top-octile redrawn if it collides with the largest",
+ "source": "tier1/s2_raganything/index_log.json per-document chars (corpus metadata only)",
+ "docs": [
+  {
+   "bench": "docbench",
+   "doc": "200.json",
+   "chars": 11211,
+   "stratum": "octile 1",
+   "band_chars": [
+    1004,
+    11575
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "183.json",
+   "chars": 11845,
+   "stratum": "octile 2",
+   "band_chars": [
+    11577,
+    13791
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "97.json",
+   "chars": 14414,
+   "stratum": "octile 3",
+   "band_chars": [
+    13975,
+    30028
+   ]
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "PP_2019.01.17_Trump-economy_FINAL2.pdf.json",
+   "chars": 34350,
+   "stratum": "octile 4",
+   "band_chars": [
+    30381,
+    39250
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "16.json",
+   "chars": 42469,
+   "stratum": "octile 5",
+   "band_chars": [
+    39452,
+    52831
+   ]
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e639029d16094ea71d964e2fb953952b.pdf.json",
+   "chars": 61294,
+   "stratum": "octile 6",
+   "band_chars": [
+    53232,
+    96492
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "147.json",
+   "chars": 119743,
+   "stratum": "octile 7",
+   "band_chars": [
+    100569,
+    312027
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "151.json",
+   "chars": 367175,
+   "stratum": "octile 8",
+   "band_chars": [
+    331616,
+    1443965
+   ]
+  },
+  {
+   "bench": "docbench",
+   "doc": "64.json",
+   "chars": 1443965,
+   "stratum": "corpus largest (beta stress anchor)",
+   "band_chars": [
+    1443965,
+    1443965
+   ]
+  }
+ ]
+}

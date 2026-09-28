@@ -1,0 +1,26 @@
+{
+ "model": "gpt-4-turbo",
+ "n_calibration": 50,
+ "calibrated_on_arm": "colpali",
+ "sampling": "stratified by ref_text length (evenly spaced quantiles)",
+ "rates": {
+  "in_per_1m": 10.0,
+  "out_per_1m": 30.0
+ },
+ "measured": {
+  "prompt_tokens": 18829,
+  "completion_tokens": 228,
+  "cost_usd": 0.19513,
+  "mean_per_call": 0.0039026,
+  "p50": 0.0037800000000000004,
+  "p90": 0.00477,
+  "p99": 0.00554
+ },
+ "projection_full_run": {
+  "n_questions": 1102,
+  "mean_based": 4.3,
+  "p90_based": 5.26
+ },
+ "gate_h_estimate": "$4-11",
+ "seconds": 56.8
+}

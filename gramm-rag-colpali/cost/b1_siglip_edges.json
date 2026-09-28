@@ -1,0 +1,23 @@
+{
+ "device": "NVIDIA A100-SXM4-40GB",
+ "image_elements": {
+  "mmlongbench": 5760,
+  "docbench": 8821
+ },
+ "image_elements_total": 14581,
+ "siglip_load_s": 11.720415592193604,
+ "siglip": {
+  "n_sampled": 400,
+  "seconds": 5.879914999008179,
+  "ms_per_image": 14.699787497520447,
+  "peak_gpu_gib": 3.381683349609375,
+  "total_hours": 0.05953822263926267
+ },
+ "edges": {
+  "docs_sampled": 20,
+  "seconds": 186.99812173843384,
+  "s_per_doc": 9.349906086921692,
+  "total_hours_364docs": 0.9453793932331933,
+  "note": "7 deterministic builders; kg excluded (LLM, measured separately)"
+ }
+}

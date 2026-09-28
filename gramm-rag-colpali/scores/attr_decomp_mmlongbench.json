@@ -1,0 +1,17 @@
+{
+ "bench": "mmlongbench",
+ "n": 1091,
+ "gate_max_abs_diff": 0.09999808870255944,
+ "gate_mean_abs_diff": 0.00019881397995356905,
+ "gate_pass": true,
+ "limit": null,
+ "frac_within_1e-3": 0.997250229147571,
+ "n_excluded_boundary": 3,
+ "auc_recomputed": 0.5569536648150657,
+ "auc_archived": 0.5572391468442139,
+ "auc_coverage": 0.5678123300442856,
+ "auc_similarity": 0.5070240268821381,
+ "auc_temporal": 0.4839804599487219,
+ "auc_U": 0.556316039934737,
+ "joint_cv_auc": 0.568152241473079
+}

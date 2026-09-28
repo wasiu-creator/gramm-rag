@@ -1,0 +1,737 @@
+{
+ "RUN_CONFIG": {
+  "ARM": "s5_graphrag",
+  "GRAPHRAG_VERSION": "2.7.2",
+  "PYTHON": "3.11.16",
+  "LLM_MODEL": "gpt-4o-mini (asserted at load)",
+  "EMB_MODEL": "text-embedding-3-small",
+  "SCOPE": "one GraphRAG root per document (C-35)",
+  "CHUNKS": "1200/100 tokens (default)",
+  "MAX_GLEANINGS": 1,
+  "MAX_CLUSTER_SIZE": 10,
+  "CHAR_MEASURE": "len(mapper.elements_to_text) -- corpus_chars.json ingested_chars",
+  "STAGE_METER": "LiteLLM callback, classified by prompt-opening signature, dedup on litellm_call_id",
+  "RATES": {
+   "chat_in": 1.5e-07,
+   "chat_out": 6e-07,
+   "emb_in": 2e-08
+  }
+ },
+ "docs": [
+  {
+   "bench": "docbench",
+   "doc": "190.json",
+   "stem": "190",
+   "stratum": "docbench octile 1 (power expansion)",
+   "ingested_chars": 11797,
+   "seconds": 24.2,
+   "cost_usd": 0.006352,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 17995,
+     "completion_tokens": 3301,
+     "cost_usd": 0.00468
+    },
+    "community_reports": {
+     "calls": 2,
+     "prompt_tokens": 5005,
+     "completion_tokens": 1362,
+     "cost_usd": 0.001568
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 5201,
+     "completion_tokens": 0,
+     "cost_usd": 0.000104
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 40,
+   "n_relationships": 32,
+   "n_communities": 2,
+   "n_levels": 1,
+   "n_reports": 2,
+   "report_chars": 5863,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "216.json",
+   "stem": "216",
+   "stratum": "docbench octile 2 (power expansion)",
+   "ingested_chars": 12193,
+   "seconds": 22.7,
+   "cost_usd": 0.008447,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 18896,
+     "completion_tokens": 3425,
+     "cost_usd": 0.004889
+    },
+    "summarize": {
+     "calls": 4,
+     "prompt_tokens": 792,
+     "completion_tokens": 477,
+     "cost_usd": 0.000405
+    },
+    "community_reports": {
+     "calls": 4,
+     "prompt_tokens": 9577,
+     "completion_tokens": 2643,
+     "cost_usd": 0.003022
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 6543,
+     "completion_tokens": 0,
+     "cost_usd": 0.000131
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 42,
+   "n_relationships": 34,
+   "n_communities": 4,
+   "n_levels": 1,
+   "n_reports": 4,
+   "report_chars": 12513,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "222.json",
+   "stem": "222",
+   "stratum": "docbench octile 3 (power expansion)",
+   "ingested_chars": 13139,
+   "seconds": 26.2,
+   "cost_usd": 0.007894,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 20157,
+     "completion_tokens": 4354,
+     "cost_usd": 0.005636
+    },
+    "summarize": {
+     "calls": 3,
+     "prompt_tokens": 573,
+     "completion_tokens": 381,
+     "cost_usd": 0.000315
+    },
+    "community_reports": {
+     "calls": 2,
+     "prompt_tokens": 5326,
+     "completion_tokens": 1692,
+     "cost_usd": 0.001814
+    },
+    "embedding": {
+     "calls": 6,
+     "prompt_tokens": 6438,
+     "completion_tokens": 0,
+     "cost_usd": 0.000129
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 54,
+   "n_relationships": 43,
+   "n_communities": 2,
+   "n_levels": 1,
+   "n_reports": 2,
+   "report_chars": 7592,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "17.json",
+   "stem": "17",
+   "stratum": "docbench octile 4 (power expansion)",
+   "ingested_chars": 37846,
+   "seconds": 53.7,
+   "cost_usd": 0.030422,
+   "stages": {
+    "extraction": {
+     "calls": 18,
+     "prompt_tokens": 58149,
+     "completion_tokens": 10599,
+     "cost_usd": 0.015082
+    },
+    "summarize": {
+     "calls": 20,
+     "prompt_tokens": 3980,
+     "completion_tokens": 2602,
+     "cost_usd": 0.002158
+    },
+    "community_reports": {
+     "calls": 15,
+     "prompt_tokens": 42943,
+     "completion_tokens": 10451,
+     "cost_usd": 0.012712
+    },
+    "embedding": {
+     "calls": 13,
+     "prompt_tokens": 23514,
+     "completion_tokens": 0,
+     "cost_usd": 0.00047
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 9,
+   "n_entities": 133,
+   "n_relationships": 88,
+   "n_communities": 15,
+   "n_levels": 3,
+   "n_reports": 15,
+   "report_chars": 48443,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "18.json",
+   "stem": "18",
+   "stratum": "docbench octile 5 (power expansion)",
+   "ingested_chars": 41093,
+   "seconds": 57.4,
+   "cost_usd": 0.030254,
+   "stages": {
+    "extraction": {
+     "calls": 18,
+     "prompt_tokens": 59289,
+     "completion_tokens": 12978,
+     "cost_usd": 0.01668
+    },
+    "summarize": {
+     "calls": 18,
+     "prompt_tokens": 3424,
+     "completion_tokens": 2283,
+     "cost_usd": 0.001883
+    },
+    "community_reports": {
+     "calls": 12,
+     "prompt_tokens": 35446,
+     "completion_tokens": 9787,
+     "cost_usd": 0.011189
+    },
+    "embedding": {
+     "calls": 14,
+     "prompt_tokens": 25081,
+     "completion_tokens": 0,
+     "cost_usd": 0.000502
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 9,
+   "n_entities": 161,
+   "n_relationships": 113,
+   "n_communities": 12,
+   "n_levels": 2,
+   "n_reports": 12,
+   "report_chars": 45340,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "39.json",
+   "stem": "39",
+   "stratum": "docbench octile 6 (power expansion)",
+   "ingested_chars": 59977,
+   "seconds": 70.7,
+   "cost_usd": 0.053254,
+   "stages": {
+    "extraction": {
+     "calls": 30,
+     "prompt_tokens": 98515,
+     "completion_tokens": 22038,
+     "cost_usd": 0.028
+    },
+    "summarize": {
+     "calls": 49,
+     "prompt_tokens": 9806,
+     "completion_tokens": 8013,
+     "cost_usd": 0.006279
+    },
+    "community_reports": {
+     "calls": 19,
+     "prompt_tokens": 63873,
+     "completion_tokens": 14289,
+     "cost_usd": 0.018154
+    },
+    "embedding": {
+     "calls": 22,
+     "prompt_tokens": 41030,
+     "completion_tokens": 0,
+     "cost_usd": 0.000821
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 15,
+   "n_entities": 259,
+   "n_relationships": 182,
+   "n_communities": 19,
+   "n_levels": 2,
+   "n_reports": 19,
+   "report_chars": 66576,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "79.json",
+   "stem": "79",
+   "stratum": "docbench octile 7 (power expansion)",
+   "ingested_chars": 193672,
+   "seconds": 121.2,
+   "cost_usd": 0.110801,
+   "stages": {
+    "extraction": {
+     "calls": 68,
+     "prompt_tokens": 230771,
+     "completion_tokens": 47390,
+     "cost_usd": 0.06305
+    },
+    "summarize": {
+     "calls": 77,
+     "prompt_tokens": 16402,
+     "completion_tokens": 10210,
+     "cost_usd": 0.008586
+    },
+    "community_reports": {
+     "calls": 37,
+     "prompt_tokens": 137954,
+     "completion_tokens": 28089,
+     "cost_usd": 0.037546
+    },
+    "embedding": {
+     "calls": 36,
+     "prompt_tokens": 80943,
+     "completion_tokens": 0,
+     "cost_usd": 0.001619
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 34,
+   "n_entities": 430,
+   "n_relationships": 494,
+   "n_communities": 37,
+   "n_levels": 2,
+   "n_reports": 37,
+   "report_chars": 133746,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "56.json",
+   "stem": "56",
+   "stratum": "docbench octile 8 (power expansion)",
+   "ingested_chars": 469885,
+   "seconds": 109.9,
+   "cost_usd": 0.227078,
+   "stages": {
+    "extraction": {
+     "calls": 162,
+     "prompt_tokens": 525702,
+     "completion_tokens": 89545,
+     "cost_usd": 0.132582
+    },
+    "summarize": {
+     "calls": 237,
+     "prompt_tokens": 52584,
+     "completion_tokens": 32578,
+     "cost_usd": 0.027434
+    },
+    "community_reports": {
+     "calls": 65,
+     "prompt_tokens": 226608,
+     "completion_tokens": 49438,
+     "cost_usd": 0.063654
+    },
+    "embedding": {
+     "calls": 60,
+     "prompt_tokens": 170403,
+     "completion_tokens": 0,
+     "cost_usd": 0.003408
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 81,
+   "n_entities": 621,
+   "n_relationships": 773,
+   "n_communities": 65,
+   "n_levels": 3,
+   "n_reports": 65,
+   "report_chars": 237125,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "228.json",
+   "stem": "228",
+   "stratum": "docbench octile 1 (power expansion)",
+   "ingested_chars": 11983,
+   "seconds": 22.6,
+   "cost_usd": 0.009078,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 18762,
+     "completion_tokens": 3498,
+     "cost_usd": 0.004913
+    },
+    "summarize": {
+     "calls": 2,
+     "prompt_tokens": 378,
+     "completion_tokens": 210,
+     "cost_usd": 0.000183
+    },
+    "community_reports": {
+     "calls": 5,
+     "prompt_tokens": 12297,
+     "completion_tokens": 3330,
+     "cost_usd": 0.003843
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 6958,
+     "completion_tokens": 0,
+     "cost_usd": 0.000139
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 40,
+   "n_relationships": 34,
+   "n_communities": 5,
+   "n_levels": 1,
+   "n_reports": 5,
+   "report_chars": 15223,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "226.json",
+   "stem": "226",
+   "stratum": "docbench octile 2 (power expansion)",
+   "ingested_chars": 12187,
+   "seconds": 26.0,
+   "cost_usd": 0.00583,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 18811,
+     "completion_tokens": 3346,
+     "cost_usd": 0.004829
+    },
+    "summarize": {
+     "calls": 1,
+     "prompt_tokens": 184,
+     "completion_tokens": 97,
+     "cost_usd": 8.6e-05
+    },
+    "community_reports": {
+     "calls": 1,
+     "prompt_tokens": 2736,
+     "completion_tokens": 682,
+     "cost_usd": 0.00082
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 4758,
+     "completion_tokens": 0,
+     "cost_usd": 9.5e-05
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 42,
+   "n_relationships": 35,
+   "n_communities": 1,
+   "n_levels": 1,
+   "n_reports": 1,
+   "report_chars": 3054,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "98.json",
+   "stem": "98",
+   "stratum": "docbench octile 3 (power expansion)",
+   "ingested_chars": 24104,
+   "seconds": 46.3,
+   "cost_usd": 0.015522,
+   "stages": {
+    "extraction": {
+     "calls": 8,
+     "prompt_tokens": 26025,
+     "completion_tokens": 4876,
+     "cost_usd": 0.006829
+    },
+    "summarize": {
+     "calls": 4,
+     "prompt_tokens": 859,
+     "completion_tokens": 689,
+     "cost_usd": 0.000542
+    },
+    "community_reports": {
+     "calls": 9,
+     "prompt_tokens": 25211,
+     "completion_tokens": 6874,
+     "cost_usd": 0.007906
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 12243,
+     "completion_tokens": 0,
+     "cost_usd": 0.000245
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 4,
+   "n_entities": 44,
+   "n_relationships": 49,
+   "n_communities": 9,
+   "n_levels": 3,
+   "n_reports": 9,
+   "report_chars": 31024,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "docbench",
+   "doc": "48.json",
+   "stem": "48",
+   "stratum": "docbench octile 4 (power expansion)",
+   "ingested_chars": 38451,
+   "seconds": 64.2,
+   "cost_usd": 0.03151,
+   "stages": {
+    "extraction": {
+     "calls": 18,
+     "prompt_tokens": 59845,
+     "completion_tokens": 17428,
+     "cost_usd": 0.019434
+    },
+    "summarize": {
+     "calls": 15,
+     "prompt_tokens": 3054,
+     "completion_tokens": 2407,
+     "cost_usd": 0.001902
+    },
+    "community_reports": {
+     "calls": 11,
+     "prompt_tokens": 31870,
+     "completion_tokens": 8165,
+     "cost_usd": 0.00968
+    },
+    "embedding": {
+     "calls": 15,
+     "prompt_tokens": 24713,
+     "completion_tokens": 0,
+     "cost_usd": 0.000494
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 9,
+   "n_entities": 192,
+   "n_relationships": 165,
+   "n_communities": 11,
+   "n_levels": 2,
+   "n_reports": 11,
+   "report_chars": 35949,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ddoseattle-150627210357-lva1-app6891_95.pdf.json",
+   "stem": "ddoseattle-150627210357-lva1-app6891_95",
+   "stratum": "mmlongbench octile 1 (power expansion)",
+   "ingested_chars": 7250,
+   "seconds": 24.4,
+   "cost_usd": 0.006161,
+   "stages": {
+    "extraction": {
+     "calls": 4,
+     "prompt_tokens": 11737,
+     "completion_tokens": 2068,
+     "cost_usd": 0.003001
+    },
+    "summarize": {
+     "calls": 4,
+     "prompt_tokens": 773,
+     "completion_tokens": 535,
+     "cost_usd": 0.000437
+    },
+    "community_reports": {
+     "calls": 3,
+     "prompt_tokens": 8069,
+     "completion_tokens": 2363,
+     "cost_usd": 0.002628
+    },
+    "embedding": {
+     "calls": 4,
+     "prompt_tokens": 4758,
+     "completion_tokens": 0,
+     "cost_usd": 9.5e-05
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 2,
+   "n_entities": 23,
+   "n_relationships": 19,
+   "n_communities": 3,
+   "n_levels": 1,
+   "n_reports": 3,
+   "report_chars": 11202,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earlybird-110722143746-phpapp02_95.pdf.json",
+   "stem": "earlybird-110722143746-phpapp02_95",
+   "stratum": "mmlongbench octile 2 (power expansion)",
+   "ingested_chars": 9991,
+   "seconds": 37.3,
+   "cost_usd": 0.011039,
+   "stages": {
+    "extraction": {
+     "calls": 6,
+     "prompt_tokens": 17091,
+     "completion_tokens": 3988,
+     "cost_usd": 0.004956
+    },
+    "summarize": {
+     "calls": 2,
+     "prompt_tokens": 379,
+     "completion_tokens": 203,
+     "cost_usd": 0.000179
+    },
+    "community_reports": {
+     "calls": 7,
+     "prompt_tokens": 18496,
+     "completion_tokens": 4951,
+     "cost_usd": 0.005745
+    },
+    "embedding": {
+     "calls": 5,
+     "prompt_tokens": 7939,
+     "completion_tokens": 0,
+     "cost_usd": 0.000159
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 3,
+   "n_entities": 44,
+   "n_relationships": 47,
+   "n_communities": 7,
+   "n_levels": 2,
+   "n_reports": 7,
+   "report_chars": 23206,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e79deb02a0c0e87511080836c5d4347b.pdf.json",
+   "stem": "e79deb02a0c0e87511080836c5d4347b",
+   "stratum": "mmlongbench octile 3 (power expansion)",
+   "ingested_chars": 20032,
+   "seconds": 71.0,
+   "cost_usd": 0.020448,
+   "stages": {
+    "extraction": {
+     "calls": 8,
+     "prompt_tokens": 35023,
+     "completion_tokens": 15319,
+     "cost_usd": 0.014445
+    },
+    "summarize": {
+     "calls": 3,
+     "prompt_tokens": 592,
+     "completion_tokens": 362,
+     "cost_usd": 0.000306
+    },
+    "community_reports": {
+     "calls": 6,
+     "prompt_tokens": 18556,
+     "completion_tokens": 4403,
+     "cost_usd": 0.005425
+    },
+    "embedding": {
+     "calls": 16,
+     "prompt_tokens": 13623,
+     "completion_tokens": 0,
+     "cost_usd": 0.000272
+    }
+   },
+   "unassigned_cost_share": 0.0,
+   "n_text_units": 4,
+   "n_entities": 210,
+   "n_relationships": 150,
+   "n_communities": 6,
+   "n_levels": 1,
+   "n_reports": 6,
+   "report_chars": 20170,
+   "alignment": 1.0,
+   "workflow_errors": [],
+   "missing_tables": [],
+   "llm_failures": 0,
+   "duplicate_events_suppressed": 0
+  }
+ ],
+ "spent_usd": 0.57409
+}

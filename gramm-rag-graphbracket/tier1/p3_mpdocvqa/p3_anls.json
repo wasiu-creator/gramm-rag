@@ -1,0 +1,126 @@
+{
+ "n_common": 950,
+ "benchmark": "mpdocvqa",
+ "metric": "ANLS",
+ "per_arm": {
+  "GraMM-RAG": {
+   "anls": 0.6978,
+   "sd": 0.4487,
+   "frac_zero": 0.2884,
+   "frac_one": 0.6537,
+   "images_per_question": 2.742
+  },
+  "Flat-vector": {
+   "anls": 0.6663,
+   "sd": 0.4613,
+   "frac_zero": 0.32,
+   "frac_one": 0.6232,
+   "images_per_question": 1.924
+  },
+  "Flat-vector (k=3)": {
+   "anls": 0.6983,
+   "sd": 0.4479,
+   "frac_zero": 0.2874,
+   "frac_one": 0.6505,
+   "images_per_question": 2.741
+  },
+  "LightRAG": {
+   "anls": 0.4438,
+   "sd": 0.4864,
+   "frac_zero": 0.5411,
+   "frac_one": 0.4021,
+   "images_per_question": 2.492
+  },
+  "RAG-Anything": {
+   "anls": 0.4335,
+   "sd": 0.4846,
+   "frac_zero": 0.5505,
+   "frac_one": 0.3905,
+   "images_per_question": 2.517
+  },
+  "MS GraphRAG": {
+   "anls": 0.3914,
+   "sd": 0.4775,
+   "frac_zero": 0.5937,
+   "frac_one": 0.3505,
+   "images_per_question": 2.446
+  }
+ },
+ "contrasts": {
+  "GraMM-RAG - Flat-vector": {
+   "diff": 0.0315,
+   "lo": 0.0147,
+   "hi": 0.0482
+  },
+  "GraMM-RAG - LightRAG": {
+   "diff": 0.254,
+   "lo": 0.2196,
+   "hi": 0.2892
+  },
+  "GraMM-RAG - RAG-Anything": {
+   "diff": 0.2643,
+   "lo": 0.2304,
+   "hi": 0.2985
+  },
+  "GraMM-RAG - MS GraphRAG": {
+   "diff": 0.3064,
+   "lo": 0.2712,
+   "hi": 0.3402
+  },
+  "Flat-vector - LightRAG": {
+   "diff": 0.2225,
+   "lo": 0.1873,
+   "hi": 0.2594
+  },
+  "Flat-vector - RAG-Anything": {
+   "diff": 0.2328,
+   "lo": 0.1978,
+   "hi": 0.2691
+  },
+  "Flat-vector - MS GraphRAG": {
+   "diff": 0.2749,
+   "lo": 0.2393,
+   "hi": 0.3097
+  },
+  "RAG-Anything - LightRAG": {
+   "diff": -0.0103,
+   "lo": -0.0232,
+   "hi": 0.0018
+  },
+  "LightRAG - MS GraphRAG": {
+   "diff": 0.0524,
+   "lo": 0.0259,
+   "hi": 0.0788
+  },
+  "RAG-Anything - MS GraphRAG": {
+   "diff": 0.0421,
+   "lo": 0.0159,
+   "hi": 0.0683
+  },
+  "GraMM-RAG - Flat-vector (k=3)": {
+   "diff": -0.0005,
+   "lo": -0.0167,
+   "hi": 0.016
+  },
+  "Flat-vector (k=3) - Flat-vector": {
+   "diff": 0.032,
+   "lo": 0.0171,
+   "hi": 0.0477
+  },
+  "Flat-vector (k=3) - LightRAG": {
+   "diff": 0.2545,
+   "lo": 0.2201,
+   "hi": 0.2898
+  },
+  "Flat-vector (k=3) - RAG-Anything": {
+   "diff": 0.2648,
+   "lo": 0.2296,
+   "hi": 0.3001
+  },
+  "Flat-vector (k=3) - MS GraphRAG": {
+   "diff": 0.3069,
+   "lo": 0.2719,
+   "hi": 0.3398
+  }
+ }
+}

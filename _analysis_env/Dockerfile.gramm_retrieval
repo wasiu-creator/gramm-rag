@@ -1,0 +1,24 @@
+# GraMM retrieval re-run, for the C/S/T attribute decomposition only.
+#
+# Deliberately NOT the benchmark image: reproducing `reward_detail` needs the retrieval
+# path (HGT + self-healing + E5 query embedding + spaCy entities) and nothing else.
+# MinerU/magic-pdf is irrelevant -- parsing is reused from cache.
+#
+# transformers is pinned to the colpali stack's 4.46.3 rather than the 4.57.6 the archived
+# run used. That is a REPRODUCIBILITY RISK, not a detail: if E5 embeddings shift at all the
+# integrity gate (recomputed U == archived reward_scores) will fail, and per the review a
+# re-run that does not reproduce is a different system whose decomposition measures nothing.
+# The gate is run on a sample first, precisely so this is discovered cheaply.
+FROM grammrag-colpali-pinned:latest
+
+RUN pip install --no-cache-dir \
+        torch-geometric \
+        sentence-transformers \
+        bitsandbytes \
+        accelerate \
+        spacy \
+    && python -m spacy download en_core_web_lg
+
+ENV HF_HOME=/work/gramm-rag-mmlongbench/hf_cache \
+    PYTORCH_JIT=0
+WORKDIR /work

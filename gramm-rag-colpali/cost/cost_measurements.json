@@ -1,0 +1,16 @@
+{
+ "device": "NVIDIA A100-SXM4-40GB",
+ "normalisation_factor": 1.0,
+ "e5_model_load_s": 16.558241844177246,
+ "e5_elements": 600,
+ "e5_seconds": 6.581180810928345,
+ "e5_s_per_element": 0.010968634684880574,
+ "elements_per_page": 7.781508739650414,
+ "e5_s_per_page": 0.08535252666243086,
+ "gramm_query_ms": {
+  "median": 83.46772193908691,
+  "p95": 89.06699419021606,
+  "n": 60
+ },
+ "gramm_peak_gpu_gib": 4.048069477081299
+}

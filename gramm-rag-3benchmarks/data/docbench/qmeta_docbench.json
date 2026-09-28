@@ -1,0 +1,4420 @@
+{
+ "benchmark": "DocBench",
+ "n": 1102,
+ "source": "gramm-rag-docbench/data_volume/*/[id]_qa.jsonl + cache/parsed",
+ "fields": [
+  "doc_id",
+  "doc_pages"
+ ],
+ "note": "types/judge scores come from the result JSON, not from here",
+ "rows": [
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "0",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "1",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "1",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "10",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "100",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "100",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "100",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "101",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "101",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "101",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "102",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "102",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "102",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "102",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "103",
+   "doc_pages": 3
+  },
+  {
+   "doc_id": "103",
+   "doc_pages": 3
+  },
+  {
+   "doc_id": "103",
+   "doc_pages": 3
+  },
+  {
+   "doc_id": "104",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "104",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "105",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "105",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "105",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "106",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "106",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "106",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "106",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "107",
+   "doc_pages": 200
+  },
+  {
+   "doc_id": "107",
+   "doc_pages": 200
+  },
+  {
+   "doc_id": "107",
+   "doc_pages": 200
+  },
+  {
+   "doc_id": "108",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "108",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "108",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "108",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "109",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "109",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "109",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "109",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "109",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "11",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "110",
+   "doc_pages": 318
+  },
+  {
+   "doc_id": "110",
+   "doc_pages": 318
+  },
+  {
+   "doc_id": "110",
+   "doc_pages": 318
+  },
+  {
+   "doc_id": "110",
+   "doc_pages": 318
+  },
+  {
+   "doc_id": "111",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "111",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "111",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "111",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "112",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "112",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "112",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "113",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "113",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "113",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "113",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "113",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "114",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "114",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "114",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "114",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "114",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "115",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "115",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "115",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "116",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "116",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "116",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "116",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "117",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "117",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "117",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "117",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "117",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "118",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "118",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "118",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "119",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "119",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "119",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "119",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "119",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "12",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "12",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "12",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "12",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "120",
+   "doc_pages": 330
+  },
+  {
+   "doc_id": "120",
+   "doc_pages": 330
+  },
+  {
+   "doc_id": "120",
+   "doc_pages": 330
+  },
+  {
+   "doc_id": "120",
+   "doc_pages": 330
+  },
+  {
+   "doc_id": "120",
+   "doc_pages": 330
+  },
+  {
+   "doc_id": "121",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "121",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "121",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "121",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "122",
+   "doc_pages": 32
+  },
+  {
+   "doc_id": "123",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "123",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "123",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "123",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "124",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "124",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "124",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "125",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "125",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "125",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "125",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "126",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "126",
+   "doc_pages": 24
+  },
+  {
+   "doc_id": "127",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "127",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "128",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "128",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "128",
+   "doc_pages": 20
+  },
+  {
+   "doc_id": "129",
+   "doc_pages": 206
+  },
+  {
+   "doc_id": "129",
+   "doc_pages": 206
+  },
+  {
+   "doc_id": "129",
+   "doc_pages": 206
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "13",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "130",
+   "doc_pages": 280
+  },
+  {
+   "doc_id": "130",
+   "doc_pages": 280
+  },
+  {
+   "doc_id": "131",
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "131",
+   "doc_pages": 198
+  },
+  {
+   "doc_id": "132",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "132",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "132",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "132",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "133",
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "133",
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "133",
+   "doc_pages": 72
+  },
+  {
+   "doc_id": "134",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "134",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "134",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "135",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "135",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "136",
+   "doc_pages": 194
+  },
+  {
+   "doc_id": "137",
+   "doc_pages": 212
+  },
+  {
+   "doc_id": "137",
+   "doc_pages": 212
+  },
+  {
+   "doc_id": "137",
+   "doc_pages": 212
+  },
+  {
+   "doc_id": "138",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "138",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "139",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "14",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "140",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "140",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "140",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "140",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "141",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "141",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "142",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "142",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "142",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "143",
+   "doc_pages": 40
+  },
+  {
+   "doc_id": "144",
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "144",
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "144",
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "144",
+   "doc_pages": 36
+  },
+  {
+   "doc_id": "145",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "145",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "145",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "146",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "146",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "146",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "146",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "147",
+   "doc_pages": 69
+  },
+  {
+   "doc_id": "147",
+   "doc_pages": 69
+  },
+  {
+   "doc_id": "147",
+   "doc_pages": 69
+  },
+  {
+   "doc_id": "147",
+   "doc_pages": 69
+  },
+  {
+   "doc_id": "147",
+   "doc_pages": 69
+  },
+  {
+   "doc_id": "148",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "148",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "148",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "148",
+   "doc_pages": 8
+  },
+  {
+   "doc_id": "149",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "149",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "149",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "149",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "149",
+   "doc_pages": 47
+  },
+  {
+   "doc_id": "15",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "15",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "15",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "150",
+   "doc_pages": 64
+  },
+  {
+   "doc_id": "151",
+   "doc_pages": 209
+  },
+  {
+   "doc_id": "151",
+   "doc_pages": 209
+  },
+  {
+   "doc_id": "151",
+   "doc_pages": 209
+  },
+  {
+   "doc_id": "151",
+   "doc_pages": 209
+  },
+  {
+   "doc_id": "151",
+   "doc_pages": 209
+  },
+  {
+   "doc_id": "152",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "152",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "153",
+   "doc_pages": 90
+  },
+  {
+   "doc_id": "153",
+   "doc_pages": 90
+  },
+  {
+   "doc_id": "153",
+   "doc_pages": 90
+  },
+  {
+   "doc_id": "154",
+   "doc_pages": 59
+  },
+  {
+   "doc_id": "154",
+   "doc_pages": 59
+  },
+  {
+   "doc_id": "154",
+   "doc_pages": 59
+  },
+  {
+   "doc_id": "154",
+   "doc_pages": 59
+  },
+  {
+   "doc_id": "155",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "155",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "155",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "156",
+   "doc_pages": 84
+  },
+  {
+   "doc_id": "156",
+   "doc_pages": 84
+  },
+  {
+   "doc_id": "156",
+   "doc_pages": 84
+  },
+  {
+   "doc_id": "156",
+   "doc_pages": 84
+  },
+  {
+   "doc_id": "156",
+   "doc_pages": 84
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "157",
+   "doc_pages": 71
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "158",
+   "doc_pages": 77
+  },
+  {
+   "doc_id": "159",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "159",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "159",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "159",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "159",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "16",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "160",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "160",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "160",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "160",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "160",
+   "doc_pages": 95
+  },
+  {
+   "doc_id": "161",
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "161",
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "161",
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "161",
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "161",
+   "doc_pages": 61
+  },
+  {
+   "doc_id": "162",
+   "doc_pages": 121
+  },
+  {
+   "doc_id": "162",
+   "doc_pages": 121
+  },
+  {
+   "doc_id": "163",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "163",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "163",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "163",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "163",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "164",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "164",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "164",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "164",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "165",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "165",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "165",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "165",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "166",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "166",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "166",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "166",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "166",
+   "doc_pages": 17
+  },
+  {
+   "doc_id": "167",
+   "doc_pages": 57
+  },
+  {
+   "doc_id": "167",
+   "doc_pages": 57
+  },
+  {
+   "doc_id": "167",
+   "doc_pages": 57
+  },
+  {
+   "doc_id": "167",
+   "doc_pages": 57
+  },
+  {
+   "doc_id": "167",
+   "doc_pages": 57
+  },
+  {
+   "doc_id": "168",
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "168",
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "168",
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "168",
+   "doc_pages": 27
+  },
+  {
+   "doc_id": "169",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "169",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "169",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "169",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "17",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "170",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "171",
+   "doc_pages": 21
+  },
+  {
+   "doc_id": "172",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "172",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "172",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "172",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "172",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "173",
+   "doc_pages": 81
+  },
+  {
+   "doc_id": "173",
+   "doc_pages": 81
+  },
+  {
+   "doc_id": "173",
+   "doc_pages": 81
+  },
+  {
+   "doc_id": "173",
+   "doc_pages": 81
+  },
+  {
+   "doc_id": "173",
+   "doc_pages": 81
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "174",
+   "doc_pages": 85
+  },
+  {
+   "doc_id": "175",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "175",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "175",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "176",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "177",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "177",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "177",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "177",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "178",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "178",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "178",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "178",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "178",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "179",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "18",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "180",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "180",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "181",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "181",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "181",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "182",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "182",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "183",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "183",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "183",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "183",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "184",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "184",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "185",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "185",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "185",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "185",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "185",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "186",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "186",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "186",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "187",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "187",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "187",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "187",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "188",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "188",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "189",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "189",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "189",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "189",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "19",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "190",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "190",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "190",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "191",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "191",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "191",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "191",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "192",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "192",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "192",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "192",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "192",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "193",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "193",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "193",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "194",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "194",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "195",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "195",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "195",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "196",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "196",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "196",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "196",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "196",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "197",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "197",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "197",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "198",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "199",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "2",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "2",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "2",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "2",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "2",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "20",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "200",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "200",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "200",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "201",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "202",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "202",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "202",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "202",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "202",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "203",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "203",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "203",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "204",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "204",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "204",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "204",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "205",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "205",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "206",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "206",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "207",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "207",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "207",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "208",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "208",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "208",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "209",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "209",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "209",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "21",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "210",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "210",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "210",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "211",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "211",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "211",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "212",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "212",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "212",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "213",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "213",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "213",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "214",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "214",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "214",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "214",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "214",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "215",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "215",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "215",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "216",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "216",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "216",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "217",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "217",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "217",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "218",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "218",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "218",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "219",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "219",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "219",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "219",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "22",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "22",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "22",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "22",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "22",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "220",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "220",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "220",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "221",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "221",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "221",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "222",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "222",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "222",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "223",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "223",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "223",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "224",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "224",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "224",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "225",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "225",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "225",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "226",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "226",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "226",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "227",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "227",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "227",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "227",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "228",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "228",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "228",
+   "doc_pages": 1
+  },
+  {
+   "doc_id": "23",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "23",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "23",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "23",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "23",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "24",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "25",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "25",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "25",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "25",
+   "doc_pages": 7
+  },
+  {
+   "doc_id": "26",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "26",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "26",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "26",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "26",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "27",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "28",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "28",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "28",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "28",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "29",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "29",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "29",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "3",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "30",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "31",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "31",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "31",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "32",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "33",
+   "doc_pages": 13
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "34",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "35",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "35",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "35",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "35",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "35",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "36",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "37",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "37",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "37",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "37",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "37",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "38",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "39",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "4",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "40",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "40",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "40",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "41",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "42",
+   "doc_pages": 18
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "43",
+   "doc_pages": 29
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "44",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "45",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "46",
+   "doc_pages": 12
+  },
+  {
+   "doc_id": "47",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "47",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "47",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "47",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "47",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "48",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "48",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "48",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "48",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "49",
+   "doc_pages": 128
+  },
+  {
+   "doc_id": "5",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "5",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "5",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "50",
+   "doc_pages": 100
+  },
+  {
+   "doc_id": "51",
+   "doc_pages": 202
+  },
+  {
+   "doc_id": "51",
+   "doc_pages": 202
+  },
+  {
+   "doc_id": "51",
+   "doc_pages": 202
+  },
+  {
+   "doc_id": "51",
+   "doc_pages": 202
+  },
+  {
+   "doc_id": "51",
+   "doc_pages": 202
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "52",
+   "doc_pages": 92
+  },
+  {
+   "doc_id": "53",
+   "doc_pages": 844
+  },
+  {
+   "doc_id": "53",
+   "doc_pages": 844
+  },
+  {
+   "doc_id": "53",
+   "doc_pages": 844
+  },
+  {
+   "doc_id": "53",
+   "doc_pages": 844
+  },
+  {
+   "doc_id": "53",
+   "doc_pages": 844
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "54",
+   "doc_pages": 293
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "55",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "56",
+   "doc_pages": 146
+  },
+  {
+   "doc_id": "56",
+   "doc_pages": 146
+  },
+  {
+   "doc_id": "56",
+   "doc_pages": 146
+  },
+  {
+   "doc_id": "57",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "57",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "57",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "57",
+   "doc_pages": 162
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "58",
+   "doc_pages": 170
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "59",
+   "doc_pages": 147
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "6",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "60",
+   "doc_pages": 148
+  },
+  {
+   "doc_id": "60",
+   "doc_pages": 148
+  },
+  {
+   "doc_id": "60",
+   "doc_pages": 148
+  },
+  {
+   "doc_id": "60",
+   "doc_pages": 148
+  },
+  {
+   "doc_id": "60",
+   "doc_pages": 148
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "61",
+   "doc_pages": 207
+  },
+  {
+   "doc_id": "62",
+   "doc_pages": 312
+  },
+  {
+   "doc_id": "62",
+   "doc_pages": 312
+  },
+  {
+   "doc_id": "62",
+   "doc_pages": 312
+  },
+  {
+   "doc_id": "62",
+   "doc_pages": 312
+  },
+  {
+   "doc_id": "62",
+   "doc_pages": 312
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "63",
+   "doc_pages": 316
+  },
+  {
+   "doc_id": "64",
+   "doc_pages": 449
+  },
+  {
+   "doc_id": "64",
+   "doc_pages": 449
+  },
+  {
+   "doc_id": "64",
+   "doc_pages": 449
+  },
+  {
+   "doc_id": "64",
+   "doc_pages": 449
+  },
+  {
+   "doc_id": "65",
+   "doc_pages": 186
+  },
+  {
+   "doc_id": "65",
+   "doc_pages": 186
+  },
+  {
+   "doc_id": "65",
+   "doc_pages": 186
+  },
+  {
+   "doc_id": "65",
+   "doc_pages": 186
+  },
+  {
+   "doc_id": "65",
+   "doc_pages": 186
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "66",
+   "doc_pages": 382
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "67",
+   "doc_pages": 173
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "68",
+   "doc_pages": 99
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "69",
+   "doc_pages": 226
+  },
+  {
+   "doc_id": "7",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "7",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "7",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "7",
+   "doc_pages": 22
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "70",
+   "doc_pages": 199
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "71",
+   "doc_pages": 188
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "72",
+   "doc_pages": 118
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "73",
+   "doc_pages": 75
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "74",
+   "doc_pages": 166
+  },
+  {
+   "doc_id": "75",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "75",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "75",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "75",
+   "doc_pages": 65
+  },
+  {
+   "doc_id": "76",
+   "doc_pages": 97
+  },
+  {
+   "doc_id": "76",
+   "doc_pages": 97
+  },
+  {
+   "doc_id": "76",
+   "doc_pages": 97
+  },
+  {
+   "doc_id": "76",
+   "doc_pages": 97
+  },
+  {
+   "doc_id": "76",
+   "doc_pages": 97
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "77",
+   "doc_pages": 98
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "78",
+   "doc_pages": 116
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "79",
+   "doc_pages": 76
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "8",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "80",
+   "doc_pages": 141
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "81",
+   "doc_pages": 339
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "82",
+   "doc_pages": 143
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "83",
+   "doc_pages": 564
+  },
+  {
+   "doc_id": "84",
+   "doc_pages": 142
+  },
+  {
+   "doc_id": "84",
+   "doc_pages": 142
+  },
+  {
+   "doc_id": "84",
+   "doc_pages": 142
+  },
+  {
+   "doc_id": "84",
+   "doc_pages": 142
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "85",
+   "doc_pages": 9
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "86",
+   "doc_pages": 106
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "87",
+   "doc_pages": 88
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "88",
+   "doc_pages": 54
+  },
+  {
+   "doc_id": "89",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "89",
+   "doc_pages": 10
+  },
+  {
+   "doc_id": "9",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "9",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "9",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "9",
+   "doc_pages": 6
+  },
+  {
+   "doc_id": "90",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "90",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "90",
+   "doc_pages": 23
+  },
+  {
+   "doc_id": "91",
+   "doc_pages": 168
+  },
+  {
+   "doc_id": "91",
+   "doc_pages": 168
+  },
+  {
+   "doc_id": "91",
+   "doc_pages": 168
+  },
+  {
+   "doc_id": "91",
+   "doc_pages": 168
+  },
+  {
+   "doc_id": "92",
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "92",
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "92",
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "92",
+   "doc_pages": 34
+  },
+  {
+   "doc_id": "93",
+   "doc_pages": 249
+  },
+  {
+   "doc_id": "93",
+   "doc_pages": 249
+  },
+  {
+   "doc_id": "93",
+   "doc_pages": 249
+  },
+  {
+   "doc_id": "93",
+   "doc_pages": 249
+  },
+  {
+   "doc_id": "94",
+   "doc_pages": 37
+  },
+  {
+   "doc_id": "94",
+   "doc_pages": 37
+  },
+  {
+   "doc_id": "94",
+   "doc_pages": 37
+  },
+  {
+   "doc_id": "95",
+   "doc_pages": 14
+  },
+  {
+   "doc_id": "96",
+   "doc_pages": 31
+  },
+  {
+   "doc_id": "97",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "97",
+   "doc_pages": 11
+  },
+  {
+   "doc_id": "98",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "98",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "98",
+   "doc_pages": 16
+  },
+  {
+   "doc_id": "99",
+   "doc_pages": 19
+  },
+  {
+   "doc_id": "99",
+   "doc_pages": 19
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  gramm-rag-mmlb:
+    build:
+      context: .           # repo root
+      dockerfile: Dockerfile
+    image: gramm-rag-mmlb:latest
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      # R-37: disable TorchScript. transformers' DeBERTa-v2 module carries
+      # module-level @torch.jit.script decorators; compiling them AFTER the
+      # pipeline has loaded E5-Mistral/SigLIP segfaults the process natively
+      # (Fatal Python error at torch/jit/_script.py:1209). Under nbconvert
+      # this surfaced only as 'Kernel died' with no traceback. The router
+      # runs eagerly without TorchScript; no accuracy impact.
+      - PYTORCH_JIT=0
+      - TOGETHER_API_KEY=${TOGETHER_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # MinerU 1.x reads its config from ~/magic-pdf.json unless redirected.
+      # Point it at the repo copy so the config lives on vol3 with everything else.
+      - MINERU_TOOLS_CONFIG_JSON=/app/magic-pdf.json
+    ports:
+      - "8888:8888"
+    volumes:
+      # Mount PDFs so they don't have to be baked into the image
+      - ./pdfs_volume:/app/data/mmlongbench/pdfs
+      # Live-mount the code so `python gen_notebook.py` on the host takes effect
+      # without an image rebuild (the Dockerfile also COPYs these, so the image
+      # stays self-contained; these mounts just shadow the baked-in copies).
+      - ./mmlongbench_e2e.ipynb:/app/mmlongbench_e2e.ipynb
+      - ./gen_notebook.py:/app/gen_notebook.py
+      # Archived pilot + full-run artefacts (executed notebooks, PDFs, figures,
+      # metric JSONs). Mounted so they are browsable from JupyterLab.
+      - ./result_archive:/app/result_archive
+      - ./src:/app/src
+      - ./magic-pdf.json:/app/magic-pdf.json
+      # MinerU layout/OCR/formula/table weights (~16 GB) live on vol3, NOT the
+      # ephemeral root disk (which the image alone already fills to ~85%).
+      - ./mineru_models:/app/mineru_models
+      # HuggingFace cache (HF_HOME=/app/.cache/huggingface in the Dockerfile).
+      # E5-Mistral-7B (~14 GB) + SigLIP-SO400M (~1.5 GB) download here on first
+      # use. Unmounted, they land in the container's writable layer and are both
+      # lost on every `docker compose up --build` and charged to the disk holding
+      # the Docker root. Same disk-discipline rule as the MinerU weights (R-7).
+      - ./hf_cache:/app/.cache/huggingface
+      # Persist computed artefacts between runs (flat layout)
+      - ./cache/parsed:/app/parsed
+      - ./cache/embeddings:/app/embeddings
+      - ./cache/graphs:/app/graphs
+      - ./cache/results:/app/results
+    shm_size: "8gb"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

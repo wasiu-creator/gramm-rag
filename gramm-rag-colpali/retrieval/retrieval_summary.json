@@ -1,0 +1,5 @@
+{
+ "docbench": {
+  "note": "DocBench has no page-level gold; quote-recall is computed in the generation stage from page_texts"
+ }
+}

@@ -1,0 +1,150 @@
+{
+  "config": {
+    "N_PILOT": null,
+    "SEED": 42,
+    "GEN_MODEL": "gpt-4.1-mini",
+    "GEN_PROVIDER": "openai",
+    "GRAPH_PAGE_UNION": true,
+    "PAGE_CONTEXT_CHARS_3": 12000,
+    "GEN_TOP_N": 10,
+    "PAGE_CONTEXT": true,
+    "PAGE_CONTEXT_N": 2,
+    "PAGE_SCORE_MODE": "first_seen",
+    "USE_CROSS_ENCODER": true,
+    "RERANK_POOL": 20,
+    "HYBRID_FUSION": true,
+    "GRAPH_PAGE_GUIDE": true,
+    "ROUTE_ALL_HYBRID": true,
+    "SELF_HEAL_GENERATION": true,
+    "USE_PAGE_IMAGES": true,
+    "QUOTE_MIN_OVERLAP": 0.6,
+    "RUN_JUDGE": true,
+    "JUDGE_MODEL": "gpt-4-turbo",
+    "REWARD_PARAMS": {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "lambda_": 0.2,
+      "tau": 0.0
+    }
+  },
+  "benchmark": "DocBench",
+  "seed_42": {
+    "ci": {
+      "ANLS": {
+        "gramm": [
+          0.08052847776814435,
+          0.06760443447612009,
+          0.0951357799536898
+        ],
+        "vec": [
+          0.0647469076653322,
+          0.052630274432580816,
+          0.0776179304725178
+        ],
+        "delta": [
+          0.01578157010281217,
+          0.004509515523301585,
+          0.027580361153642808
+        ],
+        "significant": true
+      },
+      "F1": {
+        "gramm": [
+          0.2762032278043289,
+          0.26058068621575353,
+          0.29211032050621005
+        ],
+        "vec": [
+          0.25609919068317444,
+          0.24121930888550464,
+          0.27152300864387346
+        ],
+        "delta": [
+          0.020104037121154435,
+          0.012718973572995111,
+          0.027433183366072894
+        ],
+        "significant": true
+      },
+      "Exact match": {
+        "gramm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vec": [
+          0.0009074410163339383,
+          0.0,
+          0.003629764065335753
+        ],
+        "delta": [
+          -0.0009074410163339383,
+          -0.003629764065335753,
+          0.0
+        ],
+        "significant": false
+      },
+      "Ctx-hit": {
+        "gramm": [
+          0.42740471869328495,
+          0.3983439201451906,
+          0.4573502722323049
+        ],
+        "vec": [
+          0.3103448275862069,
+          0.2849364791288566,
+          0.33759074410163337
+        ],
+        "delta": [
+          0.11705989110707804,
+          0.09528130671506352,
+          0.13793103448275862
+        ],
+        "significant": true
+      }
+    },
+    "cov_anls_gramm_vec": 0.028776263553179297,
+    "corr_anls_gramm_vec": 0.6187535893933687,
+    "var_gramm": 0.05169270732565903,
+    "var_vec": 0.04184119348768072,
+    "var_delta": 0.03598137370698124,
+    "pairing_variance_reduction_pct": 61.53119522002281,
+    "difficulty_bins": [
+      {
+        "Doc pages": "1-5",
+        "N": 175,
+        "GraMM ANLS": 0.004,
+        "Vec ANLS": 0.006,
+        "dANLS": -0.002
+      },
+      {
+        "Doc pages": "6-20",
+        "N": 407,
+        "GraMM ANLS": 0.14,
+        "Vec ANLS": 0.122,
+        "dANLS": 0.018
+      },
+      {
+        "Doc pages": "21-50",
+        "N": 105,
+        "GraMM ANLS": 0.046,
+        "Vec ANLS": 0.035,
+        "dANLS": 0.011
+      },
+      {
+        "Doc pages": "51-100",
+        "N": 161,
+        "GraMM ANLS": 0.087,
+        "Vec ANLS": 0.043,
+        "dANLS": 0.044
+      },
+      {
+        "Doc pages": "101-+",
+        "N": 254,
+        "GraMM ANLS": 0.048,
+        "Vec ANLS": 0.04,
+        "dANLS": 0.008
+      }
+    ]
+  }
+}

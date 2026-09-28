@@ -1,0 +1,96 @@
+{
+ "rule": "seeded (42) octile draws, excluding all documents already indexed",
+ "purpose": "reach the amended criterion-3 minimum of n=60 scored questions per corpus",
+ "docs": [
+  {
+   "bench": "docbench",
+   "doc": "190.json",
+   "chars": 11575,
+   "stratum": "docbench octile 1 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "216.json",
+   "chars": 11956,
+   "stratum": "docbench octile 2 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "222.json",
+   "chars": 12894,
+   "stratum": "docbench octile 3 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "17.json",
+   "chars": 37631,
+   "stratum": "docbench octile 4 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "18.json",
+   "chars": 40747,
+   "stratum": "docbench octile 5 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "39.json",
+   "chars": 59555,
+   "stratum": "docbench octile 6 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "79.json",
+   "chars": 192064,
+   "stratum": "docbench octile 7 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "56.json",
+   "chars": 465582,
+   "stratum": "docbench octile 8 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "228.json",
+   "chars": 11753,
+   "stratum": "docbench octile 1 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "226.json",
+   "chars": 11969,
+   "stratum": "docbench octile 2 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "98.json",
+   "chars": 23939,
+   "stratum": "docbench octile 3 (power expansion)"
+  },
+  {
+   "bench": "docbench",
+   "doc": "48.json",
+   "chars": 38206,
+   "stratum": "docbench octile 4 (power expansion)"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "ddoseattle-150627210357-lva1-app6891_95.pdf.json",
+   "chars": 6865,
+   "stratum": "mmlongbench octile 1 (power expansion)"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "earlybird-110722143746-phpapp02_95.pdf.json",
+   "chars": 9661,
+   "stratum": "mmlongbench octile 2 (power expansion)"
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "e79deb02a0c0e87511080836c5d4347b.pdf.json",
+   "chars": 19627,
+   "stratum": "mmlongbench octile 3 (power expansion)"
+  }
+ ]
+}

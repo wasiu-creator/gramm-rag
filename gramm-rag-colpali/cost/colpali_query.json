@@ -1,0 +1,9 @@
+{
+ "colpali_query_ms": {
+  "median": 114.41707611083984,
+  "p95": 265.7786726951599,
+  "n": 60
+ },
+ "colpali_peak_gpu_gib": 4.246114730834961,
+ "device": "NVIDIA A100-SXM4-40GB"
+}

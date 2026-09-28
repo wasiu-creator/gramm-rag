@@ -1,0 +1,71 @@
+# GraMM-RAG / MMLongBench-Doc — Python dependencies
+# Tested on Python 3.11, CUDA 12.4 (Lambda A100/H100)
+
+# ── PyTorch (CUDA 12.4) ──────────────────────────────────────────────────────
+# Installed via Dockerfile index URL; listed here for reference
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# ── PyTorch Geometric ────────────────────────────────────────────────────────
+# torch-scatter / torch-sparse removed: unused by the codebase (only pure
+# torch_geometric APIs — HGTConv, Linear, HeteroData — are used) and they have
+# no prebuilt wheel for this torch+cu124 combo, forcing a source build that
+# fails under PEP 517 isolation. Modern PyG (>=2.5) covers these natively.
+torch-geometric>=2.5.0
+
+# ── NLP / Embeddings ─────────────────────────────────────────────────────────
+transformers>=4.40.0
+sentence-transformers>=2.7.0
+accelerate>=0.29.0
+bitsandbytes>=0.43.0
+datasets>=2.18.0
+tokenizers>=0.19.0
+# transformers 5.x tokenizer-conversion deps for the router's DeBERTa-v3
+# (sentencepiece-based). Without sentencepiece+protobuf the conversion
+# falls into a tiktoken parse of the binary spm.model and crashes; without
+# tiktoken the converter import itself fails. Only triggers at full scale:
+# pilot mode skips router training entirely.
+tiktoken>=0.7.0
+sentencepiece>=0.1.99
+protobuf>=4.0
+
+# ── Vision / Image ───────────────────────────────────────────────────────────
+open-clip-torch>=2.24.0
+Pillow>=10.0.0
+
+# ── Document Parsing (MinerU) ────────────────────────────────────────────────
+magic-pdf[full]>=0.7.0
+
+# ── NLP Utilities ────────────────────────────────────────────────────────────
+spacy>=3.7.0
+
+# ── LLM APIs ─────────────────────────────────────────────────────────────────
+openai>=1.23.0
+together>=1.2.0
+
+# ── Vector Search ────────────────────────────────────────────────────────────
+# faiss-cpu (not faiss-gpu): PyPI faiss-gpu has no >=1.8.0 release, and the code
+# only uses CPU-side APIs (IndexFlatIP + read/write_index) over tiny per-document
+# vector sets — GPU FAISS would add nothing. Heavy GPU work is in torch (E5/HGT).
+faiss-cpu>=1.8.0
+
+# ── Data / Evaluation ────────────────────────────────────────────────────────
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tqdm>=4.66.0
+evaluate>=0.4.0
+
+# ── Config / Utils ───────────────────────────────────────────────────────────
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+jupyterlab>=4.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
+nbconvert>=7.0.0

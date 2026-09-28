@@ -1,0 +1,127 @@
+{
+ "RUN_CONFIG": {
+  "ARM": "s4_mmgraphrag",
+  "TIER": 1,
+  "BENCH": "mmlongbench",
+  "MMGRAPHRAG_COMMIT": "ec0065d2e026e42c797b42723b1fffd0347a82c4",
+  "LLM_MODEL": "gpt-4o-mini",
+  "VISION_MODEL": "gpt-4o-mini",
+  "EMB_MODEL": "all-MiniLM-L6-v2 (384-d, vendor default)",
+  "INGEST": "our MinerU parse injected at <working>/<stem>/auto (no re-parse)",
+  "PARSE_GUARD": "content alignment vs injected markdown, floor 0.95 (C-52)",
+  "PILOT_N": 7,
+  "STRATIFIED_ON": "images per document (C-48)",
+  "CEILING_USD": 15.0,
+  "RATES": {
+   "gpt-4o-mini": {
+    "in": 1.5e-07,
+    "out": 6e-07
+   }
+  }
+ },
+ "docs": [
+  {
+   "bench": "mmlongbench",
+   "doc": "e639029d16094ea71d964e2fb953952b.pdf.json",
+   "stem": "e639029d16094ea71d964e2fb953952b",
+   "chars": 61682,
+   "images": 0,
+   "seconds": 9.0,
+   "cost_usd": 0.010888,
+   "calls": 12,
+   "chunks": 12,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "c31e6580d0175ab3f9d99d1ff0bfa000.pdf.json",
+   "stem": "c31e6580d0175ab3f9d99d1ff0bfa000",
+   "chars": 5640,
+   "images": 10,
+   "seconds": 169.2,
+   "cost_usd": 0.181084,
+   "calls": 61,
+   "chunks": 2,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "2210.02442v1.pdf.json",
+   "stem": "2210.02442v1",
+   "chars": 53779,
+   "images": 20,
+   "seconds": 434.4,
+   "cost_usd": 0.30974,
+   "calls": 117,
+   "chunks": 12,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "caltraincapacitymountainview1-150701205750-lva1-app6891_95.pdf.json",
+   "stem": "caltraincapacitymountainview1-150701205750-lva1-app6891_95",
+   "chars": 4434,
+   "images": 27,
+   "seconds": 617.4,
+   "cost_usd": 0.700614,
+   "calls": 346,
+   "chunks": 2,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "12-15-15-ISIS-and-terrorism-release-final.pdf.json",
+   "stem": "12-15-15-ISIS-and-terrorism-release-final",
+   "chars": 41169,
+   "images": 35,
+   "seconds": 587.5,
+   "cost_usd": 0.453955,
+   "calls": 217,
+   "chunks": 9,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "SAO-StudentSupport_Guidebook-Content.pdf.json",
+   "stem": "SAO-StudentSupport_Guidebook-Content",
+   "chars": 50756,
+   "images": 53,
+   "seconds": 1224.7,
+   "cost_usd": 1.226874,
+   "calls": 686,
+   "chunks": 10,
+   "alignment": 1.0,
+   "error": null
+  },
+  {
+   "bench": "mmlongbench",
+   "doc": "guojixueshengshenghuozhinanyingwen9.1.pdf.json",
+   "stem": "guojixueshengshenghuozhinanyingwen9.1",
+   "chars": 89846,
+   "images": 79,
+   "seconds": 899.5,
+   "cost_usd": 0.818895,
+   "calls": 484,
+   "chunks": 18,
+   "alignment": 1.0,
+   "error": null
+  }
+ ],
+ "totals": {
+  "calls": 1923,
+  "vision_calls": 1238,
+  "prompt_tokens": 23008134,
+  "completion_tokens": 418048,
+  "cost_usd": 3.702049
+ },
+ "wall_seconds": 3941.7,
+ "alignment_min": 1.0,
+ "alignment_mean": 1.0,
+ "per_image_usd": 0.016527,
+ "per_1m_chars_usd": 12.0468
+}
